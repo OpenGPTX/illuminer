@@ -1,0 +1,3 @@
+data_builder: DataBuilderSFSinglePrompt
+instruction: "Extract relevant information from the user's utterance, given the following slot labels and descriptions:\n{{{slot_dict}}}\n"
+prompt: "---\nUser: \"{utterance}\"\nInfo:"

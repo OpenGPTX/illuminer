@@ -1,0 +1,3 @@
+model_name: tiiuae/falcon-7b
+model_type: AutoModelForCausalLM
+use_accelerate: True

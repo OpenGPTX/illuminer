@@ -1,0 +1,5 @@
+model_name: google/flan-t5-large
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic/ic_amz_en-intent-10_flan-t5-large_ia3
+device: "mps"
+use_accelerate: False

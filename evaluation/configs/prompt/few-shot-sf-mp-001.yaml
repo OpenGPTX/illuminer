@@ -1,0 +1,3 @@
+eval_mode: FewShotSFMPEvalConfig
+prompt: "---\nWhat did the user mention as the {slot_desc} in '{utterance}'? Answer: The {slot_desc} is"
+prompt_with_answer: "What did the user mention as the {slot_desc} in '{utterance}'? Answer: The {slot_desc} is {slot_value}."

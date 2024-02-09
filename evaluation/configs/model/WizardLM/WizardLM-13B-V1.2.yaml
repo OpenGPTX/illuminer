@@ -1,0 +1,3 @@
+model_name: WizardLM/WizardLM-13B-V1.2
+model_type: AutoModelForCausalLM
+use_accelerate: True

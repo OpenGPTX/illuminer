@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+  - base_config
+  - model: flan-t5/flan-t5-large.yaml
+  # data: is not mentioned here but in config.py to have a mandatory setting
+  # prompt: is not mentioned here but in config.py to have a mandatory setting
+  - override hydra/hydra_logging: disabled
+
+main:
+  run_name: zero-shot-ic
+  mlflow_tracking_uri: http://localhost:5000/
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .

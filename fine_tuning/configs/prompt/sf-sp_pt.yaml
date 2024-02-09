@@ -1,0 +1,4 @@
+data_builder: DataBuilderSFSinglePrompt
+instruction: "Given the following slot labels and descriptions:\n{{{slot_dict}}}\n"
+prompt: "---\nUser: \"{utterance}\"\nInfo:"
+prompt_tuning_init_text: "Extract relevant information from the user's utterance as slot labels and slot values.\n"

@@ -1,0 +1,2 @@
+data_builder: DataBuilderSFMultiPrompt
+prompt: "What did the user mention as the {slot_desc} in '{utterance}'? Answer: The {slot_desc} is"

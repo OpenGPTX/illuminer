@@ -1,0 +1,5 @@
+data_name: multi_woz
+data_path: data/eval/multi_woz/eval/intents_data_no_book.json
+intent_desc_path: data/eval/multi_woz/eval/intents_desc_no_book.json
+intent_example_path: data/eval/multi_woz/eval/few_shot_intents_10_1.json
+domains: ['restaurant', 'hotel', 'taxi', 'attraction', 'train', 'hospital']

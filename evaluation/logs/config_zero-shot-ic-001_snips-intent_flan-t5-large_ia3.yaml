@@ -1,0 +1,47 @@
+main:
+  run_name: zero-shot-ic-001_snips-intent_flan-t5-large_ia3
+  mlflow_tracking_uri: http://localhost:5000/
+model:
+  model_name: google/flan-t5-large
+  model_type: AutoModelForSeq2SeqLM
+  adapter: lora_adapters/ic/ic_snips-intent-10_flan-t5-large_ia3
+  device: mps
+  use_accelerate: false
+  use_fast: false
+  change_pad_token: false
+  cache_dir: null
+  intent_adapter: null
+  slot_adapter: null
+  domain_adapter: null
+data:
+  data_name: snips
+  data_path: data/eval/snips/eval/intents_data.json
+  start_index: 0
+  end_index: -1
+  intent_desc_path: data/eval/snips/eval/intents_desc_v2.json
+  slot_desc_path: null
+  intent_example_path: data/eval/snips/eval/few_shot_intents_10_1.json
+  slot_example_path: null
+  domains:
+  - music
+  - screening event
+  - restaurant
+  - weather
+  - creative work
+prompt:
+  eval_mode: ZeroShotICEvalConfig
+  prompt: 'What is the user''s intent in ''{utterance}''? Intent:'
+  prompt_with_answer: null
+  instruction: "Given the possible intents: \n{intent_options}\n"
+  k_per_intent: 1
+  k_per_slot: 1
+  max_examples: 10
+  intent_prompt: null
+  intent_prompt_with_answer: null
+  intent_instruction: null
+  slot_prompt: null
+  slot_prompt_with_answer: null
+  slot_instruction: null
+  domain_prompt: null
+  domain_prompt_with_answer: null
+  domain_instruction: null

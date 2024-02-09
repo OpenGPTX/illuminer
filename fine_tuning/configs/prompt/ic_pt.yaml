@@ -1,0 +1,4 @@
+data_builder: DataBuilderIC
+instruction: "Given the possible intents: \n{intent_options}\n"
+prompt: "---\nUser: \"{utterance}\"\nIntent:"
+prompt_tuning_init_text: "What is the user's intent in the user's utterance?\n"

@@ -1,0 +1,4 @@
+data_name: snips
+data_path: data/eval/snips/eval/intents_data.json
+intent_desc_path: data/eval/snips/eval/intents_desc_v2.json
+intent_example_path: data/eval/snips/eval/few_shot_intents_10_1.json

@@ -1,0 +1,7 @@
+eval_mode: SingleTurnDSTEvalConfig
+intent_instruction: "Given the possible intents: \n{intent_options}\n"
+intent_prompt: "---\nWhat is the user's intent in '{utterance}'? Intent:"
+intent_prompt_with_answer: "What is the user's intent in '{utterance}'? Intent: {intent}"
+slot_instruction: "Extract relevant information from the user's utterance, given the following slot labels and descriptions:\n{{{slot_dict}}}\n"
+slot_prompt: "---\nUser: \"{utterance}\"\nInfo:"
+slot_prompt_with_answer: "---\nUser: \"{utterance}\"\nInfo: {{{slots}}}"

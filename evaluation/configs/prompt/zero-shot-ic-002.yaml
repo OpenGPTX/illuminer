@@ -1,0 +1,3 @@
+eval_mode: ZeroShotICEvalConfig
+instruction: "Given the following options: \n{intent_options}\n"
+prompt: "What did the user want when the user said, '{utterance}'? Answer:"

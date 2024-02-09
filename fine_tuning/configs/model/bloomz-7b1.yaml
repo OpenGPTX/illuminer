@@ -1,0 +1,3 @@
+model_name: bigscience/bloomz-7b1
+model_type: AutoModelForCausalLM
+use_accelerate: True

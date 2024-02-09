@@ -1,0 +1,4 @@
+model_name: google/flan-t5-large
+model_type: AutoModelForSeq2SeqLM
+device: "mps"
+use_accelerate: False

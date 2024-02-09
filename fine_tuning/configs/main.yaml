@@ -1,0 +1,17 @@
+defaults:
+  - _self_
+  - base_config
+  - model: flan-t5-large.yaml
+  - peft: lora.yaml
+  - trainer: default.yaml
+  # data: is not mentioned here but in config.py to have a mandatory setting
+  # prompt: is not mentioned here but in config.py to have a mandatory setting
+  - override hydra/hydra_logging: disabled
+
+main:
+  model_output_dir: lora_adapters/
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .

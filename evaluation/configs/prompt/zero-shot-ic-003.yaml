@@ -1,0 +1,3 @@
+eval_mode: ZeroShotICEvalConfig
+instruction: "Classify the USER's utterances into one of the following intent options: \n{intent_options}\n"
+prompt: "USER: '{utterance}'\nIntent:"

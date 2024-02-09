@@ -1,0 +1,4 @@
+model_name: bigscience/bloomz-1b7
+model_type: AutoModelForCausalLM
+use_accelerate: False
+device: "mps"

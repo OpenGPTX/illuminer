@@ -1,0 +1,4 @@
+eval_mode: FewShotSFSPEvalConfig
+instruction: "Extract relevant information from the user's utterance, given the following slot labels and descriptions:\n{{{slot_dict}}}\n"
+prompt: "---\nUser: \"{utterance}\"\nInfo:"
+prompt_with_answer: "---\nUser: \"{utterance}\"\nInfo: {{{slots}}}"

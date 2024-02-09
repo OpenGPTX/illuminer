@@ -1,0 +1,7 @@
+model_name: google/flan-t5-large
+model_type: AutoModelForSeq2SeqLM
+domain_adapter: lora_adapters/dc/dc_multi_woz-domain-10_flan-t5-large_lora
+intent_adapter: lora_adapters/ic/ic_multi_woz-intent-10_flan-t5-large_lora
+slot_adapter: lora_adapters/sf-sp/sf-sp_multi_woz-slot-10_flan-t5-large_lora
+device: "mps"
+use_accelerate: False

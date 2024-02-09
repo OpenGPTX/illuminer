@@ -1,0 +1,3 @@
+peft_type: PROMPT_TUNING
+inference_mode: False
+num_virtual_tokens: 20

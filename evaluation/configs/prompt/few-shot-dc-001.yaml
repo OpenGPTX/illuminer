@@ -1,0 +1,4 @@
+eval_mode: FewShotICEvalConfig
+instruction: "Given the possible domains: \n{intent_options}\n"
+prompt: "---\nWhat domain did the user talk about in '{utterance}'? Domain:"
+prompt_with_answer: "What domain did the user talk about in '{utterance}'? Domain: {domain}"

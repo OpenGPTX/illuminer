@@ -1,0 +1,3 @@
+eval_mode: ZeroShotICEvalConfig
+instruction: "Given the possible domains: \n{intent_options}\n"
+prompt: "What domain did the user talk about in '{utterance}'? Domain:"

@@ -1,0 +1,4 @@
+data_name: amz_en
+data_path: data/eval/amz_en/eval/slots_data.json
+slot_desc_path: data/eval/amz_en/eval/slots_desc_v2.json
+slot_example_path: data/eval/amz_en/eval/few_shot_slots_10_1.json

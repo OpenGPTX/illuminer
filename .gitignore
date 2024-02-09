@@ -1,0 +1,6 @@
+/evaluation/run.log
+/mlartifacts/
+/mlruns/
+/wandb/
+/lora_adapters/
+/outputs/

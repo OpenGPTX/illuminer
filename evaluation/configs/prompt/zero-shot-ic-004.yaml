@@ -1,0 +1,3 @@
+eval_mode: ZeroShotICEvalConfig
+instruction: "Given a USER's utterance, choose one of the following intents: \n{intent_options}\n"
+prompt: "USER: '{utterance}'\nIntent:"

@@ -1,0 +1,4 @@
+eval_mode: FewShotICEvalConfig
+instruction: "Given a USER's utterance, choose one of the following intents: \n{intent_options}\n"
+prompt: "---\nUSER: '{utterance}'\nIntent:"
+prompt_with_answer: "USER: '{utterance}'\nIntent: {intent}"

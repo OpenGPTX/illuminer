@@ -1,0 +1,5 @@
+model_name: bigscience/bloomz-1b7
+model_type: AutoModelForCausalLM
+adapter: lora_adapters/ic/ic_snips-intent-10_bloomz-1b7_lora
+device: "mps"
+use_accelerate: False
