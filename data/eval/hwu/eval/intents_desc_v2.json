@@ -1,0 +1,102 @@
+{
+    "alarm": {
+        "alarm_query": "ask about alarms",
+        "alarm_remove": "remove an alarm",
+        "alarm_set": "set an alarm"
+    },
+    "audio": {
+        "audio_volume_down": "turn the volume down",
+        "audio_volume_mute": "speaker off",
+        "audio_volume_up": "turn the volume up"
+    },
+    "calendar": {
+        "calendar_query": "ask about calendar",
+        "calendar_remove": "remove calendar event",
+        "calendar_set": "set calendar event"
+    },
+    "cooking": {
+        "cooking_recipe": "find a cooking recipe"
+    },
+    "datetime": {
+        "datetime_convert": "convert time",
+        "datetime_query": "ask about time"
+    },
+    "email": {
+        "email_addcontact": "add contact",
+        "email_query": "ask about email",
+        "email_querycontact": "ask about contact",
+        "email_sendemail": "send an email"
+    },
+    "general": {
+        "general_affirm": "say correct",
+        "general_commandstop": "command stop",
+        "general_confirm": "confirm",
+        "general_dontcare": "not care",
+        "general_explain": "ask for explanation",
+        "general_joke": "ask for joke",
+        "general_negate": "say no",
+        "general_praise": "praise",
+        "general_quirky": "be quirky",
+        "general_repeat": "ask for repeat"
+    },
+    "iot": {
+        "iot_cleaning": "start cleaning",
+        "iot_coffee": "start coffee machine",
+        "iot_hue_lightchange": "change light",
+        "iot_hue_lightdim": "dim light",
+        "iot_hue_lightoff": "turn light off",
+        "iot_hue_lighton": "turn light on",
+        "iot_hue_lightup": "turn light up",
+        "iot_wemo_off": "turn wemo off",
+        "iot_wemo_on": "turn wemo on"
+    },
+    "lists": {
+        "lists_createoradd": "create or add to list",
+        "lists_query": "ask about list",
+        "lists_remove": "remove from list"
+    },
+    "music": {
+        "music_likeness": "express liking music",
+        "music_query": "ask about music",
+        "music_settings": "set music playback"
+    },
+    "news": {
+        "news_query": "ask about news"
+    },
+    "play": {
+        "play_audiobook": "play audiobook",
+        "play_game": "play game",
+        "play_music": "play music",
+        "play_podcasts": "play podcasts",
+        "play_radio": "play radio"
+    },
+    "qa": {
+        "qa_currency": "ask about currency exchange",
+        "qa_definition": "ask for definition",
+        "qa_factoid": "ask factoid questions",
+        "qa_maths": "ask math questions",
+        "qa_stock": "ask about stock"
+    },
+    "recommendation": {
+        "recommendation_events": "get event recommendation",
+        "recommendation_locations": "get location recommendation",
+        "recommendation_movies": "get movie recommendation"
+    },
+    "social": {
+        "social_post": "post social media",
+        "social_query": "ask about social media"
+    },
+    "takeaway": {
+        "takeaway_order": "order food",
+        "takeaway_query": "ask about takeaway"
+    },
+    "transport": {
+        "transport_query": "ask about transport",
+        "transport_taxi": "order taxi",
+        "transport_ticket": "buy ticket",
+        "transport_traffic": "ask about traffic"
+    },
+    "weather": {
+        "weather_query": "ask about weather"
+    }
+}

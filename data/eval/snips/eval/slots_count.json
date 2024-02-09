@@ -1,0 +1,63 @@
+{
+    "PlayMusic": {
+        "artist": 1118,
+        "album": 167,
+        "service": 738,
+        "music_item": 750,
+        "track": 202,
+        "year": 611,
+        "playlist": 144,
+        "genre": 139
+    },
+    "AddToPlaylist": {
+        "entity_name": 561,
+        "playlist": 1819,
+        "artist": 686,
+        "playlist_owner": 1043,
+        "music_item": 827
+    },
+    "RateBook": {
+        "object_select": 942,
+        "object_type": 910,
+        "rating_value": 1877,
+        "best_rating": 1007,
+        "object_part_of_series_type": 298,
+        "rating_unit": 1081,
+        "object_name": 942
+    },
+    "all": {
+        "sort": 518,
+        "state": 953,
+        "city": 1304,
+        "timeRange": 1879,
+        "spatial_relation": 1153,
+        "country": 812
+    },
+    "SearchScreeningEvent": {
+        "movie_name": 765,
+        "object_type": 730,
+        "movie_type": 666,
+        "object_location_type": 450,
+        "location_name": 566
+    },
+    "BookRestaurant": {
+        "party_size_number": 975,
+        "restaurant_type": 1299,
+        "party_size_description": 307,
+        "served_dish": 258,
+        "poi": 135,
+        "restaurant_name": 324,
+        "cuisine": 197,
+        "facility": 157
+    },
+    "GetWeather": {
+        "geographic_poi": 280,
+        "current_location": 259,
+        "condition_temperature": 453,
+        "condition_description": 426
+    },
+    "SearchCreativeWork": {
+        "object_type": 1383,
+        "object_name": 1847
+    }
+}

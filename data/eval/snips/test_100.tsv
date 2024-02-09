@@ -1,0 +1,101 @@
+text	entity_BIO	domain	intent	intent_encoded
+add this tune to my weekend playlist	O,O,B-music_item,O,B-playlist_owner,B-playlist,O		AddToPlaylist	1
+rate a taste of blackberries a three	O,B-object_name,I-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5
+show me the photograph johnny cash: the complete columbia album collection	O,O,O,B-object_type,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+book a spot at a restaurant within walking distance of palau	O,O,O,O,O,B-restaurant_type,B-spatial_relation,I-spatial_relation,I-spatial_relation,O,B-state		BookRestaurant	2
+what time is holiday heart showing at the movie house	O,O,O,B-movie_name,I-movie_name,O,O,O,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+is romulus and the sabines playing at the nearest cinema at ten	O,B-movie_name,I-movie_name,I-movie_name,I-movie_name,O,O,O,B-spatial_relation,B-object_location_type,O,B-timeRange		SearchScreeningEvent	7
+21 weeks from now elinor crystal turner and nita want to eat german food at a bar in distant california	B-timeRange,I-timeRange,I-timeRange,I-timeRange,B-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description,O,O,O,B-cuisine,O,O,O,B-restaurant_type,O,B-spatial_relation,B-state		BookRestaurant	2
+show me the tv show limit of love: umizaru	O,O,O,B-object_type,I-object_type,B-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+what animated movies are playing at the closest movie theatre	O,B-movie_type,I-movie_type,O,O,O,O,B-spatial_relation,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+add song to siesta	O,B-music_item,O,B-playlist		AddToPlaylist	1
+rate awaiting strange gods: weird and lovecraftian fictions a 1	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5
+play the song shine a light	O,O,B-music_item,B-track,I-track,I-track		PlayMusic	4
+play artist vlada divljan from something he did that is good	O,O,B-artist,I-artist,O,O,O,O,O,O,B-sort		PlayMusic	4
+show the movie times	O,O,B-object_type,I-object_type		SearchScreeningEvent	7
+she me movie times at mann theatres	O,O,B-object_type,I-object_type,O,B-location_name,I-location_name		SearchScreeningEvent	7
+find the schedule for nearby animated movies	O,O,B-object_type,O,B-spatial_relation,B-movie_type,I-movie_type		SearchScreeningEvent	7
+play a ballad by bob johnston	O,O,B-music_item,O,B-artist,I-artist		PlayMusic	4
+show me when scandalous john is playing	O,O,O,B-movie_name,I-movie_name,O,O		SearchScreeningEvent	7
+i want to read the saga michael clayton	O,O,O,O,O,B-object_type,B-object_name,I-object_name		SearchCreativeWork	6
+will it be chilly in oakdale ok	O,O,O,B-condition_temperature,O,B-city,B-state		GetWeather	3
+please make reservations in yeager for seven am at a highly rated indian brasserie	O,O,O,O,B-city,O,B-timeRange,I-timeRange,O,O,B-sort,I-sort,B-cuisine,B-restaurant_type		BookRestaurant	2
+weather for ma in the morning	O,O,B-state,O,O,B-timeRange		GetWeather	3
+find movie schedules for bow tie cinemas	O,B-object_type,I-object_type,O,B-location_name,I-location_name,I-location_name		SearchScreeningEvent	7
+i d like to see movie schedules for kerasotes theatres	O,O,O,O,O,B-object_type,I-object_type,O,B-location_name,I-location_name		SearchScreeningEvent	7
+i want a table for five at a restaurant with latin food in arkansas for 1 hour from now	O,O,O,O,O,B-party_size_number,O,O,B-restaurant_type,O,B-cuisine,O,O,B-state,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange		BookRestaurant	2
+rate the beggar of volubilis 1 out of 6	O,B-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,O,B-best_rating		RateBook	5
+coon chicken inn restaurant for 1 am for me clarice and debbie	B-restaurant_name,I-restaurant_name,I-restaurant_name,B-restaurant_type,O,B-timeRange,I-timeRange,O,B-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description		BookRestaurant	2
+i d like to book a brasserie in virginia city ga	O,O,O,O,O,O,B-restaurant_type,O,B-city,I-city,B-state		BookRestaurant	2
+what time is the clutching hand playing at amco entertainment	O,O,O,B-movie_name,I-movie_name,I-movie_name,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+rate the chronicle ten from tomorrow a 2	O,O,B-object_part_of_series_type,B-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5
+find worldly goods starting now at a movie house	O,B-movie_name,I-movie_name,O,B-timeRange,O,O,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+please find me asking alexandria discography	O,O,O,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+will it be chillier at 06:05:48 in wagener réunion	O,O,O,B-condition_temperature,O,B-timeRange,O,B-city,B-country		GetWeather	3
+book a taverna that serves bengali for six at five	O,O,B-restaurant_type,O,O,B-cuisine,O,B-party_size_number,O,B-timeRange		BookRestaurant	2
+rate this current novel 1 stars	O,O,B-object_select,B-object_type,B-rating_value,B-rating_unit		RateBook	5
+where can i view the picture reaching horizons	O,O,O,O,O,B-object_type,B-object_name,I-object_name		SearchCreativeWork	6
+i need a table in ottoville on feb 15th 2029 at gus stevens seafood restaurant & buccaneer lounge	O,O,O,O,O,B-city,O,B-timeRange,I-timeRange,I-timeRange,O,B-restaurant_name,I-restaurant_name,I-restaurant_name,I-restaurant_name,I-restaurant_name,I-restaurant_name,I-restaurant_name		BookRestaurant	2
+book a table in the united states for 10 at the berghoff	O,O,O,O,O,B-country,I-country,O,B-party_size_number,O,B-restaurant_name,I-restaurant_name		BookRestaurant	2
+i want to book a cafe for 3 in fargo	O,O,O,O,O,B-restaurant_type,O,B-party_size_number,O,B-city		BookRestaurant	2
+restaurant in bulgaria this week party for 9 numbers	B-restaurant_type,O,B-country,B-timeRange,I-timeRange,O,O,B-party_size_number,O		BookRestaurant	2
+play me sun ra songs from the fifties	O,O,B-artist,I-artist,O,O,O,B-year		PlayMusic	4
+what is the weather forecast for close-by gu 3 years from now	O,O,O,O,O,O,B-spatial_relation,B-state,B-timeRange,I-timeRange,I-timeRange,I-timeRange		GetWeather	3
+what s the weather in timbo	O,O,O,O,O,B-city		GetWeather	3
+please make me reservations somewhere for eight people in foley nv	O,O,O,O,O,O,B-party_size_number,O,O,B-city,B-state		BookRestaurant	2
+book a table for nine people in svalbard and jan mayen	O,O,O,O,B-party_size_number,O,O,B-country,I-country,I-country,I-country		BookRestaurant	2
+i want these are the days added to my spotlight spain 2016 playlist	O,O,B-entity_name,I-entity_name,I-entity_name,I-entity_name,O,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+i want a matt garrison tune in my fresh finds fire emoji playlist	O,O,O,B-artist,I-artist,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add tune to sxsw fresh playlist	O,B-music_item,O,B-playlist,I-playlist,O		AddToPlaylist	1
+i need to add to the funk soul disco playlist my favorite artist	O,O,O,O,O,O,B-playlist,I-playlist,I-playlist,O,B-playlist_owner,O,B-music_item		AddToPlaylist	1
+look up the tv series operace silver a	O,O,O,B-object_type,I-object_type,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+find the video game called turnin me on	O,O,B-object_type,I-object_type,O,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+please add this track to my de camino playlist	O,O,O,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,O		AddToPlaylist	1
+what will the weather be in berville ak on feb 6 2017	O,O,O,O,O,O,B-city,B-state,O,B-timeRange,I-timeRange,I-timeRange		GetWeather	3
+what is the humidity like in faraway on ak	O,O,O,B-condition_description,O,O,B-spatial_relation,O,B-state		GetWeather	3
+i want to rate the ingenuity gap 3 out of 6	O,O,O,O,B-object_name,I-object_name,I-object_name,B-rating_value,O,O,B-best_rating		RateBook	5
+i would give this current novel 2 stars with a best rating of 6	O,O,O,O,B-object_select,B-object_type,B-rating_value,B-rating_unit,O,O,O,O,O,B-best_rating		RateBook	5
+what is dear old girl cooper foundation	O,O,B-movie_name,I-movie_name,I-movie_name,B-location_name,I-location_name		SearchScreeningEvent	7
+find a reservation at fish express	O,O,O,O,B-restaurant_name,I-restaurant_name		BookRestaurant	2
+the sleep machine waterscapes playlist needs some kris chetan ramlu in it	B-playlist,I-playlist,I-playlist,I-playlist,O,O,O,B-artist,I-artist,I-artist,O,O		AddToPlaylist	1
+i rate secret water as a 4	O,O,B-object_name,I-object_name,O,O,B-rating_value		RateBook	5
+i want to go see the trouble with girls	O,O,O,O,O,B-movie_name,I-movie_name,I-movie_name,I-movie_name		SearchScreeningEvent	7
+i want to hear major harris s songs from the fifties	O,O,O,O,B-artist,I-artist,O,O,O,O,B-year		PlayMusic	4
+add this artist to the laugh list	O,O,B-music_item,O,B-playlist,I-playlist,I-playlist		AddToPlaylist	1
+play pop 2017 picks	O,B-playlist,I-playlist,I-playlist		PlayMusic	4
+get the video game of the chipmunk song	O,O,B-object_type,I-object_type,O,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+cock-a-doodle-doo was awful i m giving it a 0 out of 6	B-object_name,O,O,O,O,O,O,O,B-rating_value,O,O,B-best_rating		RateBook	5
+will it be chillier at my current location in one minute	O,O,O,B-condition_temperature,O,O,B-current_location,I-current_location,B-timeRange,I-timeRange,I-timeRange		GetWeather	3
+play the god that failed on vimeo	O,B-track,I-track,I-track,I-track,O,B-service		PlayMusic	4
+book a spot at the food truck in ma	O,O,O,O,O,B-restaurant_type,I-restaurant_type,O,B-state		BookRestaurant	2
+rate cuisines of the axis of evil and other irritating states one out of 6	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,O,B-best_rating		RateBook	5
+please search the young warriors game	O,O,B-object_name,I-object_name,I-object_name,B-object_type		SearchCreativeWork	6
+add born free to fresh r&b	O,B-entity_name,I-entity_name,O,B-playlist,I-playlist		AddToPlaylist	1
+i need the wather for next week in the philippines	O,O,O,O,O,B-timeRange,I-timeRange,O,O,B-country		GetWeather	3
+rate this album 0 points out of 6	O,B-object_select,B-object_type,B-rating_value,B-rating_unit,O,O,B-best_rating		RateBook	5
+book a table this evening in saint vincent and the grenadines at a gastropub	O,O,O,O,B-timeRange,O,B-country,I-country,I-country,I-country,I-country,O,O,B-restaurant_type		BookRestaurant	2
+add sabrina salerno to the grime instrumentals playlist	O,B-artist,I-artist,O,O,B-playlist,I-playlist,O		AddToPlaylist	1
+put this tune on dancepop	O,O,B-music_item,O,B-playlist		AddToPlaylist	1
+play some music on slacker	O,O,O,O,B-service		PlayMusic	4
+please play the newest music by evil jared hasselhoff	O,O,O,B-sort,O,O,B-artist,I-artist,I-artist		PlayMusic	4
+show me the nearest movie house showing the luckiest girl in the world	O,O,O,B-spatial_relation,B-object_location_type,I-object_location_type,O,B-movie_name,I-movie_name,I-movie_name,I-movie_name,I-movie_name,I-movie_name		SearchScreeningEvent	7
+will it be nice on aug the nineteenth in beda bulgaria	O,O,O,O,O,B-timeRange,I-timeRange,I-timeRange,O,B-city,B-country		GetWeather	3
+book a table today at a steakhouse for eight that serves sashimi	O,O,O,B-timeRange,O,O,B-restaurant_type,O,B-party_size_number,O,O,B-served_dish		BookRestaurant	2
+what s the forecast for my current place at five pm	O,O,O,O,O,O,B-current_location,I-current_location,O,B-timeRange,I-timeRange		GetWeather	3
+play the caps lock trailer	O,O,B-object_name,I-object_name,B-object_type		SearchCreativeWork	6
+rate the current book a three	O,O,B-object_select,B-object_type,O,B-rating_value		RateBook	5
+what is the niceville forecast in fm	O,O,O,B-city,O,O,B-state		GetWeather	3
+please search the work eve-olution	O,O,O,O,B-object_name		SearchCreativeWork	6
+rate canto for a gypsy two of 6 stars	O,B-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,B-best_rating,B-rating_unit		RateBook	5
+add tune to atmospheric black metal playlist	O,B-music_item,O,B-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add troy van leeuwen to my nu metal list	O,B-artist,I-artist,I-artist,O,B-playlist_owner,B-playlist,I-playlist,O		AddToPlaylist	1
+add strong to the metal monday playlist	O,B-entity_name,O,O,B-playlist,I-playlist,O		AddToPlaylist	1
+please add this this tune to the playlist this is selena	O,O,O,O,B-music_item,O,O,O,B-playlist,I-playlist,I-playlist		AddToPlaylist	1
+is it rainy season in manitou springs	O,O,B-condition_description,O,O,B-city,I-city		GetWeather	3
+where can i find conduct unbecoming	O,O,O,O,B-object_name,I-object_name		SearchCreativeWork	6
+play some folk-rock music	O,O,B-genre,O		PlayMusic	4
+make a reservation at a bakery that has acquacotta in central african republic for five	O,O,O,O,O,B-restaurant_type,O,O,B-served_dish,O,B-country,I-country,I-country,O,B-party_size_number		BookRestaurant	2
+put a xiang xiang track onto women of the blues	O,O,B-artist,I-artist,B-music_item,O,B-playlist,I-playlist,I-playlist,I-playlist		AddToPlaylist	1
+play my playlist tgif on itunes	O,O,O,B-playlist,O,B-service		PlayMusic	4
+find love will tear us apart a photograph	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,O,B-object_type		SearchCreativeWork	6
+find a restaurant in fm that servec quiche	O,O,B-restaurant_type,O,B-state,O,O,B-served_dish		BookRestaurant	2

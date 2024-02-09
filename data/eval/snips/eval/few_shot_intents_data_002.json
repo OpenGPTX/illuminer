@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "utterance": "add this tune to my it s a southern thing playlist",
+            "intent": "playlist"
+        },
+        {
+            "utterance": "add this maksim tune to trad folk",
+            "intent": "playlist"
+        },
+        {
+            "utterance": "put ron wood in the digster reggae playlist",
+            "intent": "playlist"
+        },
+        {
+            "utterance": "my disco forever playlist needs an album by sawai gandharva",
+            "intent": "playlist"
+        },
+        {
+            "utterance": "this artist should go onto my playlist called the piano bar",
+            "intent": "playlist"
+        },
+        {
+            "utterance": "i would like to book an american samoa restaurant for 8",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "book a highly rated bar in burkina for georgia and i",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "please book me a restaurant reservation at first watch in douglas maine",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "i want to eat ice cream at a brasserie with me and my mother in law",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "book a spot for 8 at a popular taverna",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "is it going to be temperate in farallon islands now",
+            "intent": "weather"
+        },
+        {
+            "utterance": "what s the weather going to be like at 10:21:20 close by id",
+            "intent": "weather"
+        },
+        {
+            "utterance": "will it feel nice here or within the same area",
+            "intent": "weather"
+        },
+        {
+            "utterance": "what kind of weather will be in windy hills bermuda in ten weeks",
+            "intent": "weather"
+        },
+        {
+            "utterance": "can you give me the forecast for 11 in bradner ia",
+            "intent": "weather"
+        },
+        {
+            "utterance": "play adrian borland s music on zvooq",
+            "intent": "music"
+        },
+        {
+            "utterance": "play some ray williams music from the nineties on spotify",
+            "intent": "music"
+        },
+        {
+            "utterance": "play shinehead s music from the twenties on slacker",
+            "intent": "music"
+        },
+        {
+            "utterance": "play the best vanessa peters songs",
+            "intent": "music"
+        },
+        {
+            "utterance": "play fifties music by ahmed abdul malik",
+            "intent": "music"
+        },
+        {
+            "utterance": "i would rate this essay a one and a best rating of 6",
+            "intent": "rate"
+        },
+        {
+            "utterance": "rate richard carvel 4 out of 6",
+            "intent": "rate"
+        },
+        {
+            "utterance": "rate of old hearts and swords a 0",
+            "intent": "rate"
+        },
+        {
+            "utterance": "rate this book titled the clue in the old album one out of 6 stars",
+            "intent": "rate"
+        },
+        {
+            "utterance": "rate the crossing 3 of 6",
+            "intent": "rate"
+        },
+        {
+            "utterance": "find the carrousel saga",
+            "intent": "creative"
+        },
+        {
+            "utterance": "find a painting called smash crusher",
+            "intent": "creative"
+        },
+        {
+            "utterance": "play disney sing it \u2013 high school musical 3: senior year",
+            "intent": "creative"
+        },
+        {
+            "utterance": "where can i purchase a copy of the photograph on the front page of today s jacksonville daily progress",
+            "intent": "creative"
+        },
+        {
+            "utterance": "i d like to see the saga tamagotchi 64: minna de tamagotchi world",
+            "intent": "creative"
+        },
+        {
+            "utterance": "what time is the hotline playing at the movie theatre",
+            "intent": "screening"
+        },
+        {
+            "utterance": "what movies are playing in the area",
+            "intent": "screening"
+        },
+        {
+            "utterance": "where is road to the stage playing",
+            "intent": "screening"
+        },
+        {
+            "utterance": "what time is my son shall be armenian playing at plitt theatres",
+            "intent": "screening"
+        },
+        {
+            "utterance": "which films are playing at malco theatres",
+            "intent": "screening"
+        }
+    ]
+}

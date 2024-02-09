@@ -1,0 +1,128 @@
+{
+    "artist": {
+        "music": 1804
+    },
+    "album": {
+        "music": 167
+    },
+    "service": {
+        "music": 738
+    },
+    "entity_name": {
+        "music": 561
+    },
+    "playlist": {
+        "music": 1963
+    },
+    "object_select": {
+        "creative work": 942
+    },
+    "object_type": {
+        "creative work": 2293,
+        "screening event": 730
+    },
+    "rating_value": {
+        "creative work": 1877
+    },
+    "best_rating": {
+        "creative work": 1007
+    },
+    "music_item": {
+        "music": 1577
+    },
+    "track": {
+        "music": 202
+    },
+    "playlist_owner": {
+        "music": 1043
+    },
+    "year": {
+        "music": 611
+    },
+    "sort": {
+        "music": 330,
+        "restaurant": 188
+    },
+    "movie_name": {
+        "screening event": 765
+    },
+    "party_size_number": {
+        "restaurant": 975
+    },
+    "state": {
+        "restaurant": 496,
+        "weather": 457
+    },
+    "city": {
+        "weather": 810,
+        "restaurant": 494
+    },
+    "timeRange": {
+        "weather": 991,
+        "restaurant": 637,
+        "screening event": 251
+    },
+    "object_part_of_series_type": {
+        "creative work": 298
+    },
+    "movie_type": {
+        "screening event": 666
+    },
+    "spatial_relation": {
+        "screening event": 655,
+        "weather": 198,
+        "restaurant": 300
+    },
+    "geographic_poi": {
+        "weather": 280
+    },
+    "restaurant_type": {
+        "restaurant": 1299
+    },
+    "party_size_description": {
+        "restaurant": 307
+    },
+    "object_location_type": {
+        "screening event": 450
+    },
+    "object_name": {
+        "creative work": 2789
+    },
+    "rating_unit": {
+        "creative work": 1081
+    },
+    "location_name": {
+        "screening event": 566
+    },
+    "current_location": {
+        "weather": 259
+    },
+    "served_dish": {
+        "restaurant": 258
+    },
+    "country": {
+        "weather": 476,
+        "restaurant": 336
+    },
+    "condition_temperature": {
+        "weather": 453
+    },
+    "poi": {
+        "restaurant": 135
+    },
+    "condition_description": {
+        "weather": 426
+    },
+    "genre": {
+        "music": 139
+    },
+    "restaurant_name": {
+        "restaurant": 324
+    },
+    "cuisine": {
+        "restaurant": 197
+    },
+    "facility": {
+        "restaurant": 157
+    }
+}

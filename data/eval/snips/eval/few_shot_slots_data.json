@@ -1,0 +1,772 @@
+{
+    "data": [
+        {
+            "utterance": "add this tune to my it s a southern thing playlist",
+            "intent": "playlist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "it s a southern thing"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add this maksim tune to trad folk",
+            "intent": "playlist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "maksim"
+                    ]
+                },
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "trad folk"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "put ron wood in the digster reggae playlist",
+            "intent": "playlist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "ron wood"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "digster reggae"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "my disco forever playlist needs an album by sawai gandharva",
+            "intent": "playlist",
+            "slots": [
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "disco forever"
+                    ]
+                },
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "album"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "sawai gandharva"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "this artist should go onto my playlist called the piano bar",
+            "intent": "playlist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "artist"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "the piano bar"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i would like to book an american samoa restaurant for 8",
+            "intent": "restaurant",
+            "slots": [
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "american samoa"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "8"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a highly rated bar in burkina for georgia and i",
+            "intent": "restaurant",
+            "slots": [
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "highly rated"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "bar"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "burkina"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_description",
+                    "slot_values": [
+                        "georgia and i"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please book me a restaurant reservation at first watch in douglas maine",
+            "intent": "restaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_name",
+                    "slot_values": [
+                        "first watch"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "douglas"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "maine"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to eat ice cream at a brasserie with me and my mother in law",
+            "intent": "restaurant",
+            "slots": [
+                {
+                    "slot_name": "served_dish",
+                    "slot_values": [
+                        "ice cream"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "brasserie"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_description",
+                    "slot_values": [
+                        "me and my mother in law"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a spot for 8 at a popular taverna",
+            "intent": "restaurant",
+            "slots": [
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "8"
+                    ]
+                },
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "popular"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "taverna"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "is it going to be temperate in farallon islands now",
+            "intent": "weather",
+            "slots": [
+                {
+                    "slot_name": "condition_temperature",
+                    "slot_values": [
+                        "temperate"
+                    ]
+                },
+                {
+                    "slot_name": "geographic_poi",
+                    "slot_values": [
+                        "farallon islands"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "now"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what s the weather going to be like at 10:21:20 close by id",
+            "intent": "weather",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "10:21:20"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "close by"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "id"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will it feel nice here or within the same area",
+            "intent": "weather",
+            "slots": [
+                {
+                    "slot_name": "current_location",
+                    "slot_values": [
+                        "here"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "within the same area"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what kind of weather will be in windy hills bermuda in ten weeks",
+            "intent": "weather",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "windy hills"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "bermuda"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "in ten weeks"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "can you give me the forecast for 11 in bradner ia",
+            "intent": "weather",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "11"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "bradner"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ia"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play adrian borland s music on zvooq",
+            "intent": "music",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "adrian borland"
+                    ]
+                },
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "zvooq"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play some ray williams music from the nineties on spotify",
+            "intent": "music",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "ray williams"
+                    ]
+                },
+                {
+                    "slot_name": "year",
+                    "slot_values": [
+                        "nineties"
+                    ]
+                },
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "spotify"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play shinehead s music from the twenties on slacker",
+            "intent": "music",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "shinehead"
+                    ]
+                },
+                {
+                    "slot_name": "year",
+                    "slot_values": [
+                        "twenties"
+                    ]
+                },
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "slacker"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play the best vanessa peters songs",
+            "intent": "music",
+            "slots": [
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "best"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "vanessa peters"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play fifties music by ahmed abdul malik",
+            "intent": "music",
+            "slots": [
+                {
+                    "slot_name": "year",
+                    "slot_values": [
+                        "fifties"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "ahmed abdul malik"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i would rate this essay a one and a best rating of 6",
+            "intent": "rate",
+            "slots": [
+                {
+                    "slot_name": "object_select",
+                    "slot_values": [
+                        "this"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "essay"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "one"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate richard carvel 4 out of 6",
+            "intent": "rate",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "richard carvel"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "4"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate of old hearts and swords a 0",
+            "intent": "rate",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "of old hearts and swords"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "0"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate this book titled the clue in the old album one out of 6 stars",
+            "intent": "rate",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "book"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the clue in the old album"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "one"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                },
+                {
+                    "slot_name": "rating_unit",
+                    "slot_values": [
+                        "stars"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate the crossing 3 of 6",
+            "intent": "rate",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the crossing"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "3"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find the carrousel saga",
+            "intent": "creative",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "carrousel"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "saga"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find a painting called smash crusher",
+            "intent": "creative",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "painting"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "smash crusher"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play disney sing it \u2013 high school musical 3: senior year",
+            "intent": "creative",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "disney sing it \u2013 high school musical 3: senior year"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "where can i purchase a copy of the photograph on the front page of today s jacksonville daily progress",
+            "intent": "creative",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "photograph"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "jacksonville daily progress"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i d like to see the saga tamagotchi 64: minna de tamagotchi world",
+            "intent": "creative",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "saga"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "tamagotchi 64: minna de tamagotchi world"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is the hotline playing at the movie theatre",
+            "intent": "screening",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "the hotline"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "movie theatre"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what movies are playing in the area",
+            "intent": "screening",
+            "slots": [
+                {
+                    "slot_name": "movie_type",
+                    "slot_values": [
+                        "movies"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "in the area"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "where is road to the stage playing",
+            "intent": "screening",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "road to the stage"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is my son shall be armenian playing at plitt theatres",
+            "intent": "screening",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "my son shall be armenian"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "plitt theatres"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "which films are playing at malco theatres",
+            "intent": "screening",
+            "slots": [
+                {
+                    "slot_name": "movie_type",
+                    "slot_values": [
+                        "films"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "malco theatres"
+                    ]
+                }
+            ]
+        }
+    ]
+}

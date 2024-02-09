@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "utterance": "what's the time in australia",
+            "domain": "datetime",
+            "intent": "datetime_query",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "australia"
+                    ]
+                }
+            ]
+        }
+    ]
+}

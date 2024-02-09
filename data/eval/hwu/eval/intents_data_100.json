@@ -1,0 +1,590 @@
+{
+    "data": [
+        {
+            "utterance": "exchange rate of euro with dollar",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "can you play file",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "tell comcast i am still on hold",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "what is sarah's number",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "are there any tornado warnings today",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "i want to tweet a complaint on apples phone issues",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "report what is new in my email inbox please",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "can they provide takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "play music playlist",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "did anyone message me on facebook",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "anyone for tennis",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "switch lights to red tone",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "cancel the event valentine's day from the calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "what are the train times for today",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "do i have any undone tasks",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "tell me the names on the list",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "make the wemo go on",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "next week my uncle birthday",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "please turn down the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "get me a taxi to the airport right now",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "awesome job, you did well.",
+            "domain": "general",
+            "intent": "general_praise"
+        },
+        {
+            "utterance": "wake up time",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "tell me the meetings i have for the week",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "is there any good chinese takeout that's open late",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "search the item",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "set alarm at six thirty am",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "how much long until northern rail arrives at kings cross station",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "do i have enough ingredients in my refrigerator",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "start a new list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "list of playback of ar rahman collections",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "hey what's the current time in austin",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "what is the stock information of walmart",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "add this new email",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "where can i order pizza for delivery",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "can you tell me the date today",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "raise the volume of my music player by fifty percent",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "show me all the emails received recently",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "rise volume",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "get me some latte please",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "create a new to do list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "mute my speakers for a minute here i need to make a call",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "please turn off the lights in the kitchen",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "ask for the weather today morning",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "delete the alarm i just set",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "speak as loud as you can",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "could you please lower the tone",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "play me a radio channel for trance music",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "make a repeating reminder for my yoga practice every day at noon",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "what is the subject and who is the sender of my last email",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "find me the nearest chinese for delivery",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "change the light color to blue",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "please switch off on the wemo plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "toggle wemo plug socket on",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "show me upcoming programmes on one hundred and five point one",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "raise the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "did you get what said correctly?",
+            "domain": "general",
+            "intent": "general_confirm"
+        },
+        {
+            "utterance": "have you come across any new recipes",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "when does the super bowl officially start",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "this brings some problems to us",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "find me a joke related to baseball",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "start my robot vacuum cleaner by ten to eleven am daily",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "i want the news about academy awards",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "start a new email to george brown",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "yeah strongly agree.",
+            "domain": "general",
+            "intent": "general_affirm"
+        },
+        {
+            "utterance": "when is shakira's birthday",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "may i know what is trending in social media",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "what is the plan for tonight",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "start from my last session of joes book",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "define the moon for me",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "set an alarm for twelve",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "open email",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "set a timer at five am seven days a week",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "write complaint to wallmart",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "i would like to hear that information spoken again.",
+            "domain": "general",
+            "intent": "general_repeat"
+        },
+        {
+            "utterance": "skip this episode",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "info on lisa ann please",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "define flabbergasted",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "will you speak once again please.",
+            "domain": "general",
+            "intent": "general_repeat"
+        },
+        {
+            "utterance": "take lunch meeting off my calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "are there any interesting stuff happened today in my twitter",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "who is this",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "please go to the local sports talk show on the radio",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "select the contact",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "when the birthday will be",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "prepare coffee now",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "please say it once again.",
+            "domain": "general",
+            "intent": "general_repeat"
+        },
+        {
+            "utterance": "what is the time difference between here and dakar",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "who assassinated lincoln",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "uber",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "look for a joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "please turn off my smart plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "can you turn up the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "book me a train ticket",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "when is the school dance junction marked",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "go to sleep",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "email happy new year to john",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "s1, could you please again rephrase me about what you said now.",
+            "domain": "general",
+            "intent": "general_explain"
+        },
+        {
+            "utterance": "just how bad is traffic on my commute",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "please turn on my music",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "begin vacuum",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        }
+    ],
+    "domains": [
+        "alarm",
+        "audio",
+        "calendar",
+        "cooking",
+        "datetime",
+        "email",
+        "general",
+        "iot",
+        "lists",
+        "music",
+        "news",
+        "play",
+        "qa",
+        "recommendation",
+        "social",
+        "takeaway",
+        "transport",
+        "weather"
+    ],
+    "intents": [
+        "alarm_query",
+        "alarm_remove",
+        "alarm_set",
+        "audio_volume_down",
+        "audio_volume_mute",
+        "audio_volume_up",
+        "calendar_query",
+        "calendar_remove",
+        "calendar_set",
+        "cooking_recipe",
+        "datetime_convert",
+        "datetime_query",
+        "email_addcontact",
+        "email_query",
+        "email_querycontact",
+        "email_sendemail",
+        "general_affirm",
+        "general_commandstop",
+        "general_confirm",
+        "general_dontcare",
+        "general_explain",
+        "general_joke",
+        "general_negate",
+        "general_praise",
+        "general_quirky",
+        "general_repeat",
+        "iot_cleaning",
+        "iot_coffee",
+        "iot_hue_lightchange",
+        "iot_hue_lightdim",
+        "iot_hue_lightoff",
+        "iot_hue_lighton",
+        "iot_hue_lightup",
+        "iot_wemo_off",
+        "iot_wemo_on",
+        "lists_createoradd",
+        "lists_query",
+        "lists_remove",
+        "music_likeness",
+        "music_query",
+        "music_settings",
+        "news_query",
+        "play_audiobook",
+        "play_game",
+        "play_music",
+        "play_podcasts",
+        "play_radio",
+        "qa_currency",
+        "qa_definition",
+        "qa_factoid",
+        "qa_maths",
+        "qa_stock",
+        "recommendation_events",
+        "recommendation_locations",
+        "recommendation_movies",
+        "social_post",
+        "social_query",
+        "takeaway_order",
+        "takeaway_query",
+        "transport_query",
+        "transport_taxi",
+        "transport_ticket",
+        "transport_traffic",
+        "weather_query"
+    ]
+}

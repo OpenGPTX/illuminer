@@ -1,0 +1,1598 @@
+{
+    "total_num_slots": 1484,
+    "num_slots_source_not_found": 199,
+    "details": [
+        {
+            "utterance": "Are there any accommodations in the east part of town that off free parking?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a train from Leiceter on Saturday.",
+            "slot_value": {
+                "train-departure": [
+                    "leicester"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a nice place to stay, somewhere expensive and luxurious with all the amenities like free wifi. Can you recommend something like that?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a moderately priced Spanish restaurant.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I want to check out some colleges around here",
+            "slot_value": {
+                "attraction-type": [
+                    "college"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for an expensive restaurant in the center of the town.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, hello. I need a place to crash so I'm thinking a 0-star guesthouse",
+            "slot_value": {
+                "hotel-stars": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I am looking for a guesthouse with free parking. Can you help me?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you find me a guesthouse with free parking?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi I'm looking for lodging in Cambridge that includes free wifi and is upscale and expensive",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Please find a place to eat that serves South Indian food in the center.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay on my trip to Cambridge. It needs to have free wifi but doesn't need to have free parking.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay in the east that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like for you to find a place to stay that has both free wifi and free parking.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like for you to find a place to stay that has both free wifi and free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay that includes free parking and free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay that includes free parking and free wifi.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I looking for information about a hotel in the moderate price range that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for an expensive hotel in Cambridge that offers free wifi for guests.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I am trying to find a place to stay that has free wifi and 3 stars. Do you have anything like that?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I hear that Cambridge has a lot of nice museums, can you tell me more about that?",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me fine a local restaurant? I am looking for a moderately priced place to dine that is located somewhere near the centre.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for some entertainment in the center of town.",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to eat at that's moderately priced in the centre of Cambridge.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm wanting to go to a museum around the middle of Cambridge.",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm visiting Cambridge and would like some suggestions for an upscale restaurant which serves modern global cuisine.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a guesthouse to stay in with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel. I want it to have free wifi, but parking doesn't need to be free.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel. I want it to have free wifi, but parking doesn't need to be free.",
+            "slot_value": {
+                "hotel-parking": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find high-end restaurant in the center of Cambridge.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find high-end restaurant in the center of Cambridge.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for a guesthouse to stay in that includes free parking. Can you find me something like that?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I'm look for information about restaurants in Cambridge. I would like them to be fine dining and serve Catalan food.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'd like to find a moderately priced steakhouse.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking and free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking and free wifi.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "i am looking for a place to stay. The hotel should be in the moderate price range and should include free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "It's so hot today, can you help me find a good pool to visit on the north side of the city?",
+            "slot_value": {
+                "attraction-type": [
+                    "swimmingpool"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello I am looking for a place to dine in the centre of town that needs to be cheaply priced",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay in Cambridge. I am wanting it to have free parking and 4 stars.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a guesthouse to stay at with free wifi please.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you recommend hotels in cambridge?",
+            "slot_value": {
+                "hotel-type": [
+                    "hotel"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay, and I need it to provide free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay. The hotel should include free wifi and should be in the cheap price range",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I'm looking for a guesthouse or hotel in the moderate price range. I also need free wifi. What area do you think is best?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need to find a place in Cambridge to stay at a hotel within a cheap price range and I want free parking included.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking to book a place to stay in Cambridge with free wifi with a moderate price range, can you help me with that?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, can you help me find a place to stay? Something moderately priced with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, can you help me find a place to stay? Something moderately priced with free wifi.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I was wondering if there are any multiple sports attractions in the center of town.",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay while in Cambridge. What is available in the west area that has free wifi?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I will be visiting north Cambridge and need a hotel that has free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay? It'll need to have free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a restaurant, in the moderate price range, in the southern part of town.",
+            "slot_value": {
+                "restaurant-area": [
+                    "south"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm starving and would like to find a moderately priced restaurant in the centre please",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you please recommend a hotel? I don't need free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "no"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I am looking for a moderately priced hotel in the East.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay in the moderate price range that includes free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a 4 star hotel with free wifi, please.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a hotel that is expensive and has free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like to have an authentic British meal, but I need to do it cheaply. Can you help me with that?",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I am looking for a place to stay that includes free wifi. I would also prefer it to be in a guesthouse",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi there, I'd like to find a hotel to stay in tonight that has free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for a place to stay with free wifi in the east part of town.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I was wondering if you can tell me more about a particular hotel called the a and b guest house.",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "Is there a place on the east side of town with free parking?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like to take a train from Cambridge to Peterbourough.",
+            "slot_value": {
+                "train-destination": [
+                    "peterborough"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you tell me if there are any cinemas in the west part of town?",
+            "slot_value": {
+                "attraction-type": [
+                    "cinema"
+                ]
+            }
+        },
+        {
+            "utterance": "I need lodgings with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you give me any info on whether you have any 2-star hotel or guesthouses somewhere in town?",
+            "slot_value": {
+                "hotel-stars": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a restaurant in the centre that is moderately priced.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I want to eat at a moderately priced restaurant please",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any guesthouses where you can park for free?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any guesthouses where you can park for free?",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I am looking for a train to Cambridge that will be departing from Leicaster on sunday after 17:45.",
+            "slot_value": {
+                "train-departure": [
+                    "leicester"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a guest house that i can stay in.Free parking is also an added advantage.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a guest house that i can stay in.Free parking is also an added advantage.",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you find me a three star place to stay?",
+            "slot_value": {
+                "hotel-stars": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free wifi and parking.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free wifi and parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I am looking for a moderately priced restaurant in the centre of town.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a local,cheap place to eat.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm going to be in Cambridge for 4 days and need a place to stay in the south with free wifi. I don't need parking.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm going to be in Cambridge for 4 days and need a place to stay in the south with free wifi. I don't need parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "no"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a cheap restaurant that serves modern european food.",
+            "slot_value": {
+                "restaurant-area": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a 4 star hotel with a moderate price.",
+            "slot_value": {
+                "hotel-area": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay on the west side of town, and I definitely need free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a cheap hotel that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am trying to find a guesthouse with free parking to stay in.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Call you tell me if there are any museums in Camberidge?",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi there. I'm going on vacation and need a 3-star place to stay. Can you help?",
+            "slot_value": {
+                "hotel-stars": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a restaurant servicing Chinese food in the center of Cambridge.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a cheap place to stay with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any guesthouses on the north side of town?",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay with a 4 star rating and free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel that has free wifi please.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I haven't had eritrean in forever and would like to have some. Please find me a moderately priced restaurant that serves it",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any moderately priced restaurants serving international food?",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a hotel in the south of the city, it is ok if the hotel doesn't has free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there museums in the town centre?",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I am looking for a moderately priced guesthouse to stay in Cambridge?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any colleges in town?",
+            "slot_value": {
+                "attraction-type": [
+                    "college"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you please help me find a place to stay, somewhere like a hotel? I am looking for a rating of 4-stars and it should include free parking too. Thanks.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you please help me find a place to stay, somewhere like a hotel? I am looking for a rating of 4-stars and it should include free parking too. Thanks.",
+            "slot_value": {
+                "hotel-stars": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "utterance": "I need to find a hotel in Cambridge that's moderately priced. I don't need to have free parking included for my stay.",
+            "slot_value": {
+                "hotel-parking": [
+                    "no"
+                ]
+            }
+        },
+        {
+            "utterance": "I need to find a hotel in Cambridge that's moderately priced. I don't need to have free parking included for my stay.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a hotel in the south with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a guesthouse that includes free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Please find a theater in the centre.",
+            "slot_value": {
+                "attraction-type": [
+                    "theatre"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for an expensive, centrally located restaurant.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Find me a moderately priced place to eat in the South",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking in the north.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a moderately priced guesthouse to stay at in cambridge.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am on a budget and looking for a cheap place to stay with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a train going tocambridge.",
+            "slot_value": {
+                "train-destination": [
+                    "cambridge"
+                ]
+            }
+        },
+        {
+            "utterance": "We need to find the address of a theater in the center of town.",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "We need to find the address of a theater in the center of town.",
+            "slot_value": {
+                "attraction-type": [
+                    "theatre"
+                ]
+            }
+        },
+        {
+            "utterance": "Could you find a moderate priced place to stay for me? I do need free WiFi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay. The hotel should include free wifi and should be in the type of guesthouse",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you recommend any boats that are north of cambridge?",
+            "slot_value": {
+                "attraction-type": [
+                    "boat"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi. Can you help me find a restaurant?",
+            "slot_value": {
+                "restaurant-area": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a hotel in Cambridge that has free parking and is in the expensive price range.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "My car will be in the shop so I will need to take a train to work in cambridge that day. I need to arrive by 08:00",
+            "slot_value": {
+                "train-day": [
+                    "tuesday"
+                ]
+            }
+        },
+        {
+            "utterance": "I need information on a hotel that includes free parking please.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi I'm looking to find a guest house with free Wi-Fi, any suggestions?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi I'm looking to find a guest house with free Wi-Fi, any suggestions?",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find an expensive restaurant in the center of town?",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Could you help me find a good nightclub in the center of town?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi! I am looking for a place to stay, could you help me find a hotel with 4 stars and it needs to have free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I am looking for an expensive restaurant to dine at in the center.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I am planning a trip in Cambridge and need a place to stay with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I'm looking for a place to stay that offers free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, Im looking to find a local hotel that has free parking and free wifi...",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, Im looking to find a local hotel that has free parking and free wifi...",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Where are some restaurants that serve mediterranean dishes that are in the low to moderate price range?",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a moderately priced place to stay while visiting north Cambridge.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "i am looking for a place to go in the center of town for entertainment",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you tell me what sorts of entertainment are offered in the city center?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I want to find a four star hotel that has free internet.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I want to find a four star hotel that has free internet.",
+            "slot_value": {
+                "hotel-stars": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay on the east side of town. I will need free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a swimming pool?",
+            "slot_value": {
+                "attraction-type": [
+                    "swimmingpool"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a 4 star hotel in Cambridge with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I'm looking for information on nightclubs in Cambridge. Can you please give me information on this?",
+            "slot_value": {
+                "attraction-type": [
+                    "nightclub"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I need a hotel that includes free wifi in the north of Cambridge.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi there! Can you recommend a great museum in the center of town?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay in West Cambridge,and it must include free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I\"m looking for a guesthouse that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a place to stay. I need a 2 star hotel with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for theatres to go to in the south. Can you help me find one?",
+            "slot_value": {
+                "attraction-type": [
+                    "theatre"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a moderately priced turkish restaurant.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Is there somewhere inexpensive to stay in town? I'll be driving in, so I'll need somewhere that I can park for free, as well.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Is there somewhere inexpensive to stay in town? I'll be driving in, so I'll need somewhere that I can park for free, as well.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "cheap"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for a hotel with free wifi that is moderately priced.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for a hotel with free wifi that is moderately priced.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "It would be great if you can help me find a train going to Cambridge.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi. I will be attending a conference in the eastern part of town and wondered if you could help me find an available room.",
+            "slot_value": {
+                "hotel-area": [
+                    "east"
+                ]
+            }
+        },
+        {
+            "utterance": "What kind of sports attractions are available in the center of town?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Could you help me find a moderately priced place to stay?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I have heard you have great museums. I would like to visit one while in Cambridge.",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a restaurant that is moderately priced and served British food.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Need a hotel, north side of town, and i want free wifi please.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for hotel with 3 star and free parking in Cambridge.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I really would love to get any information I can on museums in the West",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for someplace to go in the North with a swimming pool",
+            "slot_value": {
+                "attraction-type": [
+                    "swimmingpool"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like to find a place to stay that has wifi, I'm not a fan of this new guesthouse trend, so a regular hotel please.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm visiting Cambridge and looking to do the tourist thing! I'm interested in information about potential nightclubs in the centre of town!",
+            "slot_value": {
+                "attraction-type": [
+                    "nightclub"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like to book a five star, or closest to it, in the east part of town please.",
+            "slot_value": {
+                "hotel-stars": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "find me a place to stay which has 0 star and preferably a guest house",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "I need to find a place to stay in the east part of town with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a train leaving from london liverpool street on friday.",
+            "slot_value": {
+                "train-bookpeople": [
+                    "1"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you tell me what guesthouses are available in the east?",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me with train schedules?",
+            "slot_value": {
+                "train-destination": [
+                    "cambridge"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi! Can you help me find a mid-range price hotel on the south side?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay? I would like to stay in a hotel that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for a guesthouse hotel with free parking. Can you help me with this?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a hotel with a three star rating and a cheap price",
+            "slot_value": {
+                "hotel-stars": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Are there any boating places in Cambridge?",
+            "slot_value": {
+                "attraction-type": [
+                    "boat"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for someplace to stay. I'd like something expensive, and I don't need parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "no"
+                ]
+            }
+        },
+        {
+            "utterance": "What sort of entertainment is available in the center of town?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a cheap place to stay with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Is there any hotel in the area with 4 stars and I can get for cheap price.",
+            "slot_value": {
+                "hotel-name": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place to stay with a zero star rating that has free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place to stay with a zero star rating that has free wifi.",
+            "slot_value": {
+                "hotel-stars": [
+                    "0"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a train leaving on Saturday after 7:30 PM. Can you help me?",
+            "slot_value": {
+                "train-departure": [
+                    "cambridge"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I'm looking for a place to go in the west. Are there any museums there?",
+            "slot_value": {
+                "attraction-type": [
+                    "museum"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a gueshouse that includes free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a gueshouse that includes free parking.",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        },
+        {
+            "utterance": "While in Cambridge I need a hotel that has free parking and free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "While in Cambridge I need a hotel that has free parking and free wifi.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need an expensive place to stay that includes wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello! I need a place to bed down for the night that offers free parking and wifi. Can you help me?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello! I need a place to bed down for the night that offers free parking and wifi. Can you help me?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for info about 4-star accommodations, somewhere where they don't nickel-and-dime you for services like wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for info about 4-star accommodations, somewhere where they don't nickel-and-dime you for services like wifi.",
+            "slot_value": {
+                "hotel-stars": [
+                    "4"
+                ]
+            }
+        },
+        {
+            "utterance": "What attractions are there in northern Cambridge?",
+            "slot_value": {
+                "attraction-area": [
+                    "north"
+                ]
+            }
+        },
+        {
+            "utterance": "Are the any guest house type places to stay in the north part of town available?",
+            "slot_value": {
+                "hotel-type": [
+                    "guesthouse"
+                ]
+            }
+        }
+    ]
+}

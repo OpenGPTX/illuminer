@@ -1,0 +1,69 @@
+{
+    "find_restaurant": {
+        "restaurant-area": "restaurant area",
+        "restaurant-pricerange": "price range",
+        "restaurant-food": "type of cuisine",
+        "restaurant-name": "restaurant name"
+    },
+    "find_hotel": {
+        "hotel-area": "hotel area",
+        "hotel-internet": "hotel internet",
+        "hotel-parking": "hotel parking",
+        "hotel-name": "hotel name",
+        "hotel-pricerange": "price range",
+        "hotel-type": "hotel type",
+        "hotel-stars": "hotel stars"
+    },
+    "find_train": {
+        "train-day": "travel day",
+        "train-departure": "departure place",
+        "train-destination": "destination place",
+        "train-leaveat": "time the train should leave",
+        "train-arriveby": "time the train should arrive"
+    },
+    "find_taxi": {
+        "taxi-destination": "destination place",
+        "taxi-leaveat": "time the taxi should leave",
+        "taxi-departure": "departure place",
+        "taxi-arriveby": "time the taxi should arrive"
+    },
+    "find_attraction": {
+        "attraction-type": "attraction type",
+        "attraction-area": "attraction area",
+        "attraction-name": "attraction name"
+    },
+    "book_train": {
+        "train-bookpeople": "number of people",
+        "train-day": "travel day",
+        "train-departure": "departure place",
+        "train-leaveat": "time the train should leave",
+        "train-arriveby": "time the train should arrive",
+        "train-destination": "destination place"
+    },
+    "book_hotel": {
+        "hotel-area": "hotel area",
+        "hotel-bookpeople": "number of people",
+        "hotel-stars": "hotel stars",
+        "hotel-bookday": "reservation day",
+        "hotel-type": "hotel type",
+        "hotel-internet": "hotel internet",
+        "hotel-parking": "hotel parking",
+        "hotel-bookstay": "number of nights",
+        "hotel-name": "hotel name",
+        "hotel-pricerange": "price range"
+    },
+    "find_hospital": {
+        "hospital-department": "hospital department"
+    },
+    "book_restaurant": {
+        "restaurant-bookday": "reservation day",
+        "restaurant-bookpeople": "number of people",
+        "restaurant-name": "restaurant name",
+        "restaurant-food": "type of cuisine",
+        "restaurant-pricerange": "price range"
+    },
+    "find_bus": {
+        "bus-departure": "departure place",
+        "bus-destination": "destination place"
+    }
+}

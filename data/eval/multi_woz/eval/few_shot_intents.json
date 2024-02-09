@@ -1,0 +1,4536 @@
+{
+    "data": [
+        {
+            "utterance": "I'm looking for a local place to dine in the centre that serves chinese food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a taxi to come to backstreet bistro by 19:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for an expensive restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want general information on places to go in the centre area of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking to play a variety of sports. Are there facilities that cater to that?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Are there any accommodations in the east part of town that off free parking?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to book a train for Monday going to Cambridge please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train going to bishops stortford.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like to find a train from Leiceter on Saturday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a nice place to stay, somewhere expensive and luxurious with all the amenities like free wifi. Can you recommend something like that?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train leaving on Wednesday that's going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train from birmingham new street to cambridge, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a 4 star hotel in the south.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any restaurants that serve christmas food around?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a Japanese restaurant in the north of the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like to find a place to dine in the north please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a moderately priced Spanish restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I need a train leaving cambridge, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to check out some colleges around here",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'd like a train that is departing from Cambridge and is going to London Liverpool street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like to be picked up today from alexander bed and breakfast",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I will be in the centre area and I need a place to go.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a particular restaurant called city stop restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a cheap place to dine at in the north.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Is there a train schedule for sunday?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for an expensive restaurant in the center of the town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to try some chinese food while I am visiting cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking to get some information on gonville hotel.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for something to do in the west. What would you recommend?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I want a train that is going to cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I need a train that leaves on Wednesday and arrives by 08:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you tell me where Cotto is located?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i'm looking for multiple sports in the centre",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am on a budget and need a cheap place to eat.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I am looking for a train from Ely to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Howdy, I need a train heading into cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi there. I'm trying to find a place to eat tonight. I'd like it to be more high end and expensive, and serve gastropub food. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "What can you tell me about the Riverside Brasserie?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes, hello. I need a place to crash so I'm thinking a 0-star guesthouse",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train from bishops stortford into cambridge, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Do you have information on La Raza?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a cheap hotel in the east.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm looking for a place to go in the east.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a expensive restaurant that serves north american food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am throwing a party with friends with a theme from the move \"IT\", can I details on the restaurant with the name clowns cafe? It may add a nice touch.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like a train from Birmingham New Street that will arrive by 12:45, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Find me a train on thursday that should arrive by 15:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need some information on the A and B Guest House.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to take a train departing from stansted airport?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm planning a trip to Cambridge I am looking for places to go in centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi. Is there a hotel named Home from Home? I think I have heard of that.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to book a taxi for after 01:15 pm and i will be going to milton country park.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hello, I am looking for an expensive Italian restaurant in Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to find a train leaving on Thursday going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Find a train to leicester that arrives by 21:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I am looking for a guesthouse with free parking. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi! I'm really excited about visiting soon and would like to go to a restaurant in the centre that serves European food. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train leaving broxbourne after 17:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a good thai restaurant in the west?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a museum attraction in the west.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for the attraction whipple museum of the history of science.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to find a barbeque restaurant in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you find me a guesthouse with free parking?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "We are in cambridge for a visit and looking for an expensive place to dine in the centre. Are there any expensive Italian restaurants in the centre?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, can you find the hotel Kirkwood House?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a gastropub.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train leaving from london liverpool street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a train to cambridge that should arrive by 13:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi. I'm looking for a restaurant. I think it's called the Rice Ship or Rice Boat or something like that.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to book a hotel in the east that has 4 stars.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find an interesting college to visit?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a train departing from ely on monday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find an expensive restaurant in the west?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes I'm looking for a train that departs on Wednesday from Peterborough.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm looking for an expensive restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm in need of a train that leaves from Peterborough and arrives by 18:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi I'm looking for lodging in Cambridge that includes free wifi and is upscale and expensive",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Please find a place to eat that serves South Indian food in the center.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for information on Magdalene College.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for some places to go in the west area of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking to book at a hotel call lovell lodge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to stay on my trip to Cambridge. It needs to have free wifi but doesn't need to have free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for an entertainment attraction in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi there. I'm trying to impress my girlfriend and was wondering if there might be a really nice british restaurant in town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train going to cambridge, departing from norwich.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a place to stay in the east that includes free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello. I'm looking for a hotel on the north end of town with a 4 star rating.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking to get some information on the worth house hotel.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find a train leaving on monday arriving by 21:00?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What is the address of Acorn Guest House?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a train. The train should leave on monday and should leave after 16:45",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Is there any good Jamaican food in Cambridge?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a place to stay that's located in the east and that is of cheap price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find a park in the south?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I would like for you to find a place to stay that has both free wifi and free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to stay that includes free parking and free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I looking for information about a hotel in the moderate price range that includes free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for an expensive hotel in Cambridge that offers free wifi for guests.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I am trying to find a place to stay that has free wifi and 3 stars. Do you have anything like that?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I could really use some help finding something fun to do in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I am looking for a cheap place to stay in the east. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train that is going to birmingham new street and leaves after 17:15.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I hear that Cambridge has a lot of nice museums, can you tell me more about that?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help me fine a local restaurant? I am looking for a moderately priced place to dine that is located somewhere near the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for some entertainment in the center of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I want a train that arrives in broxbourne by 09:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, can you help me find a train that goes to Cambridge on Saturday?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Are there any restaurants that serve New Zealand food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to eat at that's moderately priced in the centre of Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a specific hotel, its name is express by holiday inn cambridge",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'd like to book a taxi to depart from Maharajah Tandoori Restaurant.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for a train that goes to Cambridge, it should leave after 20:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to book a train to stevenage, and I want to leave around 14:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like a train leaving from Cambridge on Sunday, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a restaurant the has Indian cuisine?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I need a train Wednesday that will arrive by 19:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for the Home from Home hotel, I would also like to know how many stars this hotel has.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to locate a train that's going to Cambridge and leaves after 13:45 PM. Can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a train that departs Cambridge after 10:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm wanting to go to a museum around the middle of Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm visiting Cambridge and would like some suggestions for an upscale restaurant which serves modern global cuisine.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for an expensive restaurant in the centre part of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a guesthouse to stay in with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a hotel. I want it to have free wifi, but parking doesn't need to be free.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'd like to find high-end restaurant in the center of Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a particular restaurant. It's Efes Restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to take a train, going to norwich leaving after 08:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a place to go in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm looking for a guesthouse to stay at in the south area of Cambridge. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm looking for a guesthouse to stay in that includes free parking. Can you find me something like that?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to stay. I would like for it to be a 4 star guesthouse.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm look for information about restaurants in Cambridge. I would like them to be fine dining and serve Catalan food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i am looking for a place to stay. The hotel should be in the type of guesthouse and should have a star of 4.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a hotel called Autumn House.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for an expensive gastropub place.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to visit a college while in cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train to Stansted airport.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to take a train from cambridge on saturday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, can you help me find an expensive russian restaurant?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to find a restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'd like to find a moderately priced steakhouse.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to find a restaurant in the expensive range that serves British food. It should be in the west location.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi I am looking for information on the magdalene college.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you find a college in the centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Yes, I am looking for information on All Saints Church. Can you help me?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i am looking for places to go in town. The attraction should be in the type of college.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a restaurant called Pizza Express in Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a cheap restaurant in the city centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I need to take a train from Cambridge, leaving any time after 09:15.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "My sister recommended the Meghna restaurant. What can you tell me about it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Are there any luxurious and expensive places to stay in the south section of town?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking and free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for expensive restaurants in the east.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i am looking for a place to stay. The hotel should be in the moderate price range and should include free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "It's so hot today, can you help me find a good pool to visit on the north side of the city?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you find a a restaurant by the name of pizza express Fen Ditton for me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello I am looking for a place to dine in the centre of town that needs to be cheaply priced",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'm looking for places to go that is a type of entertainment.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi I need a train to go to Norwich, I need to leave after 17:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant called maharajah tandoori.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to know if there are any polynesian restaurants in the east side of cambridge?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a cheap spanish restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a taxi to come after 19:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'd like help with a taxi, please. I need to be picked up at museum of classical archaeology and should arrive by 9:00. Can you help?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hello, I am looking for information about a restaurant called rice boat.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to know a few attractions to visit in town around the Cambridge centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a cheap place to dine. I want it to be on the west side of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, can you help me find an International place to dine?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am wanting to book a taxi. I am going to Sitar Tandoori and want to leave after 19:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for an attraction in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a train ride that departs leicester on wednesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a train to Cambridge on Friday",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to book a taxi departing from royal standard.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for an Indian restaurant in the expensive range. Do you have anything available? Thanks",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a theatre on the west side of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "hello can i find a place that serves chinese food and has expensive price range for my family",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to dine. The restaurant should serve mediterranean food and should be in the south",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to stay in Cambridge. I am wanting it to have free parking and 4 stars.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a guesthouse to stay at with free wifi please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "What's interesting to see and do on the South side?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a restaurant that serves Asian Oriental food located in the south. Can you help?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you recommend hotels in cambridge?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I want to find a museum in the centre of town please.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a train to London King Cross leaving Friday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I a, looking for an expensive place to stay on the north side of Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm looking for information on the Alexander Bed and Breakfast please?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi I am looking for a 4 star guesthouse. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to find information about the hotel Express by Holiday Inn in Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm .looking for a train departing from stevenage.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a place to go on the west side maybe a cinema.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a place to stay, and I need it to provide free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "What is there to do in the Centre part of Cambridge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Cheap restaurant in the centre, please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi. Are there any interesting places to visit in the centre of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a 3 star hotel on the south side of town please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train to leave from stantsted airport on monday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for the University Arms Hotel.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you find me a museum to visit?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train to Cambridge on Saturday. I'll be departing from Peterborough.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a concerthall in Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am interested in seeing the whipple museum of the history of science in Cambridge. Where is it located?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for an expensive restaurant in the centre of Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to stay. The hotel should include free wifi and should be in the cheap price range",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for some places to go in town. It should be a college in the west.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to find a guesthouse with a 0 star rating.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to stay looking for a moderate price range and should have at least a star of 4",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to find a college to visit on the west side of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a train departing from London Liverpool street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you tell me about the Golden Wok?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to see some local tourist places while visiting. I will be in the east area.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i am looking for a place to dine. The restaurant should be in the cheap price range and should be in the west.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'm looking for a guesthouse or hotel in the moderate price range. I also need free wifi. What area do you think is best?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a cheap restaurant please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi! I'd like to book a taxi to Travellers Rest, please, and I need to get there absolutely no later than 11:45 from cambridge train station.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hello. Can you find a taxi to pick me up at Darry's Cookhouse and Wine Shop sometime after 04:00?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hi. I need a train out of cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a train from norwich to cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a taxi going to dojo noodle bar.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I need to find a place in Cambridge to stay at a hotel within a cheap price range and I want free parking included.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train that departs from London Kings Cross that leaves on Wednesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking to book a place to stay in Cambridge with free wifi with a moderate price range, can you help me with that?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Yes, please I need to book a train to Cambridge that should arrive by 20:45 on Wednesday. Can you book it for me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, can you help me find a place to stay? Something moderately priced with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need assistance finding information for a hotel called Lovell Lodge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, can you help me find a train arriving in Cambridge by 20:00?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like information about your trains, particularly ones leaving on Sunday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello, I was wondering if there are any multiple sports attractions in the center of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I would like a place to eat in the expensive price range.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you give me information about Hobsons House, please?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need help finding a chinese restaurant located near the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for information on the museum of archaelogy and anthropology.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a place to stay with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello! I am looking for a place to stay. I would like to stay in the moderate price range with a rating of 2 stars, if possible.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm trying to find a train from Cambridge that arrives by 20:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a taxi to pick us up in centre at 11:45",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hi I am looking for a hotel called finches bed and breakfast",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm hoping you can give me some recommendations for attractions to visit in the centre",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for more information on Scott polar museum",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, my uncle owns Tang Chinese, he wants to know if it shows up in your database?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you find a place to eat that serves French food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train out of Cambridge, to arrive by 20:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a place to stay while in Cambridge. What is available in the west area that has free wifi?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi I am looking for a expensive restaurant that serves indian food",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want a train leaving after 09:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a guesthouse in the south of town.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am planning a trip to Cambridge and need a train heading to Cambridge on Tuesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am seeking a concerthall in the west part of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train on Thursday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train from Cambridge to Ely.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant called nandos city centre",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to book a train leaving leicester after 12:15. Can you do that?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train out of Cambridge on Wednesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for an expensive Indian restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can I get a good place for Afternoon tea in the westside?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I am looking for a train that goes to Stansted Airport and arrives by 10:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "i am looking for a train for birmngham new street from cambridge",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I will be visiting north Cambridge and need a hotel that has free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I want to find a restaurant called Meghna. Can you help?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I heard about the De Luca Cucina and Bar, and I'd like to try it out. Could you help me find it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like a restuarant in the north with expensive food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you help me find a place to stay? It'll need to have free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need help finding a train that departs from Leicester.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant, in the moderate price range, in the southern part of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i need a train that'll get me to cambridge by 18:30",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant that serves gastropub.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a place to dine in the expensive price range which serves italian.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm visiting soon and am interested in a particular attraction. It's called emmanuel college. Can you help?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train on thursday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to find a hotel in Cambridge called Finches bed and breakfast please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to book a train to cambridge. I would like to arrive by 21:00",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "i need a place to stay in the centre of cambridge thats very expensive",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm starving and would like to find a moderately priced restaurant in the centre please",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a 4 star hotel on the north side.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would really like to visit a museum while I am here. Are there any located in the east?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you please recommend a hotel? I don't need free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I am looking for a moderately priced hotel in the East.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find a place to go in the west part of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i need a college to visit in Cambridge",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a restaurant on the east side of Cambridge that serves Kosher food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you help me find a place in the north where I can stay?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a place to stay in the moderate price range that includes free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'd like to find a 4 star hotel with free wifi, please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train that goes to Cambridge from birmingham new street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What is a fun place to go in the west of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I want a place to stay in the moderate price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I am trying to find out the address, business hours and basic price range of the restaurant Golden Wok in Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like a 4 star hotel in the west, please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Where is the nearest emergency room?",
+            "domain": "hospital",
+            "intent": "find_hospital"
+        },
+        {
+            "utterance": "Is there an expensive restaurant in the area that serves light bites?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'm looking for a place to eat on the East. I prefer a restaurant that serves British food",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a train this Saturday. Can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a hotel that is expensive and has free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to have an authentic British meal, but I need to do it cheaply. Can you help me with that?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train out of London Kings Cross.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for an attraction to visit. How about a college?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, I am looking for a place to stay that includes free wifi. I would also prefer it to be in a guesthouse",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a restaurant in the south that serves international food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to tkae a train from London Kings Cross to Cambridge",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for an attraction in the centre of town. Do you have any suggestions?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi there, please find me a restaurant on the East side that serves russian food",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like information on The Cambridge Corn Exchange",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for places to go, preferably a museum located in the east.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for some kind of entertainment in the centre of Cambridge. Can you help?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi there, I'd like to find a hotel to stay in tonight that has free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi! Im looking for some information - can you tell me about places to go in the city centre? Maybe a multiple sports attraction?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train from leicester sometime after 9:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm looking for a place to stay with free wifi in the east part of town.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "What kind of attractions are there in Cambridge? I would like to visit a college. Can you suggest a college?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Yes I am looking for a hotel to stay at with free parking please",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I was wondering if you can tell me more about a particular hotel called the a and b guest house.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a nice expensive restaurant located in the Cambridge centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello. I need to find a hotel in Cambridge in the moderate price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Do you have information on the Express by Holiday Inn Cambridge?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi there. I have heard lots of family members rave over the Warkworth House hotel. Can you tell me anything about it?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me locate an expensive restaurant offering Northern European cuisine?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Is there a place on the east side of town with free parking?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you recommend some fun entertainment in the centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i am looking for the hamilton lodge in Cambridge",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you arrange for a taxi that will take me from ugly duckling to ely train station?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I would like to take a train from Cambridge to Peterbourough.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a train that departs from birmingham new street. It should arrive by 18:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you tell me if there are any cinemas in the west part of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a taxi to come get me from old schools to take me to loch fyne.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hi, I need a place to eat on the north side.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to stay. Ideally, it will be a guesthouse and have a 4 star rating.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am leaving Cambridge. I need a train that leaves after 13:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need lodgings with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "We want to try a restaurant in the centre of Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want a train going to stansted airport .",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a train departing from broxbourne going to Cambridge please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need an entertainment place to go to in the east.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Where is the train that leaves Cambridge to Londons Kings Cross?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for King's College. Do you happen to have information on it?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Yes I am looking for an expensive Chinese restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello! I'm planning my trip there and I'm trying to find out about an attraction called Kettle's Yard. What can you tell me about it?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Would you be able to recommend an expensive restaurant that serves Panasian food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you give me any info on whether you have any 2-star hotel or guesthouses somewhere in town?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a restaurant in the centre that is moderately priced.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for attractions in the north, please.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a hotel ti stay in the expensive range. It does not have to be free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train from Stansted Airport to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a taxi to take me to Museum of Classical Archaeology to leave after 15:15.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for an expensive hotel to stay in.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to book a taxi going to sidney sussex college.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for a place to go in the centre of town specializing in architecture.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Find me a caribbean restaurant in the centre, please?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to book a taxi to leave from cow pizza kitchen and bar after 17:15.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I want to eat at a moderately priced restaurant please",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train to Cambridge on Sunday. Can you help me with this?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like to find a train Tuesday departing from Leicester.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What can you tell me about the Allenbell hotel?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any guesthouses where you can park for free?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I want a train that goes to stansted airport and leaves from cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a place to eat in the West, Thai food please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I am looking for a train to Cambridge that will be departing from Leicaster on sunday after 17:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need information about Pembroke College.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a train that leaves from Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a train leaving Cambridge sometime after 16:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to get a train that is leaving after 18:15.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Where is the train that leaves Stansted Airport that arrives at 13:15?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a guest house that i can stay in.Free parking is also an added advantage.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train that arrives in cambridge by 16:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you find me a three star place to stay?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to dine in an expensive Chinese restaurant tonight",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train that departs from Cambridge on Sunday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a hotel with free wifi and parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find a place to stay in the south that is cheap?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm in the mood for a traditional American food restaurant tonight and looking to treat myself to some expensive fine dining. Can you help me find a perfect place?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you tell me about some attractions in the east?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I am looking for a moderately priced restaurant in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I am searching for a nice Thai restaurant in Cambridge Centre",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a museum attraction in East Cambridge. Could you help me with that?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a taxi to pick me up at Trinity college.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a local,cheap place to eat.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you help me take a train from Cambridge to Stansted Airport?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need an expensive restaurant in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm going to be in Cambridge for 4 days and need a place to stay in the south with free wifi. I don't need parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to find a train to London Liverpool Street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to book an evening train from Bishops Strotford to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Please find me a cinema",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train to cambridge that arrives by 16:45 on monday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am wanting to take a train to London Kings Cross from Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello, I'm looking for information on a hotel called Hobsons House.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for train schedules from Cambridge to Norwich.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for places to go in town. Maybe a museum. I would prefer it to be in the centre of cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I love looking at architecture. Can you find me a good place in the centre area?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a cheap restaurant that serves modern european food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a 4 star hotel with a moderate price.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I need to take a train on Sunday that leaves after 08:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a place to stay on the west side of town, and I definitely need free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a cheap hotel that includes free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm in the mood for some fusion food. Please find me an expensive restaurant that serves it",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a guesthouse in the east.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I've heard a of a place called The Junction. Can you tell me about it?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I would like to get a taxi from the Museum of archaeology and anthropology to the Soul Tree Nightclub",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I would like to book a train that leaves from Broxbourne on Wednesday. Can you book that for me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Yes I was wondering if you can tell me about an attraction called ballare?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I really need to find a taxi, if you can help. I can't leave until after 7:00, though. I need to get to carolina bed and breakfast.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'd like to visit a park in the south part of town. Can you recommend one to me?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Could you give me the information for Trinity College?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a place to eat that's expensive. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for an expensive hotel in the south to stay in.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to find a train to Peterborough that leaves after 17:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you help me find a place to go? I'd like to find some architecture.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm at Saint John's College. I need a taxi to pick me up at 18:45.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am trying to find a guesthouse with free parking to stay in.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm looking for an attraction, it's called Wandlebury Country Park, do you have any information about it?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am organizing my trip to cambridge and need a place to stay in the east in the cheap price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a italian restaurant centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd love to find an expensive German restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for places to go in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a German restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'd like to book a train that leaves on Wednesday sometime after 19:15",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a place to say that is in the cheap price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to stay at a guesthouse in the north.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I am looking for a moderate priced place to eat that serves British food in Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i am looking for places to go in town. The attraction should be in the centre part of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to take a train from cambridge to ely.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Call you tell me if there are any museums in Camberidge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i want a guesthouse",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Is there a Chinese restaurant in the city centre?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a train on Friday that leaves after 21:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi there. I'm going on vacation and need a 3-star place to stay. Can you help?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Do you have any information on the University Arms Hotel? I've heard it's a nice place.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to stay. An expensive hotel will work.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there trains arriving in Cambridge before 16:30 on Thursday?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I was hoping for some information about places to go in the centre area.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, I'd like to book a taxi from Restaurant Two Two to the Museum of Classical Archaeology.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a restaurant servicing Chinese food in the center of Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to find a taxi departing from alimentum.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hi there. I have heard lots of good things about a restaurant called Rajmahal. Can you tell me anything about it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for information on a restaurant called pizza hut cherry hinton.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a cheap place to stay with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'd like information on a particular hotel called the Kirkwood House.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any guesthouses on the north side of town?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a place to stay with a 4 star rating and free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Last time i was in Cambridge there was a restaurant with the strange name of \"ask\" is that placed still around and if so, can I have info on it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a hotel that has free wifi please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I haven't had eritrean in forever and would like to have some. Please find me a moderately priced restaurant that serves it",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a place to dine in the centre with an expensive price range.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Are there any moderately priced restaurants serving international food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Are there any entertainment attractions in town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, can you help me find a train out of Cambridge for my upcoming visit?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a place to go in centre. Any ideas?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a turkish restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a hotel in the south of the city, it is ok if the hotel doesn't has free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I am looking for a Chinese restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a place to go in the west.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I need a train from ely to cambridge. Can you help me with that?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to book a train to cambridge from a train leaving from stevenage.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Are there museums in the town centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Yes, I am looking for a moderately priced guesthouse to stay in Cambridge?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any colleges in town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you please help me find a place to stay, somewhere like a hotel? I am looking for a rating of 4-stars and it should include free parking too. Thanks.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train to cambridge on friday, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a train going from Cambridge to stansted airport.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'd like to book a train leaving from Birmingham New Street and arriving in Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to find a hotel in Cambridge that's moderately priced. I don't need to have free parking included for my stay.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for more information on arbury lodge guesthouse.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for information on the great saint mary's church please.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a way to get to cambridge from norwich",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a hotel in the south with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Yes, I need a place to stay that is expensive, and is a hotel please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a place to stay that has a 4 star rating.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to find a train out of Cambridge this Friday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to visit the museum of archaelogy and anthropology and need a taxi to take me",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for a guesthouse that includes free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Please find a theater in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm looking for a park in the town centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for an expensive, centrally located restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a hotel called the Arbury Lodge Guesthouse. Do you have a listing for this?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a British restaurant, in the expensive price range.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Find me a moderately priced place to eat in the South",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a cheap place to dine, preferably in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a vietnamese restaurant in the west area.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a restaurant named kymmoy.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'd like to find out about the Limehouse hotel.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "i am looking for a train from london kings cross and leaves on wednesday",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to book a taxi from clowns cafe.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I need a resturant that serves British food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi I'm looking to find a restaurant named Sitar Tandoori.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for somewhere yummy to eat! I would like to stay around the centre and have some italian if at all possible",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking in the north.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a restaurant in the west that serves Hungarian cuisine,",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for architecture attractions in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train arriving by 21:45 and departing from cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like to find a moderately priced guesthouse to stay at in cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am on a budget and looking for a cheap place to stay with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'd like a taxie from my home please.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Where would I find the Cambridge Belfry hotel?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for information about a particular restaurant in Cambridge that people are talking about. It is named saint johns chop house.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train going tocambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need help finding some places to go in the south part of the city when I visit.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to take a train from cambridge. I would like to leave after 14:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a hotel in the north.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "We need to find the address of a theater in the center of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Wow, sounds like you might be able to help me then. Can you find me a train going into Leicester?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you find a moderate priced place to stay for me? I do need free WiFi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a place to stay. The hotel should include free wifi and should be in the type of guesthouse",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you tell me if there are any restuarants in the west side that have singaporean food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Could you help me find a guesthouse on the west side?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for an Indian restaurant for 5 people tomorrow night",
+            "domain": "restaurant",
+            "intent": "book_restaurant"
+        },
+        {
+            "utterance": "I am looking for a train leaving on Monday that will arrive by 14:00, can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello. I would like for a taxi to bring me to the cow pizza kitchen and bar by 04:30 please",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Can you help me find places to watch cinema?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you recommend any boats that are north of cambridge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm visiting Cambridge and can't wait to try local restaurants. Have you heard anything about a place called golden wok?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi. Can you help me find a restaurant?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm trying to find great saint mary's church",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train leaving London Kings Cross and arriving by 14:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'd like a taxi please. I'll be wanting it to leave after 15:45",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I need a tax to curry garden.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "i want info on kirkwood house",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for some info on the abbey pool and astroturf pitch",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "D you know of any restaurants nearby that serve French cuisine? I don't mind paying a little extra for quality food and service, any recommendations are welcome.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Do you happen to know of any trains leaving for Cambridge this wednesday?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for information on a hotel called acorn guest house.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a hotel in Cambridge that has free parking and is in the expensive price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi. I would like to visit the Cambridge Artworks. Where is it located and how much does it cost?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "My car will be in the shop so I will need to take a train to work in cambridge that day. I need to arrive by 08:00",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you give me information about a restaurant called panahar?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to travel to Bishops Stortford on Thursday for work - can you help me find a train?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a museum to go to.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for Crossover food in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need information on a hotel that includes free parking please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, could you help me with finding a restaurant called The Lucky Star?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like a train to Cambridge that arrives by 19:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello! I'm planning my trip to Cambridge and I am looking for places to go on the north side of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Please, I am looking for some entertainment when I visit next week. Do you have any suggestions?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I am looking for attractions in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am hoping to find some entertainment while I am in the east area of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a taxi leaving after 21:00.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I want to take a train to cambridge on monday, what's available?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "On my trip to Cambridge, I am looking for a hotel named Arbury Lodge Guesthouse, Can you find that for me please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm hoping to catch a train to London Kings Cross.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to eat some african food in the centre. What do you have for me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a 0 star hotel that is expensive.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to know if you have any information on a place called Tang Chinese?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'm looking for a train to Birmingham New Street that will leave on Wednesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi I'm looking to find a guest house with free Wi-Fi, any suggestions?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find an expensive restaurant in the center of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a taxi to pick me up from the fez club. Can you help?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. It's called hotel du vin and bistro.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i'm looking for el shaddai",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a taxi to Anatoilia.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I need to book a taxi to arrive at Ruskin Gallery by 21:45.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a train that leaves on Saturday going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I would like to book a train. I need to arrive by 17:15 and would like to leave on Wednesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you help me find a good nightclub in the center of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm looking for an Italian restaurant near the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for this place called rice house",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train the departs from bishops stortford leaving after 18:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello looking for a good train that leaves on saturday after 19:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a place to dine. The restaurant should be in the expensive price range and should serve british food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a mexican restaurant in the south.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi! I am looking for a place to stay, could you help me find a hotel with 4 stars and it needs to have free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm planning my trip to Cambridge and I need help. Can you find me some expensive dining options on the west side of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "looking for information in Cambridge A restaurant in the expensive price range and should be in the east",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a place to eat in the moderate price range in the centre of town please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need information for a train from cambridge to norwich.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train that is leaving on sunday and leaving after 13:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a restaurant that serves greek food and is expensive?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train going to London Liverpool street and leaving after 17:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for an afghan restaurant in the north.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Where can I go in the east for multiple sports?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'd like to find a place to dine in the west that serves modern american food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I am looking for an expensive restaurant to dine at in the center.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am planning a trip in Cambridge and need a place to stay with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm looking for a place to stay that offers free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a train to Stansted Airport from Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm looking for a train that leaves Saturday after 10:15. Can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, Im looking to find a local hotel that has free parking and free wifi...",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need train tickets that leave friday going to london liverpool street please, can you help me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you give me more information about the Fitzwilliam Museum?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, I need a train to take me to Kings Lynn and I really need to arrive by 10:30. Can you help me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to eat some Greek food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes, hi, can you help me? I've heard good things about the Vue Cinema. Do you have any particulars about it? I might want to catch a show later.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Where are some restaurants that serve mediterranean dishes that are in the low to moderate price range?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm in the mood for swedish food, but I want something in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I am looking for a train that is going to Cambridge from London Liverpool Street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "i am looking for a place to stay. The hotel should be in the centre and should have a star of 0.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a moderately priced place to stay while visiting north Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need to take a train to Cambridge by 17:45. If its is after that I will be late for dinner, mother gets angry when that happens.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find some information about places to go on the west side of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Please help me find a train departing Stansted Airport and going to Cambridge. Thanks.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for information on a hotel called kirkwood house.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a local restaurant to dine in that cheap and serves indian food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a taxi to leave from the gallery at twelve a high street to arrive by 15:30",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm planning a visit to Cambridge and I want to know when a train that is leaving Monday will take me to Broxbourne.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a place to go visit in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help? I'm in need of a taxi. I'm trying to get from hobsons house to royal spice.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a place to dine. The restaurant should be in the cheap price range and should serve chinese food",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want to book a train from birmingham new street and go to cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "i am looking for a place to go in the center of town for entertainment",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello. I'm trying to find a restaurant in the centre that serves Indian food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to book a taxi to come to Express by Holiday Inn Cambridge to take me to The Oak Bistro.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a nightclub. Are there any located in the south side of Cambridge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Looking for a restaurant thats expensive. Needs to be in the centre area.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you tell me what sorts of entertainment are offered in the city center?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you find me a cinema in town that I can go to?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Please find me a british restaurant in the expensive price range?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you get me information on a restaurant called yippee noodle bar?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "What trains leave cambridge and arrive by 21:00?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I was looking for a hotel called worth house someone told me about.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a modern European restaurant near the centre, could you hook me up?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for some places to go in Cambridge. Specifically some time of architecture in the east.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for an expensive restaurant in the south part of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi there. Can you help me find a train going to London Liverpool Street?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am wanting to book a taxi to go to Cherry Hinton Water Play. I want to make sure I arrive by 10:00.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'm looking for a place to go in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'd love some help finding more information about the Michaelhouse Cafe.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train from Cambridge leaving after 18:30 in the evening please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm looking for an indian restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Could you help me find a college to visit?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm looking for a restaurant called pizza hut cherry hinton, can you help me find it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Please help me locate a train that departs from Cambridge and is going to Leicester. Thanks.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I feel like dancing so please find me a nightclub in the centre",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train. The train should depart from peterborough and should arrive by 13:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I want to find a four star hotel that has free internet.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train leaving from Cambridge this Thursday",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to find a train departing on Sunday that is going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a guesthouse to stay in on the east side. You know of any?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "We are going to the centre for a night out. Hear you have some great attractions can you help me find something fun?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I would love to see some architecture in the centre please",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train to bishops stortford that arrives by 17:15.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant. I don't suppose you happen to have one serving australasian food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to find a train going to Broxbourne leaving from Cambridge. Can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Would you happen to have information on the Lovell Lodge?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I looking for some information on a restaurant called Gandhi.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want to stay at a guesthouse in the expensive price range.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any entertainment spots in the town centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a restaurant in the centre serving Welsh food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want to tour a college in the centre of town. What's available?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you look up a hotel called Cityroomz?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a museum in the West.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train to cambridge leaving after 17:15. Can you help me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a taxi to old schools?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Yes, can you give me the information on the Huntingdon Marriott Hotel?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train on Sunday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a place to stay on the east side of town. I will need free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I am looking for a particular restaurant, the Restaurant Alimentum.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello. I am needing some help finding a cheap room.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I want to find an expensive restaurant that has North American food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a particualr hotel called cityroomz?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for an expensive place to eat located in centre of town. Can you help?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to find a train going to London Kings Cross from Cambridge please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Book me a train from broxbourne for Sunday please",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me find a swimming pool?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a cheap restaurant that serves scottish food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I need to book a taxi, please? I need to leave sometime after 10:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I will be traveling to Cambridge and am interested in going to Cherry Hinton Water Play.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am traveling to peterborough and need to get there by 08:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "So I'm planning a trip to your lovely town and I need recommendations on an expensive place to eat on the West side.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi there, I'm looking for a train going to cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a 4 star hotel in Cambridge with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm looking for information on nightclubs in Cambridge. Can you please give me information on this?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help me find a train that goes to Cambridge?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Is there a cheap Chinese restaurant in the North?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I need a hotel that includes free wifi in the north of Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a fun theatre to visit while I am in Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to what trains are leaving Friday evening.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you please tell me about the Alpha-Milton Guest House?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a hotel on the west side.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I looking for a restaurant called Golden House",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a place to go in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I am organizing my trip and am looking for a cheap Mexican restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like to find a college to visit.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am needing a taxi at the saffron brasserie after 14:45. Can you help me with that?",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Hi there! Can you recommend a great museum in the center of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi! I need to find the restaurant Pizza Express Fen Ditton.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to book a train leaving Cambridge that arrives by 19:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello! I've been recommended a restaurant but don't know where it is. It's called Saint John's Chop House. Can you help me find it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking to go to a nightclub and need to find one.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need the address of the Worth House hotel.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need help finding a hotel called Archway House. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a place to stay in West Cambridge,and it must include free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a restaurant that's expensive and in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I\"m looking for a guesthouse that includes free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I am looking for an expensive restaurant in the east.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm traveling to Cambridge and looking for things to do in the town centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I feel like having Italian for dinner. Are there any cheap restaurants with good Italian in town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm trying to plan a trip there. Can you find me a nice place to dine in the west area of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a place to dine in Cambridge with an expensive price range located in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a restaurant. The restaurant should serve world food and should be in the centre",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for information on a hotel called worth house.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for a place to stay. I need a 2 star hotel with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, Can you help me locate a restaurant named Travellers Rest?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for theatres to go to in the south. Can you help me find one?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train from London Kings Cross to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for a restaurant to dine at that serves British food and is located in the centre. Do you have any suggestions?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you give me more information about the Shiraz restaurant?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi! Are there any expensive Greek restaurants in town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a moderately priced turkish restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train that goes to Cambridge and arriving by 17:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I am looking for information on Sitar Tandoori restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a restaurant called michaelhouse cafe.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Is there somewhere inexpensive to stay in town? I'll be driving in, so I'll need somewhere that I can park for free, as well.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "i am looking for places to go in town centre, should be of multiple sports",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i need information about wagamama restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a guesthouse to stay in in the south",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me get a room at the arbury lodge guesthouse?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi, I'm looking for a hotel with free wifi that is moderately priced.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a restaurant serving barbeque in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a hotel called Avalon.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "It would be great if you can help me find a train going to Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "It would be great if you can help me find a train going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello, I'm trying to find an international restaurant in the east. Any ideas?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for an expensive place to dine in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you find a place called lynne strover gallery.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to find an Italian place to eat. Hopefully with moderate prices.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi. I will be attending a conference in the eastern part of town and wondered if you could help me find an available room.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a place to go with architecture in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "What kind of sports attractions are available in the center of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I've got a hankering for some Spanish food - is there anywhere good in the centre of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I need a taxi to gourmet burger kitchen going from hamilton lodge!",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for an expensive place to dine at the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am planning a trip to Cambridge by train and would like to leave on thursday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Could you help me find a moderately priced place to stay?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for places to go in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi! Can you help me find an awesome nightclub to go to tonight? I don't want it to be too far away, so could you find one in the city centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I have heard you have great museums. I would like to visit one while in Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a restaurant called royal spice.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes, I am looking for a molecular gastronomy restaurant in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a restaurant that is moderately priced and served British food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i am looking for a swimmingpool in Cambridge",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Please book me a taxi to come to Rajmahal by 22:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a place that has great architecture.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a restaurant that services the americas in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm looking to visit a park in the east part of town, do you have any recommendations?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Need a hotel, north side of town, and i want free wifi please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for hotel with 3 star and free parking in Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I really would love to get any information I can on museums in the West",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Where in the Cambridge area is the Autumn House hotel?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "What trains are available from Cambridge on Monday",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm going to be traveling to Cambridge and I'd really like to find information about what restaurants there are on the north end of the city. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a restaurant in the Centre moderate priced",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi there. I am looking to find a college to visit in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for someplace to go in the North with a swimming pool",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a restaurant that is in the centre of town and serves light bites food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need some help booking a train to stansted airport.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a Korean restaurant in the centre of town.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to find a place to stay that has wifi, I'm not a fan of this new guesthouse trend, so a regular hotel please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find jinling noodle bar please, where is it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Find me a train from Cambridge that arrives by 20:30",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I am looking for some attractions that are in the centre of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm visiting Cambridge and looking to do the tourist thing! I'm interested in information about potential nightclubs in the centre of town!",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm looking for train information. It needs to leave on Sunday and arrive at or around 20:45.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I would like to find a train leaving from Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need to find a nightclub in cambridge",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a train to cambridge that leaves after 9:15, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I would like to book a five star, or closest to it, in the east part of town please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to book a five star, or closest to it, in the east part of town please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am planning your trip in Cambridge. looking for a place to dine. The restaurant should be in the cheap price range and should serve steakhouse food",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a taxi leaving after 10:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "i am looking for a place to dine. The restaurant should be in the moderate price range and should serve korean food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a train to Cambridge, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a specific hotel, its name is express by holiday inn cambridge",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "find me a place to stay which has 0 star and preferably a guest house",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you tell me about the Cote restaurant?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a place to go that's in the centre and deals with architecture. I think it would be really neat!",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "i'm looking for a hotel called home from home.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need information about the hotel Express by Holiday Inn Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, are there any trains on Sunday that include Cambridge as a destination?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a place to stay in the north. I use mturk quite a bit to get vacation money, so it would have to have free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "i'm looking for a place to stay, a guesthouse type, in a moderate price range please.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hi I'm looking for something to do for entertainment in the centre of Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Book me a taxi to vue cinema",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Is the mumford theatre still in operation?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to find a place to stay in the east part of town with free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I was wondering if you could point me in the direction of a local restaurant by the name of Wagamama.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a boat to go to in town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi there, I'm trying to book a train ticket from Cambridge to Kings Lynn. Can you help me do this?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a college in the west part of town to visit.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "My friend was there on business last month and said I absolutely had to try a restaurant called The Nirala. Can you tell me about it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi! Do you know anything about a restaurant called clowns cafe?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am coming to Cambridge on Wednesday and need to take a train. I would be departing from london liverpool street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Please find me a train to Cambridge. Make sure it leaves after 15:45",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What attractions do you have in town, preferably near the centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I would like to book a taxi departing from Hotel du Vin and Bistro leaving after 22:30.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Can you tell me what trains will be leaving from Cambridge on Wednesday?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello, can you recommend a 0 star place to stay?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train leaving Cambridge traveling to Kings Lynn.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a restaurant called the cote.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm visiting soon and head about a place called Cambridge Artworks. What can you tell me about it?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "What sort of restaurants do you have in the centre of town? Anything expensive?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking to try new restaurants in the Cambridge area, specifically a place called J restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you help me with finding a restaurant called backstreet bistro?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train leaving from london liverpool street on friday.",
+            "domain": "train",
+            "intent": "book_train"
+        },
+        {
+            "utterance": "I'm looking for the alpha-milton guest house.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you tell me what guesthouses are available in the east?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello. I need to find a place that serves halal food in the city.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "In need a train from Cambridge to stevenage.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'd like a hotel with a star of 4 on the east side of town.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a taxi to arrive at 09:00 at the Riverboat Georgina.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I want a taxi after 24:45 please",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I'd like to find out more about the Queen's College.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Find me a cheap indian place to dine at please.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Good evening. Can you help me find a guesthouse to stay at for the weekend?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to find a train heading from Cambridge to Stansted Airport.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm trying to plan my trip in Cambridge and I need to find a train for Saturday. Can you look up train schedules?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "i am looking for a place to dine. The restaurant should serve hungarian food and should be in the south.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes, can you provide me with information on the attraction Gallery at Twelve and High Street?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need a hotel on the north side.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you let me know if there are any available european restaurants in the centre area?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm headed to Cambridge later and I would love to go to a museum. Could you recommend one? Any one will do, I'm pretty flexible.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I am looking for a train that leaves bishops stortford and goes to cambridge",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking to book a train from leicester that leaves after 15:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Can you help me with train schedules?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi! Can you help me find a mid-range price hotel on the south side?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm at Jesus College and I need at taxi to arrive by 18:00.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I would like to see a museum while I am in Cambridge.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help me find a place to stay? I would like to stay in a hotel that includes free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for something to do in the centre.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, I'd like a train on Sunday that arrives by 16:30. Can you help?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I'm looking for a guesthouse hotel with free parking. Can you help me with this?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a train from cambridge to leicester.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I would like to see if you can find a train that leaves to cambridge. Also, can it be on a thursday too?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a hotel with a three star rating and a cheap price",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a information on restaurant. Is there any cheap Chinese restaurant?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to find a restaurant called Rice House. Do you know where it is?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want a restaurant in the town centre. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I want a place to stay and it needs to be a guesthouse.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Can you help me find an attraction named Hughes Hall? Thanks.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I want to visit sheep's green and lammas land park fen causeway.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need to find a Hamilton Lodge in Cambridge.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any boating places in Cambridge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for someplace to stay. I'd like something expensive, and I don't need parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I would like to catch a train leaving Cambridge on Sunday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for a train from ely to cambridge. Do you have such trains?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Is there a moderate restaurant in the centre of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'd like to find a place that I can get some Northern European food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need a train out of Cambridge, but I need to arrive at my destination by 08:00. Are there any trains that early?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I am looking for information on a hotel called warkworth house. Can you give me the location address and phone number please?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Are there any Chinese restaurants on the north side of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for restaurants and colleges in the city centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Yes, I would like to book a train that is leaving Monday, and is going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "We need to work off some energy - can you find us a multiple sports place in town? Closer to the city centre would be best.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello. Can you help me find a hotel in the North of town?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am traveling to Cambridge and I'm looking for an attraction called downing college.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a place called Club Salsa. Do you have any information?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'd like to book a taxi to soul tree nightclub.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for a train departing from Stevenage.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What sort of entertainment is available in the center of town?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hello, I am looking to try an expensive Indian restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, I'm looking for places to go in Cambridge. Ideally it should be located in the centre and it should include multiple sports.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi! Are there any restaurants in town that serve Scottish food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello, do you know of any Spanish restaurants in the Centre of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Please find a cheap place to eat that serves light bites food.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm looking for a specific restaurant in Cambridge. It's called The Copper Kettle. Could you give me any information on it?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a cheap place to stay with free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am planning my trip to Cambridge and am trying to find European food, can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "i am looking for places to go in town. The attraction should be in the east and should be in the type of park.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi - I'm looking for an expensive restaurant on the east side of town. Can you help me?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I'm looking for a chinese food restaurant.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you find me a taxi to jesus green outdoor pool? I need to be there by 02:15.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I want to go to a french food restaurant in the north. Can you help me find one?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm looking for a train to peterborough leaving after 17:00.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a taxi from Peking restaurant to my hotel.",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "I am looking for places to go, is there a college I could see?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Is there any hotel in the area with 4 stars and I can get for cheap price.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "A friend recommended the City Centre North B&B. Could you help me find it?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I am looking for some information. I need to find a cheap place to stay.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'd like to find a place to stay with a zero star rating that has free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "One moment while I look up the alpha-milton guest house for you.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for a train leaving on Saturday after 7:30 PM. Can you help me?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hello, I'm looking for a place to go in the west. Are there any museums there?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a gueshouse that includes free parking.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm looking for information on the Alpha-Milton Guest House.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "While in Cambridge I need a hotel that has free parking and free wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Where is whipple museum of the history of science located?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I need an expensive place to stay that includes wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I need a restaurant. Something expensive and italian.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need help booking a train, please. I'd like to go to Cambridge on Monday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for train going to Cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi I'm looking for a train that will take me to Cambridge. I want to get there by 15:30.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train for Tuesday that will leave at 2:15.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What are the really hot attractions I should visit in the centre?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help me find a hotel called home from home?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Do you know anything about the Cambridge University Botanic Gardens?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hey there! Can you find me lodging, please? I'd like to stay at a guesthouse on the east end, if possible.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Yes I am in Cambridge and I would like to know good places to go in the east area of town.",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Can you help me find a train leaving Cambridge, to arrive by 12:00?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi, I am looking for a hotel in the east of Cambridge with a 4 star rating.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm looking for trains heading to Cambridge, please.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi! Do you know of any afghan restaurants in the centre?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hello! I need a place to bed down for the night that offers free parking and wifi. Can you help me?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello, I'm looking for a train that's going to stevenage and leaves on tuesday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Hi. I'm looking for information on a hotel called the Limehouse.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "Hello! I'm looking for a restaurant that serves modern european food? I'd also like it to be located in the centre if possible.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I am looking for a train that should leave sometime after 11:45. I would like to get to cambridge.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I'm looking for info about 4-star accommodations, somewhere where they don't nickel-and-dime you for services like wifi.",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "What attractions are there in northern Cambridge?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "I'm looking for a place to eat that is cheap and in the centre.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I need to take a train to cambridge, I will be arriving on Saturday.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "I need a train going to london liverpool street.",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "What can you tell me about cheap restaurants on the west side of town?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi, I'm looking for an expensive restaurant in north cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "I would like to make a reservation at the Maharajah Tandoori restaurant for my trip to Cambridge.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Can you help me find a restaurant? I want somewhere expensive.",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        },
+        {
+            "utterance": "Hi! What can you tell me about the attractions on the east side?",
+            "domain": "attraction",
+            "intent": "find_attraction"
+        },
+        {
+            "utterance": "Hi, I'm needing a taxi, leaving cafe uno and I need to arrive by 24:30",
+            "domain": "taxi",
+            "intent": "find_taxi"
+        },
+        {
+            "utterance": "Can you help me find a train going to Peterborough, with a departure time after 21:15?",
+            "domain": "train",
+            "intent": "find_train"
+        },
+        {
+            "utterance": "Are the any guest house type places to stay in the north part of town available?",
+            "domain": "hotel",
+            "intent": "find_hotel"
+        },
+        {
+            "utterance": "I'm going to Cambridge and interested in trying some restaurants. Can you recommend one that serves traditional food?",
+            "domain": "restaurant",
+            "intent": "find_restaurant"
+        }
+    ],
+    "domains": null,
+    "intents": null
+}

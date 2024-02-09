@@ -1,0 +1,29 @@
+{
+    "restaurant": {
+        "find_restaurant": "find restaurant",
+        "book_restaurant": "book restaurant"
+    },
+    "hotel": {
+        "find_hotel": "find hotel",
+        "book_hotel": "book hotel"
+    },
+    "train": {
+        "find_train": "find train",
+        "book_train": "book train"
+    },
+    "taxi": {
+        "find_taxi": "find taxi"
+    },
+    "attraction": {
+        "find_attraction": "find attraction"
+    },
+    "police": {
+        "find_police": "find police"
+    },
+    "hospital": {
+        "find_hospital": "find hospital"
+    },
+    "bus": {
+        "find_bus": "find bus"
+    }
+}

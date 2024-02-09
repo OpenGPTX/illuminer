@@ -1,0 +1,771 @@
+	text	entity_BIO	domain	intent	intent_encoded
+5740	I'm supposed to have a refund but it isn't there			Refund_not_showing_up	1
+5805	As advised by you, i requested seller to refund my money. A week has passed but i haven't got any update from seller. Please track the refund with the seller.			Refund_not_showing_up	1
+5819	My refund is not here yet			Refund_not_showing_up	1
+5681	why cant you just refund me instead of a merchant			Refund_not_showing_up	1
+5718	I've been waiting for a refund to show up and I don't see it on my statement yet.			Refund_not_showing_up	1
+5748	I have received my statement but I do not see my refund, why is that?			Refund_not_showing_up	1
+5798	A refund for a recent return has not arrived on my card.			Refund_not_showing_up	1
+5833	I've been checking my statement to see if I've received a refund I requested from a seller a while ago has arrived. But it has not. This should have come back to me already. Can you help me figure out why it's not here and get my money back?			Refund_not_showing_up	1
+5760	Where is my refund? it appears to be missing.			Refund_not_showing_up	1
+5796	When will I be able to see the refund			Refund_not_showing_up	1
+9186	My card needs to be activated.			activate_my_card	2
+9219	Would you be so kind as to activate my card? Thanks			activate_my_card	2
+9274	I need my card to be activated right now.			activate_my_card	2
+9224	Hi, would you please activate my card?			activate_my_card	2
+9289	Would it be possible to activate my card?			activate_my_card	2
+9299	Where can I activate my card?			activate_my_card	2
+9238	What do I do to activate?			activate_my_card	2
+9310	I am planning activating my card was it possible?			activate_my_card	2
+9212	How do I get my card active?			activate_my_card	2
+9262	Explain the activation method for this card			activate_my_card	2
+1642	How old can one use your service?			age_limit	3
+1567	How old does my daughter have to be to open an account?			age_limit	3
+1632	Can my teenager have an account?			age_limit	3
+1559	Whats the minimum age to have an account			age_limit	3
+1581	Can my children get an account?			age_limit	3
+1658	My daughter needs an acount.			age_limit	3
+1666	Is it possible for me to set up separate accounts for my kids?			age_limit	3
+1564	We want to start a college fund for my daughter.			age_limit	3
+1573	How old do my kids have to be use this?			age_limit	3
+1648	My daughter needs to open account.			age_limit	3
+9652	google pay top up did not work			apple_pay_or_google_pay	4
+9694	My google top-up pay is not going through			apple_pay_or_google_pay	4
+9687	How do I top up using my Apple Watch?			apple_pay_or_google_pay	4
+9668	How do you Top Up on the apple watch?			apple_pay_or_google_pay	4
+9707	Does my top up and apple pay work together?			apple_pay_or_google_pay	4
+9743	is there a way to do top up with apple pay			apple_pay_or_google_pay	4
+9698	Help me please, My Apple Pay American Express top up does not work.			apple_pay_or_google_pay	4
+9735	Can an apple watch be used to tup-up?			apple_pay_or_google_pay	4
+9651	How do I go about topping up with Google Pay?			apple_pay_or_google_pay	4
+9756	i have been trying to add money with apple pay but it wont work, why?			apple_pay_or_google_pay	4
+4547	What locations can I get money from?			atm_support	5
+4558	What locations allow me to withdraw money?			atm_support	5
+4598	The card can be used at which ATMs?			atm_support	5
+4586	What ATMs use this card?			atm_support	5
+4611	what are the locations i can withdraw money			atm_support	5
+4575	What cash stations take this card?			atm_support	5
+4590	I need to withdraw money. Where can I do that?			atm_support	5
+4588	Can I get money out of any machine?			atm_support	5
+4621	Can you tell me the ATMs I can use with my card?			atm_support	5
+4631	Can I withdraw from any ATM?			atm_support	5
+1126	Is there an automatic top up feature?			automatic_top_up	6
+1169	Do I have to manually top up once I'm too low?			automatic_top_up	6
+1244	Do you have an auto-top function and how do I use it if so?			automatic_top_up	6
+1142	I am inquiring about your auto top up feature.			automatic_top_up	6
+1158	If I am running low on credit can I auto top up?			automatic_top_up	6
+1218	How can I setup automatic top-up?			automatic_top_up	6
+1191	Do you offer auto top ups?			automatic_top_up	6
+1166	Where can I located the auto-top up option?			automatic_top_up	6
+1125	I going to be traveling, can I set up auto top-up if I run low on money?			automatic_top_up	6
+1189	I want to auto top-up.			automatic_top_up	6
+8667	My money hasn't been transferred yet.			balance_not_updated_after_bank_transfer	7
+8758	How long does it take for money to transfer as my balance hasn't been updated			balance_not_updated_after_bank_transfer	7
+8676	I am still waiting on my bank transfer			balance_not_updated_after_bank_transfer	7
+8668	What is the normal time to make an international transfer? I made one a few days ago that still hasn't arrived.			balance_not_updated_after_bank_transfer	7
+8738	I made a transfer from my UK account a couple of hours ago.  Could you please make sure everything went alright.			balance_not_updated_after_bank_transfer	7
+8713	Why hasn't my money transfer showed up yet?			balance_not_updated_after_bank_transfer	7
+8620	Why is my balance the same after a transfer?			balance_not_updated_after_bank_transfer	7
+8767	My account isn't showing a transfer I made.			balance_not_updated_after_bank_transfer	7
+8717	I'm wondering how long it takes for my money to get to me after a bank transfer.			balance_not_updated_after_bank_transfer	7
+8702	How long does a bank transfer take to show up in available funds?			balance_not_updated_after_bank_transfer	7
+3384	I put money in my account a week ago but its still not there, what is happening?			balance_not_updated_after_cheque_or_cash_deposit	8
+3308	I deposited a check yesterday and im not seeing it posted yet in my account. why is that? can you look into it?			balance_not_updated_after_cheque_or_cash_deposit	8
+3362	Dude I put money in the ATM last week but it ain't there! I need the money now figure this out!			balance_not_updated_after_cheque_or_cash_deposit	8
+3477	After my checque or cash deposit, my balance didn't update.			balance_not_updated_after_cheque_or_cash_deposit	8
+3438	I deposited cash this morning, but it is not yet available.			balance_not_updated_after_cheque_or_cash_deposit	8
+3361	Where is my cash deposit in my balance?			balance_not_updated_after_cheque_or_cash_deposit	8
+3442	Why is the check I deposited this morning not showing up?			balance_not_updated_after_cheque_or_cash_deposit	8
+3427	My friend deposited $100 into my account, but it is not showing up!			balance_not_updated_after_cheque_or_cash_deposit	8
+3464	My account balance has not updated since I deposited a cheque recently.			balance_not_updated_after_cheque_or_cash_deposit	8
+3412	I haven't received the cash from the check I deposited.			balance_not_updated_after_cheque_or_cash_deposit	8
+7031	For some reason, I'm unable to transfer funds.			beneficiary_not_allowed	9
+7059	Why can't I transfer money to a beneficiary			beneficiary_not_allowed	9
+7042	I just got an error message saying my transfer is not possible? Why is that? I've transferred money before and it worked without problem			beneficiary_not_allowed	9
+7117	Why can I not do a transfer to a beneficiary?			beneficiary_not_allowed	9
+7029	Why can I not do a  transfer			beneficiary_not_allowed	9
+7012	What is the reason for my beneficiary to be disallowed?			beneficiary_not_allowed	9
+7050	I am getting an error stating my transfer is not possible while transferring money. Let me know the issue as its the first time i am getting error, earlier it used to work.			beneficiary_not_allowed	9
+7112	Hello I am unable to exchange the crypto currency through the app, i am very keen to buy. Please let me know the issue.    interested buying crypto currency but i am unable to purchase it through the application,i do want to do the exchange, Could you please let me know what is the problem?			beneficiary_not_allowed	9
+7142	What is preventing me from adding a specific beneficiary?			beneficiary_not_allowed	9
+7045	I want a reason as to why my beneficiary is not allowed?			beneficiary_not_allowed	9
+2084	I just realized I made the wrong transaction yesterday. Would  you please make it correct?I need it by tomorrow Please.			cancel_transfer	10
+2121	Please help me cancel a transaction.			cancel_transfer	10
+2189	My transaction is on the wrong account.			cancel_transfer	10
+2196	How do I cancel a recent transfer?			cancel_transfer	10
+2140	Is there a way to revert a transaction?			cancel_transfer	10
+2190	I paid my rent into the wrong account, could you please pay it into the right account, it needs to be done by tomorrow.			cancel_transfer	10
+2197	Please can you block the transaction I just sent from my account? It was a payment but I accidently typed in the wrong details and think it might have gone to the wrong place.			cancel_transfer	10
+2148	I need to reverse a transaction			cancel_transfer	10
+2185	I goofed up and used the wrong account.  Please help.			cancel_transfer	10
+2172	How can I cancel a transfer I made			cancel_transfer	10
+9555	When will I get a new card when I order it, and how much will it cost.			card_about_to_expire	11
+9539	After my card expires what should I do?			card_about_to_expire	11
+9622	My card is about to expire. Do I have to go to a branch to order a new card?			card_about_to_expire	11
+9566	My card is about to expire.  How do I order another?			card_about_to_expire	11
+9523	What is the cost and time frame of getting a new card?			card_about_to_expire	11
+9637	want to get a new card in china			card_about_to_expire	11
+9559	Can I order a new card to China?			card_about_to_expire	11
+9619	I'm in China and really need a new card.			card_about_to_expire	11
+9588	Can I order a new card with the app?			card_about_to_expire	11
+9522	My card expires next week. How do I get a new one?			card_about_to_expire	11
+3122	Which establishments will accept my card?			card_acceptance	12
+3131	Are there any places that won't take my card?			card_acceptance	12
+3139	Are there any restrictions to where I can use my card?			card_acceptance	12
+3124	Any place that takes Mastercard would be fine.			card_acceptance	12
+3107	WHAT IS THE ATMOSPHERE OF IT			card_acceptance	12
+3098	How do I know where I can use my card?			card_acceptance	12
+3130	Can I use my card while on vacation overseas?			card_acceptance	12
+3142	What places accept my card?			card_acceptance	12
+3136	Are there limits as to where my card will be accepted?			card_acceptance	12
+3118	where is card accepted			card_acceptance	12
+26	How do I track the card you sent me?			card_arrival	13
+135	I was expecting my new card by now.			card_arrival	13
+63	Can I track the card you sent to me?			card_arrival	13
+105	What is the expected delivery date of my card?			card_arrival	13
+24	where is my new card?			card_arrival	13
+7	What do I do if I still have not received my new card?			card_arrival	13
+44	Can you tell me why I haven't received my new card?			card_arrival	13
+101	I have not received my card and it's been a week, what do I do?			card_arrival	13
+112	I still haven't received my card in the mail			card_arrival	13
+54	How can I periodically check the delivery of the card you sent?			card_arrival	13
+1032	How long will this take to get to me?			card_delivery_estimate	14
+1054	Can cards be dispatched on a specific date?			card_delivery_estimate	14
+1016	Can I have it delivered on a specific date?			card_delivery_estimate	14
+1072	I haven't received my card yet, how long does it normally take?			card_delivery_estimate	14
+1102	Please send my card as quickly as possible.			card_delivery_estimate	14
+1013	When should I expect to receive my card?			card_delivery_estimate	14
+1097	I would like to make sure it is delivered on a certain date.			card_delivery_estimate	14
+1008	When can I expect my card? I live in the US.			card_delivery_estimate	14
+1096	I need my card delivered as soon as possible.			card_delivery_estimate	14
+1039	How long does it take for deliver to the US?			card_delivery_estimate	14
+161	I found my card. How can I put it into my app?			card_linking	15
+243	Could I reactivate my card please, I couldn't find it but it turns out it was in my jacket pocket.			card_linking	15
+273	How do I link the new card?			card_linking	15
+262	How do I link my card in the app.			card_linking	15
+180	The card I thought was lost was just in my jacket, so can I reactivate it since I found it this morning?			card_linking	15
+254	I found my card that I thought I had lost, I need to reactive it, please help.			card_linking	15
+213	I want to link my new card. Can you help?			card_linking	15
+249	Card has been received, how will it show up on the app?			card_linking	15
+266	Where do I go to get my new card linked?			card_linking	15
+274	Where in the app do I link a new card?			card_linking	15
+1271	My card was declined at a restaurant today and I don't know what the problem is.			card_not_working	16
+1293	I am unable to use my card.			card_not_working	16
+1255	How come my card doesn't work anymore?			card_not_working	16
+1311	WHAT IS THE MAIN REASON OF THIS PROBLEM			card_not_working	16
+1341	How can I get my card to work?			card_not_working	16
+1252	I think my card is broke it's not working anymore			card_not_working	16
+1336	I seem to be unable to make any transactions.			card_not_working	16
+1247	My card isn't working at all, I need assistance. It's really frustrating.			card_not_working	16
+1335	My card no longer works.			card_not_working	16
+1278	Currently my card is broken.			card_not_working	16
+2618	Why am I charged a fee when using my debit or credit card?			card_payment_fee_charged	17
+2556	Please tell me why I was charged additionally when I used the card.			card_payment_fee_charged	17
+2670	Why was an extra charge added when I used my card?			card_payment_fee_charged	17
+2574	I noticed that i got charged extra for using the card.			card_payment_fee_charged	17
+2633	Where can I check to see if there will be a fee added to my payment? Are there specific instances that will result in a fee added?			card_payment_fee_charged	17
+2594	Explain the extra fee on my card when paying.			card_payment_fee_charged	17
+2529	I don't understand why I was charged an additional fee for this service. Can you clarify?			card_payment_fee_charged	17
+2621	I just made an order and noticed an extra fee. Why have you charged me this without informing me?			card_payment_fee_charged	17
+2667	Is there a fee for making a payment? If so, let me know why.			card_payment_fee_charged	17
+2518	i made a payment with my card and was charged a fee, why would you do that			card_payment_fee_charged	17
+3633	There are a few payments in the app that I didn't make! Does someone else have my card?  What should I do?			card_payment_not_recognised	18
+3538	I have a payment I didnt make on my account			card_payment_not_recognised	18
+3605	There is a weird payment in my statement.			card_payment_not_recognised	18
+3542	I don't recognize this payment at all!  Help!			card_payment_not_recognised	18
+3582	i disagree with a charge			card_payment_not_recognised	18
+3533	There are some card payments that I haven't done myself. What is going on with my card and does somebody else have access to my card?			card_payment_not_recognised	18
+3489	Someone might have access to my card!  There are some strange payments showing up on my account.  What do I do?			card_payment_not_recognised	18
+3487	there is a charge i dont recognize			card_payment_not_recognised	18
+3568	I saw a payment come out of my account for a merchant I don't remember.			card_payment_not_recognised	18
+3617	I don't recognize a charge on my statement.			card_payment_not_recognised	18
+554	I recently bought something in foreign currency and I am unsure of the exchange rate. Is this rate applied correctly?			card_payment_wrong_exchange_rate	19
+460	Your exchange rate was off.  I was charged extra on my payment that I made last Saturday.			card_payment_wrong_exchange_rate	19
+527	Your foreign exchange rate is wrong.			card_payment_wrong_exchange_rate	19
+464	I noticed the currency exchange rate was incorrect after paying for something in a foreign country.			card_payment_wrong_exchange_rate	19
+504	The wrong exchange rate was used when I purchased an item.			card_payment_wrong_exchange_rate	19
+455	I question today's exchange rate for rubles into pounds. I was hoping for a better return.			card_payment_wrong_exchange_rate	19
+411	my exchange rate looks wrong for my last payment			card_payment_wrong_exchange_rate	19
+409	I think something went wrong with my exchange between Russian Ruble and UK pounds. I was overcharged during the swap.			card_payment_wrong_exchange_rate	19
+490	I think there was an error in your exchange rate.			card_payment_wrong_exchange_rate	19
+539	I don't think the charges made when I had currency exchanged are right.			card_payment_wrong_exchange_rate	19
+6271	How do I get my card out of the ATM?			card_swallowed	20
+6280	An ATM machine didn't return my card.			card_swallowed	20
+6305	What should I do with my stuck ATM?			card_swallowed	20
+6273	Please send a new card; the ATM ate mine.			card_swallowed	20
+6256	I need a new card because the ATM took mine.			card_swallowed	20
+6247	An ATM machine didn't give me back my card.			card_swallowed	20
+6279	I cannot get my card out of the ATM.			card_swallowed	20
+6304	My card is stuck inside the ATM, what am I supposed to do?			card_swallowed	20
+6285	The ATM kept my card?			card_swallowed	20
+6267	The ATM machine would not give my card back			card_swallowed	20
+9392	When I withdrew money from my account the other day, I noticed that there was a fee.  I didn't think that there were any fees for withdrawals...?  How much will I be charged?			cash_withdrawal_charge	21
+9488	what is this extra charge for a withdrawal?			cash_withdrawal_charge	21
+9401	Tell me why there is a charge on my cash withdrawl.			cash_withdrawal_charge	21
+9393	I thought it was free to make a withdrawal. So how much does it cost now?			cash_withdrawal_charge	21
+9461	Why am I being charged certain fees? I noticed a fee after I withdrew some money for groceries earlier today.			cash_withdrawal_charge	21
+9459	Why was I charged an extra fee from the ATM?			cash_withdrawal_charge	21
+9345	Is there an extra fee for using an ATM?			cash_withdrawal_charge	21
+9497	Why am I charged whenever I withdraw cash?			cash_withdrawal_charge	21
+9444	I have been charged a fee for getting cash			cash_withdrawal_charge	21
+9428	Is there a charge for cash withdrawals? I always thought it was free.			cash_withdrawal_charge	21
+8894	My account shows that I made a cash withdrawal but I cannot remember doing so!			cash_withdrawal_not_recognised	22
+8896	I noticed that there is a withdrawal in the app that is not mine.			cash_withdrawal_not_recognised	22
+8927	There is a cash withdrawl I don't remember.			cash_withdrawal_not_recognised	22
+8791	Someone has a copy of my card. I have my card with me, but someone just made a 500£ cash withdrawal. Help me.			cash_withdrawal_not_recognised	22
+8828	The app is saying I made a withdrawl but I didn't.			cash_withdrawal_not_recognised	22
+8885	Why is there some cash that I did not deposit in my account?			cash_withdrawal_not_recognised	22
+8906	I want my card frozen right away. Money was taken out in an odd location I have never heard of.			cash_withdrawal_not_recognised	22
+8850	What do I do if I do not recognise a cash withdrawal?			cash_withdrawal_not_recognised	22
+8869	In the app, I see a withdrawal I didn't make.			cash_withdrawal_not_recognised	22
+8870	There are incorrect charges on my account, there was a WD that was made by someone else.  I still have my card though.			cash_withdrawal_not_recognised	22
+6967	Please help me change my PIN.			change_pin	23
+6980	Am I allowed to change my PIN anywhere?			change_pin	23
+6893	If I wanted to change my PIN, how would I do that?			change_pin	23
+6954	I am on vacation in Spain and think someone saw my pin when… Can I change it at a local ATM?			change_pin	23
+6891	Do I have to go into the bank to change my PIN?			change_pin	23
+6928	I must change my PIN as soon as possible.			change_pin	23
+6905	Can I change my PIN without being physically present?			change_pin	23
+6890	If I want to can I set up a new PIN?			change_pin	23
+6944	Is it possible to change my pin if i am out of the country?			change_pin	23
+6973	Changing my PIN			change_pin	23
+4461	I think my account has been hacked there are charges on there I don't recognize.			compromised_card	24
+4472	Someone might be using my card.  What should I do?			compromised_card	24
+4512	my card details could be stolen, as i didnt make these transactions			compromised_card	24
+4500	Someone might have had access to my card.			compromised_card	24
+4533	i dont recognise some of these transactions, i think someone has my card details			compromised_card	24
+4489	I think my card has been used by somebody else since I was never in the little town where some transactions on this bill have come from. Please stop this right away.			compromised_card	24
+4504	Someone used my card without my permission.			compromised_card	24
+4502	I am not sure but someone else might be using my card			compromised_card	24
+4516	I noticed my card was used in a small town that I have never been to. Can you stop the card from being used more?			compromised_card	24
+4544	I didn't make these transactions. Is someone else using my card?			compromised_card	24
+1811	I was trying to use contactless earlier, but it didn't work.			contactless_not_working	25
+1802	How do I troubleshoot my contactless?			contactless_not_working	25
+1798	I'm confused ass to why my contactless is not working.			contactless_not_working	25
+1810	How can I fix my card if the contactless function didn't work this morning?			contactless_not_working	25
+1804	Any charges applicable for new card?			contactless_not_working	25
+1797	My contactless stopped working today for no good reason. It's not working no matter where I try to use it. Can you please help me fix it?			contactless_not_working	25
+1792	Why wasn't my contactless accepted at the metro?			contactless_not_working	25
+1784	Why is my contactless not working?			contactless_not_working	25
+1793	Can I make a contactless payments?			contactless_not_working	25
+1809	How do I troubleshoot when contactless doesn't work?			contactless_not_working	25
+9914	Are cards issued to people living in the US?			country_support	26
+9898	As far as courtries go which ones are supported?			country_support	26
+9981	Which countries are you in?			country_support	26
+9925	can i get a card if i live in the US?			country_support	26
+9882	Do you have to be in the UK to get a card?			country_support	26
+9996	I live in the US and I would like to get a card. How do I go about getting one?			country_support	26
+9918	I would like to know the countries you are offer services in?			country_support	26
+9978	I need a new card and I live in the United States.			country_support	26
+9947	What countries can I use your services?			country_support	26
+9881	Can I use my card in Austria?			country_support	26
+5862	I use this card all the time so why did it get declined at the store today?			declined_card_payment	27
+5971	Why would my card payment not work?			declined_card_payment	27
+5899	Why did my card payment not work?			declined_card_payment	27
+5941	Could you please tell me why my card payment didn't work?			declined_card_payment	27
+5860	The payment for the card did not go through			declined_card_payment	27
+5843	Tell me why my card payment has been declined.			declined_card_payment	27
+5880	I tried to make a purchase in the store but my card was declined.			declined_card_payment	27
+5937	It seems like my card payment didn't work.			declined_card_payment	27
+5948	I had a decline on my card. Why?			declined_card_payment	27
+5890	Why didn't my card payment work?			declined_card_payment	27
+4973	My ATM card isn't working for a withdrawl			declined_cash_withdrawal	28
+5065	I just had my card get declined at the ATM! I need to get money out but I am unable to.  Why has this happened?			declined_cash_withdrawal	28
+4982	I tried to withdraw cash from the ATM machine and it did not work. Can you tell me why?			declined_cash_withdrawal	28
+4974	Is my card actually working? It's the first time I tried using it			declined_cash_withdrawal	28
+5044	I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get anything out. Is there a problem with my card? It's the first time I tried using it.			declined_cash_withdrawal	28
+5019	Why can I not take out cash?			declined_cash_withdrawal	28
+4926	My withdrawals were going smooth until I got declined today. What is going on?			declined_cash_withdrawal	28
+5074	I think I am having an issue with withdraws on my card. It was declined on the way to work this morning. This hasn't happened in the past.			declined_cash_withdrawal	28
+5023	I'm not able to withdraw money from the ATM but I'm not sure why.			declined_cash_withdrawal	28
+5008	How do I get money from an ATM using my card? I can't seem to get it to work? I used the pin I had, but maybe it's wrong? What do I need to do to fix this?			declined_cash_withdrawal	28
+5635	Why are my transfers being declined? It normally works but now it's declining my card. I've tried it a few times but it's still not working.			declined_transfer	29
+5671	How can I find a way to transfer money without it being rejected?			declined_transfer	29
+5567	How do I make my transfer go through			declined_transfer	29
+5549	While doing a transfer, it says declined.			declined_transfer	29
+5571	Why would I get a decline message in a transfer?			declined_transfer	29
+5633	why did i get declined transfer			declined_transfer	29
+5651	My transfer was declined. Why did this happen?			declined_transfer	29
+5642	I tried to buy something online yesterday but it kept saying declined. Tried again today but same thing happened. What's wrong?			declined_transfer	29
+5585	How do I make sure my transfer isn't goin to an unsupported merchant?			declined_transfer	29
+5645	unsupported transfer declined			declined_transfer	29
+4726	I notice a transaction a couple of weeks ago in my account, from a seller that I don't recognize. Is there a way we can trace back the information to make sure it was truly something I did?			direct_debit_payment_not_recognised	30
+4650	Please tell me what this direct debit in my statement is			direct_debit_payment_not_recognised	30
+4665	How can I get my money back for a payment i didnt make			direct_debit_payment_not_recognised	30
+4730	I found a direct debit I would like to dispute			direct_debit_payment_not_recognised	30
+4813	Why is there a direct debit to my account? I didn't do that.			direct_debit_payment_not_recognised	30
+4800	My accounts been charged a payment for something I didn't make.			direct_debit_payment_not_recognised	30
+4639	Is there a way for you to find out why my account was deducted from a seller when I didn't approve of it?			direct_debit_payment_not_recognised	30
+4770	How can I dispute a direct debit charge on my account?			direct_debit_payment_not_recognised	30
+4693	I just noticed that I supposedly made a payment to a seller a while back. The problem is, I don't recognize the seller. There must be a way to see who it is or track the payment. Can you do that, because I don't remember this transaction?			direct_debit_payment_not_recognised	30
+4706	Recently, a few weeks ago there was a transaction made on my account by some seller that I don't recognize. I am very certain that didn't happen  and will like for you to trace back to make sure.			direct_debit_payment_not_recognised	30
+4386	What are the restrictions on the virtual cards?			disposable_card_limits	31
+4432	Are there any restrictions for the disposable cards?			disposable_card_limits	31
+4433	Is there a limit on making disposable cards?			disposable_card_limits	31
+4346	Is there a limit on the number of times I can use a disposable card?			disposable_card_limits	31
+4435	Can I do more than 10 transactions with a disposable card?			disposable_card_limits	31
+4360	Help me create several temp cards every day.			disposable_card_limits	31
+4345	Can you give me the restrictions of the disposable cards?			disposable_card_limits	31
+4348	What are the restrictions of the disposable cards?			disposable_card_limits	31
+4383	how many uses are the disposable cards good for?			disposable_card_limits	31
+4427	How many transactions can be made with a disposable card?			disposable_card_limits	31
+3698	I need to add my new address now that I've moved.			edit_personal_details	32
+3744	How can I update my personal information after moving?			edit_personal_details	32
+3745	I moved and need to change my address.			edit_personal_details	32
+3658	I need to change my name, since i just got married			edit_personal_details	32
+3747	Where do I go to change my account details?			edit_personal_details	32
+3672	I need to change my phone number.			edit_personal_details	32
+3657	Where do I go to edit my personal details on my account?			edit_personal_details	32
+3660	How can I change my address?			edit_personal_details	32
+3695	Please tell me how to edit my personal details.			edit_personal_details	32
+3739	How do I input a new address?			edit_personal_details	32
+8992	Fees for currency exchange			exchange_charge	33
+9038	Are currency exchanges free?			exchange_charge	33
+9039	Will there be any extra fees if I exchange currencies?			exchange_charge	33
+8952	Currency exchanges have any extra fees?			exchange_charge	33
+9041	Is it free to exchange currency?			exchange_charge	33
+8966	IS there a fee to exchange currency?			exchange_charge	33
+8951	Will I be charged an extra fee if I need to exchange currency?			exchange_charge	33
+8954	Is there any type of fee for currency exchange?			exchange_charge	33
+8989	Would I need to pay extra for currency exchanges?			exchange_charge	33
+9033	Please tell me what the exchange fee is.			exchange_charge	33
+318	How do you determine your exchange rates?			exchange_rate	34
+340	What are the exchange rates you assign?			exchange_rate	34
+302	How do I know what exchange rate I will get?			exchange_rate	34
+358	What exchange rates do you use?			exchange_rate	34
+388	what are your exchange rates at?			exchange_rate	34
+299	I would like to know what exchange rates you use?			exchange_rate	34
+383	Can you explain your exchange rates basis?			exchange_rate	34
+294	Do you know the rate of exchange?			exchange_rate	34
+382	How do you do currency exchanges?			exchange_rate	34
+325	What is the formula for your exchange rate?			exchange_rate	34
+1443	How do I make a currency exchange?			exchange_via_app	35
+1442	I would like to change currency			exchange_via_app	35
+1451	I would like to exchange currencies, how do I go upon it?			exchange_via_app	35
+1365	How can I change USD to GBP?			exchange_via_app	35
+1446	How can I exchange USD and GBP in the app?			exchange_via_app	35
+1379	Using your app, would I be able to exchange between USD and GBP?			exchange_via_app	35
+1364	Can money be exchanged from one currency to another?			exchange_via_app	35
+1367	Can i add a new currency to my account?			exchange_via_app	35
+1402	I need to exchange my GBP to AUD, how would I do this?			exchange_via_app	35
+1425	I may need to exchange my USD for GBP, can your app do that?			exchange_via_app	35
+734	My statement is showing I was Charged a dollar and I am not sure why.			extra_charge_on_statement	36
+705	Why was my account assessed a fee?			extra_charge_on_statement	36
+664	I need some help figuring out what this strange payment is on my account. It's stays pending and won't go away.			extra_charge_on_statement	36
+626	What is the extra fee on my statement?			extra_charge_on_statement	36
+720	Please explain the charge of 1L in error.  I have purchased nothing in this amount.			extra_charge_on_statement	36
+625	I got a €1 extra fee in my statement			extra_charge_on_statement	36
+578	I was charged $1 in a transaction.			extra_charge_on_statement	36
+576	What is the $1 transaction on my account?			extra_charge_on_statement	36
+706	There is an extra 1£ charge on my app. Why did you charge me extra?			extra_charge_on_statement	36
+632	I see a charge of 1L I do not recognize on my statement			extra_charge_on_statement	36
+7454	I've been trying to do a transfer multiple times and have failed? Is the system down?			failed_transfer	37
+7436	Why wont the other bank take my money?? Is it not good enough?? There's sufficient funds but I keep getting denied a standard transfer. Ive tried 5 times!			failed_transfer	37
+7514	My transfer is failing when I try to do it.			failed_transfer	37
+7506	I've already tried 5 times to complete a transfer that's just standard. What's the deal? Is your system down at this time?			failed_transfer	37
+7471	Hello.  I ran into a problem with a transfer this morning.  I was trying to send money to some friends but when I tried to send it, the transfer failed.  I don't know what is causing the transfer to be rejected.  Please let me know what is causing the problem.  Thanks.			failed_transfer	37
+7513	My transfer failed, why?			failed_transfer	37
+7450	Hi, I am currently in the process of buying a flat and I am waiting for the mortgage to go through but it keeps showing up as an error.  Do you know what could be causing this and can you help me get the money over.			failed_transfer	37
+7478	The app says my transfer failed			failed_transfer	37
+7473	Can you tell my why my funds transfer did not work properly?			failed_transfer	37
+7452	Why did my transfer not work?			failed_transfer	37
+888	How many currencies can I have?			fiat_currency_support	38
+930	Can my account have different types of currency in it.			fiat_currency_support	38
+923	What fiat currencies are used with holdings and exchanges?			fiat_currency_support	38
+904	Are all fiat currencies supported?			fiat_currency_support	38
+943	What currencies are available for my use in holding and exchange?			fiat_currency_support	38
+979	Tell me the currencies that you support.			fiat_currency_support	38
+934	What flat currencies do you support for holding and exchange?			fiat_currency_support	38
+971	Please tell me the types of currency I can hold.			fiat_currency_support	38
+887	What currencies can my account be in?			fiat_currency_support	38
+992	I need to know which flat currencies are supported by you.			fiat_currency_support	38
+8397	What is the process to create a disposable virtual card?			get_disposable_virtual_card	39
+8455	Am I able to order a disposable virtual card?			get_disposable_virtual_card	39
+8373	I want a disposable virtual card, how do I do that?			get_disposable_virtual_card	39
+8426	How would I use a disposable card?			get_disposable_virtual_card	39
+8439	How do I use disposable cards?			get_disposable_virtual_card	39
+8452	I'm not sure how disposable virtual cards work. Please help.			get_disposable_virtual_card	39
+8387	What is the function of the disposable cards?			get_disposable_virtual_card	39
+8449	How do I receive a disposable virtual card?			get_disposable_virtual_card	39
+8425	Please tell me about disposable cards.			get_disposable_virtual_card	39
+8437	What can you use the disposable cards for?			get_disposable_virtual_card	39
+4093	How do I find my new pin?			get_physical_card	40
+4004	I do not see the card PIN anywhere?			get_physical_card	40
+4069	Does the PIN come under separate cover?			get_physical_card	40
+3996	Where can I get my card PIN?			get_physical_card	40
+4018	In the app, where do I find my card PIN?			get_physical_card	40
+4092	Show me where I can see the PIN?			get_physical_card	40
+4099	how do i get a pin for my card			get_physical_card	40
+4001	i have yet to get my pin			get_physical_card	40
+4010	I am not able to see the card PIN anywhere?			get_physical_card	40
+4079	I don't have a PIN at this point.			get_physical_card	40
+7844	Can I have a duplicate second card?			getting_spare_card	41
+7828	Can I have a third card?			getting_spare_card	41
+7911	Is it possible to have a second card?			getting_spare_card	41
+7855	What steps do I need to get another card?			getting_spare_card	41
+7812	What's the limit on total number of cards I can have?			getting_spare_card	41
+7926	Can I have a spare card for this account please?			getting_spare_card	41
+7848	I was wondering if I could get a second card on this account? I would like my daughter to have one.			getting_spare_card	41
+7908	Will it cost me to get a second card?			getting_spare_card	41
+7877	Is it possible to get another card?			getting_spare_card	41
+7811	Can I get a few more physical cards?			getting_spare_card	41
+3024	How do I go about getting hold of a virtual card?			getting_virtual_card	42
+3083	I haven't received my virtual card.			getting_virtual_card	42
+3000	How can I sign up for a virtual card?			getting_virtual_card	42
+3053	Why have I not received a virtual card yet?			getting_virtual_card	42
+3066	How to access my virtual card			getting_virtual_card	42
+3080	Where would I order a virtual card?			getting_virtual_card	42
+3014	Where do I order a virtual card?			getting_virtual_card	42
+3076	I have lost my card, but need to place an online order! How do I get a virtual card instantly?			getting_virtual_card	42
+3052	How long will it take to receive a virtual card?			getting_virtual_card	42
+3064	How long do you have to wait to see your virtual card your ordered?			getting_virtual_card	42
+1502	Are you able to guide me to my card's location?			lost_or_stolen_card	43
+1477	I'm panicking!  I lost my card!  Help!			lost_or_stolen_card	43
+1537	I cant find my card.			lost_or_stolen_card	43
+1518	What do I do if my card has been lost or stolen?			lost_or_stolen_card	43
+1483	Hi, I am on vacation in Spain and someone stole my bag with my phone and wallet with cards and everything. Can you block it ASAP and then I want to order a new one also ASAP.			lost_or_stolen_card	43
+1517	My card has been lost! help!			lost_or_stolen_card	43
+1515	My card was lost on vacation, I don't know where it is. Can you help me take care of this immediately?			lost_or_stolen_card	43
+1488	A fee shouldn't apply to me if my card was stolen.			lost_or_stolen_card	43
+1554	What should I do?  My card has been stolen!			lost_or_stolen_card	43
+1528	Someone took my card without permission			lost_or_stolen_card	43
+5299	I misplaced my phone so I can't use the app! Does this mean I can't use my card?			lost_or_stolen_phone	44
+5345	My phone was left at a hotel and I can't access the app.			lost_or_stolen_phone	44
+5346	Hi, I lost my phone yesterday, what can I do to stop someone using my account on it?			lost_or_stolen_phone	44
+5259	Someone stole my phone, what is my next step?			lost_or_stolen_phone	44
+5348	My phone is missing.			lost_or_stolen_phone	44
+5273	Someone mugged my and stole everything.  I can't use the app.  What should I do?			lost_or_stolen_phone	44
+5258	My bag was stolen from me yesterday, so I can't use any apps or anything. I need some help.			lost_or_stolen_phone	44
+5261	Help, my phone was stolen, please advise!			lost_or_stolen_phone	44
+5296	Someone has taken my phone from my hotel room!			lost_or_stolen_phone	44
+5340	I accidentally left my phone at the hotel so now I'm not able to use the app.			lost_or_stolen_phone	44
+8095	How do I get my card?			order_physical_card	45
+8141	IS there anywhere that a card cannot be delivered?			order_physical_card	45
+8142	How do i receive a physical card?			order_physical_card	45
+8055	What do I do to get ahold of my own card?			order_physical_card	45
+8144	how much for a physical card?			order_physical_card	45
+8069	Can I order a card please?			order_physical_card	45
+8054	Can you tell me exactly what fees I will expect to see in regards to your cards?			order_physical_card	45
+8057	Is it possible to get a physical card?			order_physical_card	45
+8092	Help me order my card.			order_physical_card	45
+8136	Is there a fee to order a physical card?			order_physical_card	45
+4840	Not sure what my password is.			passcode_forgotten	46
+4875	How can I go about resetting my passcode?			passcode_forgotten	46
+4816	I am unable to access my app due to forgetting my passcode.			passcode_forgotten	46
+4876	How can I change my password?			passcode_forgotten	46
+4899	I don't know my password anymore.			passcode_forgotten	46
+4862	I lost the code and can not get into the app. Help!			passcode_forgotten	46
+4830	Can you lookup my password?			passcode_forgotten	46
+4914	I don't know what my passcode is, can you help?			passcode_forgotten	46
+4870	I cannot remember my passcode.			passcode_forgotten	46
+4859	I don't remember my password			passcode_forgotten	46
+5099	How long does a payment usually show as pending? Is it normal that mine is still pending?			pending_card_payment	47
+5132	What is the longest that a payment will show pending?  There is one showing that has been sitting there a few days.			pending_card_payment	47
+5187	Why is my card payment still pending? It should have gone through already.			pending_card_payment	47
+5137	It looks like a payment I've made hasn't made it through yet.			pending_card_payment	47
+5202	I was wondering how long does it take for a payment to go thru? It seems my last payment is stuck and hasn't moved.			pending_card_payment	47
+5212	How long does it actually take for a card payment to go through? There's one stuck since a couple of days already that doesn't seem to move			pending_card_payment	47
+5151	My card payment is showing up as pending for a very long time, what's going on with that, it should be going through at some point?			pending_card_payment	47
+5223	I made a payment that seems to be stuck. It's been a couple of days already. Can you tell me how long it will take?			pending_card_payment	47
+5125	Why is my payment still pending?			pending_card_payment	47
+5175	It says pending status for my payment. Why?			pending_card_payment	47
+782	My cash withdrawal isnt showing on my account			pending_cash_withdrawal	48
+855	I took out money from the ATM and it's still showing as pending?			pending_cash_withdrawal	48
+753	Hello. I looked at my account and see that a transaction I tried to do is pending, but I did not complete that transaction. When I was at the ATM, the machine declined my card. Can you make sure that transaction does not go through because I definitely did not receive the money.			pending_cash_withdrawal	48
+793	I tried to get some money but the machine was not working .The transaction still seems in progress! Can you please check what's going on.I don't want to be charged for money that I did not received.			pending_cash_withdrawal	48
+759	If my cash withdrawal is still not showing, is something wrong?			pending_cash_withdrawal	48
+744	Why is my ATM withdrawal still pending?			pending_cash_withdrawal	48
+845	Its been several days and my cash withdrawal is still pending. Why?			pending_cash_withdrawal	48
+871	Hello, I tried to take out some money out of the ATM, but it's still showing that it's pending? I really don't want to be charged for this.			pending_cash_withdrawal	48
+867	My last ATM request did not go through due to a declined card. Please cancel the request on my account.			pending_cash_withdrawal	48
+838	I made a cash withdrawal and it is still listed as a pending transaction.			pending_cash_withdrawal	48
+2061	What's taking my top-up so long?			pending_top_up	49
+2037	Is there something wrong with my top up I did an hour ago? it's still pending. I need that money, i cant afford to wait or have it come back to me.			pending_top_up	49
+1987	My top up says it is still pending			pending_top_up	49
+2008	Why is the top-up I made still pending.			pending_top_up	49
+1935	What if my top up doesn't go through?			pending_top_up	49
+2032	My top-up appears to be pending.			pending_top_up	49
+2068	When will my top up go through?			pending_top_up	49
+2023	I'm pretty sure my top up is still pending.			pending_top_up	49
+2046	How long does it take for a top up to be approved?			pending_top_up	49
+2012	I do not think the pop up went through yet.			pending_top_up	49
+6013	How long is a transfer in the pending status?			pending_transfer	50
+5996	Why is a transfer I have still pending?			pending_transfer	50
+6026	My transfer is still pending			pending_transfer	50
+6103	Why is my last transfer pending?			pending_transfer	50
+6016	I'm confused as to why my transfer is still listed as pending on the website.			pending_transfer	50
+6015	I haven't received my transfer funds yet, where are they?			pending_transfer	50
+6032	The transfer was accepted but now it's stuck on pending. When will it go through?			pending_transfer	50
+6043	How long will the transfer take?			pending_transfer	50
+6121	Why is my transfer pending when I already made it?			pending_transfer	50
+6060	I didn't think my country-to-country money transfer would take so long. It still says that it's pending so I re-checked all of the account information--everything seems right, so what's the deal?			pending_transfer	50
+1677	I attempted to enter my pin to many times.			pin_blocked	51
+1741	I forgot my pin and am blocked now. Can I reset it somewhere?			pin_blocked	51
+1733	How do I get unblocked?			pin_blocked	51
+1718	My PIN is unlocked, what do I do?			pin_blocked	51
+1674	After inputting the wrong pin too many times, can you now help me unblock my pin?			pin_blocked	51
+1745	I entered my pin wrong  too many times.			pin_blocked	51
+1758	Would you please unblock my pin? I don't know why, but it's blocked.			pin_blocked	51
+1756	How many incorrect attempts cause card to be blocked?			pin_blocked	51
+1773	My PIN is not working, can you help?			pin_blocked	51
+1729	My card got blocked, how do I reset?			pin_blocked	51
+7335	Salary in GBP has been received. Does it need to be configured into another place?			receiving_money	52
+7363	Do I need to select a preference to receive my salary payments in GBP and, if so, where?			receiving_money	52
+7389	May I get my salary paid out in a different currency?			receiving_money	52
+7349	How can I receive my salary with a different currency?			receiving_money	52
+7346	am i able to receive my salary this way?			receiving_money	52
+7394	Who can send me money?			receiving_money	52
+7395	My salary is in GBP, is this something I need to configure?			receiving_money	52
+7413	How can my friend pay me?			receiving_money	52
+7366	What are the steps for my friend to send me money?			receiving_money	52
+7412	Can friends send me money?			receiving_money	52
+5524	I just bought an item and would like to stop payment can you tell me if the item has been sent yet?			request_refund	53
+5428	I would like to cancel my previous purchase.			request_refund	53
+5495	I ordered something, and now I have buyer's remorse. Since what I ordered hasn't come yet, can you just cancel the payment since I already know I want a refund for it?			request_refund	53
+5432	Can I have my money refunded for an item			request_refund	53
+5472	Do you give refunds?			request_refund	53
+5423	I purchased this item and would like a refund			request_refund	53
+5379	I'm interested in learning more about product refunds.			request_refund	53
+5377	I am not sure how this will work, but I have not received a product I ordered.  I want a refund, but should I just cancel the payment?			request_refund	53
+5458	I think I deserve a refunded on a certain item.			request_refund	53
+5507	Hello, I have recently made a purchase and have decided to cancel my purchase. Is there any way that you can cancel that transaction for me so I can get the money back? It's very important.			request_refund	53
+6833	Can you tell me why my card payment was cancelled?			reverted_card_payment?	54
+6835	One of my card payments has reverted			reverted_card_payment?	54
+6866	Hi, I am facing issue with my card payment while shopping online as payment is getting reverted. I am struggling with this issue around two weeks. Please advise.			reverted_card_payment?	54
+6729	Can you tell me why the card payment came back?			reverted_card_payment?	54
+6766	What reasons would cause my card payment to be cancelled?			reverted_card_payment?	54
+6828	I tried to buy something online but my funds were transferred back to my account. What is happening?			reverted_card_payment?	54
+6845	Why would my card payment be reverted?			reverted_card_payment?	54
+6788	My card payment was cancelled it seems.			reverted_card_payment?	54
+6807	Why did you cancel my card payment?			reverted_card_payment?	54
+6808	I did a payment but it was reverted by the app			reverted_card_payment?	54
+2909	Is American Express supported for adding funds?			supported_cards_and_currencies	55
+2893	What are the currencies and cards that are supported with my account?			supported_cards_and_currencies	55
+2976	If I want to topup by card, how do I do it?			supported_cards_and_currencies	55
+2920	What kind of cards are supported?  What currency?			supported_cards_and_currencies	55
+2877	What are the acceptable currencies for adding funds?			supported_cards_and_currencies	55
+2991	What are the currencies that are accepted to add money?			supported_cards_and_currencies	55
+2913	I am adding money, what currencies do you accept to do this?			supported_cards_and_currencies	55
+2973	Can you tell me which cards and currencies are supported?			supported_cards_and_currencies	55
+2942	What US credit cards do you accept?			supported_cards_and_currencies	55
+2876	With what currencies can I add money?			supported_cards_and_currencies	55
+6221	I'm dissatisfied with the service and would like to terminate the account.			terminate_account	56
+6147	for god sake, just delete my account i am sick of this			terminate_account	56
+6212	I would like to terminate my account.			terminate_account	56
+6139	Are you able to delete my account?			terminate_account	56
+6161	I want to cancel my account.			terminate_account	56
+6237	How do I delete an account?			terminate_account	56
+6244	I no longer want this account, what should I do?			terminate_account	56
+6144	I would like to invalidate my account.  I am very disappointed with your services.			terminate_account	56
+6153	I want to shut down my account as soon as possible.			terminate_account	56
+6223	I wish to remove my account.			terminate_account	56
+1916	Is there a top up fee?			top_up_by_bank_transfer_charge	57
+1827	Will I receive all the money sent to my account by SEPA transfer?			top_up_by_bank_transfer_charge	57
+1893	What are the additional charges for a SWIFT transfer?			top_up_by_bank_transfer_charge	57
+1819	What are the charges for receiving a SEPA transfer?			top_up_by_bank_transfer_charge	57
+1841	Will I be charged for a top off transfer?			top_up_by_bank_transfer_charge	57
+1919	If I top up by transfer, am I going to be charged?			top_up_by_bank_transfer_charge	57
+1862	Can I transfer money using the SWIFT service?			top_up_by_bank_transfer_charge	57
+1824	Can you tell me the cost of a transfer?			top_up_by_bank_transfer_charge	57
+1833	If someone sends me money, will I be charged?			top_up_by_bank_transfer_charge	57
+1907	Can I Transfer from SWIFT?			top_up_by_bank_transfer_charge	57
+9098	Do you charge extra for topping up with a debit or credit card?			top_up_by_card_charge	58
+9075	Do I have to pay extra if I use an international card to top up my account?			top_up_by_card_charge	58
+9155	Is there a charge for top-ups?			top_up_by_card_charge	58
+9072	How much are the fees for adding funds using an international card?			top_up_by_card_charge	58
+9089	What is the fee if I use a European bank for a top up?			top_up_by_card_charge	58
+9138	What is the Top up rate charge for using a card in the US?			top_up_by_card_charge	58
+9178	I want to add money to my international card, so are there any fees charged to do this?			top_up_by_card_charge	58
+9087	Does it cost to top up my card?			top_up_by_card_charge	58
+9159	I need to know what charges I will incur for using a European card for top up.			top_up_by_card_charge	58
+9067	What fees are charged when I top up			top_up_by_card_charge	58
+7966	can i top up with check?			top_up_by_cash_or_cheque	59
+7943	Is there anyway to use a cheque to top up?			top_up_by_cash_or_cheque	59
+8023	May I transfer a cheque into my account?			top_up_by_cash_or_cheque	59
+7940	Can I deposit a check?			top_up_by_cash_or_cheque	59
+7957	I want to top up my account with a cheque			top_up_by_cash_or_cheque	59
+8006	I'll send a check to top up my account			top_up_by_cash_or_cheque	59
+8046	Do you accept cheques for top ups?			top_up_by_cash_or_cheque	59
+7955	What is not accepted in order for me to top up my account?			top_up_by_cash_or_cheque	59
+8027	how can i add money to my account if you don't accept cash			top_up_by_cash_or_cheque	59
+7935	Is there somewhere I can send a check to add to my account?			top_up_by_cash_or_cheque	59
+8475	Why won't my top up work			top_up_failed	60
+8492	Hi, My card is getting declined during top-up. As it urgent, could you please resolve this issue, or guide me with other alternatives if any.			top_up_failed	60
+8495	Looks like my top up failed.			top_up_failed	60
+8534	Why was my top-up rejected?			top_up_failed	60
+8541	I have the funds, why can I not use my top-up?			top_up_failed	60
+8566	What if my top up didn't work?			top_up_failed	60
+8530	My top-up was declined			top_up_failed	60
+8490	My credit card did not go through. Can you see if it has insufficient funds?			top_up_failed	60
+8579	The top-up did not go through.			top_up_failed	60
+8494	I got my card a few days ago but am unable to top up. I'm thinking about closing my account because of this. What is going on?			top_up_failed	60
+2260	Do top-up limits exist?			top_up_limits	61
+2318	How often can I top up my account?			top_up_limits	61
+2236	Can I increase my top-up maximum?			top_up_limits	61
+2289	I need to add a serious amount of cash to my card, how do I do that?			top_up_limits	61
+2302	Will you set a limit to my top-up?			top_up_limits	61
+2315	What is the most I can top-up?			top_up_limits	61
+2250	Is there a top-up limit that I have to stay under during a given period of time?			top_up_limits	61
+2312	What amount can I top-up?			top_up_limits	61
+2288	What is your maximum top up limit per day?			top_up_limits	61
+2300	How many top-ups can I use?			top_up_limits	61
+3162	I didn't cancel my top-up.			top_up_reverted	62
+3179	My top up was reverted. Can you help?			top_up_reverted	62
+3182	I tried to make a top-up and it was canceled, why is that?			top_up_reverted	62
+3274	The app reversed a top off I had.  What should I do?			top_up_reverted	62
+3297	Reverted top up			top_up_reverted	62
+3206	Why has my top up been cancelled			top_up_reverted	62
+3198	My money is gone. I had topped up recently and saw it was there and went through, but now it's disappeared, what is happening?			top_up_reverted	62
+3177	How come I can't put money in my top up account?			top_up_reverted	62
+3267	Please help me, as my topup amount has been reverted, i did it correctly. I think there is some defect in system.			top_up_reverted	62
+3181	Why would my top up be reverted?			top_up_reverted	62
+4261	How do I add money to my card?			topping_up_by_card	63
+4295	I tried to top off using the card, but the money just disappeared?			topping_up_by_card	63
+4237	I can't see my top up in my wallet!			topping_up_by_card	63
+4286	Can my account be topped-up by friends of mine.			topping_up_by_card	63
+4306	Something is wrong with my top up and I can't see it. How do I find it?			topping_up_by_card	63
+4311	What information am I going to have to have in order to do a transfer with my card?			topping_up_by_card	63
+4251	Could you tell me why my top up isn't showing in my wallet?			topping_up_by_card	63
+4301	what happened to the money after i put in the wrong info and it got declined			topping_up_by_card	63
+4291	Will my friends be able to top up my account?			topping_up_by_card	63
+4283	top up by my card is that possible?			topping_up_by_card	63
+6360	I have been overcharged.			transaction_charged_twice	64
+6459	Looks like my card payment was made twice by mistake. I paid at the store earlier which rejected once, second time it worked. App stays at pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?			transaction_charged_twice	64
+6369	I was charged several times for something			transaction_charged_twice	64
+6361	I have noticed that my account was double charged for a couple of items this week. Please review and refund the double charged items back.			transaction_charged_twice	64
+6428	I have a transaction showing up multiple times.			transaction_charged_twice	64
+6407	Why have I been charged more than once for the same transaction?			transaction_charged_twice	64
+6313	I only made one transaction at this place, but it's appearing multiple times.			transaction_charged_twice	64
+6463	How do a reverse a duplicated charge?			transaction_charged_twice	64
+6436	I have multiple of the same transaction			transaction_charged_twice	64
+6395	Hi, I was looking over my card receipts for the past week and I realize I had a charge put through two times for the same single restaurant visit. Can one of the charges be removed so that I can get the money back that was mistakenly taken from my account?			transaction_charged_twice	64
+7215	Transfers are supposed to be free.  I just got a fee tacked on  to something I bought abroad.  Not cool.  Figure out how to remove it.			transfer_fee_charged	65
+7307	I made a transfer and was charged an extra fee!			transfer_fee_charged	65
+7224	My transfer seems to be too expensive.			transfer_fee_charged	65
+7216	Why am I being charged for transfers? Are they not free?			transfer_fee_charged	65
+7286	A receiver made me aware that they did not receive the full transfer that I made. The amount was showing to be a bit less. I now have to make a second transfer just to make up the difference. Can you reach out and let me know what's going on?			transfer_fee_charged	65
+7261	I am confused about your fee structure and was disappointed to see a fee for my transfer.			transfer_fee_charged	65
+7168	I've been using my account while abroad for a while but only recently I've been charged a fee. Why am I only being charged a fee now.			transfer_fee_charged	65
+7316	I should not have been charged a fee for my transfer.			transfer_fee_charged	65
+7265	"I made a transfer and according to the receiver ""they haven't received the right amount"" Its lesser than it should be.Now I have to transfer more money to make up for the missing amount . Can you please help me about this,what should be done"			transfer_fee_charged	65
+7250	Why was I charged a fee for transferring money			transfer_fee_charged	65
+7670	How do I transfer money from one bank account to another?			transfer_into_account	66
+7575	I need to add money to my account. Can I do so via bank transfer?			transfer_into_account	66
+7589	Can you transfer money to your card by bank transfer?			transfer_into_account	66
+7572	Can I add money to my account via bank transfer?			transfer_into_account	66
+7673	Can you please explain how bank transfers work?			transfer_into_account	66
+7621	I need to know the process to transfer money into my account.			transfer_into_account	66
+7628	How do I go about transferring money into my bank account?			transfer_into_account	66
+7641	I have no more money in my account.  Is there a way to do a bank transfer to put money into my account?			transfer_into_account	66
+7591	How can I move money from my account at a different bank to the account I have at this bank.			transfer_into_account	66
+7567	How can I link my bank to my top up account?			transfer_into_account	66
+2752	I transferred some money to my mom 2 days ago and she has not received it. I double checked the information and it looks right. Can you help me?			transfer_not_received_by_recipient	67
+2843	I sent a payment, but the person I sent it to says they don't have it			transfer_not_received_by_recipient	67
+2761	Still waiting for transfer to be completed.			transfer_not_received_by_recipient	67
+2753	Why is it taking so long for a transfer to complete!			transfer_not_received_by_recipient	67
+2823	The recipient can not locate funds.			transfer_not_received_by_recipient	67
+2798	where has my transferred money gone?			transfer_not_received_by_recipient	67
+2705	I sent money to a person and they haven't received the payment yet.			transfer_not_received_by_recipient	67
+2852	How long will my most recent transfer take to go through? The recipient needs the money urgently.			transfer_not_received_by_recipient	67
+2802	I transferred some money but it hasn't arrived.			transfer_not_received_by_recipient	67
+2787	Why hasn't the money transfer arrived yet?			transfer_not_received_by_recipient	67
+6634	When can I use money sent to my account?			transfer_timing	68
+6618	How long will a transfer from Europe take?			transfer_timing	68
+6680	How long does it take transfers from Europe to complete?			transfer_timing	68
+6645	How long does it take in Europe to do a transfer?			transfer_timing	68
+6602	Does a US transfer take long			transfer_timing	68
+6702	How long does it take to get money from Europe?			transfer_timing	68
+6721	Money transfer help? How long?			transfer_timing	68
+6690	how long does a US transfer take			transfer_timing	68
+6667	How fast are transfers from Europe?			transfer_timing	68
+6601	I am yet to receive the money in my account how long will this take?			transfer_timing	68
+3918	I'm unable to verify my identity			unable_to_verify_identity	69
+3984	My identity verification isn't working			unable_to_verify_identity	69
+3894	Are there any reasons that my identity wouldn't be accepted even though everything I've provided is factual?			unable_to_verify_identity	69
+3947	The app is telling me that I am not me.			unable_to_verify_identity	69
+3983	why does it take so long to verify my id			unable_to_verify_identity	69
+3976	I can't verify my ID. Why?			unable_to_verify_identity	69
+3908	Help me verify my identification.			unable_to_verify_identity	69
+3958	How come I can't seem to verify my id?			unable_to_verify_identity	69
+3946	How long does it take for my id to verify?			unable_to_verify_identity	69
+3960	My app says that I'm not verified.			unable_to_verify_identity	69
+9796	What documents do I need to get together to verify my identity?			verify_my_identity	70
+9831	What has to be done to verify my identity?			verify_my_identity	70
+9772	I need to verify my identity. How do I do that?			verify_my_identity	70
+9832	I have to verify my identity. What do I need to do?			verify_my_identity	70
+9855	How do i change my identity?			verify_my_identity	70
+9818	Do I need any kind of proof for the identity check?			verify_my_identity	70
+9786	What documents do I need to validate my identity?			verify_my_identity	70
+9869	What is needed for the identity verification?			verify_my_identity	70
+9826	with what can I verify my identity?			verify_my_identity	70
+9815	If I don't have all my documents can they still verify my identity?			verify_my_identity	70
+6586	What do I do to verify my source of funds?			verify_source_of_funds	71
+6491	My source of funds need verification.			verify_source_of_funds	71
+6505	How can I look at where my available cash is coming from?			verify_source_of_funds	71
+6488	I have to verify my source of funds.			verify_source_of_funds	71
+6589	is there a way i can see source of money?			verify_source_of_funds	71
+6537	Where can I see where my funds came from?			verify_source_of_funds	71
+6544	how do i track the moeney			verify_source_of_funds	71
+6557	How can I prove the source of my funds?			verify_source_of_funds	71
+6507	Where can I see where funds came from?			verify_source_of_funds	71
+6483	Can I check to see where the funds came from?			verify_source_of_funds	71
+7686	Can you explain to me the way to verify my top up has gone through?			verify_top_up	72
+7728	How to verify top up card?			verify_top_up	72
+7721	Is there a reason why top-up needs verifying?			verify_top_up	72
+7702	How do I find the top-up verification code?			verify_top_up	72
+7741	Where is my top-up verification code?			verify_top_up	72
+7777	Where do I find the verification code for the card I'm topping up?			verify_top_up	72
+7732	I just tried to top-up and now I'm getting an additional verification message, why?			verify_top_up	72
+7769	Why should I verify the top-up?			verify_top_up	72
+7685	Can you show me how to verify the top-up card?			verify_top_up	72
+7790	Why is top-up verified?			verify_top_up	72
+8192	I can't get my virtual card to work at all			virtual_card_not_working	73
+8202	Why is my disposable card not working?			virtual_card_not_working	73
+8196	Why can't I make multiple payments with my virtual card?			virtual_card_not_working	73
+8171	My virtual card isn't working.			virtual_card_not_working	73
+8177	The virtual card won't work.			virtual_card_not_working	73
+8198	Can I use my virtual card for recurring monthly payments?			virtual_card_not_working	73
+8194	I can't do any business with this virtual card.			virtual_card_not_working	73
+8178	Is there a reason why my virtual card won't work?			virtual_card_not_working	73
+8203	What do I have to do to get the virtual card to work?			virtual_card_not_working	73
+8197	Please help me.  My disposable virtual card won't work right.			virtual_card_not_working	73
+4220	I hope to get a Visa card			visa_or_mastercard	74
+4133	Can I have a Visa card?			visa_or_mastercard	74
+4145	Do you give out Visa or Mastercards?			visa_or_mastercard	74
+4226	Will I get a visa or Mastercard?			visa_or_mastercard	74
+4183	Can I choose between Visa or MasterCard?			visa_or_mastercard	74
+4108	I want a mastercard			visa_or_mastercard	74
+4152	Does it matter if I use Visa or Mastercard?			visa_or_mastercard	74
+4204	I would like to get a Visa card			visa_or_mastercard	74
+4122	Is there a way I can get a Visa card?			visa_or_mastercard	74
+4213	Mastercard is my preferred company.			visa_or_mastercard	74
+3819	Can I go ahead and use my account even though my identify hasn't been verified yet?			why_verify_identity	75
+3865	Why does my identity need verification?			why_verify_identity	75
+3866	Can I already use my account although the identity verification has not passed yet?			why_verify_identity	75
+3779	I would like to know why so much identity information is required?			why_verify_identity	75
+3868	Is there anyway to bypass identity verification?			why_verify_identity	75
+3793	Can I use my account although my identity verification has yet to pass?			why_verify_identity	75
+3778	why are all my identity details required			why_verify_identity	75
+3781	Is the identity check part of bank policy?			why_verify_identity	75
+3816	I don't want to use this method to identify myself.			why_verify_identity	75
+3860	Why am I being asked to verify my identity?			why_verify_identity	75
+2437	If the ATM only gave me 10 pounds instead of the 30 I requested, what do I do?			wrong_amount_of_cash_received	76
+2338	I didn't get the all the cash i wanted from the atm			wrong_amount_of_cash_received	76
+2456	I got less cash than what I specified for through the ATM.			wrong_amount_of_cash_received	76
+2491	Why is my withdrawal wrong? I took out $100 but only received $20.			wrong_amount_of_cash_received	76
+2467	I could not get the cash I wanted			wrong_amount_of_cash_received	76
+2402	I asked for more cash than what was received			wrong_amount_of_cash_received	76
+2387	Why did I get less from the ATM?			wrong_amount_of_cash_received	76
+2482	I needed $100 but all it gave me was $20.			wrong_amount_of_cash_received	76
+2493	The ATM I'm standing in front of only gave me 10 pounds rather than the 30 pounds I wanted. The app shows I took out 30 pounds also. What do I need to do to fix this?			wrong_amount_of_cash_received	76
+2439	Why did I get less cash than what I asked in the ATM?			wrong_amount_of_cash_received	76
+8368	You applied the wrong exchange rate while I was traveling outside the country.			wrong_exchange_rate_for_cash_withdrawal	77
+8357	I made an ATM withdrawal over the holiday and then later realized I was charged an exorbitant fee!  I never would've made this withdrawal if I'd known I'd be charged so much.			wrong_exchange_rate_for_cash_withdrawal	77
+8281	I wasn't applied the correct exchange rate when getting cash			wrong_exchange_rate_for_cash_withdrawal	77
+8215	I think when I withdrew money when out of country the exchange rate was wrong.			wrong_exchange_rate_for_cash_withdrawal	77
+8308	Help me!  When I was abroad, the exchange rate was wrong.			wrong_exchange_rate_for_cash_withdrawal	77
+8262	I don't think the exchange rate was right.			wrong_exchange_rate_for_cash_withdrawal	77
+8333	what are the exchange rates for foreign currency ATMs			wrong_exchange_rate_for_cash_withdrawal	77
+8252	Using international ATMs messes up the exchange rate.			wrong_exchange_rate_for_cash_withdrawal	77
+8234	I believe I got a wrong exchange rate when I got cash.			wrong_exchange_rate_for_cash_withdrawal	77
+8298	I did not have the right exchange rate applied to my situation of pulling out cash			wrong_exchange_rate_for_cash_withdrawal	77

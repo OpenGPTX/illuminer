@@ -1,0 +1,6363 @@
+[
+    {
+        "utterance": "I would like a mexican restaurant in west.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "a": "O",
+            "mexican": "B-restaurant-food",
+            "restaurant": "O",
+            "in": "O",
+            "west": "B-restaurant-area"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "west"
+            ],
+            "restaurant-food": [
+                "mexican"
+            ]
+        }
+    },
+    {
+        "utterance": "What restaurants in the centre are cheap?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "what": "O",
+            "restaurants": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "are": "O",
+            "cheap": "B-restaurant-pricerange"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-pricerange": [
+                "cheap"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to find a place to dine located in the north and moderately priced.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "dine": "O",
+            "located": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-restaurant-area",
+            "and": "O",
+            "moderately": "O",
+            "priced": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "north"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm in the city centre right now, and I'm really craving some Indian food. Can you help me find a place?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "in": "O",
+            "the": "O",
+            "city": "O",
+            "centre": "B-restaurant-area",
+            "right": "O",
+            "now": "O",
+            "and": "O",
+            "really": "O",
+            "craving": "O",
+            "some": "O",
+            "indian": "B-restaurant-food",
+            "food": "O",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-food": [
+                "indian"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for an Indian restaurant in the west.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "an": "O",
+            "indian": "B-restaurant-food",
+            "restaurant": "O",
+            "in": "O",
+            "the": "O",
+            "west": "B-restaurant-area"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "west"
+            ],
+            "restaurant-food": [
+                "indian"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello there. Any suggestions on a good seafood restaurant located in the centre of town?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "there": "O",
+            "any": "O",
+            "suggestions": "O",
+            "on": "O",
+            "a": "O",
+            "good": "O",
+            "seafood": "B-restaurant-food",
+            "restaurant": "O",
+            "located": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-food": [
+                "seafood"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a gastropub in the centre of town. What do you have?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "gastropub": "B-restaurant-food",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "of": "O",
+            "town": "O",
+            "what": "O",
+            "do": "O",
+            "you": "O",
+            "have": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-food": [
+                "gastropub"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you find me a restaurant that is located in the centre and is in the moderate price range?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "find": "O",
+            "me": "O",
+            "a": "O",
+            "restaurant": "O",
+            "that": "O",
+            "is": "O",
+            "located": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "and": "O",
+            "moderate": "B-restaurant-pricerange",
+            "price": "O",
+            "range": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a British restaurant on the west side.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "british": "B-restaurant-food",
+            "restaurant": "O",
+            "on": "O",
+            "the": "O",
+            "west": "B-restaurant-area",
+            "side": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "west"
+            ],
+            "restaurant-food": [
+                "british"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a Polish restaurant in the centre of town.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "polish": "B-restaurant-food",
+            "restaurant": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-food": [
+                "polish"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a resteraunt that serves japanese food, any price range is fine. What do you have available?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "resteraunt": "O",
+            "that": "O",
+            "serves": "O",
+            "japanese": "B-restaurant-food",
+            "food": "O",
+            "any": "O",
+            "price": "O",
+            "range": "O",
+            "is": "O",
+            "fine": "O",
+            "what": "O",
+            "do": "O",
+            "you": "O",
+            "have": "O",
+            "available": "O"
+        },
+        "slot_values": {
+            "restaurant-food": [
+                "japanese"
+            ],
+            "restaurant-pricerange": [
+                "dontcare"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, I am looking for a moderately priced restaurant on the east part of town.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "moderately": "O",
+            "priced": "O",
+            "restaurant": "O",
+            "on": "O",
+            "the": "O",
+            "east": "B-restaurant-area",
+            "part": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "east"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a cheap gastropub restaurant in the centre of town",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "cheap": "B-restaurant-pricerange",
+            "gastropub": "B-restaurant-food",
+            "restaurant": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-restaurant-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-food": [
+                "gastropub"
+            ],
+            "restaurant-pricerange": [
+                "cheap"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a restaurant in the city's center that is in th cheap price range.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "restaurant": "O",
+            "in": "O",
+            "the": "O",
+            "citys": "O",
+            "center": "O",
+            "that": "O",
+            "is": "O",
+            "th": "O",
+            "cheap": "B-restaurant-pricerange",
+            "price": "O",
+            "range": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-pricerange": [
+                "cheap"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a polish restaurant that is in the moderate price range.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "polish": "B-restaurant-food",
+            "restaurant": "O",
+            "that": "O",
+            "is": "O",
+            "in": "O",
+            "the": "O",
+            "moderate": "B-restaurant-pricerange",
+            "price": "O",
+            "range": "O"
+        },
+        "slot_values": {
+            "restaurant-food": [
+                "polish"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I would like a moderately priced restaurant in the north part of town",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "a": "O",
+            "moderately": "O",
+            "priced": "O",
+            "restaurant": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-restaurant-area",
+            "part": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "north"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a moderately priced place to dine on the west side.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "moderately": "O",
+            "priced": "O",
+            "place": "O",
+            "to": "O",
+            "dine": "O",
+            "on": "O",
+            "the": "O",
+            "west": "B-restaurant-area",
+            "side": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "west"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a place to stay in the north side of town",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "side": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you find me a place to say in the centre that includes free wifi?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "find": "O",
+            "me": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "say": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "that": "O",
+            "includes": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-internet": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a place to stay in the east that has free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "the": "O",
+            "east": "B-hotel-area",
+            "that": "O",
+            "has": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "east"
+            ],
+            "hotel-internet": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "i am looking for a place to stay. The hotel should include free parking and should be in the north part of town.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "the": "O",
+            "hotel": "O",
+            "should": "O",
+            "include": "O",
+            "free": "O",
+            "parking": "O",
+            "and": "O",
+            "be": "O",
+            "in": "O",
+            "north": "B-hotel-area",
+            "part": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-parking": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a place stay, some place in the east with a 4 stars.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "place": "O",
+            "stay": "O",
+            "some": "O",
+            "in": "O",
+            "the": "O",
+            "east": "B-hotel-area",
+            "with": "O",
+            "4": "B-hotel-stars",
+            "stars": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "east"
+            ],
+            "hotel-stars": [
+                "4"
+            ]
+        }
+    },
+    {
+        "utterance": "I'd like to find a hotel in the centre of town with free parking, please.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "hotel": "B-hotel-type",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O",
+            "with": "O",
+            "free": "O",
+            "parking": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, I need to find a place to stay for the night. I'd rather be in the north than the city centre, and I'm willing to pay a moderate sum.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "stay": "O",
+            "for": "O",
+            "the": "O",
+            "night": "O",
+            "id": "O",
+            "rather": "O",
+            "be": "O",
+            "in": "O",
+            "north": "B-hotel-area",
+            "than": "O",
+            "city": "O",
+            "centre": "O",
+            "and": "O",
+            "im": "O",
+            "willing": "O",
+            "pay": "O",
+            "moderate": "B-hotel-pricerange",
+            "sum": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I\"m looking for a hotel in the east.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "B-hotel-type",
+            "in": "O",
+            "the": "O",
+            "east": "B-hotel-area"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "east"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "i need a moderately priced hotel in south cambridge.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "moderately": "O",
+            "priced": "O",
+            "hotel": "O",
+            "in": "O",
+            "south": "B-hotel-area",
+            "cambridge": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "south"
+            ],
+            "hotel-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me find a place to stay while in cambridge in the north that has free wifi?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "while": "O",
+            "in": "O",
+            "cambridge": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "that": "O",
+            "has": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-internet": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi I am looking for a guesthouse to stay at that includes free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "guesthouse": "B-hotel-type",
+            "to": "O",
+            "stay": "O",
+            "at": "O",
+            "that": "O",
+            "includes": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-type": [
+                "guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "Please suggest to me a 4 star motel in Cambridge that offer free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "please": "O",
+            "suggest": "O",
+            "to": "O",
+            "me": "O",
+            "a": "O",
+            "4": "B-hotel-stars",
+            "star": "O",
+            "motel": "O",
+            "in": "O",
+            "cambridge": "O",
+            "that": "O",
+            "offer": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "4"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for hotel with a star five rating and free wifi",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "hotel": "O",
+            "with": "O",
+            "a": "O",
+            "star": "O",
+            "five": "O",
+            "rating": "O",
+            "and": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "5"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a place to stay. Please list all hotels in the north that include free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "please": "O",
+            "list": "O",
+            "all": "O",
+            "hotels": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "that": "O",
+            "include": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-internet": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me find a place to stay? I am looking for a hotel with a star of 0 and it needs free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "hotel": "O",
+            "with": "O",
+            "star": "O",
+            "of": "O",
+            "0": "B-hotel-stars",
+            "and": "O",
+            "it": "O",
+            "needs": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "0"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, we are planning on visiting Cambridge and would like to inquire about lodgings. Can you find a place with free wifi and a rating of 4 stars?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "we": "O",
+            "are": "O",
+            "planning": "O",
+            "on": "O",
+            "visiting": "O",
+            "cambridge": "O",
+            "and": "O",
+            "would": "O",
+            "like": "O",
+            "to": "O",
+            "inquire": "O",
+            "about": "O",
+            "lodgings": "O",
+            "can": "O",
+            "you": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "with": "O",
+            "free": "O",
+            "wifi": "O",
+            "rating": "O",
+            "of": "O",
+            "4": "B-hotel-stars",
+            "stars": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "4"
+            ]
+        }
+    },
+    {
+        "utterance": "Good day. I'm headed into town and I need help finding a guesthouse that offers free wifi please",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "good": "O",
+            "day": "O",
+            "im": "O",
+            "headed": "O",
+            "into": "O",
+            "town": "O",
+            "and": "O",
+            "i": "O",
+            "need": "O",
+            "help": "O",
+            "finding": "O",
+            "a": "O",
+            "guesthouse": "B-hotel-type",
+            "that": "O",
+            "offers": "O",
+            "free": "O",
+            "wifi": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-type": [
+                "guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I need a hotel that offers free wifi & parking.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "B-hotel-parking",
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "hotel": "B-hotel-type",
+            "that": "O",
+            "offers": "O",
+            "free": "O",
+            "wifi": "O",
+            "": "O",
+            "parking": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a place to stay that includes free parking and should be in the west please.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "that": "O",
+            "includes": "O",
+            "free": "O",
+            "parking": "O",
+            "and": "O",
+            "should": "O",
+            "be": "O",
+            "in": "O",
+            "the": "O",
+            "west": "B-hotel-area",
+            "please": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "west"
+            ],
+            "hotel-parking": [
+                "yes"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel with free parking, Please give me a 3 star guesthouse hotel",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "with": "O",
+            "free": "O",
+            "parking": "O",
+            "please": "O",
+            "give": "O",
+            "me": "O",
+            "3": "B-hotel-stars",
+            "star": "O",
+            "guesthouse": "B-hotel-type"
+        },
+        "slot_values": {
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "3"
+            ],
+            "hotel-type": [
+                "guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello! I'm needing a place to stay in the center of town. Parking is not important to me. What do you have?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "im": "O",
+            "needing": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "the": "O",
+            "center": "O",
+            "of": "O",
+            "town": "O",
+            "parking": "O",
+            "is": "O",
+            "not": "O",
+            "important": "O",
+            "me": "O",
+            "what": "O",
+            "do": "O",
+            "you": "O",
+            "have": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-parking": [
+                "no"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you please help me find a guesthouse that offers free parking?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "please": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "guesthouse": "B-hotel-type",
+            "that": "O",
+            "offers": "O",
+            "free": "O",
+            "parking": "O"
+        },
+        "slot_values": {
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-type": [
+                "guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "We are visiting cambridge for the first time and looking for a moderately priced place to stay for 5 nights that includes free parking. Any suggestions?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "we": "O",
+            "are": "O",
+            "visiting": "O",
+            "cambridge": "O",
+            "for": "O",
+            "the": "O",
+            "first": "O",
+            "time": "O",
+            "and": "O",
+            "looking": "O",
+            "a": "O",
+            "moderately": "O",
+            "priced": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "5": "O",
+            "nights": "O",
+            "that": "O",
+            "includes": "O",
+            "free": "O",
+            "parking": "O",
+            "any": "O",
+            "suggestions": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I am going to be staying in north cambridge and need a hotel, I can pay for parking.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "going": "O",
+            "to": "O",
+            "be": "O",
+            "staying": "O",
+            "in": "O",
+            "north": "B-hotel-area",
+            "cambridge": "O",
+            "and": "O",
+            "need": "O",
+            "a": "O",
+            "hotel": "B-hotel-type",
+            "can": "O",
+            "pay": "O",
+            "for": "O",
+            "parking": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-parking": [
+                "dontcare"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me find a place to stay in the south part of the City that offers free wifi with the room.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "the": "O",
+            "south": "B-hotel-area",
+            "part": "O",
+            "of": "O",
+            "city": "O",
+            "that": "O",
+            "offers": "O",
+            "free": "O",
+            "wifi": "O",
+            "with": "O",
+            "room": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "south"
+            ],
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-parking": [
+                "dontcare"
+            ]
+        }
+    },
+    {
+        "utterance": "I need some info on the acorn guest house.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "some": "O",
+            "info": "O",
+            "on": "O",
+            "the": "O",
+            "acorn": "B-hotel-name",
+            "guest": "I-hotel-name",
+            "house": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "acorn guest house"
+            ]
+        }
+    },
+    {
+        "utterance": "I am interested in finding the Lensfield Hotel.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "interested": "O",
+            "in": "O",
+            "finding": "O",
+            "the": "O",
+            "lensfield": "B-hotel-name",
+            "hotel": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "lensfield hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes I would like information on the Cambridge Belfry.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "information": "O",
+            "on": "O",
+            "the": "O",
+            "cambridge": "B-hotel-name",
+            "belfry": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "cambridge belfry"
+            ]
+        }
+    },
+    {
+        "utterance": "i'm looking for university arms hotel",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "university": "B-hotel-name",
+            "arms": "I-hotel-name",
+            "hotel": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "university arms hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I need information to find the huntingdon marriott hotel.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "information": "O",
+            "to": "O",
+            "find": "O",
+            "the": "O",
+            "huntingdon": "B-hotel-name",
+            "marriott": "I-hotel-name",
+            "hotel": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "huntingdon marriott hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for information on a hotel called the lensfield hotel.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "on": "O",
+            "a": "O",
+            "hotel": "O",
+            "called": "O",
+            "the": "O",
+            "lensfield": "B-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "lensfield hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I want the address to the Autumn House hotel in Cambridge.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "the": "O",
+            "address": "O",
+            "to": "O",
+            "autumn": "B-hotel-name",
+            "house": "I-hotel-name",
+            "hotel": "O",
+            "in": "O",
+            "cambridge": "O"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "autumn house"
+            ]
+        }
+    },
+    {
+        "utterance": "I am interested in the Express by Holiday Inn - Cambridge.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "interested": "O",
+            "in": "O",
+            "the": "O",
+            "express": "B-hotel-name",
+            "by": "I-hotel-name",
+            "holiday": "I-hotel-name",
+            "inn": "I-hotel-name",
+            "": "I-hotel-name",
+            "cambridge": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "express by holiday inn - cambridge",
+                "express by holiday inn cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I would like information about the Express by Holiday Inn in Cambridge, please.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "information": "O",
+            "about": "O",
+            "the": "O",
+            "express": "B-hotel-name",
+            "by": "I-hotel-name",
+            "holiday": "I-hotel-name",
+            "inn": "I-hotel-name",
+            "in": "I-hotel-name",
+            "cambridge": "I-hotel-name",
+            "please": "O"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "express by holiday inn in cambridge",
+                "express by holiday inn cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Could you give me some details for Carolina bed and breakfast?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "could": "O",
+            "you": "O",
+            "give": "O",
+            "me": "O",
+            "some": "O",
+            "details": "O",
+            "for": "O",
+            "carolina": "B-hotel-name",
+            "bed": "I-hotel-name",
+            "and": "I-hotel-name",
+            "breakfast": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-name": [
+                "carolina bed and breakfast"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a train that leaves after 13:45 on Wednesday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "after": "O",
+            "13:45": "B-train-leaveat",
+            "on": "O",
+            "wednesday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "wednesday"
+            ],
+            "train-leaveat": [
+                "13:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking to get on a train on Saturday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "to": "O",
+            "get": "O",
+            "on": "O",
+            "a": "O",
+            "train": "O",
+            "saturday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "saturday"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train to cambridge on monday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "to": "O",
+            "cambridge": "B-train-destination",
+            "on": "O",
+            "monday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "monday"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a train that leaves on friday",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "on": "O",
+            "friday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "friday"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to find a train that leaves on Saturday and arrives by 08:45",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "on": "O",
+            "saturday": "B-train-day",
+            "and": "O",
+            "arrives": "O",
+            "by": "O",
+            "08:45": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "08:45"
+            ],
+            "train-day": [
+                "saturday"
+            ]
+        }
+    },
+    {
+        "utterance": "Could you give me some information on getting a train to Cambridge on Thursday?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "could": "O",
+            "you": "O",
+            "give": "O",
+            "me": "O",
+            "some": "O",
+            "information": "O",
+            "on": "O",
+            "getting": "O",
+            "a": "O",
+            "train": "O",
+            "to": "O",
+            "cambridge": "B-train-destination",
+            "thursday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "thursday"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm trying to find a train that leaves on Sunday and going to Cambridge. Can you help?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "trying": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "on": "O",
+            "sunday": "B-train-day",
+            "and": "O",
+            "going": "O",
+            "cambridge": "B-train-destination",
+            "can": "O",
+            "you": "O",
+            "help": "O"
+        },
+        "slot_values": {
+            "train-day": [
+                "sunday"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "monday"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train leaving Thursday from Cambridge. Can you help me with that?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "leaving": "O",
+            "thursday": "B-train-day",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "with": "O",
+            "that": "O"
+        },
+        "slot_values": {
+            "train-day": [
+                "thursday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am leaving Tuesday and need to take a train from Cambridge to Ely",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "leaving": "O",
+            "tuesday": "B-train-day",
+            "and": "O",
+            "need": "O",
+            "to": "O",
+            "take": "O",
+            "a": "O",
+            "train": "O",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "ely": "B-train-destination"
+        },
+        "slot_values": {
+            "train-day": [
+                "tuesday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "ely"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train out of cambridge on Sunday, please.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "out": "O",
+            "of": "O",
+            "cambridge": "B-train-departure",
+            "on": "O",
+            "sunday": "B-train-day",
+            "please": "O"
+        },
+        "slot_values": {
+            "train-day": [
+                "sunday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train departing from Bishops Stortford.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "departing": "O",
+            "from": "O",
+            "bishops": "B-train-departure",
+            "stortford": "I-train-departure"
+        },
+        "slot_values": {
+            "train-departure": [
+                "bishops stortford"
+            ]
+        }
+    },
+    {
+        "utterance": "I'd like some help finding a train leaving peterborough on tuesday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "id": "O",
+            "like": "O",
+            "some": "O",
+            "help": "O",
+            "finding": "O",
+            "a": "O",
+            "train": "O",
+            "leaving": "O",
+            "peterborough": "B-train-departure",
+            "on": "O",
+            "tuesday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "tuesday"
+            ],
+            "train-departure": [
+                "peterborough"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train. I need to leave Cambridge and I would like to arrive by 09:45.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "need": "O",
+            "to": "O",
+            "leave": "O",
+            "cambridge": "B-train-departure",
+            "and": "O",
+            "would": "O",
+            "like": "O",
+            "arrive": "O",
+            "by": "O",
+            "09:45": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "09:45"
+            ],
+            "train-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information about trains going to Cambridge from Leicester on Friday.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "about": "O",
+            "trains": "O",
+            "going": "O",
+            "to": "O",
+            "cambridge": "B-train-destination",
+            "from": "O",
+            "leicester": "B-train-departure",
+            "on": "O",
+            "friday": "B-train-day"
+        },
+        "slot_values": {
+            "train-day": [
+                "friday"
+            ],
+            "train-departure": [
+                "leicester"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train that leaves on tuesday and should depart from cambridge.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "on": "O",
+            "tuesday": "B-train-day",
+            "and": "O",
+            "should": "O",
+            "depart": "O",
+            "from": "O",
+            "cambridge": "B-train-departure"
+        },
+        "slot_values": {
+            "train-day": [
+                "tuesday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, do you have any trains headed to Leicester from cambridge?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "do": "O",
+            "you": "O",
+            "have": "O",
+            "any": "O",
+            "trains": "O",
+            "headed": "O",
+            "to": "O",
+            "leicester": "B-train-destination",
+            "from": "O",
+            "cambridge": "B-train-departure"
+        },
+        "slot_values": {
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "leicester"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I need to find a train departing from Broxbourne and going to Cambridge.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "train": "O",
+            "departing": "O",
+            "from": "O",
+            "broxbourne": "B-train-departure",
+            "and": "O",
+            "going": "O",
+            "cambridge": "B-train-destination"
+        },
+        "slot_values": {
+            "train-departure": [
+                "broxbourne"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Hey! Trying to locate a train that goes to broxbourne and would leave right after 17:45.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "hey": "O",
+            "trying": "O",
+            "to": "O",
+            "locate": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "goes": "O",
+            "broxbourne": "B-train-destination",
+            "and": "O",
+            "would": "O",
+            "leave": "O",
+            "right": "O",
+            "after": "O",
+            "17:45": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-destination": [
+                "broxbourne"
+            ],
+            "train-leaveat": [
+                "17:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train from stansted airport to cambridge, please.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "from": "O",
+            "stansted": "B-train-departure",
+            "airport": "I-train-departure",
+            "to": "O",
+            "cambridge": "B-train-destination",
+            "please": "O"
+        },
+        "slot_values": {
+            "train-departure": [
+                "stansted airport"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am planning a trip in Cambridge.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "planning": "O",
+            "a": "O",
+            "trip": "O",
+            "in": "O",
+            "cambridge": "B-train-destination"
+        },
+        "slot_values": {
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi to take me to the lensfield hotel.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "take": "O",
+            "me": "O",
+            "the": "O",
+            "lensfield": "B-taxi-destination",
+            "hotel": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "lensfield hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me get a taxi to the oak bistro?",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "get": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "the": "B-taxi-destination",
+            "oak": "I-taxi-destination",
+            "bistro": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "the oak bistro"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi to take me to Broughton house gallery",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "take": "O",
+            "me": "O",
+            "broughton": "B-taxi-destination",
+            "house": "I-taxi-destination",
+            "gallery": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "broughton house gallery"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a taxi to museum of archaelogy and anthropology.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "museum": "B-taxi-destination",
+            "of": "I-taxi-destination",
+            "archaelogy": "I-taxi-destination",
+            "and": "I-taxi-destination",
+            "anthropology": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "museum of archaeology and anthropology",
+                "museum of archaelogy and anthropology"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a taxi to museum of archaelogy and anthropology.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "museum": "B-taxi-destination",
+            "of": "I-taxi-destination",
+            "archaelogy": "I-taxi-destination",
+            "and": "I-taxi-destination",
+            "anthropology": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "museum of archaeology and anthropology",
+                "museum of archaelogy and anthropology"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, I need a tax to queens' college please.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "tax": "O",
+            "to": "O",
+            "queens": "B-taxi-destination",
+            "college": "I-taxi-destination",
+            "please": "O"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "queens' college",
+                "queens college"
+            ]
+        }
+    },
+    {
+        "utterance": "i need a taxi arrive 5:45 destination restaurant two two",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "arrive": "O",
+            "5:45": "B-taxi-leaveat",
+            "destination": "O",
+            "restaurant": "B-taxi-destination",
+            "two": "O"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "restaurant two two"
+            ],
+            "taxi-leaveat": [
+                "05:45",
+                "5:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a taxi. I need it to arrive by 19:15 to go to park side pools.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "it": "O",
+            "arrive": "O",
+            "by": "O",
+            "19:15": "B-taxi-leaveat",
+            "go": "O",
+            "park": "O",
+            "side": "O",
+            "pools": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "pools",
+                "parkside pools"
+            ],
+            "taxi-leaveat": [
+                "19:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking to find a train. It needs to go to Cambridge and it has to leave on Monday.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "train": "O",
+            "it": "O",
+            "needs": "O",
+            "go": "O",
+            "cambridge": "B-taxi-destination",
+            "and": "O",
+            "has": "O",
+            "leave": "O",
+            "on": "O",
+            "monday": "O"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to book a taxi to arrive by 02:15 to take me to Sesame Restaurant and Bar.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "arrive": "O",
+            "by": "O",
+            "02:15": "B-taxi-leaveat",
+            "take": "O",
+            "me": "O",
+            "sesame": "B-taxi-destination",
+            "restaurant": "I-taxi-destination",
+            "and": "I-taxi-destination",
+            "bar": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "sesame restaurant and bar"
+            ],
+            "taxi-leaveat": [
+                "02:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a taxi to leave after 07:45 to take me to Bangkok City.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "leave": "O",
+            "after": "O",
+            "07:45": "B-taxi-leaveat",
+            "take": "O",
+            "me": "O",
+            "bangkok": "B-taxi-destination",
+            "city": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "bangkok city"
+            ],
+            "taxi-leaveat": [
+                "07:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to book a 05:45 taxi to come to Bishops Stortford Train Station.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "05:45": "B-taxi-leaveat",
+            "taxi": "O",
+            "come": "O",
+            "bishops": "B-taxi-destination",
+            "stortford": "I-taxi-destination",
+            "train": "I-taxi-destination",
+            "station": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "bishops stortford train station"
+            ],
+            "taxi-leaveat": [
+                "05:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi at cherry hinton hall and grounds at 2:45.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "at": "O",
+            "cherry": "B-taxi-departure",
+            "hinton": "I-taxi-departure",
+            "hall": "I-taxi-departure",
+            "and": "I-taxi-departure",
+            "grounds": "I-taxi-departure",
+            "2:45": "B-taxi-leaveat"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "cherry hinton hall and grounds"
+            ],
+            "taxi-leaveat": [
+                "02:45",
+                "2:45"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, i need to book a taxi to go to funky fun house. I need to leave after 8:45.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "go": "O",
+            "funky": "B-taxi-destination",
+            "fun": "I-taxi-destination",
+            "house": "I-taxi-destination",
+            "leave": "O",
+            "after": "O",
+            "8:45": "B-taxi-leaveat"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "funky fun house"
+            ],
+            "taxi-leaveat": [
+                "8:45",
+                "08:45"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, i need to book a taxi to go to funky fun house. I need to leave after 8:45.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "go": "O",
+            "funky": "B-taxi-destination",
+            "fun": "I-taxi-destination",
+            "house": "I-taxi-destination",
+            "leave": "O",
+            "after": "O",
+            "8:45": "B-taxi-leaveat"
+        },
+        "slot_values": {
+            "taxi-destination": [
+                "funky fun house"
+            ],
+            "taxi-leaveat": [
+                "8:45",
+                "08:45"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi. I would like to have a taxi arrive for me at the Arbury Lodge Guesthouse by 15:00. Can you reserve that for me?",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "to": "O",
+            "have": "O",
+            "a": "O",
+            "taxi": "O",
+            "arrive": "O",
+            "for": "O",
+            "me": "O",
+            "at": "O",
+            "the": "O",
+            "arbury": "B-taxi-departure",
+            "lodge": "I-taxi-departure",
+            "guesthouse": "I-taxi-departure",
+            "by": "O",
+            "15:00": "B-taxi-leaveat",
+            "can": "O",
+            "you": "O",
+            "reserve": "O",
+            "that": "O"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "arbury lodge guesthouse"
+            ],
+            "taxi-leaveat": [
+                "15:00"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a taxi to come to Nandos City Centre. I need it here by 04:00.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "come": "O",
+            "nandos": "B-taxi-departure",
+            "city": "I-taxi-departure",
+            "centre": "I-taxi-departure",
+            "it": "O",
+            "here": "O",
+            "by": "O",
+            "04:00": "B-taxi-leaveat"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "nandos city centre"
+            ],
+            "taxi-leaveat": [
+                "04:00"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a train that leaves cambridge after 20:30",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "cambridge": "B-train-departure",
+            "after": "O",
+            "20:30": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-leaveat": [
+                "20:30"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train that leaves after 13:30 saturday afternoon please.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "after": "O",
+            "13:30": "B-train-leaveat",
+            "saturday": "B-train-day",
+            "afternoon": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "train-day": [
+                "saturday"
+            ],
+            "train-leaveat": [
+                "13:30"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train for tuesday leaving after 13:15. Do you have one?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "tuesday": "B-train-day",
+            "leaving": "O",
+            "after": "O",
+            "13:15": "B-train-leaveat",
+            "do": "O",
+            "you": "O",
+            "have": "O",
+            "one": "O"
+        },
+        "slot_values": {
+            "train-day": [
+                "tuesday"
+            ],
+            "train-leaveat": [
+                "13:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to take a train from Norwich, leaving after 21:15.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "take": "O",
+            "a": "O",
+            "train": "O",
+            "from": "O",
+            "norwich": "B-train-departure",
+            "leaving": "O",
+            "after": "O",
+            "21:15": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-departure": [
+                "norwich"
+            ],
+            "train-leaveat": [
+                "21:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to take a train to Cambridge, it would have to be late after 21:45",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "take": "O",
+            "a": "O",
+            "train": "O",
+            "cambridge": "B-train-destination",
+            "it": "O",
+            "would": "O",
+            "have": "O",
+            "be": "O",
+            "late": "O",
+            "after": "O",
+            "21:45": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-destination": [
+                "cambridge"
+            ],
+            "train-leaveat": [
+                "21:45"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train that leaves Cambridge after 17:30.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "cambridge": "B-train-departure",
+            "after": "O",
+            "17:30": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-leaveat": [
+                "17:30"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train that departs from cambridge after 09:30.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "departs": "O",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "after": "O",
+            "09:30": "B-train-leaveat"
+        },
+        "slot_values": {
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-leaveat": [
+                "09:30"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train departing after 11:15 from the Birmingham new street location.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "departing": "O",
+            "after": "O",
+            "11:15": "B-train-leaveat",
+            "from": "O",
+            "the": "O",
+            "birmingham": "B-train-departure",
+            "new": "I-train-departure",
+            "street": "I-train-departure",
+            "location": "O"
+        },
+        "slot_values": {
+            "train-departure": [
+                "birmingham new street"
+            ],
+            "train-leaveat": [
+                "11:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train for cambridge, I would like to arrive by 14:15.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "cambridge": "B-train-destination",
+            "would": "O",
+            "like": "O",
+            "to": "O",
+            "arrive": "O",
+            "by": "O",
+            "14:15": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:15"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a train leaving on Friday that arrives by 1:45 PM. Can you help me?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "leaving": "O",
+            "on": "O",
+            "friday": "B-train-day",
+            "that": "O",
+            "arrives": "O",
+            "by": "O",
+            "1:45": "B-train-arriveby",
+            "pm": "I-train-arriveby",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "1:45 pm",
+                "13:45"
+            ],
+            "train-day": [
+                "friday"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday from Ely to Cambridge to arrive by 14:00 for 6 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day",
+            "from": "O",
+            "ely": "B-train-departure",
+            "cambridge": "B-train-destination",
+            "arrive": "O",
+            "by": "O",
+            "14:00": "B-train-arriveby",
+            "6": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:00"
+            ],
+            "train-bookpeople": [
+                "6"
+            ],
+            "train-day": [
+                "monday"
+            ],
+            "train-departure": [
+                "ely"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train leaving from Birmingham New Street and arriving by 16:00.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "leaving": "O",
+            "from": "O",
+            "birmingham": "B-train-departure",
+            "new": "I-train-departure",
+            "street": "I-train-departure",
+            "and": "O",
+            "arriving": "O",
+            "by": "O",
+            "16:00": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "16:00"
+            ],
+            "train-departure": [
+                "birmingham new street"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to find a train that will arrive cambridge by 13:45 on friday",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "will": "O",
+            "arrive": "O",
+            "cambridge": "B-train-destination",
+            "by": "O",
+            "13:45": "B-train-arriveby",
+            "on": "O",
+            "friday": "B-train-day"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "13:45"
+            ],
+            "train-day": [
+                "friday"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train leaving on wednesday arriving by 16:00.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "leaving": "O",
+            "on": "O",
+            "wednesday": "B-train-day",
+            "arriving": "O",
+            "by": "O",
+            "16:00": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "16:00"
+            ],
+            "train-day": [
+                "wednesday"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking to book a train to Cambridge. I need it to arrive by 16:00. I also need it to department from Cambridge. Can you assist me?",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "cambridge": "O",
+            "i": "O",
+            "need": "O",
+            "it": "O",
+            "arrive": "O",
+            "by": "O",
+            "16:00": "B-train-arriveby",
+            "also": "O",
+            "department": "O",
+            "from": "O",
+            "can": "O",
+            "you": "O",
+            "assist": "O",
+            "me": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "16:00"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a train that leaves on saturday and arrives by 19:00.",
+        "intent": "find_train",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "that": "O",
+            "leaves": "O",
+            "on": "O",
+            "saturday": "B-train-day",
+            "and": "O",
+            "arrives": "O",
+            "by": "O",
+            "19:00": "B-train-arriveby"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "19:00"
+            ],
+            "train-day": [
+                "saturday"
+            ]
+        }
+    },
+    {
+        "utterance": "I need help finding a place to eat called curry garden.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "help": "O",
+            "finding": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "eat": "O",
+            "called": "O",
+            "curry": "B-restaurant-name",
+            "garden": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "curry garden"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm trying to find a restaurant by the name of ali baba. Can you help me out?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "trying": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "restaurant": "O",
+            "by": "O",
+            "the": "O",
+            "name": "O",
+            "of": "O",
+            "ali": "B-restaurant-name",
+            "baba": "I-restaurant-name",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "out": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "ali baba"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello! What can you tell me about the Shiraz restaurant?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "what": "O",
+            "can": "O",
+            "you": "O",
+            "tell": "O",
+            "me": "O",
+            "about": "O",
+            "the": "O",
+            "shiraz": "B-restaurant-name",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "shiraz"
+            ]
+        }
+    },
+    {
+        "utterance": "What type of food does the Oak Bistro in Cambridge serve?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "what": "O",
+            "type": "O",
+            "of": "O",
+            "food": "O",
+            "does": "O",
+            "the": "B-restaurant-name",
+            "oak": "I-restaurant-name",
+            "bistro": "I-restaurant-name",
+            "in": "O",
+            "cambridge": "O",
+            "serve": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "the oak bistro"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, I'm trying to find a restaurant called HK Fusion. What info can you get me for that?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "im": "O",
+            "trying": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "restaurant": "O",
+            "called": "O",
+            "hk": "B-restaurant-name",
+            "fusion": "I-restaurant-name",
+            "what": "O",
+            "info": "O",
+            "can": "O",
+            "you": "O",
+            "get": "O",
+            "me": "O",
+            "for": "O",
+            "that": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "hk fusion"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I need some help and information pertaining to a particular restaurant. The name of the restaurant is Sitar Tandoori. I'd like some information on the place if you can help.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "i": "O",
+            "need": "O",
+            "some": "O",
+            "help": "O",
+            "and": "O",
+            "information": "O",
+            "pertaining": "O",
+            "to": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "the": "O",
+            "name": "O",
+            "of": "O",
+            "is": "O",
+            "sitar": "B-restaurant-name",
+            "tandoori": "I-restaurant-name",
+            "id": "O",
+            "like": "O",
+            "on": "O",
+            "place": "O",
+            "if": "O",
+            "you": "O",
+            "can": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "sitar tandoori"
+            ]
+        }
+    },
+    {
+        "utterance": "What can you tell me about the bangkok city restaurant?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "what": "O",
+            "can": "O",
+            "you": "O",
+            "tell": "O",
+            "me": "O",
+            "about": "O",
+            "the": "O",
+            "bangkok": "B-restaurant-name",
+            "city": "I-restaurant-name",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-area": [
+                "centre"
+            ],
+            "restaurant-name": [
+                "bangkok city"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, do you have a listing for the copper kettle? It's a restaurant.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "do": "O",
+            "you": "O",
+            "have": "O",
+            "a": "O",
+            "listing": "O",
+            "for": "O",
+            "the": "O",
+            "copper": "B-restaurant-name",
+            "kettle": "I-restaurant-name",
+            "its": "O",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "copper kettle"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me find a restaurant in Cambridge called Loch Fyne?",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "restaurant": "O",
+            "in": "O",
+            "cambridge": "O",
+            "called": "O",
+            "loch": "B-restaurant-name",
+            "fyne": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "loch fyne"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant called charlie chan.",
+        "intent": "find_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "called": "O",
+            "charlie": "B-restaurant-name",
+            "chan": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-name": [
+                "charlie chan"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for something to do in Cambridge. I'm interested in architecture, is there any interesting buildings around the city centre?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "something": "O",
+            "to": "O",
+            "do": "O",
+            "in": "O",
+            "cambridge": "O",
+            "interested": "O",
+            "architecture": "B-attraction-type",
+            "is": "O",
+            "there": "O",
+            "any": "O",
+            "interesting": "O",
+            "buildings": "O",
+            "around": "O",
+            "the": "O",
+            "city": "O",
+            "centre": "B-attraction-area"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "architecture"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, I am looking for something to do in the west part of town. It sould involve multiple sports.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "something": "O",
+            "to": "O",
+            "do": "O",
+            "in": "O",
+            "the": "O",
+            "west": "B-attraction-area",
+            "part": "O",
+            "of": "O",
+            "town": "O",
+            "it": "O",
+            "sould": "O",
+            "involve": "O",
+            "multiple": "B-attraction-type",
+            "sports": "I-attraction-type"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "west"
+            ],
+            "attraction-type": [
+                "multiple sports"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to visit a college in Cambridge. Can you help me find some?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "visit": "O",
+            "a": "O",
+            "college": "B-attraction-type",
+            "in": "O",
+            "cambridge": "O",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "some": "O"
+        },
+        "slot_values": {
+            "attraction-type": [
+                "college"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello I am looking for a college, can you help me?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "college": "B-attraction-type",
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O"
+        },
+        "slot_values": {
+            "attraction-type": [
+                "college"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a college to visit in the centre of town.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "college": "B-attraction-type",
+            "to": "O",
+            "visit": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-attraction-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "college"
+            ]
+        }
+    },
+    {
+        "utterance": "i want to go to a museum in the west area of the town.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "go": "O",
+            "a": "O",
+            "museum": "B-attraction-type",
+            "in": "O",
+            "the": "O",
+            "west": "B-attraction-area",
+            "area": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "west"
+            ],
+            "attraction-type": [
+                "museum"
+            ]
+        }
+    },
+    {
+        "utterance": "i am looking for places to go in town. The attraction should be in the type of college and should be in the centre.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "places": "O",
+            "to": "O",
+            "go": "O",
+            "in": "O",
+            "town": "O",
+            "the": "O",
+            "attraction": "O",
+            "should": "O",
+            "be": "O",
+            "type": "O",
+            "of": "O",
+            "college": "B-attraction-type",
+            "and": "O",
+            "centre": "B-attraction-area"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "college"
+            ]
+        }
+    },
+    {
+        "utterance": "Are there any entertainment attractions in the centre of the city?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "are": "O",
+            "there": "O",
+            "any": "O",
+            "entertainment": "B-attraction-type",
+            "attractions": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-attraction-area",
+            "of": "O",
+            "city": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "entertainment"
+            ]
+        }
+    },
+    {
+        "utterance": "i am looking for a place to go in the centre and should be the type of boat.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "go": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-attraction-area",
+            "and": "O",
+            "should": "O",
+            "be": "O",
+            "type": "O",
+            "of": "O",
+            "boat": "B-attraction-type"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "boat"
+            ]
+        }
+    },
+    {
+        "utterance": "Would you be able to tell me whether there are any multiple sports venues in the center of town?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "would": "O",
+            "you": "O",
+            "be": "O",
+            "able": "O",
+            "to": "O",
+            "tell": "O",
+            "me": "O",
+            "whether": "O",
+            "there": "O",
+            "are": "O",
+            "any": "O",
+            "multiple": "B-attraction-type",
+            "sports": "I-attraction-type",
+            "venues": "O",
+            "in": "O",
+            "the": "O",
+            "center": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "multiple sports"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for an expensive guesthouse to stay in during my trip to Cambridge.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "an": "O",
+            "expensive": "B-hotel-pricerange",
+            "guesthouse": "B-hotel-type",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "during": "O",
+            "my": "O",
+            "trip": "O",
+            "cambridge": "O"
+        },
+        "slot_values": {
+            "hotel-pricerange": [
+                "expensive"
+            ],
+            "hotel-type": [
+                "guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "Will I be able to find any moderately priced rooms to stay in in the north part of Cambridge?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "will": "O",
+            "i": "O",
+            "be": "O",
+            "able": "O",
+            "to": "O",
+            "find": "O",
+            "any": "O",
+            "moderately": "O",
+            "priced": "O",
+            "rooms": "O",
+            "stay": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "part": "O",
+            "of": "O",
+            "cambridge": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a place to stay in Cambridge, moderate price for a hotel.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "stay": "O",
+            "in": "O",
+            "cambridge": "O",
+            "moderate": "B-hotel-pricerange",
+            "price": "O",
+            "hotel": "B-hotel-type"
+        },
+        "slot_values": {
+            "hotel-pricerange": [
+                "moderate"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to find a 4 star hotel with a moderate price.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "4": "B-hotel-stars",
+            "star": "O",
+            "hotel": "O",
+            "with": "O",
+            "moderate": "B-hotel-pricerange",
+            "price": "O"
+        },
+        "slot_values": {
+            "hotel-pricerange": [
+                "moderate"
+            ],
+            "hotel-stars": [
+                "4"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, can you recommend a cheap hotel with free parking, please?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "can": "O",
+            "you": "O",
+            "recommend": "O",
+            "a": "O",
+            "cheap": "B-hotel-pricerange",
+            "hotel": "B-hotel-type",
+            "with": "O",
+            "free": "O",
+            "parking": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-pricerange": [
+                "cheap"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I would like to get a hotel room that is in the north and is priced moderate.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "to": "O",
+            "get": "O",
+            "a": "O",
+            "hotel": "O",
+            "room": "O",
+            "that": "O",
+            "is": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "and": "O",
+            "priced": "O",
+            "moderate": "B-hotel-pricerange"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, I'm looking for upscale hotels in the north part of Cambridge. Are there any that also include free parking?",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "upscale": "O",
+            "hotels": "O",
+            "in": "O",
+            "the": "O",
+            "north": "B-hotel-area",
+            "part": "O",
+            "of": "O",
+            "cambridge": "O",
+            "are": "O",
+            "there": "O",
+            "any": "O",
+            "that": "O",
+            "also": "O",
+            "include": "O",
+            "free": "O",
+            "parking": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "north"
+            ],
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-pricerange": [
+                "expensive"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for an attraction in the center of town.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "an": "O",
+            "attraction": "O",
+            "in": "O",
+            "the": "O",
+            "center": "O",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a place to go in the centre for entertainment.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "place": "O",
+            "to": "O",
+            "go": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-attraction-area",
+            "for": "O",
+            "entertainment": "B-attraction-type"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "centre"
+            ],
+            "attraction-type": [
+                "entertainment"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a 2 star hotel with free wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "2": "B-hotel-stars",
+            "star": "O",
+            "hotel": "O",
+            "with": "O",
+            "free": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "2"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello any restaurants suggestions ? I am also looking for nice 4 star hotels with wifi.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "any": "O",
+            "restaurants": "O",
+            "suggestions": "O",
+            "": "O",
+            "i": "O",
+            "am": "O",
+            "also": "O",
+            "looking": "O",
+            "for": "O",
+            "nice": "O",
+            "4": "B-hotel-stars",
+            "star": "O",
+            "hotels": "O",
+            "with": "O",
+            "wifi": "O"
+        },
+        "slot_values": {
+            "hotel-internet": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "4"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to find a 4 star rated place to stay with free parking.",
+        "intent": "find_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "4": "B-hotel-stars",
+            "star": "O",
+            "rated": "O",
+            "place": "O",
+            "stay": "O",
+            "with": "O",
+            "free": "O",
+            "parking": "O"
+        },
+        "slot_values": {
+            "hotel-parking": [
+                "yes"
+            ],
+            "hotel-stars": [
+                "4"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a train for three people from the stansted airport to arrive by 12:45. I need to leave on Thursday and go to Cambridge.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "train": "O",
+            "three": "O",
+            "people": "O",
+            "from": "O",
+            "the": "O",
+            "stansted": "B-train-departure",
+            "airport": "I-train-departure",
+            "to": "O",
+            "arrive": "O",
+            "by": "O",
+            "12:45": "B-train-arriveby",
+            "need": "O",
+            "leave": "O",
+            "on": "O",
+            "thursday": "B-train-day",
+            "and": "O",
+            "go": "O",
+            "cambridge": "B-train-destination"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "12:45"
+            ],
+            "train-bookpeople": [
+                "3"
+            ],
+            "train-day": [
+                "thursday"
+            ],
+            "train-departure": [
+                "stansted airport"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday from Ely to Cambridge to arrive by 14:00 for 6 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day",
+            "from": "O",
+            "ely": "B-train-departure",
+            "cambridge": "B-train-destination",
+            "arrive": "O",
+            "by": "O",
+            "14:00": "B-train-arriveby",
+            "6": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:00"
+            ],
+            "train-bookpeople": [
+                "6"
+            ],
+            "train-day": [
+                "monday"
+            ],
+            "train-departure": [
+                "ely"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello, I need to book a train at 07:15 leaving Cambridge going to the town center on Thursday for 7 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "at": "O",
+            "07:15": "B-train-leaveat",
+            "leaving": "O",
+            "cambridge": "B-train-departure",
+            "going": "O",
+            "the": "O",
+            "town": "O",
+            "center": "O",
+            "on": "O",
+            "thursday": "B-train-day",
+            "for": "O",
+            "7": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-bookpeople": [
+                "7"
+            ],
+            "train-day": [
+                "thursday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-leaveat": [
+                "07:15"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday from Ely to Cambridge to arrive by 14:00 for 6 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day",
+            "from": "O",
+            "ely": "B-train-departure",
+            "cambridge": "B-train-destination",
+            "arrive": "O",
+            "by": "O",
+            "14:00": "B-train-arriveby",
+            "6": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:00"
+            ],
+            "train-bookpeople": [
+                "6"
+            ],
+            "train-day": [
+                "monday"
+            ],
+            "train-departure": [
+                "ely"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday from Ely to Cambridge to arrive by 14:00 for 6 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day",
+            "from": "O",
+            "ely": "B-train-departure",
+            "cambridge": "B-train-destination",
+            "arrive": "O",
+            "by": "O",
+            "14:00": "B-train-arriveby",
+            "6": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:00"
+            ],
+            "train-bookpeople": [
+                "6"
+            ],
+            "train-day": [
+                "monday"
+            ],
+            "train-departure": [
+                "ely"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking to book a ticket for 2 people for the tuesday train leaving from cambridge and arriving by 10:30 at broxbourne",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "ticket": "O",
+            "for": "O",
+            "2": "B-train-bookpeople",
+            "people": "O",
+            "the": "O",
+            "tuesday": "B-train-day",
+            "train": "O",
+            "leaving": "O",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "and": "O",
+            "arriving": "O",
+            "by": "O",
+            "10:30": "B-train-arriveby",
+            "at": "O",
+            "broxbourne": "B-train-destination"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "10:30"
+            ],
+            "train-bookpeople": [
+                "2"
+            ],
+            "train-day": [
+                "tuesday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "broxbourne"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking to book a ticket for 2 people for the tuesday train leaving from cambridge and arriving by 10:30 at broxbourne",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "ticket": "O",
+            "for": "O",
+            "2": "B-train-bookpeople",
+            "people": "O",
+            "the": "O",
+            "tuesday": "B-train-day",
+            "train": "O",
+            "leaving": "O",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "and": "O",
+            "arriving": "O",
+            "by": "O",
+            "10:30": "B-train-arriveby",
+            "at": "O",
+            "broxbourne": "B-train-destination"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "10:30"
+            ],
+            "train-bookpeople": [
+                "2"
+            ],
+            "train-day": [
+                "tuesday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "broxbourne"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a train for Saturday at 13:00 and I will be traveling from Cambridge to London kings cross. Please book it for 7 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "saturday": "B-train-day",
+            "at": "O",
+            "13:00": "B-train-leaveat",
+            "and": "O",
+            "will": "O",
+            "be": "O",
+            "traveling": "O",
+            "from": "O",
+            "cambridge": "B-train-departure",
+            "to": "O",
+            "london": "B-train-destination",
+            "kings": "I-train-destination",
+            "cross": "I-train-destination",
+            "please": "O",
+            "book": "O",
+            "it": "O",
+            "7": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-bookpeople": [
+                "7"
+            ],
+            "train-day": [
+                "saturday"
+            ],
+            "train-departure": [
+                "cambridge"
+            ],
+            "train-destination": [
+                "london kings cross"
+            ],
+            "train-leaveat": [
+                "13:00"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a train for Monday from Ely to Cambridge to arrive by 14:00 for 6 people.",
+        "intent": "book_train",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "train": "O",
+            "for": "O",
+            "monday": "B-train-day",
+            "from": "O",
+            "ely": "B-train-departure",
+            "cambridge": "B-train-destination",
+            "arrive": "O",
+            "by": "O",
+            "14:00": "B-train-arriveby",
+            "6": "B-train-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "train-arriveby": [
+                "14:00"
+            ],
+            "train-bookpeople": [
+                "6"
+            ],
+            "train-day": [
+                "monday"
+            ],
+            "train-departure": [
+                "ely"
+            ],
+            "train-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel in the centre of town.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookday": [
+                "monday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "three": "O",
+            "nights": "O",
+            "for": "O",
+            "people": "O",
+            "at": "O",
+            "the": "O",
+            "worth": "B-hotel-name",
+            "house": "I-hotel-name",
+            "hotel": "O"
+        },
+        "slot_values": {
+            "hotel-bookpeople": [
+                "3"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ],
+            "hotel-name": [
+                "worth house"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you book a hotel for me? I would like a 3 star hotel or greater in downtown Cambridge for tonight for 2 people.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "book": "O",
+            "a": "O",
+            "hotel": "O",
+            "for": "O",
+            "me": "O",
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "3": "B-hotel-stars",
+            "star": "O",
+            "or": "O",
+            "greater": "O",
+            "in": "O",
+            "downtown": "O",
+            "cambridge": "O",
+            "tonight": "O",
+            "2": "B-hotel-bookpeople",
+            "people": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-stars": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "three": "O",
+            "nights": "O",
+            "for": "O",
+            "people": "O",
+            "at": "O",
+            "the": "O",
+            "worth": "B-hotel-name",
+            "house": "I-hotel-name",
+            "hotel": "O"
+        },
+        "slot_values": {
+            "hotel-bookpeople": [
+                "3"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ],
+            "hotel-name": [
+                "worth house"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "three": "O",
+            "nights": "O",
+            "for": "O",
+            "people": "O",
+            "at": "O",
+            "the": "O",
+            "worth": "B-hotel-name",
+            "house": "I-hotel-name",
+            "hotel": "O"
+        },
+        "slot_values": {
+            "hotel-bookpeople": [
+                "3"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ],
+            "hotel-name": [
+                "worth house"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you book me a room for 2 people for 2 days starting Friday at the express by holiday Inn in cambridge.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "book": "O",
+            "me": "O",
+            "a": "O",
+            "room": "O",
+            "for": "O",
+            "2": "O",
+            "people": "O",
+            "days": "O",
+            "starting": "O",
+            "friday": "B-hotel-bookday",
+            "at": "O",
+            "the": "O",
+            "express": "B-hotel-name",
+            "by": "I-hotel-name",
+            "holiday": "I-hotel-name",
+            "inn": "I-hotel-name",
+            "in": "I-hotel-name",
+            "cambridge": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-bookday": [
+                "friday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "2"
+            ],
+            "hotel-name": [
+                "express by holiday inn in cambridge",
+                "express by holiday inn cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you book me a room for 2 people for 2 days starting Friday at the express by holiday Inn in cambridge.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "book": "O",
+            "me": "O",
+            "a": "O",
+            "room": "O",
+            "for": "O",
+            "2": "O",
+            "people": "O",
+            "days": "O",
+            "starting": "O",
+            "friday": "B-hotel-bookday",
+            "at": "O",
+            "the": "O",
+            "express": "B-hotel-name",
+            "by": "I-hotel-name",
+            "holiday": "I-hotel-name",
+            "inn": "I-hotel-name",
+            "in": "I-hotel-name",
+            "cambridge": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-bookday": [
+                "friday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "2"
+            ],
+            "hotel-name": [
+                "express by holiday inn in cambridge",
+                "express by holiday inn cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you check the availability at the University Arms Hotel for five people?",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "check": "O",
+            "the": "O",
+            "availability": "O",
+            "at": "O",
+            "university": "B-hotel-name",
+            "arms": "I-hotel-name",
+            "hotel": "I-hotel-name",
+            "for": "O",
+            "five": "O",
+            "people": "O"
+        },
+        "slot_values": {
+            "hotel-bookpeople": [
+                "5"
+            ],
+            "hotel-name": [
+                "university arms hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "three": "O",
+            "nights": "O",
+            "for": "O",
+            "people": "O",
+            "at": "O",
+            "the": "O",
+            "worth": "B-hotel-name",
+            "house": "I-hotel-name",
+            "hotel": "O"
+        },
+        "slot_values": {
+            "hotel-bookpeople": [
+                "3"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ],
+            "hotel-name": [
+                "worth house"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel in the centre of town.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookday": [
+                "monday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "A friend of mine mentioned this attraction called The Place. Can you give me some information about it?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "a": "O",
+            "friend": "O",
+            "of": "O",
+            "mine": "O",
+            "mentioned": "O",
+            "this": "O",
+            "attraction": "O",
+            "called": "O",
+            "the": "B-attraction-name",
+            "place": "I-attraction-name",
+            "can": "O",
+            "you": "O",
+            "give": "O",
+            "me": "O",
+            "some": "O",
+            "information": "O",
+            "about": "O",
+            "it": "O"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "the place"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for an attraction called Cambridge Artworks. Do you have any information on it?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "an": "O",
+            "attraction": "O",
+            "called": "O",
+            "cambridge": "B-attraction-name",
+            "artworks": "I-attraction-name",
+            "do": "O",
+            "you": "O",
+            "have": "O",
+            "any": "O",
+            "information": "O",
+            "on": "O",
+            "it": "O"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "cambridge artworks"
+            ]
+        }
+    },
+    {
+        "utterance": "My brother told me about this attraction place called Abbey Pool and Astroturf Pitch. Would you be able to tell me where it is?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "my": "O",
+            "brother": "O",
+            "told": "O",
+            "me": "O",
+            "about": "O",
+            "this": "O",
+            "attraction": "O",
+            "place": "O",
+            "called": "O",
+            "abbey": "B-attraction-name",
+            "pool": "I-attraction-name",
+            "and": "I-attraction-name",
+            "astroturf": "I-attraction-name",
+            "pitch": "I-attraction-name",
+            "would": "O",
+            "you": "O",
+            "be": "O",
+            "able": "O",
+            "to": "O",
+            "tell": "O",
+            "where": "O",
+            "it": "O",
+            "is": "O"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "abbey pool and astroturf pitch"
+            ]
+        }
+    },
+    {
+        "utterance": "I am planning a trip to Cambridge I want more information on the primavera , do I need tickets or make seating arrangements",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "planning": "O",
+            "a": "O",
+            "trip": "O",
+            "to": "O",
+            "cambridge": "O",
+            "want": "O",
+            "more": "O",
+            "information": "O",
+            "on": "O",
+            "the": "O",
+            "primavera": "B-attraction-name",
+            "": "O",
+            "do": "O",
+            "need": "O",
+            "tickets": "O",
+            "or": "O",
+            "make": "O",
+            "seating": "O",
+            "arrangements": "O"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "primavera"
+            ]
+        }
+    },
+    {
+        "utterance": "I am planning a trip to Cambridge I want more information on the primavera , do I need tickets or make seating arrangements",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "planning": "O",
+            "a": "O",
+            "trip": "O",
+            "to": "O",
+            "cambridge": "O",
+            "want": "O",
+            "more": "O",
+            "information": "O",
+            "on": "O",
+            "the": "O",
+            "primavera": "B-attraction-name",
+            "": "O",
+            "do": "O",
+            "need": "O",
+            "tickets": "O",
+            "or": "O",
+            "make": "O",
+            "seating": "O",
+            "arrangements": "O"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "primavera"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for a attraction called whipple museum of the history of science.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "attraction": "O",
+            "called": "O",
+            "whipple": "B-attraction-name",
+            "museum": "I-attraction-name",
+            "of": "O",
+            "the": "I-attraction-name",
+            "history": "I-attraction-name",
+            "science": "I-attraction-name"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "whipple museum of the history of science"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you get me information on a placed called williams art and antiques?",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "get": "O",
+            "me": "O",
+            "information": "O",
+            "on": "O",
+            "a": "O",
+            "placed": "O",
+            "called": "O",
+            "williams": "B-attraction-name",
+            "art": "I-attraction-name",
+            "and": "I-attraction-name",
+            "antiques": "I-attraction-name"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "williams art and antiques"
+            ]
+        }
+    },
+    {
+        "utterance": "I need information on the scott polar museum",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "information": "O",
+            "on": "O",
+            "the": "O",
+            "scott": "B-attraction-name",
+            "polar": "I-attraction-name",
+            "museum": "I-attraction-name"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "scott polar museum"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a taxi to museum of archaelogy and anthropology.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "museum": "B-attraction-type",
+            "of": "I-attraction-name",
+            "archaelogy": "I-attraction-name",
+            "and": "I-attraction-name",
+            "anthropology": "I-attraction-name"
+        },
+        "slot_values": {
+            "attraction-name": [
+                "museum of archaeology and anthropology",
+                "museum of archaelogy and anthropology"
+            ],
+            "attraction-type": [
+                "museum"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you help me find Cambridge University Botanic Gardens? Thanks.",
+        "intent": "find_attraction",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "cambridge": "B-attraction-name",
+            "university": "I-attraction-name",
+            "botanic": "I-attraction-name",
+            "gardens": "I-attraction-name",
+            "thanks": "O"
+        },
+        "slot_values": {
+            "attraction-area": [
+                "south"
+            ],
+            "attraction-name": [
+                "cambridge university botanic gardens"
+            ],
+            "attraction-type": [
+                "multiple sports"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for the Addenbrookes Hospital. The hospital should have the paediatric clinic department",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "the": "O",
+            "addenbrookes": "O",
+            "hospital": "O",
+            "should": "O",
+            "have": "O",
+            "paediatric": "B-hospital-department",
+            "clinic": "I-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "paediatric clinic"
+            ]
+        }
+    },
+    {
+        "utterance": "Hello! I need a hospital with a oral and maxillofacial surgery and ent department please.",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "hello": "O",
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "hospital": "O",
+            "with": "O",
+            "oral": "B-hospital-department",
+            "and": "O",
+            "maxillofacial": "I-hospital-department",
+            "surgery": "I-hospital-department",
+            "ent": "I-hospital-department",
+            "department": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "oral and maxillofacial surgery and ent"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a close hospital with an acute medicine for the elderly unit.",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "close": "O",
+            "hospital": "O",
+            "with": "O",
+            "an": "O",
+            "acute": "B-hospital-department",
+            "medicine": "I-hospital-department",
+            "for": "I-hospital-department",
+            "the": "I-hospital-department",
+            "elderly": "I-hospital-department",
+            "unit": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "acute medicine for the elderly"
+            ]
+        }
+    },
+    {
+        "utterance": "Does the Addenbrookes Hospital have a psychiatry department?",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "does": "O",
+            "the": "O",
+            "addenbrookes": "O",
+            "hospital": "O",
+            "have": "O",
+            "a": "O",
+            "psychiatry": "B-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "psychiatry"
+            ]
+        }
+    },
+    {
+        "utterance": "Does the Addenbrookes Hospital have a psychiatry department?",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "does": "O",
+            "the": "O",
+            "addenbrookes": "O",
+            "hospital": "O",
+            "have": "O",
+            "a": "O",
+            "psychiatry": "B-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "psychiatry"
+            ]
+        }
+    },
+    {
+        "utterance": "Yes, I need a hospital with a hepatology department please.",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "yes": "O",
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "hospital": "O",
+            "with": "O",
+            "hepatology": "B-hospital-department",
+            "department": "O",
+            "please": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "hepatology"
+            ]
+        }
+    },
+    {
+        "utterance": "Am injured and are looking for a hospital nearby it should have the infectious diseases department.",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "am": "O",
+            "injured": "O",
+            "and": "O",
+            "are": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hospital": "O",
+            "nearby": "O",
+            "it": "O",
+            "should": "O",
+            "have": "O",
+            "the": "O",
+            "infectious": "B-hospital-department",
+            "diseases": "I-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "infectious diseases"
+            ]
+        }
+    },
+    {
+        "utterance": "I want to find a hospital in town. The hospital should have the neurology neurosurgery department",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "hospital": "O",
+            "in": "O",
+            "town": "O",
+            "the": "O",
+            "should": "O",
+            "have": "O",
+            "neurology": "B-hospital-department",
+            "neurosurgery": "I-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "neurology neurosurgery"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for Addenbrookes Hospital. Does it also provide acute medicine care for the elderly?",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "addenbrookes": "O",
+            "hospital": "O",
+            "does": "O",
+            "it": "O",
+            "also": "O",
+            "provide": "O",
+            "acute": "B-hospital-department",
+            "medicine": "I-hospital-department",
+            "care": "I-hospital-department",
+            "the": "I-hospital-department",
+            "elderly": "I-hospital-department"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "acute medicine care for the elderly",
+                "acute medicine for the elderly"
+            ]
+        }
+    },
+    {
+        "utterance": "I got injured and are looking for a hospital nearby it should have the teenage cancer trust unit department",
+        "intent": "find_hospital",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "got": "O",
+            "injured": "O",
+            "and": "O",
+            "are": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hospital": "O",
+            "nearby": "O",
+            "it": "O",
+            "should": "O",
+            "have": "O",
+            "the": "O",
+            "teenage": "B-hospital-department",
+            "cancer": "I-hospital-department",
+            "trust": "I-hospital-department",
+            "unit": "I-hospital-department",
+            "department": "O"
+        },
+        "slot_values": {
+            "hospital-department": [
+                "teenage cancer trust unit"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi! I'd like to book a taxi from Kettle's Yard to Old Schools.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "from": "O",
+            "kettles": "B-taxi-departure",
+            "yard": "I-taxi-departure",
+            "old": "B-taxi-destination",
+            "schools": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "kettles yard",
+                "kettle's yard"
+            ],
+            "taxi-destination": [
+                "old schools"
+            ]
+        }
+    },
+    {
+        "utterance": "i want to book a taxi. The taxi should depart from la Margarita and should go to riverboat Georgina.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "the": "O",
+            "should": "O",
+            "depart": "O",
+            "from": "O",
+            "la": "B-taxi-departure",
+            "margarita": "I-taxi-departure",
+            "and": "O",
+            "go": "O",
+            "riverboat": "B-taxi-destination",
+            "georgina": "I-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "la margarita"
+            ],
+            "taxi-destination": [
+                "riverboat georgina"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you set up a taxi to loch fyne from hakka for me?",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "set": "O",
+            "up": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "loch": "B-taxi-destination",
+            "fyne": "I-taxi-destination",
+            "from": "O",
+            "hakka": "B-taxi-departure",
+            "for": "O",
+            "me": "O"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "hakka"
+            ],
+            "taxi-destination": [
+                "loch fyne"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi to pick me up after 21:25 at The Cambridge Belfry.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "pick": "O",
+            "me": "O",
+            "up": "O",
+            "after": "O",
+            "21:25": "B-taxi-leaveat",
+            "at": "O",
+            "the": "O",
+            "cambridge": "B-taxi-departure",
+            "belfry": "I-taxi-departure"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "cambridge belfry"
+            ],
+            "taxi-leaveat": [
+                "21:25"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi to pick me up after 21:25 at The Cambridge Belfry.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "pick": "O",
+            "me": "O",
+            "up": "O",
+            "after": "O",
+            "21:25": "B-taxi-leaveat",
+            "at": "O",
+            "the": "O",
+            "cambridge": "B-taxi-departure",
+            "belfry": "I-taxi-departure"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "cambridge belfry"
+            ],
+            "taxi-leaveat": [
+                "21:25"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi! I would like to book a taxi that will take me to Pizza Hut Cherry Hinton. I will be departing from Parkside Pools.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "that": "O",
+            "will": "O",
+            "take": "O",
+            "me": "O",
+            "pizza": "B-taxi-destination",
+            "hut": "I-taxi-destination",
+            "cherry": "I-taxi-destination",
+            "hinton": "O",
+            "be": "O",
+            "departing": "O",
+            "from": "O",
+            "parkside": "B-taxi-departure",
+            "pools": "I-taxi-departure"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "parkside pools"
+            ],
+            "taxi-destination": [
+                "pizza hut cherry",
+                "pizza hut cherry hilton"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, could you help me find a taxi out of cocum?",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "could": "O",
+            "you": "O",
+            "help": "O",
+            "me": "O",
+            "find": "O",
+            "a": "O",
+            "taxi": "O",
+            "out": "O",
+            "of": "O",
+            "cocum": "B-taxi-departure"
+        },
+        "slot_values": {
+            "taxi-departure": [
+                "cocum"
+            ]
+        }
+    },
+    {
+        "utterance": "Hi, i need to book a taxi. I need to go to cambridge corn exchange and need to arrive by 11:45.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "hi": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "go": "O",
+            "cambridge": "B-taxi-destination",
+            "corn": "I-taxi-destination",
+            "exchange": "I-taxi-destination",
+            "and": "O",
+            "arrive": "O",
+            "by": "O",
+            "11:45": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "11:45"
+            ],
+            "taxi-destination": [
+                "the cambridge corn exchange",
+                "cambridge corn exchange"
+            ]
+        }
+    },
+    {
+        "utterance": "i want to book a taxi. The taxi should depart from india house and should arrive by 24:00.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "want": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "the": "O",
+            "should": "O",
+            "depart": "O",
+            "from": "O",
+            "india": "B-taxi-departure",
+            "house": "I-taxi-departure",
+            "and": "O",
+            "arrive": "O",
+            "by": "O",
+            "24:00": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "24:00"
+            ],
+            "taxi-departure": [
+                "india house"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you book me a taxi to arrive by 23:30? Oh, and I am departing from wandlebury country park.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "book": "O",
+            "me": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "arrive": "O",
+            "by": "O",
+            "23:30": "B-taxi-arriveby",
+            "oh": "O",
+            "and": "O",
+            "i": "O",
+            "am": "O",
+            "departing": "O",
+            "from": "O",
+            "wandlebury": "B-taxi-departure",
+            "country": "I-taxi-departure",
+            "park": "I-taxi-departure"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "23:30"
+            ],
+            "taxi-departure": [
+                "wandlebury country park"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a taxi departing from clown's cafe that should arrive by 23:00.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "departing": "O",
+            "from": "O",
+            "clowns": "B-taxi-departure",
+            "cafe": "I-taxi-departure",
+            "that": "O",
+            "should": "O",
+            "arrive": "O",
+            "by": "O",
+            "23:00": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "23:00"
+            ],
+            "taxi-departure": [
+                "clown's cafe",
+                "clowns cafe"
+            ]
+        }
+    },
+    {
+        "utterance": "I need to book a taxi departing from clown's cafe that should arrive by 23:00.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "departing": "O",
+            "from": "O",
+            "clowns": "B-taxi-departure",
+            "cafe": "I-taxi-departure",
+            "that": "O",
+            "should": "O",
+            "arrive": "O",
+            "by": "O",
+            "23:00": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "23:00"
+            ],
+            "taxi-departure": [
+                "clown's cafe",
+                "clowns cafe"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi that leaves from funky fun house and arrives by 06:15",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "that": "O",
+            "leaves": "O",
+            "from": "O",
+            "funky": "B-taxi-departure",
+            "fun": "I-taxi-departure",
+            "house": "I-taxi-departure",
+            "and": "O",
+            "arrives": "O",
+            "by": "O",
+            "06:15": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "06:15"
+            ],
+            "taxi-departure": [
+                "funky fun house"
+            ]
+        }
+    },
+    {
+        "utterance": "book a taxi going to broughton house gallery to arrive by 6:15",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "book": "O",
+            "a": "O",
+            "taxi": "O",
+            "going": "O",
+            "to": "O",
+            "broughton": "B-taxi-destination",
+            "house": "I-taxi-destination",
+            "gallery": "I-taxi-destination",
+            "arrive": "O",
+            "by": "O",
+            "6:15": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "6:15",
+                "06:15"
+            ],
+            "taxi-destination": [
+                "broughton house gallery"
+            ]
+        }
+    },
+    {
+        "utterance": "I would like a taxi to limehouse. I need to arrive by 7:15.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "limehouse": "B-taxi-destination",
+            "need": "O",
+            "arrive": "O",
+            "by": "O",
+            "7:15": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "07:15",
+                "7:15"
+            ],
+            "taxi-destination": [
+                "limehouse"
+            ]
+        }
+    },
+    {
+        "utterance": "I need a taxi to arrive by 13:15 to primavera",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "need": "O",
+            "a": "O",
+            "taxi": "O",
+            "to": "O",
+            "arrive": "O",
+            "by": "O",
+            "13:15": "B-taxi-arriveby",
+            "primavera": "B-taxi-destination"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "13:15"
+            ],
+            "taxi-destination": [
+                "primavera"
+            ]
+        }
+    },
+    {
+        "utterance": "Please find me a taxi? I'm at the el shaddai and I need to arrive by 21:15.",
+        "intent": "find_taxi",
+        "utterance_with_slot_tokens": {
+            "please": "O",
+            "find": "O",
+            "me": "O",
+            "a": "O",
+            "taxi": "O",
+            "im": "O",
+            "at": "O",
+            "the": "O",
+            "el": "B-taxi-departure",
+            "shaddai": "I-taxi-departure",
+            "and": "O",
+            "i": "O",
+            "need": "O",
+            "to": "O",
+            "arrive": "O",
+            "by": "O",
+            "21:15": "B-taxi-arriveby"
+        },
+        "slot_values": {
+            "taxi-arriveby": [
+                "21:15"
+            ],
+            "taxi-departure": [
+                "el shaddai",
+                "el shaddia guesthouse"
+            ]
+        }
+    },
+    {
+        "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "please": "O",
+            "book": "O",
+            "dinner": "O",
+            "reservations": "O",
+            "for": "O",
+            "five": "O",
+            "people": "O",
+            "on": "O",
+            "saturday": "B-restaurant-bookday",
+            "at": "O",
+            "the": "O",
+            "india": "B-restaurant-name",
+            "house": "I-restaurant-name",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "saturday"
+            ],
+            "restaurant-bookpeople": [
+                "5"
+            ],
+            "restaurant-name": [
+                "india house"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "its": "O",
+            "name": "O",
+            "is": "O",
+            "called": "O",
+            "the": "B-restaurant-name",
+            "hotpot": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "friday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-name": [
+                "the hotpot"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "its": "O",
+            "name": "O",
+            "is": "O",
+            "called": "O",
+            "the": "B-restaurant-name",
+            "hotpot": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "friday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-name": [
+                "the hotpot"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "its": "O",
+            "name": "O",
+            "is": "O",
+            "called": "O",
+            "the": "B-restaurant-name",
+            "hotpot": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "friday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-name": [
+                "the hotpot"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "its": "O",
+            "name": "O",
+            "is": "O",
+            "called": "O",
+            "the": "B-restaurant-name",
+            "hotpot": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "friday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-name": [
+                "the hotpot"
+            ]
+        }
+    },
+    {
+        "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "that": "O",
+            "serves": "O",
+            "moderately": "O",
+            "priced": "O",
+            "chinese": "B-restaurant-food",
+            "food": "O"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "tuesday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-food": [
+                "chinese"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "id": "O",
+            "like": "O",
+            "to": "O",
+            "find": "O",
+            "a": "O",
+            "place": "O",
+            "that": "O",
+            "serves": "O",
+            "moderately": "O",
+            "priced": "O",
+            "chinese": "B-restaurant-food",
+            "food": "O"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "tuesday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-food": [
+                "chinese"
+            ],
+            "restaurant-pricerange": [
+                "moderate"
+            ]
+        }
+    },
+    {
+        "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "please": "O",
+            "book": "O",
+            "dinner": "O",
+            "reservations": "O",
+            "for": "O",
+            "five": "O",
+            "people": "O",
+            "on": "O",
+            "saturday": "B-restaurant-bookday",
+            "at": "O",
+            "the": "O",
+            "india": "B-restaurant-name",
+            "house": "I-restaurant-name",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "saturday"
+            ],
+            "restaurant-bookpeople": [
+                "5"
+            ],
+            "restaurant-name": [
+                "india house"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "particular": "O",
+            "restaurant": "O",
+            "its": "O",
+            "name": "O",
+            "is": "O",
+            "called": "O",
+            "the": "B-restaurant-name",
+            "hotpot": "I-restaurant-name"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "friday"
+            ],
+            "restaurant-bookpeople": [
+                "3"
+            ],
+            "restaurant-name": [
+                "the hotpot"
+            ]
+        }
+    },
+    {
+        "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+        "intent": "book_restaurant",
+        "utterance_with_slot_tokens": {
+            "please": "O",
+            "book": "O",
+            "dinner": "O",
+            "reservations": "O",
+            "for": "O",
+            "five": "O",
+            "people": "O",
+            "on": "O",
+            "saturday": "B-restaurant-bookday",
+            "at": "O",
+            "the": "O",
+            "india": "B-restaurant-name",
+            "house": "I-restaurant-name",
+            "restaurant": "O"
+        },
+        "slot_values": {
+            "restaurant-bookday": [
+                "saturday"
+            ],
+            "restaurant-bookpeople": [
+                "5"
+            ],
+            "restaurant-name": [
+                "india house"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "How much does it cost to take the bus in Cambridge?",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "how": "O",
+            "much": "O",
+            "does": "O",
+            "it": "O",
+            "cost": "O",
+            "to": "O",
+            "take": "O",
+            "the": "O",
+            "bus": "O",
+            "in": "O",
+            "cambridge": "B-bus-departure"
+        },
+        "slot_values": {
+            "bus-departure": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "Can you book me a room for 2 people for 2 days starting Friday at the express by holiday Inn in cambridge.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "can": "O",
+            "you": "O",
+            "book": "O",
+            "me": "O",
+            "a": "O",
+            "room": "O",
+            "for": "O",
+            "2": "O",
+            "people": "O",
+            "days": "O",
+            "starting": "O",
+            "friday": "B-hotel-bookday",
+            "at": "O",
+            "the": "O",
+            "express": "B-hotel-name",
+            "by": "I-hotel-name",
+            "holiday": "I-hotel-name",
+            "inn": "I-hotel-name",
+            "in": "I-hotel-name",
+            "cambridge": "I-hotel-name"
+        },
+        "slot_values": {
+            "hotel-bookday": [
+                "friday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "2"
+            ],
+            "hotel-name": [
+                "express by holiday inn in cambridge",
+                "express by holiday inn cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel in the centre of town.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookday": [
+                "monday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "I would like information on booking a hotel for Friday night in Cambridge.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "would": "O",
+            "like": "O",
+            "information": "O",
+            "on": "O",
+            "booking": "O",
+            "a": "O",
+            "hotel": "B-hotel-type",
+            "for": "O",
+            "friday": "B-hotel-bookday",
+            "night": "O",
+            "in": "O",
+            "cambridge": "O"
+        },
+        "slot_values": {
+            "hotel-bookday": [
+                "friday"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel in the centre of town.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookday": [
+                "monday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "I'm looking for a hotel in the centre of town.",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "im": "O",
+            "looking": "O",
+            "for": "O",
+            "a": "O",
+            "hotel": "O",
+            "in": "O",
+            "the": "O",
+            "centre": "B-hotel-area",
+            "of": "O",
+            "town": "O"
+        },
+        "slot_values": {
+            "hotel-area": [
+                "centre"
+            ],
+            "hotel-bookday": [
+                "monday"
+            ],
+            "hotel-bookpeople": [
+                "2"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ]
+        }
+    },
+    {
+        "utterance": "I am hoping to book a 5 star hotel in cambridge that is expensive. What ones are available to book for next Thursday through Sunday?",
+        "intent": "book_hotel",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "hoping": "O",
+            "to": "O",
+            "book": "O",
+            "a": "O",
+            "5": "B-hotel-stars",
+            "star": "O",
+            "hotel": "B-hotel-type",
+            "in": "O",
+            "cambridge": "O",
+            "that": "O",
+            "is": "O",
+            "expensive": "B-hotel-pricerange",
+            "what": "O",
+            "ones": "O",
+            "are": "O",
+            "available": "O",
+            "for": "O",
+            "next": "O",
+            "thursday": "B-hotel-bookday",
+            "through": "O",
+            "sunday": "O"
+        },
+        "slot_values": {
+            "hotel-bookday": [
+                "thursday"
+            ],
+            "hotel-bookstay": [
+                "3"
+            ],
+            "hotel-pricerange": [
+                "expensive"
+            ],
+            "hotel-stars": [
+                "5"
+            ],
+            "hotel-type": [
+                "hotel"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    },
+    {
+        "utterance": "I am looking for information in Cambridge",
+        "intent": "find_bus",
+        "utterance_with_slot_tokens": {
+            "i": "O",
+            "am": "O",
+            "looking": "O",
+            "for": "O",
+            "information": "O",
+            "in": "O",
+            "cambridge": "B-bus-destination"
+        },
+        "slot_values": {
+            "bus-destination": [
+                "cambridge"
+            ]
+        }
+    }
+]

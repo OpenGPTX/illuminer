@@ -1,0 +1,662 @@
+{
+    "data": [
+        {
+            "utterance": "Is there a way to reset my passcode?",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "I think someone has access to my card numbers that shouldn't.",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "My app shows some cash I didn't get.",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "Can I receive a refund for my item?",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "left phone at hotel, how to access app",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "Do you know if there is a tracking number for the new card you sent me?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "I received my new card, but I don't see it in the app anywhere.  What do I do?",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "Why is it taking so long for my cash withdrawal to no longer show as pending?",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "Why has my card payment been declined?",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "Is it possible to top up with Apple Pay?",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "My phone is not on me.  How can I use the app?",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "How do I top up? Can I use my apple watch?",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "May I use my account now, even though the identity verification has not gone through yet?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "How many times can I use the disposable virtual card I have?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "What do I do for the identity check?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "Please put a freeze on my card,  I am worried there has been some payments on it and I don't know what for.",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "Is there a way to know when my card will arrive?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "Can I transfer money to my credit card?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "Why is my payment pending?",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "I see some fees for cash withdraw.",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "The cash withdrawal exchange rate is not correct.",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "Can I give my friends access to my account so they can top it up for me?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "The app failed to verify my identity.",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "What do I do to stop unauthorized transactions on my card? I was never in the place from which the transactions on my bill were made and I never made them. Please help!",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "What do i need to verify my id?",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "The atm won't give my card back!",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "where to funds come from",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "Why can't I activate my card?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "Why am I having trouble verifying my id?",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "i need my card quick",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "I would like a temporary virtual card",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "My payments from my virtual card keep getting rejected.",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "How can I activate my card so I can start using it?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "I need to validate the source of my funds.",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "Are SWIFT transfers accepted?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "Do I need to verify my identity to use my account?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "My ID won't be verified!",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "I wish to close my account. I do not like the service you provide.",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "Why am i to verify the top-ups?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "Why did you charge me for a cash withdrawal?",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "Says my transfer can't be completed?",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "Is it possible to tell if my top up has reverted?",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "I ordered something ages ago online but it's simply not arriving. I've got enough! Give me back my money, I'm not paying these people.",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "I've been charged more than once for the same transaction",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "Something went wrong with my withdrawal. The amount of money isn't right.",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "When should I expect my card?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "My withdrawal was cancelled.",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "Why is my card not working?",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "If I make a transaction can I cancel it?",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "Is there a charge for physical cards",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "My pins seems to be blocked, can you unblock it please",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "Can I make sure my card is delivered on a specific day?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "Are your cards available in Europe?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "In what ATM can I change my pin?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "What are the charges for receiving money?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "I believe my credit card was stolen.",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "how do i add money with my apple watch",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "Will there be any charges for money received?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "I got my American Express in Apple Bay but top up is not working",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "Where do you get your exchange rates from?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "My card has not arrived yet.",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "Are my friends able to top up my account?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "Why isn't my contactless not working?",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "What do I do if the bank machine won't accept my PIN attempts anymore?",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "My transfer is pending.",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "Why doesn't it show that I did a balance transfer?",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "Where can I go to update my personal profile?",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "Why do I have a pending cash withdrawal?",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "Show me how to change my pin?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "If I want to exchange currency, will there be extras?",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "My disposable virtual card will not work",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "I bought something, but the exchange rate looks wrong.",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "Someone needs to make me aware when there are extra charges for payments. I happened to be looking at the app earlier and noticed a charge associated to a payment that was extra that no one made me aware of before at all.",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "why does the app show a direct debit payment that I did not authorize",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "I want to top up using cash, where can I do that?",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "I asked for $100 cash but only got $20?",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "help me obtain a virtual card",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "On my last transaction it seem that my top-up was not successful.",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "I got my new card where do I go to activate it?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "Do you ship cards to where I live?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "What currencies is an exchange rate calculated in?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I ordered a card a week ago, and it's still not here. What do I do?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "How can I tell if there is a top-up limit?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "do I need to verify my identity every time I log into my account?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "The app said I withdrew cash at an ATM and I didn't",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "I have been charged a fee for paying with card",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "Why does the top-up need verification?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "I need to use a European card for a top up, what will the charge be?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "How can I tell where my funds came from?",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "Use credit card to transfer money",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "I forgot the code to access the app.",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "And what about the Card's PIN?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "I need to update my info.",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "What do I need to do to get a refund?",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "Will there be additional costs of I make a withdrawal from a local ATM of British pounds? I need some cash to feel comfortable on the journey home",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "What's the right way to activate my card?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "What do I do if I think someone managed to get my card information?",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "I put money into my account for the minimum balance but the application didn't accept.",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "I need a few more physical cards.",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        }
+    ],
+    "domains": [
+        "Refund_not_showing_up",
+        "activate_my_card",
+        "age_limit",
+        "apple_pay_or_google_pay",
+        "atm_support",
+        "automatic_top_up",
+        "balance_not_updated_after_bank_transfer",
+        "balance_not_updated_after_cheque_or_cash_deposit",
+        "beneficiary_not_allowed",
+        "cancel_transfer",
+        "card_about_to_expire",
+        "card_acceptance",
+        "card_arrival",
+        "card_delivery_estimate",
+        "card_linking",
+        "card_not_working",
+        "card_payment_fee_charged",
+        "card_payment_not_recognised",
+        "card_payment_wrong_exchange_rate",
+        "card_swallowed",
+        "cash_withdrawal_charge",
+        "cash_withdrawal_not_recognised",
+        "change_pin",
+        "compromised_card",
+        "contactless_not_working",
+        "country_support",
+        "declined_card_payment",
+        "declined_cash_withdrawal",
+        "declined_transfer",
+        "direct_debit_payment_not_recognised",
+        "disposable_card_limits",
+        "edit_personal_details",
+        "exchange_charge",
+        "exchange_rate",
+        "exchange_via_app",
+        "extra_charge_on_statement",
+        "failed_transfer",
+        "fiat_currency_support",
+        "get_disposable_virtual_card",
+        "get_physical_card",
+        "getting_spare_card",
+        "getting_virtual_card",
+        "lost_or_stolen_card",
+        "lost_or_stolen_phone",
+        "order_physical_card",
+        "passcode_forgotten",
+        "pending_card_payment",
+        "pending_cash_withdrawal",
+        "pending_top_up",
+        "pending_transfer",
+        "pin_blocked",
+        "receiving_money",
+        "request_refund",
+        "reverted_card_payment?",
+        "supported_cards_and_currencies",
+        "terminate_account",
+        "top_up_by_bank_transfer_charge",
+        "top_up_by_card_charge",
+        "top_up_by_cash_or_cheque",
+        "top_up_failed",
+        "top_up_limits",
+        "top_up_reverted",
+        "topping_up_by_card",
+        "transaction_charged_twice",
+        "transfer_fee_charged",
+        "transfer_into_account",
+        "transfer_not_received_by_recipient",
+        "transfer_timing",
+        "unable_to_verify_identity",
+        "verify_my_identity",
+        "verify_source_of_funds",
+        "verify_top_up",
+        "virtual_card_not_working",
+        "visa_or_mastercard",
+        "why_verify_identity",
+        "wrong_amount_of_cash_received",
+        "wrong_exchange_rate_for_cash_withdrawal"
+    ],
+    "intents": [
+        "Refund_not_showing_up",
+        "activate_my_card",
+        "age_limit",
+        "apple_pay_or_google_pay",
+        "atm_support",
+        "automatic_top_up",
+        "balance_not_updated_after_bank_transfer",
+        "balance_not_updated_after_cheque_or_cash_deposit",
+        "beneficiary_not_allowed",
+        "cancel_transfer",
+        "card_about_to_expire",
+        "card_acceptance",
+        "card_arrival",
+        "card_delivery_estimate",
+        "card_linking",
+        "card_not_working",
+        "card_payment_fee_charged",
+        "card_payment_not_recognised",
+        "card_payment_wrong_exchange_rate",
+        "card_swallowed",
+        "cash_withdrawal_charge",
+        "cash_withdrawal_not_recognised",
+        "change_pin",
+        "compromised_card",
+        "contactless_not_working",
+        "country_support",
+        "declined_card_payment",
+        "declined_cash_withdrawal",
+        "declined_transfer",
+        "direct_debit_payment_not_recognised",
+        "disposable_card_limits",
+        "edit_personal_details",
+        "exchange_charge",
+        "exchange_rate",
+        "exchange_via_app",
+        "extra_charge_on_statement",
+        "failed_transfer",
+        "fiat_currency_support",
+        "get_disposable_virtual_card",
+        "get_physical_card",
+        "getting_spare_card",
+        "getting_virtual_card",
+        "lost_or_stolen_card",
+        "lost_or_stolen_phone",
+        "order_physical_card",
+        "passcode_forgotten",
+        "pending_card_payment",
+        "pending_cash_withdrawal",
+        "pending_top_up",
+        "pending_transfer",
+        "pin_blocked",
+        "receiving_money",
+        "request_refund",
+        "reverted_card_payment?",
+        "supported_cards_and_currencies",
+        "terminate_account",
+        "top_up_by_bank_transfer_charge",
+        "top_up_by_card_charge",
+        "top_up_by_cash_or_cheque",
+        "top_up_failed",
+        "top_up_limits",
+        "top_up_reverted",
+        "topping_up_by_card",
+        "transaction_charged_twice",
+        "transfer_fee_charged",
+        "transfer_into_account",
+        "transfer_not_received_by_recipient",
+        "transfer_timing",
+        "unable_to_verify_identity",
+        "verify_my_identity",
+        "verify_source_of_funds",
+        "verify_top_up",
+        "virtual_card_not_working",
+        "visa_or_mastercard",
+        "why_verify_identity",
+        "wrong_amount_of_cash_received",
+        "wrong_exchange_rate_for_cash_withdrawal"
+    ]
+}

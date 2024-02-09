@@ -1,0 +1,2976 @@
+{
+    "data": [
+        {
+            "utterance": "what time will my alarm go off today",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "what time are my alarms",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "what's my next scheduled alarm",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "what alarms do i have set for today",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "show me the alarms i've set",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "what alarms do i have scheduled for tomorrow",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "how many alarms are currently set",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "let me see my alarms",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "what time is my alarm set for",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "is my work alarm set for tomorrow",
+            "domain": "alarm",
+            "intent": "alarm_query"
+        },
+        {
+            "utterance": "remove my earliest alarm for tomorrow",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "please remove this alarm",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "delete my six am alarm",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "remove all alarms if any",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "olly remove my wake up alarm",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "will you turn the alarm off for me",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "reset the alarm",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "remove alarm",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "snooze all today's alarms permanently",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "remove my eight p. m. alarm and set it to seven p. m.",
+            "domain": "alarm",
+            "intent": "alarm_remove"
+        },
+        {
+            "utterance": "set an alarm for nine p. m.",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "make an alarm to wake me up after five hours",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "put alarm at five am",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "alarm me at eight am",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "set alarm for this event reminder repeating for ten times",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "will you set alarm clock one day before for all gym class on my calendar",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "olly alert me at three p. m. to go to the concert",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "set my alarm for six am",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "i'd like an alarm set for this saturday at ten",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "change alarm setting",
+            "domain": "alarm",
+            "intent": "alarm_set"
+        },
+        {
+            "utterance": "lower speaker volume",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "can you turn that down",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "make the volume lower",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "lower the volume on the speakers",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "turn down volume",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "turn down the speakers",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "turn down the volume",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "please reduce the sound",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "lower audio",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "could you please lower your volume",
+            "domain": "audio",
+            "intent": "audio_volume_down"
+        },
+        {
+            "utterance": "by hide",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "set mute for twenty minutes",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "stop it",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "olly pause for ten seconds",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "set mute mode for one hour",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "quiet",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "olly no notifications for five minutes",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "speakers off",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "sound off",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "help me to mute my speaker",
+            "domain": "audio",
+            "intent": "audio_volume_mute"
+        },
+        {
+            "utterance": "change the volume of the speakers",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "give a pleasant sound",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "volume control please",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "set the average of the device",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "could you change the volume",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "need to see volume settings",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "change the audio settings",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "adjust the volume",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "volume settings please",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "improve volume clarity",
+            "domain": "audio",
+            "intent": "audio_volume_other"
+        },
+        {
+            "utterance": "can you turn up the volume",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "could you please yell the answer out to me",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "raise the volume of the speakers to fifty five percent",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "can you speak a little louder",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "turn up volume of music",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "can you turn it up a little",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "i need a high volume",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "turn up sound",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "i couldn't hear you repeat that louder",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "turn up music please",
+            "domain": "audio",
+            "intent": "audio_volume_up"
+        },
+        {
+            "utterance": "what are the details of this event",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "am i available at five p. m. on sunday",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "in march what meetings are available",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "list next month's events",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "please check and tell me about the reminders i have placed today",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "what appointments do i have between one p. m. till three p. m.",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "what are the reminder i had set for tomorrow",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "do i have any appointments tomorrow",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "do i have any meetings on friday's afternoon",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "which is the next event coming up",
+            "domain": "calendar",
+            "intent": "calendar_query"
+        },
+        {
+            "utterance": "remove",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "i need everything deleted from calendar please",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "clear up my calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "delete my meeting event for march nineteen at one p. m.",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "clear all events from calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "can you delete the next calendar event for which i was invited",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "can you please disregard the party that i will be going to this weekend on my calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "remove wyatt's birthday party from my calendar",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "delete all upcoming yoga sessions",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "delete lunch with michael",
+            "domain": "calendar",
+            "intent": "calendar_remove"
+        },
+        {
+            "utterance": "can you enter an event to my calendar",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "notify me the day before the horse race at santa anita on march seventh",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "click save",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "put on my calendar meeting with ms. boland on wednesday eight hundred am",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "remind me to look at the pasta in thirty minutes",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "remind me to go to the gym every monday and tuesday",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "add to calendar doctor k. at three hundred and thirty p. m. on march seven",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "remind me of this meeting soon",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "send a notification to friend",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "i want a reminder for an editor's meeting at two p. m. thursday",
+            "domain": "calendar",
+            "intent": "calendar_set"
+        },
+        {
+            "utterance": "what to cook for lunch",
+            "domain": "cooking",
+            "intent": "cooking_query"
+        },
+        {
+            "utterance": "i need a recipe for chicken thighs for my pressure cooker",
+            "domain": "cooking",
+            "intent": "cooking_query"
+        },
+        {
+            "utterance": "olly can i use brown sugar instead of white in peanut butter cookies",
+            "domain": "cooking",
+            "intent": "cooking_query"
+        },
+        {
+            "utterance": "what's the easiest and quickest way to cook a turkey",
+            "domain": "cooking",
+            "intent": "cooking_query"
+        },
+        {
+            "utterance": "olly how do i cook a pasta",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "what are the best recipes for pesto",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "olly how do i start making lobster bisque",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "what's needed to make pizza",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "what are the ingredients in macaroni and cheese",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "what is a substitute for margarine",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "olly how do i make meatloaf",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "how long does it take to make meatloaf",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "how do i make mashed potatoes",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "i want a recipe for a burrito",
+            "domain": "cooking",
+            "intent": "cooking_recipe"
+        },
+        {
+            "utterance": "what time will it be locally at nine am bangalore india time",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "olly can you convert my time zone to the time zone i'm currently in",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "what the time difference from here to ottawa",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "change my clock to central time zone from my current zone",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "what is the time difference between eastern time and pacific time",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "can you please change the time zone to us",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "eight am manila time is what in eastern time",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "convert current time from ist to e. s. t.",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "what is the time difference between my location and hong kong",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "can you tell how many hours of difference are between boston and los angeles",
+            "domain": "datetime",
+            "intent": "datetime_convert"
+        },
+        {
+            "utterance": "what's the time",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "what hour is it in new york now",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "what day of the week was february four nineteen seventy two",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "tell me what time it is right now",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "which day is march twenty",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "please tell me the date and time",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "can i get the time",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "what's the date today",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "tell me present time in malaysia",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "tell me the time in japan",
+            "domain": "datetime",
+            "intent": "datetime_query"
+        },
+        {
+            "utterance": "store my contacts",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "please create a new contact information about jo",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "save this email in my contact for future use",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "add new email address",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "add this email to my contact list",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "create new contact with email",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "i need you to add this email in my contacts",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "i would like you to add an email to my contacts",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "i want to and my email address",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "add this email to a new contact",
+            "domain": "email",
+            "intent": "email_addcontact"
+        },
+        {
+            "utterance": "did i get any messages from john",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "are there any emails from the school about my conference",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "are there unread emails in gmail",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "check my spam email for phishing",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "did any emails come for me in the last five hours",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "what are my newest emails",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "show me most recent emails",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "is there any new email",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "do i have any emails from robert",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "any new emails in my inbox",
+            "domain": "email",
+            "intent": "email_query"
+        },
+        {
+            "utterance": "how many contacts are there named john",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "how do i dial sarah",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "send hi in watsapp to vikki",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "show number and contact email of rehan",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "what is mary s.'s phone number",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "dial the number",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "is this my sisters cell phone number",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "what information do you have on file in my information about bill",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "is there email id of john in the list",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "google i need to call my mom will you check her work number for me",
+            "domain": "email",
+            "intent": "email_querycontact"
+        },
+        {
+            "utterance": "drop a message to jan write i will be late",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "shoot dale an email response warning him about the gulls at the beach",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "start email to client",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "email dad about fixing my car",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "email my mom",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "send reply to joe",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "create an email to aran",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "olly email jennifer the new schedule of the meeting for tomorrow",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "send a copy of the bills to mecky by email",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "through mobile phones",
+            "domain": "email",
+            "intent": "email_sendemail"
+        },
+        {
+            "utterance": "hello",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "how are you doing",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "how is everything",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "olly tell me my alarms",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "hey olly what's up",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "who are you",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "hello how are you",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "how was the day",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "good day",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "good evening",
+            "domain": "general",
+            "intent": "general_greet"
+        },
+        {
+            "utterance": "tell me a good doctor joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "share me a joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "hey olly make me laugh with a good joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "say something funny",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "say some jokes",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "do you have a joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "do you know any joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "what about this joke",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "find the joke about the orange and the banana",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "what's the famous monty python joke about the bird",
+            "domain": "general",
+            "intent": "general_joke"
+        },
+        {
+            "utterance": "olly i had a great day today",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "recap my day",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "this computer is very hard to use",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "hey olly i saw a dog today",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "what fun things are there to do in this area",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "tell me a random trivia",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "compare prices of dairy items in local shops",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "have you been enjoying your day so far",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "alexa when will mankind reach the singularity",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "tell me about rihana",
+            "domain": "general",
+            "intent": "general_quirky"
+        },
+        {
+            "utterance": "vacuum the house olly",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "go near vacuum cleaner",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "turn on vacuum",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "start the robot vacuum cleaner at one p. m. today",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "please set the vacuum to start going now",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "start the vacuum at nine am",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "google i need the living room vacuumed can you turn on the vacuum cleaner",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "initiate cleaning process",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "start my robot vacuum cleaner by ten to eleven am daily",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "vacuum living room",
+            "domain": "iot",
+            "intent": "iot_cleaning"
+        },
+        {
+            "utterance": "make coffee",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "how do i set the timer on my coffee machine",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "i will need my filter coffee in ten minutes please ask the coffee maker accordingly",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "get me some latte please",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "please make coffee",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "i would like a cup of coffee",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "please start me some coffee",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "i'd like a coffee please",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "get a cup of coffee ready now",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "make some coffee",
+            "domain": "iot",
+            "intent": "iot_coffee"
+        },
+        {
+            "utterance": "turn the lights blue",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "transition lights to blue to green to yellow",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "make all the lights in the house orange",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "change the color of the lights in my house from white to yellow",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "change the lights in my home to orange",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "color the lights red",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "change house light from green to red",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "i would like orange lights now",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "change the lights into green",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "please make the lights blue",
+            "domain": "iot",
+            "intent": "iot_hue_lightchange"
+        },
+        {
+            "utterance": "dim the lighting in my living room",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "please darken the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "can you turn down the lights by twenty percent",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "attenuate the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "lower the light of hall percent",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "minimize the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "reduce light intensity",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "darker lights please",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "light is too much",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "olly dim the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim"
+        },
+        {
+            "utterance": "turn this room light off",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "turn off lights in bathroom",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "switch the lights off",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "sandle",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "can you please turn off the lights in this room",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "i want the light switched off can you do it for me",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "shift the balcony light to off",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "lights off in the guest room",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "turn off my room lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "i need you to turn off the light of my bed room",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff"
+        },
+        {
+            "utterance": "turn on the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "it's dark in the living room",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "it is dark",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "please turn on the lights in my house",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "it's awfully dark here",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "i can't see anything",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "turn on the lamp",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "alexa please turn on the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "switch on all the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "turn on all upstairs lights",
+            "domain": "iot",
+            "intent": "iot_hue_lighton"
+        },
+        {
+            "utterance": "brighten living room lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "brighten light",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "please brighten the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "increase the brightness of the light it is hard to see down here",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "brighten the light at seventy percent",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "turn up the lights",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "more light",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "raise lights to full power",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "i need more light",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "set lights to full power",
+            "domain": "iot",
+            "intent": "iot_hue_lightup"
+        },
+        {
+            "utterance": "please turn off my smart plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "turn off plug",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "olly please turn off the smart socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "can you please turn off the wemo plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "i want you to turn off the plug socket before the cell phone is charged",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "the wemo plug should be turned off on",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "please make the smart socket turn off",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "deactivate the socket",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "turn off my wemo plug socket now",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "wemo plug socket off",
+            "domain": "iot",
+            "intent": "iot_wemo_off"
+        },
+        {
+            "utterance": "i need to turn on the plug in my office for my computer",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "turn on the smart charger",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "wemo plug socket on",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "turn on kitchen light",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "can you turn on the wemo plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "please turn on wemo socket",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "please switch on my wemo plug socket",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "you'll be able to turn that device on or off using your smartphone or tablet",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "turn on the wemo plug socket to plug in my dongle",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "start the smart plug",
+            "domain": "iot",
+            "intent": "iot_wemo_on"
+        },
+        {
+            "utterance": "this item should be added to the list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "add milk to my shopping list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "hey olly make a list of names starting with vowels and ending with vowels",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "the list should contain this item",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "put milk on the shopping list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "on my grocery list please add oranges",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "prepare list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "save appointment to list",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "create a new list for me",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "add new item",
+            "domain": "lists",
+            "intent": "lists_createoradd"
+        },
+        {
+            "utterance": "lists i have",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "do i have any lists for the upcoming week",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "what is on my shopping list",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "open note pad",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "pull up the shopping list",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "is there anything on my list today",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "tell me what is on my list",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "what open lists do i have",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "make a list of all the clothing range available on ralph and lauren",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "what's on my list",
+            "domain": "lists",
+            "intent": "lists_query"
+        },
+        {
+            "utterance": "please remove tricep pull down from my workout list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "remove that event from list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "clear list things to do this weekend",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "remove events from my list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "can you remove my to do list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "scratch item three",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "delete apples from my shopping list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "remove cheese from my list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "remove list from the database",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "lose the last item in the list",
+            "domain": "lists",
+            "intent": "lists_remove"
+        },
+        {
+            "utterance": "remember that i do not like this music",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "i hate this song please remember that so that i don't hear this song ever again",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "i don't like this song",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "i don't want to hear any more songs of that type",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "this song is not very good",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "that background song is terrible",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "hi google this song is too noisy",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "that song in the background is annoying",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "i hate this song do not play it again",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "this song is too length",
+            "domain": "music",
+            "intent": "music_dislikeness"
+        },
+        {
+            "utterance": "remember this music",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "can save this music in my playlist",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "i want to say something about this song",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "i like jazz",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "record petabits",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "please save the current song to favorites",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "please rate this song five stars please",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "i enjoy music",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "i like justin beibers music please play it",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "olly i'm really enjoying this song",
+            "domain": "music",
+            "intent": "music_likeness"
+        },
+        {
+            "utterance": "who wrote the song i just wanna dance with you",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "music tracking",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "list out all song",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "what is the name of the current song",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "in classic all music are there ever any singers",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "what is this song",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "tell me length and star ratings",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "who's playing the oboe on this piece",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "tell me this song",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "tell me the song that is currently playing",
+            "domain": "music",
+            "intent": "music_query"
+        },
+        {
+            "utterance": "please turn on repeat all",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "please set the equalizer in the party mode",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "repeat this song",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "put the current song on repeat",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "save settings",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "select shuffle all",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "open music player settings",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "please use shuffle",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "stop after current song",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "please lower the shuffle rate of hips don't lie",
+            "domain": "music",
+            "intent": "music_settings"
+        },
+        {
+            "utterance": "is narendra modi the indian prime minister visiting any country now",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "give me updates on the situation in france",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "cricket live scorecards",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "olly what are the headlines from the la times",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "what's new today",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "tell me the news",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "what's happening today",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "what is happening in the world right now check b. b. c.",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "tell me about the federal budget",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "show me the latest news about the elections",
+            "domain": "news",
+            "intent": "news_query"
+        },
+        {
+            "utterance": "alexa resume joes book from where i left off last time",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "resume story",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "play animal farm",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "music three",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "resume play of american gods",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "resume playback",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "play the davinci code",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "open the two towers and play",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "resume the last played audiobook",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "play it after five minutes",
+            "domain": "play",
+            "intent": "play_audiobook"
+        },
+        {
+            "utterance": "start the league of legends game",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "do a tournament with me in candy crush",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "i challenge you to a game",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "play a game of chess with me",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "play with me",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "i want to play rock paper scissors let's play",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "i would like for us to play jeopardy now",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "let's play a game of trivia",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "please play trivial pursuit with me",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "play scabble with me",
+            "domain": "play",
+            "intent": "play_game"
+        },
+        {
+            "utterance": "after this one play song",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "search and play workout playlist",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "i want to hear surfin u. s. a.",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "find jazz music on my playlist",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "play music from my favorite pandora artist station",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "select and play only christian rock from one thousand nine hundred and ninety upwards",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "it's too quiet in here",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "play my top twenty playlist",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "i would like to hear heathens by twenty one pilots",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "play me a song",
+            "domain": "play",
+            "intent": "play_music"
+        },
+        {
+            "utterance": "can you play the podcast from tomatojuicecom",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "start this week for dinner podcast",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "next episode please",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "play favorited podcasts on fishing",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "go to the last episode",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "can you find the dave ramsey podcast that aired earlier today",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "next episode",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "following podcast episode start",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "please play n. p. r. podcast",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "next one please",
+            "domain": "play",
+            "intent": "play_podcasts"
+        },
+        {
+            "utterance": "i want to listen to the radio",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "open f. m.",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "play sirius on satellite radio",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "put on some love songs",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "play news program",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "open radio frequency ninety nine point five",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "tune into the nearest english f. m. station",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "open pandora app and play station amed hoizer radio",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "select station you want",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "turn to station one hundred and two point seven ally",
+            "domain": "play",
+            "intent": "play_radio"
+        },
+        {
+            "utterance": "what is the exchange rate between u. s. d. and euro",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "currency to currency rate",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "what is the exchange rate of currency in u. k.",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "give me the exchange rate for the us dollar and the euro",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "currency exchange rate",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "how much is ten u. s. d. in indian rupees",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "is the dollar stronger than the pound",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "how do i check my currency exchange rate",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "how much indian rupees per u. s. d. today",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "what currency does england use",
+            "domain": "qa",
+            "intent": "qa_currency"
+        },
+        {
+            "utterance": "define philosophy",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "please tell me what a crankshaft is",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "olly how would you describe a ball",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "define capricious",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "what does this word means",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "description of iphone seven",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "what is the definition of succinct",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "object identifier",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "can you give me some idea about dance bar",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "perpetual meaning",
+            "domain": "qa",
+            "intent": "qa_definition"
+        },
+        {
+            "utterance": "how far in steps is home from here",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "tell me who has the most number one hits on the billboard top twenty",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "what are the coordinates of everest",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "when is shakira's birthday",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "what is the mean sea level of that place",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "what is the mass of a microwave",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "how tall is jennifer aniston",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "what percentage of the us population is related to the english royal bloodline in some way",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "why did gotse shoot mahatma gandhi",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "what is the total number of oceans in the world",
+            "domain": "qa",
+            "intent": "qa_factoid"
+        },
+        {
+            "utterance": "if i have fifty dollars and spend twenty four how many dollars will i have left",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "what's thirteen plus fourteen",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "i need to figure out this percentage",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "how many centimeter make one foot",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "what is five divided by one",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "is one divisible by three",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "what is the result of one hundred minus fifty",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "open calculator",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "how do i subtract four from two",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "i want to know the result of twenty is to two",
+            "domain": "qa",
+            "intent": "qa_maths"
+        },
+        {
+            "utterance": "amazon stock price",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "how is shell south stock doing today",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "show me share price of tata",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "is the dow up or down",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "give me the stock price of sony",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "honda stock price",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "what is motorola going for today",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "tell me which mutual funds have maximum yearly returns",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "stock",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "go to the nsdl and search for prices",
+            "domain": "qa",
+            "intent": "qa_stock"
+        },
+        {
+            "utterance": "what is open late in la",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "what events are happening in pondichery this weekend",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "show upcoming local events",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "what is going on today in biloxi",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "tell me about some cool events going on here",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "what is the event name going in my area",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "what events are planned in my area",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "olly tell me about some cool events going on here",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "are there any fun events in la today",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "what events are coming up",
+            "domain": "recommendation",
+            "intent": "recommendation_events"
+        },
+        {
+            "utterance": "where is the nearest olive garden",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "where can i get something to eat by the art museum",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "where is the best place to buy party supplies in town",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "when does olive garden close today",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "show me the shops that are in the area",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "i'm looking for reasonably priced tapas in miami beach",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "list of the nearby restaurant",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "find places to eat near my home",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "hey olly tell me what shops i am near",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "show me some vegan restaurants close by",
+            "domain": "recommendation",
+            "intent": "recommendation_locations"
+        },
+        {
+            "utterance": "olly what movies are playing tonight at nine p. m. at the amc nine",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what movies are playing tonight at nine p. m. at the amc nine",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what new movies are good",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "olly is swat a good movie",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "olly what movies are playing right now",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "olly what movies are playing near me",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what time will a movie be shown tomorrow",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what highly rated movies are playing this weekend",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what's a new sci fi movie",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "what movie do you recommend tonight",
+            "domain": "recommendation",
+            "intent": "recommendation_movies"
+        },
+        {
+            "utterance": "send a message to national grid that the power is out again",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "send tweet to at bobburgers they screwed up my order and i had to wait an extra hour",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "hey post my complaint to at microsoft on twitter",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "domino's pizza consumer service complaint",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "send twitter to mattel that they need to stop making toys in china",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "tweet a complain about my shoe color on flipkart",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "complaint",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "could please tweet that the kinley water bottle was charged for more than maximum retail price at the movies",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "post in pinterest about my new chicken recipe",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "announce a comment in facebook",
+            "domain": "social",
+            "intent": "social_post"
+        },
+        {
+            "utterance": "give me some funny facebook posts",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "who has responded to my business within the last twenty four hours",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "give me my social media update",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "do i have new likes",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "check my twitter notification",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "what are the latest updates on my facebook account",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "tell me if anything important is happening on social media today",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "may i know what is trending in social media",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "let me know if i get a new personal message from martha on facebook today",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "is there any new vegan news on facebook",
+            "domain": "social",
+            "intent": "social_query"
+        },
+        {
+            "utterance": "i want to order a takeaway from papa john's",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "selection of restaurants",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "order the best priced general tofu in nyack",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "place an order for a pepperoni pizza at papa johns",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "order from dominoes",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "i would like to have a sushi can you order me a lunch",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "from wangs kitchen restaurant home delivery for a chicken manchow soup",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "can you order me take-out",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "order spaghetti from spaghetti warehouse to bring home",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "order chinese for delivery",
+            "domain": "takeaway",
+            "intent": "takeaway_order"
+        },
+        {
+            "utterance": "does this place do takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "does pizza hut have my order ready",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "does dominoes do takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "does john's pizza have takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "how long until my takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "where can i order take-out",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "i want to know if the olive garden provides takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "when is my order arriving",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "delivery from dominoes",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "can i get takeaway from arby's",
+            "domain": "takeaway",
+            "intent": "takeaway_query"
+        },
+        {
+            "utterance": "how much is two train tickets",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "what trips are available from new york city to poughkeepsie",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "when is the last departing train from boston massachusetts",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "place of train times",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "what are the train times at millennium station departing toward indiana today",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "when is my train coming",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "what times does the train run on sundays in beaumont tx",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "where is the nearest target",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "will the train be late today in new york",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "how long until we get to chicago",
+            "domain": "transport",
+            "intent": "transport_query"
+        },
+        {
+            "utterance": "get me an uber please",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "book for me an uber taxi to bardonia",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "book me a cab",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "taxi now",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "request an uber now",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "please send a taxi to my house",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "book a taxi to the airport",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "send a taxi to come pick me up from my location",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "book me an uber",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "can i get a taxi to come to my house in an hour",
+            "domain": "transport",
+            "intent": "transport_taxi"
+        },
+        {
+            "utterance": "olly i need to get to bristol friday night can you book me a ticket please",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "book a train ticket to city leeds",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "read the ticket for tesla",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "book a train ticket to canada this evening",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "olly book me a train ticket to new york city on the third i don't care what time",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "find me a cheap train ticket for miamy",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "i need a train ticket to rome book ticket",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "book a train ticket from washington d. c. to savannah georgia",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "reserve train tickets",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "find me a train ticket to cleveland on april fourteenth",
+            "domain": "transport",
+            "intent": "transport_ticket"
+        },
+        {
+            "utterance": "how bad is the traffic near the airport",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "how long will it take to drive to long beach",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "few traffic roads",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "how heavy is traffic on interstate twenty",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "how is the traffic in broadway street",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "how bad is traffic this morning",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "is there any traffic right now",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "let me know about current traffic in carmen drive",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "is there any traffic on my way to work",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "how is the current traffic between",
+            "domain": "transport",
+            "intent": "transport_traffic"
+        },
+        {
+            "utterance": "is the sun gonna shine in devon this weekend",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "is it going to be hot in two hours",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "do you think it will be okay to wear shorts this week",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "what will the weather be on friday",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "please tell me the weather for washington d. c.",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "what is the highest temperature of delhi",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "should i wear a hat today",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "what will the weather be like on saturday",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "what's the weather like for the next week in chicago",
+            "domain": "weather",
+            "intent": "weather_query"
+        },
+        {
+            "utterance": "what is the weather like in new brighton pa",
+            "domain": "weather",
+            "intent": "weather_query"
+        }
+    ],
+    "domains": [],
+    "intents": []
+}

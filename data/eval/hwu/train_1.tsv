@@ -1,0 +1,65 @@
+text	entity_BIO	domain	intent	intent_encoded
+at what time have you set alarm for me		alarm	alarm_query	1
+cancel my three pm alarm		alarm	alarm_remove	2
+please arrange to wake me up at three am alarm		alarm	alarm_set	3
+Please lower the volume		audio	audio_volume_down	4
+silence for two hours		audio	audio_volume_mute	5
+unmute after		audio	audio_volume_up	6
+what have i got going on between three and four pm today		calendar	calendar_query	7
+remove all events from my calendar		calendar	calendar_remove	8
+add event to calendar		calendar	calendar_set	9
+how do i cook meatballs		cooking	cooking_recipe	10
+convert current time from ist to est		datetime	datetime_convert	11
+the last friday of the month lands on what day		datetime	datetime_query	12
+please place my new email address to the contact		email	email_addcontact	13
+are there any unread emails from patrick		email	email_query	14
+what is email id of john		email	email_querycontact	15
+send email to newmail@gmail dot com		email	email_sendemail	16
+yes fantastic response.		general	general_affirm	17
+can you please shut up.		general	general_commandstop	18
+please check and confirm command.		general	general_confirm	19
+i wouldn't know.		general	general_dontcare	20
+i don't quite catch that.		general	general_explain	21
+open some cools jokes		general	general_joke	22
+i did not say it.		general	general_negate	23
+you did awesome job,.		general	general_praise	24
+nightime		general	general_quirky	25
+would you speak it one more again please.		general	general_repeat	26
+it's dirty here make some noise		iot	iot_cleaning	27
+please make a coffee		iot	iot_coffee	28
+hey olly chance the current light settings		iot	iot_hue_lightchange	29
+lower the brightness of the lights		iot	iot_hue_lightdim	30
+turn lights off in kitchen		iot	iot_hue_lightoff	31
+it's too dark i can't even see my hands		iot	iot_hue_lighton	32
+i want to bright the room more		iot	iot_hue_lightup	33
+turn off sockets		iot	iot_wemo_off	34
+times clapping sound times		iot	iot_wemo_on	35
+add oil change to my to do list		lists	lists_createoradd	36
+tell me the list about		lists	lists_query	37
+delete call newspaper from my vacation list		lists	lists_remove	38
+the song touches my heart		music	music_likeness	39
+tell me what is song is playing now		music	music_query	40
+repeat all		music	music_settings	41
+what is the latest news from cbs		news	news_query	42
+play magic run after thirty min		play	play_audiobook	43
+start up bejeweled		play	play_game	44
+play my first favorite song on loop		play	play_music	45
+i want to hear this podcast		play	play_podcasts	46
+play random radio station		play	play_radio	47
+what's the exchange rate between czk and euro		qa	qa_currency	48
+can you describe to me what a pineapple looks like		qa	qa_definition	49
+where is los angeles		qa	qa_factoid	50
+seven times seven		qa	qa_maths	51
+show me share price of facebook		qa	qa_stock	52
+what are the events conducted in new york		recommendation	recommendation_events	53
+please look up local restaurants that are open now		recommendation	recommendation_locations	54
+show me theatre where pirates of caribbean is playing		recommendation	recommendation_movies	55
+heading to gym please post to facebook		social	social_post	56
+tell me what's trending on twitter		social	social_query	57
+order food		takeaway	takeaway_order	58
+please check if paradise does takeaway		takeaway	takeaway_query	59
+what times may i travel to location a		transport	transport_query	60
+find transportation to rome		transport	transport_taxi	61
+please book a train ticket from jodhpur to jaisalmer on sunday		transport	transport_ticket	62
+how is the traffic in florida		transport	transport_traffic	63
+what will be the weather on monday this week		weather	weather_query	64

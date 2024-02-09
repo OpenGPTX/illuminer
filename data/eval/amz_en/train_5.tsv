@@ -1,0 +1,300 @@
+text	entity_BIO	domain	intent	intent_encoded
+what time will my alarm go off today	O,O,O,O,O,O,O,B-date	alarm	alarm_query	1
+what time are my alarms	O,O,O,O,O	alarm	alarm_query	1
+what's my next scheduled alarm	O,O,O,O,O	alarm	alarm_query	1
+what alarms do i have set for today	O,O,O,O,O,O,O,B-date	alarm	alarm_query	1
+show me the alarms i've set	O,O,O,O,O,O	alarm	alarm_query	1
+remove my earliest alarm for tomorrow	O,O,O,O,O,B-date	alarm	alarm_remove	2
+please remove this alarm	O,O,O,O	alarm	alarm_remove	2
+delete my six am alarm	O,O,B-time,I-time,O	alarm	alarm_remove	2
+remove all alarms if any	O,O,O,O,O	alarm	alarm_remove	2
+olly remove my wake up alarm	O,O,O,B-alarm_type,I-alarm_type,O	alarm	alarm_remove	2
+set an alarm for nine p. m.	O,O,O,O,B-time,I-time,I-time	alarm	alarm_set	3
+make an alarm to wake me up after five hours	O,O,O,O,O,O,O,B-time,I-time,I-time	alarm	alarm_set	3
+put alarm at five am	O,O,O,B-time,I-time	alarm	alarm_set	3
+alarm me at eight am	O,O,O,B-time,I-time	alarm	alarm_set	3
+set alarm for this event reminder repeating for ten times	O,O,O,O,O,O,B-event_name,I-event_name,I-event_name,I-event_name	alarm	alarm_set	3
+lower speaker volume	O,O,O	audio	audio_volume_down	4
+can you turn that down	O,O,O,O,O	audio	audio_volume_down	4
+make the volume lower	O,O,O,O	audio	audio_volume_down	4
+lower the volume on the speakers	O,O,O,O,O,O	audio	audio_volume_down	4
+turn down volume	O,O,O	audio	audio_volume_down	4
+by hide	O,O	audio	audio_volume_mute	5
+set mute for twenty minutes	O,O,O,B-time,I-time	audio	audio_volume_mute	5
+stop it	O,O	audio	audio_volume_mute	5
+olly pause for ten seconds	O,O,O,B-time,I-time	audio	audio_volume_mute	5
+set mute mode for one hour	O,O,O,O,B-time,I-time	audio	audio_volume_mute	5
+change the volume of the speakers	O,O,O,O,O,O	audio	audio_volume_other	6
+give a pleasant sound	O,O,O,O	audio	audio_volume_other	6
+volume control please	O,O,O	audio	audio_volume_other	6
+set the average of the device	O,O,B-change_amount,O,O,O	audio	audio_volume_other	6
+could you change the volume	O,O,O,O,O	audio	audio_volume_other	6
+can you turn up the volume	O,O,O,O,O,O	audio	audio_volume_up	7
+could you please yell the answer out to me	O,O,O,O,O,O,O,O,O	audio	audio_volume_up	7
+raise the volume of the speakers to fifty five percent	O,O,O,O,O,O,B-change_amount,I-change_amount,I-change_amount,I-change_amount	audio	audio_volume_up	7
+can you speak a little louder	O,O,O,O,O,O	audio	audio_volume_up	7
+turn up volume of music	O,O,O,O,O	audio	audio_volume_up	7
+what are the details of this event	O,O,O,O,O,O,O	calendar	calendar_query	8
+am i available at five p. m. on sunday	O,O,O,O,B-time,I-time,I-time,O,B-date	calendar	calendar_query	8
+in march what meetings are available	O,B-date,O,B-event_name,O,O	calendar	calendar_query	8
+list next month's events	O,B-date,I-date,O	calendar	calendar_query	8
+please check and tell me about the reminders i have placed today	O,O,O,O,O,O,O,O,O,O,O,B-date	calendar	calendar_query	8
+remove	O	calendar	calendar_remove	9
+i need everything deleted from calendar please	O,O,O,O,O,O,O	calendar	calendar_remove	9
+clear up my calendar	O,O,O,O	calendar	calendar_remove	9
+delete my meeting event for march nineteen at one p. m.	O,O,B-event_name,O,O,B-date,I-date,O,B-time,I-time,I-time	calendar	calendar_remove	9
+clear all events from calendar	O,O,O,O,O	calendar	calendar_remove	9
+can you enter an event to my calendar	O,O,O,O,O,O,O,O	calendar	calendar_set	10
+notify me the day before the horse race at santa anita on march seventh	O,O,O,O,O,O,B-event_name,I-event_name,O,B-place_name,I-place_name,O,B-date,I-date	calendar	calendar_set	10
+click save	O,O	calendar	calendar_set	10
+put on my calendar meeting with ms. boland on wednesday eight hundred am	O,O,O,O,B-event_name,O,B-person,I-person,O,B-date,B-time,I-time,I-time	calendar	calendar_set	10
+remind me to look at the pasta in thirty minutes	O,O,O,O,O,O,O,O,O,O	calendar	calendar_set	10
+what to cook for lunch	O,O,O,O,B-meal_type	cooking	cooking_query	11
+i need a recipe for chicken thighs for my pressure cooker	O,O,O,O,O,O,O,O,O,O,O	cooking	cooking_query	11
+olly can i use brown sugar instead of white in peanut butter cookies	O,O,O,O,B-food_type,I-food_type,O,O,O,O,B-food_type,I-food_type,I-food_type	cooking	cooking_query	11
+what's the easiest and quickest way to cook a turkey	O,O,O,O,O,O,O,O,O,O	cooking	cooking_query	11
+olly how do i cook a pasta	O,O,O,O,B-cooking_type,O,B-food_type	cooking	cooking_recipe	12
+what are the best recipes for pesto	O,O,O,O,O,O,B-food_type	cooking	cooking_recipe	12
+olly how do i start making lobster bisque	O,O,O,O,O,O,B-food_type,I-food_type	cooking	cooking_recipe	12
+what's needed to make pizza	O,O,O,O,B-food_type	cooking	cooking_recipe	12
+what are the ingredients in macaroni and cheese	O,O,O,O,O,B-food_type,I-food_type,I-food_type	cooking	cooking_recipe	12
+what time will it be locally at nine am bangalore india time	O,O,O,O,O,O,O,B-time,I-time,B-place_name,I-place_name,O	datetime	datetime_convert	13
+olly can you convert my time zone to the time zone i'm currently in	O,O,O,O,O,O,O,O,O,O,O,O,O,O	datetime	datetime_convert	13
+what the time difference from here to ottawa	O,O,O,O,O,O,O,B-place_name	datetime	datetime_convert	13
+change my clock to central time zone from my current zone	O,O,O,O,B-time_zone,O,O,O,B-time_zone,I-time_zone,I-time_zone	datetime	datetime_convert	13
+what is the time difference between eastern time and pacific time	O,O,O,O,O,O,B-time_zone,O,O,B-time_zone,I-time_zone	datetime	datetime_convert	13
+what's the time	O,O,O	datetime	datetime_query	14
+what hour is it in new york now	O,O,O,O,O,B-place_name,I-place_name,O	datetime	datetime_query	14
+what day of the week was february four nineteen seventy two	O,O,O,O,O,O,B-date,I-date,I-date,I-date,I-date	datetime	datetime_query	14
+tell me what time it is right now	O,O,O,O,O,O,O,O	datetime	datetime_query	14
+which day is march twenty	O,O,O,B-date,I-date	datetime	datetime_query	14
+store my contacts	O,O,O	email	email_addcontact	15
+please create a new contact information about jo	O,O,O,O,O,O,O,B-person	email	email_addcontact	15
+save this email in my contact for future use	O,O,O,O,O,O,O,O,O	email	email_addcontact	15
+add new email address	O,O,O,O	email	email_addcontact	15
+add this email to my contact list	O,O,O,O,O,O,O	email	email_addcontact	15
+did i get any messages from john	O,O,O,O,O,O,B-person	email	email_query	16
+are there any emails from the school about my conference	O,O,O,O,O,O,O,O,O,B-event_name	email	email_query	16
+are there unread emails in gmail	O,O,O,O,O,O	email	email_query	16
+check my spam email for phishing	O,O,B-email_folder,O,O,O	email	email_query	16
+did any emails come for me in the last five hours	O,O,O,O,O,O,O,O,B-time,I-time,I-time	email	email_query	16
+how many contacts are there named john	O,O,O,O,O,O,B-person	email	email_querycontact	17
+how do i dial sarah	O,O,O,B-personal_info,B-person	email	email_querycontact	17
+send hi in watsapp to vikki	O,O,O,O,O,O	email	email_querycontact	17
+show number and contact email of rehan	O,B-personal_info,O,O,B-personal_info,O,B-person	email	email_querycontact	17
+what is mary s.'s phone number	O,O,B-person,I-person,B-personal_info,I-personal_info	email	email_querycontact	17
+drop a message to jan write i will be late	O,O,O,O,B-person,O,O,O,O,O	email	email_sendemail	18
+shoot dale an email response warning him about the gulls at the beach	O,B-person,O,O,O,O,O,O,O,O,O,O,O	email	email_sendemail	18
+start email to client	O,O,O,B-relation	email	email_sendemail	18
+email dad about fixing my car	O,B-relation,O,O,O,O	email	email_sendemail	18
+email my mom	O,O,B-relation	email	email_sendemail	18
+hello	O	general	general_greet	19
+how are you doing	O,O,O,O	general	general_greet	19
+how is everything	O,O,O	general	general_greet	19
+olly tell me my alarms	O,O,O,O,O	general	general_greet	19
+hey olly what's up	O,O,O,O	general	general_greet	19
+tell me a good doctor joke	O,O,O,O,B-joke_type,O	general	general_joke	20
+share me a joke	O,O,O,O	general	general_joke	20
+hey olly make me laugh with a good joke	O,O,O,O,O,O,O,B-joke_type,O	general	general_joke	20
+say something funny	O,O,B-joke_type	general	general_joke	20
+say some jokes	O,O,O	general	general_joke	20
+olly i had a great day today	O,O,O,O,O,O,B-date	general	general_quirky	21
+recap my day	O,O,O	general	general_quirky	21
+this computer is very hard to use	O,O,O,O,O,O,O	general	general_quirky	21
+hey olly i saw a dog today	O,O,O,O,O,O,B-date	general	general_quirky	21
+what fun things are there to do in this area	O,O,O,O,O,O,O,O,O,O	general	general_quirky	21
+vacuum the house olly	O,O,B-house_place,O	iot	iot_cleaning	22
+go near vacuum cleaner	O,O,B-device_type,I-device_type	iot	iot_cleaning	22
+turn on vacuum	O,O,B-device_type	iot	iot_cleaning	22
+start the robot vacuum cleaner at one p. m. today	O,O,B-device_type,I-device_type,I-device_type,O,B-time,I-time,I-time,B-date	iot	iot_cleaning	22
+please set the vacuum to start going now	O,O,O,B-device_type,O,O,O,O	iot	iot_cleaning	22
+make coffee	O,O	iot	iot_coffee	23
+how do i set the timer on my coffee machine	O,O,O,O,O,O,O,O,B-device_type,I-device_type	iot	iot_coffee	23
+i will need my filter coffee in ten minutes please ask the coffee maker accordingly	O,O,O,O,B-coffee_type,O,O,B-time,I-time,O,O,O,B-device_type,I-device_type,O	iot	iot_coffee	23
+get me some latte please	O,O,O,B-coffee_type,O	iot	iot_coffee	23
+please make coffee	O,O,O	iot	iot_coffee	23
+turn the lights blue	O,O,O,B-color_type	iot	iot_hue_lightchange	24
+transition lights to blue to green to yellow	O,O,O,B-color_type,O,B-color_type,O,B-color_type	iot	iot_hue_lightchange	24
+make all the lights in the house orange	O,O,O,O,O,O,B-house_place,B-color_type	iot	iot_hue_lightchange	24
+change the color of the lights in my house from white to yellow	O,O,O,O,O,O,O,O,B-house_place,O,B-color_type,O,B-color_type	iot	iot_hue_lightchange	24
+change the lights in my home to orange	O,O,O,O,O,B-house_place,O,B-color_type	iot	iot_hue_lightchange	24
+dim the lighting in my living room	O,O,O,O,O,B-house_place,I-house_place	iot	iot_hue_lightdim	25
+please darken the lights	O,O,O,O	iot	iot_hue_lightdim	25
+can you turn down the lights by twenty percent	O,O,O,O,O,O,B-change_amount,I-change_amount,I-change_amount	iot	iot_hue_lightdim	25
+attenuate the lights	O,O,O	iot	iot_hue_lightdim	25
+lower the light of hall percent	O,O,O,O,B-house_place,O	iot	iot_hue_lightdim	25
+turn this room light off	O,B-house_place,I-house_place,O,O	iot	iot_hue_lightoff	26
+turn off lights in bathroom	O,O,O,O,B-house_place	iot	iot_hue_lightoff	26
+switch the lights off	O,O,O,O	iot	iot_hue_lightoff	26
+sandle	O	iot	iot_hue_lightoff	26
+can you please turn off the lights in this room	O,O,O,O,O,O,O,O,O,B-house_place	iot	iot_hue_lightoff	26
+turn on the lights	O,O,O,B-device_type	iot	iot_hue_lighton	27
+it's dark in the living room	O,O,O,O,B-house_place,I-house_place	iot	iot_hue_lighton	27
+it is dark	O,O,O	iot	iot_hue_lighton	27
+please turn on the lights in my house	O,O,O,O,O,O,O,B-house_place	iot	iot_hue_lighton	27
+it's awfully dark here	O,O,O,O	iot	iot_hue_lighton	27
+brighten living room lights	O,B-house_place,I-house_place,O	iot	iot_hue_lightup	28
+brighten light	O,O	iot	iot_hue_lightup	28
+please brighten the lights	O,O,O,O	iot	iot_hue_lightup	28
+increase the brightness of the light it is hard to see down here	O,O,O,O,O,O,O,O,O,O,O,O,O	iot	iot_hue_lightup	28
+brighten the light at seventy percent	O,O,O,B-change_amount,I-change_amount,I-change_amount	iot	iot_hue_lightup	28
+please turn off my smart plug socket	O,O,O,O,B-device_type,I-device_type,I-device_type	iot	iot_wemo_off	29
+turn off plug	O,O,B-device_type	iot	iot_wemo_off	29
+olly please turn off the smart socket	O,O,O,O,O,B-device_type,I-device_type	iot	iot_wemo_off	29
+can you please turn off the wemo plug socket	O,O,O,O,O,O,B-device_type,I-device_type,I-device_type	iot	iot_wemo_off	29
+i want you to turn off the plug socket before the cell phone is charged	O,O,O,O,O,O,O,B-device_type,I-device_type,O,O,B-device_type,I-device_type,O,O	iot	iot_wemo_off	29
+i need to turn on the plug in my office for my computer	O,O,O,O,O,O,O,O,O,B-house_place,O,O,B-device_type	iot	iot_wemo_on	30
+turn on the smart charger	O,O,O,B-device_type,I-device_type	iot	iot_wemo_on	30
+wemo plug socket on	B-device_type,I-device_type,I-device_type,O	iot	iot_wemo_on	30
+turn on kitchen light	O,O,B-house_place,O	iot	iot_wemo_on	30
+can you turn on the wemo plug socket	O,O,O,O,O,B-device_type,I-device_type,I-device_type	iot	iot_wemo_on	30
+this item should be added to the list	O,O,O,O,O,O,O,O	lists	lists_createoradd	31
+add milk to my shopping list	O,O,O,O,B-list_name,O	lists	lists_createoradd	31
+hey olly make a list of names starting with vowels and ending with vowels	O,O,O,O,O,O,B-list_name,I-list_name,I-list_name,I-list_name,I-list_name,I-list_name,I-list_name,I-list_name	lists	lists_createoradd	31
+the list should contain this item	O,O,O,O,O,O	lists	lists_createoradd	31
+put milk on the shopping list	O,O,O,O,B-list_name,O	lists	lists_createoradd	31
+lists i have	O,O,O	lists	lists_query	32
+do i have any lists for the upcoming week	O,O,O,O,O,O,O,O,O	lists	lists_query	32
+what is on my shopping list	O,O,O,O,B-list_name,O	lists	lists_query	32
+open note pad	O,B-app_name,I-app_name	lists	lists_query	32
+pull up the shopping list	O,O,O,B-list_name,O	lists	lists_query	32
+please remove tricep pull down from my workout list	O,O,O,O,O,O,O,B-list_name,I-list_name	lists	lists_remove	33
+remove that event from list	O,O,O,O,O	lists	lists_remove	33
+clear list things to do this weekend	O,O,O,O,O,B-date,I-date	lists	lists_remove	33
+remove events from my list	O,O,O,O,O	lists	lists_remove	33
+can you remove my to do list	O,O,O,O,B-list_name,I-list_name,O	lists	lists_remove	33
+remember that i do not like this music	O,O,O,O,O,O,O,O	music	music_dislikeness	34
+i hate this song please remember that so that i don't hear this song ever again	O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O	music	music_dislikeness	34
+i don't like this song	O,O,O,O,O	music	music_dislikeness	34
+i don't want to hear any more songs of that type	O,O,O,O,O,O,O,O,O,O,O	music	music_dislikeness	34
+this song is not very good	O,O,O,O,O,O	music	music_dislikeness	34
+remember this music	O,O,O	music	music_likeness	35
+can save this music in my playlist	O,O,O,O,O,O,O	music	music_likeness	35
+i want to say something about this song	O,O,O,O,O,O,O,O	music	music_likeness	35
+i like jazz	O,O,B-music_genre	music	music_likeness	35
+record petabits	O,O	music	music_likeness	35
+who wrote the song i just wanna dance with you	O,O,O,O,B-song_name,I-song_name,I-song_name,I-song_name,I-song_name,I-song_name	music	music_query	36
+music tracking	O,O	music	music_query	36
+list out all song	O,O,O,O	music	music_query	36
+what is the name of the current song	O,O,O,O,O,O,O,O	music	music_query	36
+in classic all music are there ever any singers	O,B-music_genre,O,O,O,O,O,O,O	music	music_query	36
+please turn on repeat all	O,O,O,B-player_setting,O	music	music_settings	37
+please set the equalizer in the party mode	O,O,O,B-device_type,O,O,B-player_setting,I-player_setting	music	music_settings	37
+repeat this song	B-player_setting,O,O	music	music_settings	37
+put the current song on repeat	O,O,O,O,O,B-player_setting	music	music_settings	37
+save settings	O,O	music	music_settings	37
+is narendra modi the indian prime minister visiting any country now	O,B-person,I-person,O,O,O,O,B-news_topic,I-news_topic,I-news_topic,O	news	news_query	38
+give me updates on the situation in france	O,O,O,O,O,O,O,B-place_name	news	news_query	38
+cricket live scorecards	O,O,O	news	news_query	38
+olly what are the headlines from the la times	O,O,O,O,O,O,O,B-media_type,I-media_type	news	news_query	38
+what's new today	O,O,B-date	news	news_query	38
+alexa resume joes book from where i left off last time	O,B-player_setting,B-audiobook_name,I-audiobook_name,O,O,O,O,O,O,O	play	play_audiobook	39
+resume story	B-player_setting,B-audiobook_name	play	play_audiobook	39
+play animal farm	O,B-audiobook_name,I-audiobook_name	play	play_audiobook	39
+music three	O,O	play	play_audiobook	39
+resume play of american gods	B-player_setting,O,O,B-audiobook_name,I-audiobook_name	play	play_audiobook	39
+start the league of legends game	O,O,B-game_name,I-game_name,I-game_name,O	play	play_game	40
+do a tournament with me in candy crush	O,O,O,O,O,O,B-game_name,I-game_name	play	play_game	40
+i challenge you to a game	O,O,O,O,O,O	play	play_game	40
+play a game of chess with me	O,O,O,O,B-game_name,O,O	play	play_game	40
+play with me	O,O,O	play	play_game	40
+after this one play song	O,O,O,O,O	play	play_music	41
+search and play workout playlist	O,O,O,B-playlist_name,I-playlist_name	play	play_music	41
+i want to hear surfin u. s. a.	O,O,O,O,B-song_name,I-song_name,I-song_name,I-song_name	play	play_music	41
+find jazz music on my playlist	O,B-music_genre,O,O,O,O	play	play_music	41
+play music from my favorite pandora artist station	O,O,O,O,O,O,O,O	play	play_music	41
+can you play the podcast from tomatojuicecom	O,O,O,O,O,O,B-podcast_name	play	play_podcasts	42
+start this week for dinner podcast	O,B-podcast_name,I-podcast_name,I-podcast_name,I-podcast_name,O	play	play_podcasts	42
+next episode please	B-podcast_descriptor,I-podcast_descriptor,O	play	play_podcasts	42
+play favorited podcasts on fishing	O,O,O,O,O	play	play_podcasts	42
+go to the last episode	O,O,O,O,O	play	play_podcasts	42
+i want to listen to the radio	O,O,O,O,O,O,O	play	play_radio	43
+open f. m.	O,B-radio_name,I-radio_name	play	play_radio	43
+play sirius on satellite radio	O,B-app_name,O,B-device_type,I-device_type	play	play_radio	43
+put on some love songs	O,O,O,B-music_genre,I-music_genre	play	play_radio	43
+play news program	O,O,O	play	play_radio	43
+what is the exchange rate between u. s. d. and euro	O,O,O,O,O,O,B-currency_name,I-currency_name,I-currency_name,O,B-currency_name	qa	qa_currency	44
+currency to currency rate	O,O,O,O	qa	qa_currency	44
+what is the exchange rate of currency in u. k.	O,O,O,O,O,O,O,O,B-place_name,I-place_name	qa	qa_currency	44
+give me the exchange rate for the us dollar and the euro	O,O,O,O,O,O,O,B-currency_name,I-currency_name,O,O,B-currency_name	qa	qa_currency	44
+currency exchange rate	O,O,O	qa	qa_currency	44
+define philosophy	O,B-definition_word	qa	qa_definition	45
+please tell me what a crankshaft is	O,O,O,O,O,B-definition_word,O	qa	qa_definition	45
+olly how would you describe a ball	O,O,O,O,O,O,B-definition_word	qa	qa_definition	45
+define capricious	O,B-definition_word	qa	qa_definition	45
+what does this word means	O,O,O,O,O	qa	qa_definition	45
+how far in steps is home from here	O,O,O,O,O,O,O,O	qa	qa_factoid	46
+tell me who has the most number one hits on the billboard top twenty	O,O,O,O,O,O,O,O,O,O,O,O,O,O	qa	qa_factoid	46
+what are the coordinates of everest	O,O,O,O,O,B-place_name	qa	qa_factoid	46
+when is shakira's birthday	O,O,B-artist_name,B-event_name	qa	qa_factoid	46
+what is the mean sea level of that place	O,O,O,O,O,O,O,O,O	qa	qa_factoid	46
+if i have fifty dollars and spend twenty four how many dollars will i have left	O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O	qa	qa_maths	47
+what's thirteen plus fourteen	O,O,O,O	qa	qa_maths	47
+i need to figure out this percentage	O,O,O,O,O,O,O	qa	qa_maths	47
+how many centimeter make one foot	O,O,O,O,O,O	qa	qa_maths	47
+what is five divided by one	O,O,O,O,O,O	qa	qa_maths	47
+amazon stock price	B-business_name,O,O	qa	qa_stock	48
+how is shell south stock doing today	O,O,O,O,O,O,B-date	qa	qa_stock	48
+show me share price of tata	O,O,O,O,O,B-business_name	qa	qa_stock	48
+is the dow up or down	O,O,O,O,O,O	qa	qa_stock	48
+give me the stock price of sony	O,O,O,O,O,O,B-business_name	qa	qa_stock	48
+what is open late in la	O,O,O,O,O,B-place_name	recommendation	recommendation_events	49
+what events are happening in pondichery this weekend	O,O,O,O,O,B-place_name,B-date,I-date	recommendation	recommendation_events	49
+show upcoming local events	O,O,O,O	recommendation	recommendation_events	49
+what is going on today in biloxi	O,O,O,O,O,O,B-place_name	recommendation	recommendation_events	49
+tell me about some cool events going on here	O,O,O,O,O,O,O,O,O	recommendation	recommendation_events	49
+where is the nearest olive garden	O,O,O,O,B-business_type,I-business_type	recommendation	recommendation_locations	50
+where can i get something to eat by the art museum	O,O,O,O,B-business_type,I-business_type,I-business_type,B-place_name,I-place_name,I-place_name,I-place_name	recommendation	recommendation_locations	50
+where is the best place to buy party supplies in town	O,O,O,O,O,O,O,B-business_type,I-business_type,O,B-place_name	recommendation	recommendation_locations	50
+when does olive garden close today	O,O,B-business_type,I-business_type,O,B-date	recommendation	recommendation_locations	50
+show me the shops that are in the area	O,O,O,B-business_type,O,O,O,O,O	recommendation	recommendation_locations	50
+olly what movies are playing tonight at nine p. m. at the amc nine	O,O,O,O,O,B-timeofday,O,B-time,I-time,I-time,O,O,B-place_name,I-place_name	recommendation	recommendation_movies	51
+what movies are playing tonight at nine p. m. at the amc nine	O,O,O,O,B-timeofday,O,B-time,I-time,I-time,O,O,B-place_name,I-place_name	recommendation	recommendation_movies	51
+what new movies are good	O,O,O,O,O	recommendation	recommendation_movies	51
+olly is swat a good movie	O,O,B-movie_name,O,O,O	recommendation	recommendation_movies	51
+olly what movies are playing right now	O,O,O,O,O,O,O	recommendation	recommendation_movies	51
+send a message to national grid that the power is out again	O,O,O,O,B-business_name,I-business_name,O,O,O,O,O,O	social	social_post	52
+send tweet to at bobburgers they screwed up my order and i had to wait an extra hour	O,O,O,B-business_name,I-business_name,O,O,O,O,O,O,O,O,O,O,O,O,O	social	social_post	52
+hey post my complaint to at microsoft on twitter	O,O,O,O,O,B-business_name,I-business_name,O,B-media_type	social	social_post	52
+domino's pizza consumer service complaint	B-business_name,I-business_name,I-business_name,I-business_name,O	social	social_post	52
+send twitter to mattel that they need to stop making toys in china	O,B-media_type,O,B-business_name,O,O,O,O,O,O,O,O,O	social	social_post	52
+give me some funny facebook posts	O,O,O,O,B-media_type,O	social	social_query	53
+who has responded to my business within the last twenty four hours	O,O,O,O,O,O,O,O,O,B-time,I-time,I-time	social	social_query	53
+give me my social media update	O,O,O,O,O,O	social	social_query	53
+do i have new likes	O,O,O,O,O	social	social_query	53
+check my twitter notification	O,O,B-media_type,O	social	social_query	53
+i want to order a takeaway from papa john's	O,O,O,O,O,B-order_type,O,B-business_name,I-business_name	takeaway	takeaway_order	54
+selection of restaurants	O,O,O	takeaway	takeaway_order	54
+order the best priced general tofu in nyack	O,O,O,O,O,B-food_type,O,B-business_name	takeaway	takeaway_order	54
+place an order for a pepperoni pizza at papa johns	O,O,O,O,O,B-food_type,I-food_type,O,B-business_name,I-business_name	takeaway	takeaway_order	54
+order from dominoes	O,O,B-business_name	takeaway	takeaway_order	54
+does this place do takeaway	O,O,O,O,B-order_type	takeaway	takeaway_query	55
+does pizza hut have my order ready	O,B-business_name,I-business_name,O,O,O,O	takeaway	takeaway_query	55
+does dominoes do takeaway	O,B-food_type,O,B-order_type	takeaway	takeaway_query	55
+does john's pizza have takeaway	O,B-person,B-food_type,O,B-order_type	takeaway	takeaway_query	55
+how long until my takeaway	O,O,O,O,B-order_type	takeaway	takeaway_query	55
+how much is two train tickets	O,O,O,O,B-transport_type,O	transport	transport_query	56
+what trips are available from new york city to poughkeepsie	O,O,O,O,O,B-place_name,I-place_name,I-place_name,O,B-place_name	transport	transport_query	56
+when is the last departing train from boston massachusetts	O,O,O,O,O,B-transport_type,O,B-place_name,I-place_name	transport	transport_query	56
+place of train times	O,O,B-transport_type,O	transport	transport_query	56
+what are the train times at millennium station departing toward indiana today	O,O,O,B-transport_type,O,O,B-place_name,I-place_name,O,O,B-place_name,B-date	transport	transport_query	56
+get me an uber please	O,O,O,B-transport_agency,O	transport	transport_taxi	57
+book for me an uber taxi to bardonia	O,O,O,O,B-transport_agency,B-transport_type,O,B-place_name	transport	transport_taxi	57
+book me a cab	O,O,O,B-transport_type	transport	transport_taxi	57
+taxi now	B-transport_type,O	transport	transport_taxi	57
+request an uber now	O,O,B-transport_agency,O	transport	transport_taxi	57
+olly i need to get to bristol friday night can you book me a ticket please	O,O,O,O,O,O,B-place_name,B-date,B-time,O,O,O,O,O,O,O	transport	transport_ticket	58
+book a train ticket to city leeds	O,O,B-transport_type,O,O,O,B-place_name	transport	transport_ticket	58
+read the ticket for tesla	O,O,O,O,O	transport	transport_ticket	58
+book a train ticket to canada this evening	O,O,B-transport_type,O,O,B-place_name,O,B-timeofday	transport	transport_ticket	58
+olly book me a train ticket to new york city on the third i don't care what time	O,O,O,O,B-transport_type,O,O,B-place_name,I-place_name,O,O,O,B-date,O,B-time,I-time,O,O	transport	transport_ticket	58
+how bad is the traffic near the airport	O,O,O,O,O,O,O,B-place_name	transport	transport_traffic	59
+how long will it take to drive to long beach	O,O,O,O,O,O,O,O,B-place_name,I-place_name	transport	transport_traffic	59
+few traffic roads	O,O,O	transport	transport_traffic	59
+how heavy is traffic on interstate twenty	O,O,O,O,O,O,O	transport	transport_traffic	59
+how is the traffic in broadway street	O,O,O,O,O,B-place_name,O	transport	transport_traffic	59
+is the sun gonna shine in devon this weekend	O,O,B-weather_descriptor,I-weather_descriptor,I-weather_descriptor,O,B-place_name,B-date,I-date	weather	weather_query	60
+is it going to be hot in two hours	O,O,O,O,O,B-weather_descriptor,O,B-time,I-time	weather	weather_query	60
+do you think it will be okay to wear shorts this week	O,O,O,O,O,O,O,O,O,B-weather_descriptor,B-date,I-date	weather	weather_query	60
+what will the weather be on friday	O,O,O,O,O,O,B-date	weather	weather_query	60
+please tell me the weather for washington d. c.	O,O,O,O,O,O,B-place_name,I-place_name,I-place_name	weather	weather_query	60

@@ -1,0 +1,101 @@
+text	entity_BIO	domain	intent	intent_encoded
+exchange rate of euro with dollar		qa	qa_currency	48
+can you play file		play	play_audiobook	43
+tell comcast i am still on hold		social	social_post	56
+what is sarah's number		email	email_querycontact	15
+are there any tornado warnings today		weather	weather_query	64
+i want to tweet a complaint on apples phone issues		social	social_post	56
+report what is new in my email inbox please		email	email_query	14
+can they provide takeaway		takeaway	takeaway_query	59
+play music playlist		play	play_music	45
+did anyone message me on facebook		social	social_query	57
+anyone for tennis		play	play_game	44
+switch lights to red tone		iot	iot_hue_lightchange	29
+cancel the event valentine's day from the calendar		calendar	calendar_remove	8
+what are the train times for today		transport	transport_query	60
+do i have any undone tasks		calendar	calendar_query	7
+tell me the names on the list		lists	lists_query	37
+make the wemo go on		iot	iot_wemo_on	35
+next week my uncle birthday		calendar	calendar_set	9
+please turn down the lights		iot	iot_hue_lightdim	30
+get me a taxi to the airport right now		transport	transport_taxi	61
+awesome job, you did well.		general	general_praise	24
+wake up time		alarm	alarm_set	3
+tell me the meetings i have for the week		calendar	calendar_query	7
+is there any good chinese takeout that's open late		takeaway	takeaway_order	58
+search the item		lists	lists_createoradd	36
+set alarm at six thirty am		alarm	alarm_set	3
+how much long until northern rail arrives at kings cross station		transport	transport_query	60
+do i have enough ingredients in my refrigerator		cooking	cooking_recipe	10
+start a new list		lists	lists_createoradd	36
+list of playback of ar rahman collections		music	music_query	40
+hey what's the current time in austin		datetime	datetime_query	12
+what is the stock information of walmart		qa	qa_stock	52
+add this new email		email	email_addcontact	13
+where can i order pizza for delivery		takeaway	takeaway_query	59
+can you tell me the date today		datetime	datetime_query	12
+raise the volume of my music player by fifty percent		audio	audio_volume_up	6
+show me all the emails received recently		email	email_query	14
+rise volume		audio	audio_volume_up	6
+get me some latte please		iot	iot_coffee	28
+create a new to do list		lists	lists_createoradd	36
+mute my speakers for a minute here i need to make a call		audio	audio_volume_mute	5
+please turn off the lights in the kitchen		iot	iot_hue_lightoff	31
+ask for the weather today morning		weather	weather_query	64
+delete the alarm i just set		alarm	alarm_remove	2
+speak as loud as you can		audio	audio_volume_up	6
+could you please lower the tone		audio	audio_volume_down	4
+play me a radio channel for trance music		play	play_radio	47
+make a repeating reminder for my yoga practice every day at noon		calendar	calendar_set	9
+what is the subject and who is the sender of my last email		email	email_query	14
+find me the nearest chinese for delivery		takeaway	takeaway_order	58
+change the light color to blue		iot	iot_hue_lightchange	29
+please switch off on the wemo plug socket		iot	iot_wemo_off	34
+toggle wemo plug socket on		iot	iot_wemo_on	35
+show me upcoming programmes on one hundred and five point one		play	play_radio	47
+raise the lights		iot	iot_hue_lightup	33
+did you get what said correctly?		general	general_confirm	19
+have you come across any new recipes		general	general_quirky	25
+when does the super bowl officially start		qa	qa_factoid	50
+this brings some problems to us		general	general_quirky	25
+find me a joke related to baseball		general	general_joke	22
+start my robot vacuum cleaner by ten to eleven am daily		iot	iot_cleaning	27
+i want the news about academy awards		news	news_query	42
+start a new email to george brown		email	email_sendemail	16
+yeah strongly agree.		general	general_affirm	17
+when is shakira's birthday		qa	qa_factoid	50
+may i know what is trending in social media		social	social_query	57
+what is the plan for tonight		calendar	calendar_query	7
+start from my last session of joes book		play	play_audiobook	43
+define the moon for me		qa	qa_definition	49
+set an alarm for twelve		alarm	alarm_set	3
+open email		email	email_query	14
+set a timer at five am seven days a week		alarm	alarm_set	3
+write complaint to wallmart		social	social_post	56
+i would like to hear that information spoken again.		general	general_repeat	26
+skip this episode		play	play_podcasts	46
+info on lisa ann please		qa	qa_factoid	50
+define flabbergasted		qa	qa_definition	49
+will you speak once again please.		general	general_repeat	26
+take lunch meeting off my calendar		calendar	calendar_remove	8
+are there any interesting stuff happened today in my twitter		social	social_query	57
+who is this		music	music_query	40
+please go to the local sports talk show on the radio		play	play_radio	47
+select the contact		email	email_querycontact	15
+when the birthday will be		calendar	calendar_query	7
+prepare coffee now		iot	iot_coffee	28
+please say it once again.		general	general_repeat	26
+what is the time difference between here and dakar		datetime	datetime_query	12
+who assassinated lincoln		qa	qa_factoid	50
+uber		transport	transport_taxi	61
+look for a joke		general	general_joke	22
+please turn off my smart plug socket		iot	iot_wemo_off	34
+can you turn up the lights		iot	iot_hue_lightup	33
+book me a train ticket		transport	transport_ticket	62
+when is the school dance junction marked		calendar	calendar_query	7
+go to sleep		audio	audio_volume_mute	5
+email happy new year to john		email	email_sendemail	16
+s1, could you please again rephrase me about what you said now.		general	general_explain	21
+just how bad is traffic on my commute		transport	transport_traffic	63
+please turn on my music		play	play_music	45
+begin vacuum		iot	iot_cleaning	27

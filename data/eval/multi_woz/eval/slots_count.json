@@ -1,0 +1,69 @@
+{
+    "find_restaurant": {
+        "restaurant-area": 1274,
+        "restaurant-pricerange": 1292,
+        "restaurant-food": 1293,
+        "restaurant-name": 288
+    },
+    "find_hotel": {
+        "hotel-area": 470,
+        "hotel-internet": 391,
+        "hotel-parking": 383,
+        "hotel-name": 318,
+        "hotel-pricerange": 427,
+        "hotel-type": 621,
+        "hotel-stars": 404
+    },
+    "find_train": {
+        "train-day": 649,
+        "train-departure": 706,
+        "train-destination": 789,
+        "train-leaveat": 267,
+        "train-arriveby": 257
+    },
+    "find_taxi": {
+        "taxi-destination": 190,
+        "taxi-leaveat": 93,
+        "taxi-departure": 151,
+        "taxi-arriveby": 47
+    },
+    "find_attraction": {
+        "attraction-type": 731,
+        "attraction-area": 659,
+        "attraction-name": 222
+    },
+    "book_train": {
+        "train-bookpeople": 5,
+        "train-day": 6,
+        "train-departure": 9,
+        "train-leaveat": 4,
+        "train-arriveby": 4,
+        "train-destination": 6
+    },
+    "book_hotel": {
+        "hotel-area": 2,
+        "hotel-bookpeople": 5,
+        "hotel-stars": 2,
+        "hotel-bookday": 4,
+        "hotel-type": 2,
+        "hotel-internet": 1,
+        "hotel-parking": 1,
+        "hotel-bookstay": 5,
+        "hotel-name": 3,
+        "hotel-pricerange": 2
+    },
+    "find_hospital": {
+        "hospital-department": 78
+    },
+    "book_restaurant": {
+        "restaurant-bookday": 3,
+        "restaurant-bookpeople": 3,
+        "restaurant-name": 4,
+        "restaurant-food": 2,
+        "restaurant-pricerange": 1
+    },
+    "find_bus": {
+        "bus-departure": 2,
+        "bus-destination": 1
+    }
+}

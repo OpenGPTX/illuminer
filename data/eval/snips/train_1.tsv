@@ -1,0 +1,8 @@
+text	entity_BIO	domain	intent	intent_encoded
+add this tune to my it s a southern thing playlist	O,O,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+i would like to book an american samoa restaurant for 8	O,O,O,O,O,O,B-state,I-state,B-restaurant_type,O,B-party_size_number		BookRestaurant	2
+is it going to be temperate in farallon islands now	O,O,O,O,O,B-condition_temperature,O,B-geographic_poi,I-geographic_poi,B-timeRange		GetWeather	3
+play adrian borland s music on zvooq	O,B-artist,I-artist,O,O,O,B-service		PlayMusic	4
+i would rate this essay a one and a best rating of 6	O,O,O,B-object_select,B-object_type,O,B-rating_value,O,O,O,O,O,B-best_rating		RateBook	5
+find the carrousel saga	O,O,B-object_name,B-object_type		SearchCreativeWork	6
+what time is the hotline playing at the movie theatre	O,O,O,B-movie_name,I-movie_name,O,O,O,B-object_location_type,I-object_location_type		SearchScreeningEvent	7

@@ -1,0 +1,98 @@
+{
+    "restaurant-area": {
+        "restaurant": 1274
+    },
+    "restaurant-pricerange": {
+        "restaurant": 1293
+    },
+    "hotel-area": {
+        "hotel": 472
+    },
+    "hotel-internet": {
+        "hotel": 392
+    },
+    "hotel-parking": {
+        "hotel": 384
+    },
+    "hotel-name": {
+        "hotel": 321
+    },
+    "train-day": {
+        "train": 655
+    },
+    "train-departure": {
+        "train": 715
+    },
+    "restaurant-food": {
+        "restaurant": 1295
+    },
+    "train-destination": {
+        "train": 795
+    },
+    "taxi-destination": {
+        "taxi": 190
+    },
+    "taxi-leaveat": {
+        "taxi": 93
+    },
+    "train-leaveat": {
+        "train": 271
+    },
+    "train-arriveby": {
+        "train": 261
+    },
+    "restaurant-name": {
+        "restaurant": 292
+    },
+    "attraction-type": {
+        "attraction": 731
+    },
+    "hotel-pricerange": {
+        "hotel": 429
+    },
+    "hotel-type": {
+        "hotel": 623
+    },
+    "attraction-area": {
+        "attraction": 659
+    },
+    "hotel-stars": {
+        "hotel": 406
+    },
+    "train-bookpeople": {
+        "train": 5
+    },
+    "hotel-bookpeople": {
+        "hotel": 5
+    },
+    "attraction-name": {
+        "attraction": 222
+    },
+    "hospital-department": {
+        "hospital": 78
+    },
+    "taxi-departure": {
+        "taxi": 151
+    },
+    "taxi-arriveby": {
+        "taxi": 47
+    },
+    "restaurant-bookday": {
+        "restaurant": 3
+    },
+    "restaurant-bookpeople": {
+        "restaurant": 3
+    },
+    "bus-departure": {
+        "bus": 2
+    },
+    "hotel-bookday": {
+        "hotel": 4
+    },
+    "bus-destination": {
+        "bus": 1
+    },
+    "hotel-bookstay": {
+        "hotel": 5
+    }
+}

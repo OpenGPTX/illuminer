@@ -1,0 +1,101 @@
+	text	entity_BIO	domain	intent	intent_encoded
+1549	Is there a way to reset my passcode?			passcode_forgotten	46
+1565	The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?			declined_cash_withdrawal	28
+1433	I think someone has access to my card numbers that shouldn't.			compromised_card	24
+2724	My app shows some cash I didn't get.			cash_withdrawal_not_recognised	22
+1681	Can I receive a refund for my item?			request_refund	53
+1653	left phone at hotel, how to access app			lost_or_stolen_phone	44
+6	Do you know if there is a tracking number for the new card you sent me?			card_arrival	13
+45	I received my new card, but I don't see it in the app anywhere.  What do I do?			card_linking	15
+205	Why is it taking so long for my cash withdrawal to no longer show as pending?			pending_cash_withdrawal	48
+1832	Why has my card payment been declined?			declined_card_payment	27
+2967	Is it possible to top up with Apple Pay?			apple_pay_or_google_pay	4
+1654	My phone is not on me.  How can I use the app?			lost_or_stolen_phone	44
+2989	How do I top up? Can I use my apple watch?			apple_pay_or_google_pay	4
+1178	May I use my account now, even though the identity verification has not gone through yet?			why_verify_identity	75
+1399	How many times can I use the disposable virtual card I have?			disposable_card_limits	31
+3038	What do I do for the identity check?			verify_my_identity	70
+1100	Please put a freeze on my card,  I am worried there has been some payments on it and I don't know what for.			card_payment_not_recognised	18
+3	Is there a way to know when my card will arrive?			card_arrival	13
+1349	Can I transfer money to my credit card?			topping_up_by_card	63
+1601	Why is my payment pending?			pending_card_payment	47
+2880	I see some fees for cash withdraw.			cash_withdrawal_charge	21
+2598	The cash withdrawal exchange rate is not correct.			wrong_exchange_rate_for_cash_withdrawal	77
+1336	Can I give my friends access to my account so they can top it up for me?			topping_up_by_card	63
+1210	The app failed to verify my identity.			unable_to_verify_identity	69
+1410	What do I do to stop unauthorized transactions on my card? I was never in the place from which the transactions on my bill were made and I never made them. Please help!			compromised_card	24
+1225	What do i need to verify my id?			unable_to_verify_identity	69
+1930	The atm won't give my card back!			card_swallowed	20
+2004	where to funds come from			verify_source_of_funds	71
+2850	Why can't I activate my card?			activate_my_card	2
+1234	Why am I having trouble verifying my id?			unable_to_verify_identity	69
+282	i need my card quick			card_delivery_estimate	14
+2606	I would like a temporary virtual card			get_disposable_virtual_card	39
+2546	My payments from my virtual card keep getting rejected.			virtual_card_not_working	73
+2844	How can I activate my card so I can start using it?			activate_my_card	2
+2026	I need to validate the source of my funds.			verify_source_of_funds	71
+605	Are SWIFT transfers accepted?			top_up_by_bank_transfer_charge	57
+1179	Do I need to verify my identity to use my account?			why_verify_identity	75
+1218	My ID won't be verified!			unable_to_verify_identity	69
+1913	I wish to close my account. I do not like the service you provide.			terminate_account	56
+2377	Why am i to verify the top-ups?			verify_top_up	72
+2913	Why did you charge me for a cash withdrawal?			cash_withdrawal_charge	21
+2314	Says my transfer can't be completed?			failed_transfer	37
+1002	Is it possible to tell if my top up has reverted?			top_up_reverted	62
+1695	I ordered something ages ago online but it's simply not arriving. I've got enough! Give me back my money, I'm not paying these people.			request_refund	53
+1986	I've been charged more than once for the same transaction			transaction_charged_twice	64
+784	Something went wrong with my withdrawal. The amount of money isn't right.			wrong_amount_of_cash_received	76
+297	When should I expect my card?			card_delivery_estimate	14
+1561	My withdrawal was cancelled.			declined_cash_withdrawal	28
+366	Why is my card not working?			card_not_working	16
+688	If I make a transaction can I cancel it?			cancel_transfer	10
+2489	Is there a charge for physical cards			order_physical_card	45
+547	My pins seems to be blocked, can you unblock it please			pin_blocked	51
+318	Can I make sure my card is delivered on a specific day?			card_delivery_estimate	14
+3041	Are your cards available in Europe?			country_support	26
+2132	In what ATM can I change my pin?			change_pin	23
+620	What are the charges for receiving money?			top_up_by_bank_transfer_charge	57
+473	I believe my credit card was stolen.			lost_or_stolen_card	43
+2975	how do i add money with my apple watch			apple_pay_or_google_pay	4
+613	Will there be any charges for money received?			top_up_by_bank_transfer_charge	57
+2988	I got my American Express in Apple Bay but top up is not working			apple_pay_or_google_pay	4
+99	Where do you get your exchange rates from?			exchange_rate	34
+4	My card has not arrived yet.			card_arrival	13
+1359	Are my friends able to top up my account?			topping_up_by_card	63
+588	Why isn't my contactless not working?			contactless_not_working	25
+534	What do I do if the bank machine won't accept my PIN attempts anymore?			pin_blocked	51
+2711	My transfer is pending.			balance_not_updated_after_bank_transfer	7
+2709	Why doesn't it show that I did a balance transfer?			balance_not_updated_after_bank_transfer	7
+1142	Where can I go to update my personal profile?			edit_personal_details	32
+220	Why do I have a pending cash withdrawal?			pending_cash_withdrawal	48
+2155	Show me how to change my pin?			change_pin	23
+2779	If I want to exchange currency, will there be extras?			exchange_charge	33
+2529	My disposable virtual card will not work			virtual_card_not_working	73
+126	I bought something, but the exchange rate looks wrong.			card_payment_wrong_exchange_rate	19
+829	Someone needs to make me aware when there are extra charges for payments. I happened to be looking at the app earlier and noticed a charge associated to a payment that was extra that no one made me aware of before at all.			card_payment_fee_charged	17
+1503	why does the app show a direct debit payment that I did not authorize			direct_debit_payment_not_recognised	30
+2459	I want to top up using cash, where can I do that?			top_up_by_cash_or_cheque	59
+781	I asked for $100 cash but only got $20?			wrong_amount_of_cash_received	76
+937	help me obtain a virtual card			getting_virtual_card	42
+1038	On my last transaction it seem that my top-up was not successful.			top_up_reverted	62
+2853	I got my new card where do I go to activate it?			activate_my_card	2
+2491	Do you ship cards to where I live?			order_physical_card	45
+98	What currencies is an exchange rate calculated in?			exchange_rate	34
+28	I ordered a card a week ago, and it's still not here. What do I do?			card_arrival	13
+756	How can I tell if there is a top-up limit?			top_up_limits	61
+1162	do I need to verify my identity every time I log into my account?			why_verify_identity	75
+2728	The app said I withdrew cash at an ATM and I didn't			cash_withdrawal_not_recognised	22
+817	I have been charged a fee for paying with card			card_payment_fee_charged	17
+2374	Why does the top-up need verification?			verify_top_up	72
+2828	I need to use a European card for a top up, what will the charge be?			top_up_by_card_charge	58
+2010	How can I tell where my funds came from?			verify_source_of_funds	71
+1328	Use credit card to transfer money			topping_up_by_card	63
+1548	I forgot the code to access the app.			passcode_forgotten	46
+1255	And what about the Card's PIN?			get_physical_card	40
+1138	I need to update my info.			edit_personal_details	32
+1696	What do I need to do to get a refund?			request_refund	53
+2575	Will there be additional costs of I make a withdrawal from a local ATM of British pounds? I need some cash to feel comfortable on the journey home			wrong_exchange_rate_for_cash_withdrawal	77
+2846	What's the right way to activate my card?			activate_my_card	2
+1435	What do I do if I think someone managed to get my card information?			compromised_card	24
+1010	I put money into my account for the minimum balance but the application didn't accept.			top_up_reverted	62
+2424	I need a few more physical cards.			getting_spare_card	41

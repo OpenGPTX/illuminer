@@ -1,0 +1,19 @@
+{
+    "music": {
+        "PlayMusic": "listen to music",
+        "AddToPlaylist": "add to playlist"
+    },
+    "screening event": {
+        "SearchScreeningEvent": "find a screening event"
+    },
+    "restaurant": {
+        "BookRestaurant": "book a restaurant"
+    },
+    "weather": {
+        "GetWeather": "get weather forecast"
+    },
+    "creative work": {
+        "SearchCreativeWork": "find a creative work",
+        "RateBook": "rate a book"
+    }
+}

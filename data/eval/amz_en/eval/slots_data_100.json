@@ -1,0 +1,1251 @@
+{
+    "data": [
+        {
+            "utterance": "move to the next episode of hipsterhood",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_descriptor",
+                    "slot_values": [
+                        "next episode"
+                    ]
+                },
+                {
+                    "slot_name": "podcast_name",
+                    "slot_values": [
+                        "hipsterhood"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "how much wood could a woodchuck chuck if a woodchuck could chuck wood",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "i need a drink",
+            "domain": "iot",
+            "intent": "iot_coffee",
+            "slots": []
+        },
+        {
+            "utterance": "let me know the recipe for preparing pasta",
+            "domain": "cooking",
+            "intent": "cooking_recipe",
+            "slots": [
+                {
+                    "slot_name": "food_type",
+                    "slot_values": [
+                        "pasta"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play a podcast from my library",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_name",
+                    "slot_values": [
+                        "library"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "how many euros can i get for one dollar",
+            "domain": "qa",
+            "intent": "qa_currency",
+            "slots": [
+                {
+                    "slot_name": "currency_name",
+                    "slot_values": [
+                        "euros"
+                    ]
+                },
+                {
+                    "slot_name": "currency_name",
+                    "slot_values": [
+                        "dollar"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "meeting"
+                    ]
+                },
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "discuss terrorism"
+                    ]
+                },
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "fred"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "next available"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play mf doom anything",
+            "domain": "play",
+            "intent": "play_music",
+            "slots": [
+                {
+                    "slot_name": "artist_name",
+                    "slot_values": [
+                        "mf doom"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what's the currency exchange rate for china",
+            "domain": "qa",
+            "intent": "qa_currency",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "china"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what happened on the walking dead",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "news_topic",
+                    "slot_values": [
+                        "walking dead"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "how much is lebron james worth",
+            "domain": "qa",
+            "intent": "qa_factoid",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "lebron james"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play next podcast",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_descriptor",
+                    "slot_values": [
+                        "next podcast"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will you send a calendar invite out to james and alice for brunch at eleven am on tuesday",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "james and alice"
+                    ]
+                },
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "brunch"
+                    ]
+                },
+                {
+                    "slot_name": "time",
+                    "slot_values": [
+                        "eleven am"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "tuesday"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "olly play a good track from my favorite jazz player",
+            "domain": "play",
+            "intent": "play_music",
+            "slots": [
+                {
+                    "slot_name": "music_genre",
+                    "slot_values": [
+                        "jazz"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please skip to the next podcast episode",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_descriptor",
+                    "slot_values": [
+                        "next podcast episode"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find an oscar nominee movie",
+            "domain": "recommendation",
+            "intent": "recommendation_movies",
+            "slots": []
+        },
+        {
+            "utterance": "how much is a train ticket to chicago",
+            "domain": "transport",
+            "intent": "transport_query",
+            "slots": [
+                {
+                    "slot_name": "transport_type",
+                    "slot_values": [
+                        "train"
+                    ]
+                },
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "chicago"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is it in cleveland",
+            "domain": "datetime",
+            "intent": "datetime_query",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "cleveland"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find me info on cars",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "news_topic",
+                    "slot_values": [
+                        "cars"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "are sunglasses a good choice for today",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "weather_descriptor",
+                    "slot_values": [
+                        "sunglasses"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "today"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "olly start the podcast over that i started last night",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_descriptor",
+                    "slot_values": [
+                        "started last night"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "how much will be the world population after twenty years",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "ask for the weather today evening",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "today"
+                    ]
+                },
+                {
+                    "slot_name": "timeofday",
+                    "slot_values": [
+                        "evening"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "features of google pixel",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "add an alarm for tomorrow morning at six am",
+            "domain": "alarm",
+            "intent": "alarm_set",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "tomorrow"
+                    ]
+                },
+                {
+                    "slot_name": "timeofday",
+                    "slot_values": [
+                        "morning"
+                    ]
+                },
+                {
+                    "slot_name": "time",
+                    "slot_values": [
+                        "six am"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "health",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "i need to ask you how many angels can dance on a pinhead",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "uber me to the airport",
+            "domain": "transport",
+            "intent": "transport_taxi",
+            "slots": [
+                {
+                    "slot_name": "transport_agency",
+                    "slot_values": [
+                        "uber"
+                    ]
+                },
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "airport"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "check time of ten thousand eight hundred and eighty seven train from luni station on tuesday",
+            "domain": "transport",
+            "intent": "transport_query",
+            "slots": [
+                {
+                    "slot_name": "transport_name",
+                    "slot_values": [
+                        "ten thousand eight hundred and eighty seven"
+                    ]
+                },
+                {
+                    "slot_name": "transport_type",
+                    "slot_values": [
+                        "train"
+                    ]
+                },
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "luni station"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "tuesday"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "does pings do takeaway",
+            "domain": "takeaway",
+            "intent": "takeaway_query",
+            "slots": [
+                {
+                    "slot_name": "business_name",
+                    "slot_values": [
+                        "pings"
+                    ]
+                },
+                {
+                    "slot_name": "order_type",
+                    "slot_values": [
+                        "takeaway"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what does turbulence mean",
+            "domain": "qa",
+            "intent": "qa_definition",
+            "slots": [
+                {
+                    "slot_name": "definition_word",
+                    "slot_values": [
+                        "turbulence"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "turn on new smart socket",
+            "domain": "iot",
+            "intent": "iot_wemo_on",
+            "slots": [
+                {
+                    "slot_name": "device_type",
+                    "slot_values": [
+                        "smart socket"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "color of light should be dimmed bright",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim",
+            "slots": []
+        },
+        {
+            "utterance": "bring me the title of current music",
+            "domain": "music",
+            "intent": "music_query",
+            "slots": []
+        },
+        {
+            "utterance": "show me my meetings this friday",
+            "domain": "calendar",
+            "intent": "calendar_query",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this friday"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to eat some spicy thing",
+            "domain": "takeaway",
+            "intent": "takeaway_order",
+            "slots": [
+                {
+                    "slot_name": "food_type",
+                    "slot_values": [
+                        "spicy"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "remind me of the event in my calendar",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": []
+        },
+        {
+            "utterance": "please power down",
+            "domain": "iot",
+            "intent": "iot_wemo_off",
+            "slots": []
+        },
+        {
+            "utterance": "do you know the weather",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": []
+        },
+        {
+            "utterance": "send this email to reply to the latest emails",
+            "domain": "email",
+            "intent": "email_sendemail",
+            "slots": []
+        },
+        {
+            "utterance": "what is the latest news on donald trump",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "donald trump"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the traffic like now",
+            "domain": "transport",
+            "intent": "transport_traffic",
+            "slots": []
+        },
+        {
+            "utterance": "can you list out my meetings today",
+            "domain": "calendar",
+            "intent": "calendar_query",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "meetings"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "today"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "raise the volume of the current music",
+            "domain": "audio",
+            "intent": "audio_volume_up",
+            "slots": []
+        },
+        {
+            "utterance": "show me painting exhibition in bay area",
+            "domain": "recommendation",
+            "intent": "recommendation_events",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "painting exhibition"
+                    ]
+                },
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "bay area"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i need a recipe that is from ingredients on my shopping list",
+            "domain": "cooking",
+            "intent": "cooking_recipe",
+            "slots": [
+                {
+                    "slot_name": "list_name",
+                    "slot_values": [
+                        "shopping"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what mistakes do you usually make",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "play racing",
+            "domain": "play",
+            "intent": "play_game",
+            "slots": [
+                {
+                    "slot_name": "game_name",
+                    "slot_values": [
+                        "racing"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "should i wear sandals or shoes with socks",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "weather_descriptor",
+                    "slot_values": [
+                        "sandals or shoes with socks"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "turn up the brightness",
+            "domain": "iot",
+            "intent": "iot_hue_lightup",
+            "slots": []
+        },
+        {
+            "utterance": "can you please order some food for me",
+            "domain": "takeaway",
+            "intent": "takeaway_order",
+            "slots": []
+        },
+        {
+            "utterance": "olly tell me about activities in my area this weekend",
+            "domain": "recommendation",
+            "intent": "recommendation_events",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this weekend"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "quiet time",
+            "domain": "audio",
+            "intent": "audio_volume_mute",
+            "slots": []
+        },
+        {
+            "utterance": "turn off the dining room",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff",
+            "slots": [
+                {
+                    "slot_name": "house_place",
+                    "slot_values": [
+                        "dining room"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "who is the contact that last called me",
+            "domain": "email",
+            "intent": "email_querycontact",
+            "slots": []
+        },
+        {
+            "utterance": "tweet to google costumer service my new nexus phone stop working help please",
+            "domain": "social",
+            "intent": "social_post",
+            "slots": [
+                {
+                    "slot_name": "media_type",
+                    "slot_values": [
+                        "tweet"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play the most popular song by given artist",
+            "domain": "play",
+            "intent": "play_music",
+            "slots": []
+        },
+        {
+            "utterance": "is angeline having a new movie this year",
+            "domain": "qa",
+            "intent": "qa_factoid",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "angeline"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please add list of things to buy for party",
+            "domain": "lists",
+            "intent": "lists_createoradd",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "party"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the commute time to the theater",
+            "domain": "transport",
+            "intent": "transport_query",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "theater"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please raise the light i am not comfortable at this",
+            "domain": "iot",
+            "intent": "iot_hue_lightup",
+            "slots": []
+        },
+        {
+            "utterance": "so clean news in past six hours is what",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "media_type",
+                    "slot_values": [
+                        "so clean"
+                    ]
+                },
+                {
+                    "slot_name": "time",
+                    "slot_values": [
+                        "past six hours"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "did i get new emails from sarah",
+            "domain": "email",
+            "intent": "email_query",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "sarah"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "is it anyone i knows birthday this month",
+            "domain": "email",
+            "intent": "email_querycontact",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "birthday"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this month"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "where is a walking trail near me",
+            "domain": "recommendation",
+            "intent": "recommendation_locations",
+            "slots": []
+        },
+        {
+            "utterance": "what is the exchange rate of us dollar to pound sterling",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "news_topic",
+                    "slot_values": [
+                        "exchange rate of us dollar to pound sterling"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "set a reminder for the thirteenth that i have a lunch with dale",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "thirteenth"
+                    ]
+                },
+                {
+                    "slot_name": "meal_type",
+                    "slot_values": [
+                        "lunch"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will you remind me of the dentist appointment i have in two hours",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "dentist appointment"
+                    ]
+                },
+                {
+                    "slot_name": "time",
+                    "slot_values": [
+                        "two hours"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "should i take a sweater or a coat to work today",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "weather_descriptor",
+                    "slot_values": [
+                        "sweater"
+                    ]
+                },
+                {
+                    "slot_name": "weather_descriptor",
+                    "slot_values": [
+                        "coat"
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "today"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what kind of weather should i expect this week",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this week"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "who is the singer of song",
+            "domain": "music",
+            "intent": "music_query",
+            "slots": []
+        },
+        {
+            "utterance": "should i bring a jacket with me tonight",
+            "domain": "weather",
+            "intent": "weather_query",
+            "slots": [
+                {
+                    "slot_name": "weather_descriptor",
+                    "slot_values": [
+                        "jacket"
+                    ]
+                },
+                {
+                    "slot_name": "timeofday",
+                    "slot_values": [
+                        "tonight"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please find all name start with alphabetic of a and create a list",
+            "domain": "lists",
+            "intent": "lists_createoradd",
+            "slots": []
+        },
+        {
+            "utterance": "play something from keane's hopes and fears album",
+            "domain": "play",
+            "intent": "play_music",
+            "slots": [
+                {
+                    "slot_name": "artist_name",
+                    "slot_values": [
+                        "keane's"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "give me all my lists",
+            "domain": "lists",
+            "intent": "lists_query",
+            "slots": []
+        },
+        {
+            "utterance": "please give me the winning lottery numbers for this weekend",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this weekend"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want it to be able to tell me statistics about things it's done for me like how often i've eaten out this month",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": [
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "this month"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "b. b. c. world headlines",
+            "domain": "news",
+            "intent": "news_query",
+            "slots": [
+                {
+                    "slot_name": "media_type",
+                    "slot_values": [
+                        "b. b. c. world"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "remind me at",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": []
+        },
+        {
+            "utterance": "olly turn the lights off in the bedroom",
+            "domain": "iot",
+            "intent": "iot_hue_lightoff",
+            "slots": [
+                {
+                    "slot_name": "house_place",
+                    "slot_values": [
+                        "bedroom"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "fast",
+            "domain": "audio",
+            "intent": "audio_volume_up",
+            "slots": []
+        },
+        {
+            "utterance": "delete it",
+            "domain": "calendar",
+            "intent": "calendar_remove",
+            "slots": []
+        },
+        {
+            "utterance": "please tweet at pizzahut i've been waiting for my delivery for now number nothappy",
+            "domain": "social",
+            "intent": "social_post",
+            "slots": [
+                {
+                    "slot_name": "media_type",
+                    "slot_values": [
+                        "tweet"
+                    ]
+                },
+                {
+                    "slot_name": "business_name",
+                    "slot_values": [
+                        "at pizzahut"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "hoover the hallway",
+            "domain": "iot",
+            "intent": "iot_cleaning",
+            "slots": [
+                {
+                    "slot_name": "house_place",
+                    "slot_values": [
+                        "hallway"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "hey siri start an email to coworker",
+            "domain": "email",
+            "intent": "email_sendemail",
+            "slots": [
+                {
+                    "slot_name": "relation",
+                    "slot_values": [
+                        "coworker"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "how old is j. k. rowling",
+            "domain": "qa",
+            "intent": "qa_factoid",
+            "slots": [
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "j. k. rowling"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "olly give me some dim light",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim",
+            "slots": []
+        },
+        {
+            "utterance": "who takes less of duration of time for delivery",
+            "domain": "takeaway",
+            "intent": "takeaway_query",
+            "slots": [
+                {
+                    "slot_name": "order_type",
+                    "slot_values": [
+                        "delivery"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "if it is from a very familiar place mark it as important",
+            "domain": "email",
+            "intent": "email_query",
+            "slots": []
+        },
+        {
+            "utterance": "i want a lower light",
+            "domain": "iot",
+            "intent": "iot_hue_lightdim",
+            "slots": []
+        },
+        {
+            "utterance": "olly tweet walmart and tell them their customer service is horrible",
+            "domain": "social",
+            "intent": "social_post",
+            "slots": [
+                {
+                    "slot_name": "media_type",
+                    "slot_values": [
+                        "tweet"
+                    ]
+                },
+                {
+                    "slot_name": "business_name",
+                    "slot_values": [
+                        "walmart"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "when i came back from this place",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "this place"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "who sings the song about a long black train",
+            "domain": "music",
+            "intent": "music_query",
+            "slots": [
+                {
+                    "slot_name": "song_name",
+                    "slot_values": [
+                        "long black train"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is it in london",
+            "domain": "datetime",
+            "intent": "datetime_query",
+            "slots": [
+                {
+                    "slot_name": "place_name",
+                    "slot_values": [
+                        "london"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "ask trivia questions",
+            "domain": "general",
+            "intent": "general_quirky",
+            "slots": []
+        },
+        {
+            "utterance": "please find the radio station currently playing howard stern",
+            "domain": "play",
+            "intent": "play_radio",
+            "slots": []
+        },
+        {
+            "utterance": "set a meeting between myself and john at two p. m. tomorrow",
+            "domain": "calendar",
+            "intent": "calendar_set",
+            "slots": [
+                {
+                    "slot_name": "event_name",
+                    "slot_values": [
+                        "meeting"
+                    ]
+                },
+                {
+                    "slot_name": "person",
+                    "slot_values": [
+                        "john"
+                    ]
+                },
+                {
+                    "slot_name": "time",
+                    "slot_values": [
+                        "two p. m."
+                    ]
+                },
+                {
+                    "slot_name": "date",
+                    "slot_values": [
+                        "tomorrow"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to listen to a sports podcast",
+            "domain": "play",
+            "intent": "play_podcasts",
+            "slots": [
+                {
+                    "slot_name": "podcast_name",
+                    "slot_values": [
+                        "sports podcast"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "train ticket please",
+            "domain": "transport",
+            "intent": "transport_ticket",
+            "slots": [
+                {
+                    "slot_name": "transport_type",
+                    "slot_values": [
+                        "train"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the square root of nine",
+            "domain": "qa",
+            "intent": "qa_maths",
+            "slots": []
+        }
+    ]
+}

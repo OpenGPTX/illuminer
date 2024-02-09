@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "utterance": "I need train reservations from norwich to cambridge",
+            "intent": "train"
+        },
+        {
+            "utterance": "Hello, I am looking for a restaurant in Cambridge. I believe it is called Golden Wok.",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "Hi, I'm looking for a hotel to stay in that includes free wifi. I'm looking to stay in a hotel, not a guesthouse.",
+            "intent": "hotel"
+        },
+        {
+            "utterance": "I am looking for a place to stay in the north of the city. I would prefer a 4 star hotel please.",
+            "intent": "hotel"
+        },
+        {
+            "utterance": "I need a place to dine, and I'd like to know what's available so far as cheap Asian Oriental food.",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "I am planning a trip in Cambridge",
+            "intent": "train"
+        },
+        {
+            "utterance": "I am looking for information in Cambridge",
+            "intent": "train"
+        },
+        {
+            "utterance": "I need a train that will be in Cambridge by 3:00",
+            "intent": "train"
+        },
+        {
+            "utterance": "I'm looking for something fun to do on the east side of town.",
+            "intent": "restaurant"
+        },
+        {
+            "utterance": "Find me a museum, please.",
+            "intent": "attraction"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "PlayMusic": {
+        "artist": "artist",
+        "album": "album",
+        "service": "service",
+        "music_item": "music item",
+        "track": "track",
+        "year": "year",
+        "playlist": "playlist",
+        "genre": "genre"
+    },
+    "AddToPlaylist": {
+        "entity_name": "entity name",
+        "playlist": "playlist",
+        "artist": "artist",
+        "playlist_owner": "playlist owner",
+        "music_item": "music item"
+    },
+    "RateBook": {
+        "object_select": "object select",
+        "object_type": "object type",
+        "rating_value": "rating value",
+        "best_rating": "best rating",
+        "object_part_of_series_type": "object part of series type",
+        "rating_unit": "rating unit",
+        "object_name": "object name"
+    },
+    "all": {
+        "sort": "sort",
+        "state": "state",
+        "city": "city",
+        "timeRange": "timeRange",
+        "spatial_relation": "spatial relation",
+        "country": "country"
+    },
+    "SearchScreeningEvent": {
+        "movie_name": "movie name",
+        "object_type": "object type",
+        "movie_type": "movie type",
+        "object_location_type": "object location type",
+        "location_name": "location name"
+    },
+    "BookRestaurant": {
+        "party_size_number": "party size number",
+        "restaurant_type": "restaurant type",
+        "party_size_description": "party size description",
+        "served_dish": "served dish",
+        "poi": "poi",
+        "restaurant_name": "restaurant name",
+        "cuisine": "cuisine",
+        "facility": "facility"
+    },
+    "GetWeather": {
+        "geographic_poi": "geographic poi",
+        "current_location": "current location",
+        "condition_temperature": "condition temperature",
+        "condition_description": "condition description"
+    },
+    "SearchCreativeWork": {
+        "object_type": "object type",
+        "object_name": "object name"
+    }
+}

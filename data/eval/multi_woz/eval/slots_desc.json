@@ -1,0 +1,69 @@
+{
+    "find_restaurant": {
+        "restaurant-area": "area",
+        "restaurant-pricerange": "pricerange",
+        "restaurant-food": "food",
+        "restaurant-name": "name"
+    },
+    "find_hotel": {
+        "hotel-area": "area",
+        "hotel-internet": "internet",
+        "hotel-parking": "parking",
+        "hotel-name": "name",
+        "hotel-pricerange": "pricerange",
+        "hotel-type": "type",
+        "hotel-stars": "stars"
+    },
+    "find_train": {
+        "train-day": "day",
+        "train-departure": "departure",
+        "train-destination": "destination",
+        "train-leaveat": "leaveat",
+        "train-arriveby": "arriveby"
+    },
+    "find_taxi": {
+        "taxi-destination": "destination",
+        "taxi-leaveat": "leaveat",
+        "taxi-departure": "departure",
+        "taxi-arriveby": "arriveby"
+    },
+    "find_attraction": {
+        "attraction-type": "type",
+        "attraction-area": "area",
+        "attraction-name": "name"
+    },
+    "book_train": {
+        "train-bookpeople": "bookpeople",
+        "train-day": "day",
+        "train-departure": "departure",
+        "train-leaveat": "leaveat",
+        "train-arriveby": "arriveby",
+        "train-destination": "destination"
+    },
+    "book_hotel": {
+        "hotel-area": "area",
+        "hotel-bookpeople": "bookpeople",
+        "hotel-stars": "stars",
+        "hotel-bookday": "bookday",
+        "hotel-type": "type",
+        "hotel-internet": "internet",
+        "hotel-parking": "parking",
+        "hotel-bookstay": "bookstay",
+        "hotel-name": "name",
+        "hotel-pricerange": "pricerange"
+    },
+    "find_hospital": {
+        "hospital-department": "department"
+    },
+    "book_restaurant": {
+        "restaurant-bookday": "bookday",
+        "restaurant-bookpeople": "bookpeople",
+        "restaurant-name": "name",
+        "restaurant-food": "food",
+        "restaurant-pricerange": "pricerange"
+    },
+    "find_bus": {
+        "bus-departure": "departure",
+        "bus-destination": "destination"
+    }
+}

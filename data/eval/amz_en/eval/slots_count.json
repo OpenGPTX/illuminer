@@ -1,0 +1,255 @@
+{
+    "all": {
+        "time": 797,
+        "date": 1816,
+        "artist_name": 232,
+        "media_type": 477,
+        "place_name": 1086,
+        "food_type": 295,
+        "device_type": 226,
+        "meal_type": 63,
+        "business_name": 383,
+        "general_frequency": 84,
+        "timeofday": 239,
+        "event_name": 998,
+        "business_type": 189,
+        "person": 864,
+        "app_name": 51,
+        "relation": 251
+    },
+    "iot_hue_lightchange": {
+        "color_type": 98,
+        "change_amount": 5,
+        "house_place": 34,
+        "player_setting": 1
+    },
+    "iot_hue_lightoff": {
+        "house_place": 91,
+        "color_type": 1
+    },
+    "iot_hue_lightdim": {
+        "house_place": 21,
+        "change_amount": 9,
+        "color_type": 1
+    },
+    "iot_cleaning": {
+        "house_place": 19
+    },
+    "datetime_convert": {
+        "time_zone": 31
+    },
+    "takeaway_query": {
+        "order_type": 68
+    },
+    "news_query": {
+        "news_topic": 177,
+        "transport_type": 1
+    },
+    "play_music": {
+        "song_name": 117,
+        "music_genre": 149,
+        "playlist_name": 61,
+        "music_descriptor": 36,
+        "player_setting": 17,
+        "movie_name": 4
+    },
+    "music_likeness": {
+        "music_genre": 11,
+        "music_descriptor": 3,
+        "player_setting": 2,
+        "song_name": 1,
+        "playlist_name": 1
+    },
+    "iot_hue_lightup": {
+        "change_amount": 7,
+        "house_place": 17
+    },
+    "takeaway_order": {
+        "order_type": 38,
+        "drink_type": 1
+    },
+    "weather_query": {
+        "weather_descriptor": 320
+    },
+    "music_settings": {
+        "player_setting": 41,
+        "song_name": 3,
+        "music_genre": 2,
+        "music_descriptor": 1
+    },
+    "general_joke": {
+        "joke_type": 35
+    },
+    "music_query": {
+        "song_name": 3,
+        "music_genre": 5,
+        "player_setting": 1,
+        "music_album": 1
+    },
+    "audio_volume_up": {
+        "song_name": 1,
+        "change_amount": 19
+    },
+    "datetime_query": {
+        "time_zone": 24
+    },
+    "qa_stock": {
+        "news_topic": 4,
+        "currency_name": 3
+    },
+    "audio_volume_down": {
+        "change_amount": 6
+    },
+    "alarm_remove": {
+        "alarm_type": 5
+    },
+    "music_dislikeness": {
+        "music_descriptor": 2
+    },
+    "iot_coffee": {
+        "coffee_type": 22
+    },
+    "iot_hue_lighton": {
+        "house_place": 4
+    },
+    "iot_wemo_off": {
+        "house_place": 2
+    },
+    "audio_volume_other": {
+        "change_amount": 1
+    },
+    "iot_wemo_on": {
+        "house_place": 4
+    },
+    "alarm_query": {
+        "alarm_type": 2,
+        "house_place": 1
+    },
+    "audio_volume_mute": {
+        "change_amount": 2
+    },
+    "general_quirky": {
+        "news_topic": 1,
+        "movie_name": 1,
+        "drink_type": 1
+    },
+    "alarm_set": {
+        "order_type": 1,
+        "alarm_type": 2,
+        "time_zone": 1
+    },
+    "calendar_remove": {
+        "transport_type": 1,
+        "list_name": 1
+    },
+    "calendar_set": {
+        "personal_info": 1,
+        "house_place": 1,
+        "song_name": 1,
+        "sport_type": 1
+    },
+    "lists_remove": {
+        "list_name": 67,
+        "song_name": 1
+    },
+    "calendar_query": {
+        "sport_type": 4,
+        "list_name": 2
+    },
+    "play_radio": {
+        "radio_name": 131,
+        "music_genre": 13,
+        "house_place": 4,
+        "music_descriptor": 1
+    },
+    "play_podcasts": {
+        "podcast_name": 56,
+        "player_setting": 18,
+        "podcast_descriptor": 68,
+        "transport_type": 3
+    },
+    "play_audiobook": {
+        "player_setting": 80,
+        "audiobook_name": 73,
+        "audiobook_author": 6,
+        "song_name": 1
+    },
+    "cooking_recipe": {
+        "cooking_type": 17,
+        "ingredient": 20,
+        "drink_type": 4
+    },
+    "play_game": {
+        "game_name": 87,
+        "game_type": 1
+    },
+    "lists_query": {
+        "list_name": 47,
+        "music_genre": 1
+    },
+    "lists_createoradd": {
+        "list_name": 72,
+        "drink_type": 2,
+        "music_descriptor": 2
+    },
+    "recommendation_movies": {
+        "movie_type": 9,
+        "movie_name": 10
+    },
+    "qa_factoid": {
+        "movie_name": 1
+    },
+    "recommendation_locations": {
+        "drink_type": 1
+    },
+    "recommendation_events": {
+        "personal_info": 1,
+        "movie_type": 1
+    },
+    "transport_taxi": {
+        "transport_type": 70,
+        "transport_agency": 31,
+        "transport_name": 1
+    },
+    "transport_query": {
+        "transport_type": 134,
+        "transport_name": 5,
+        "transport_descriptor": 1
+    },
+    "transport_ticket": {
+        "transport_type": 109,
+        "transport_descriptor": 7,
+        "transport_name": 3,
+        "currency_name": 1
+    },
+    "qa_definition": {
+        "definition_word": 225
+    },
+    "email_query": {
+        "email_folder": 31,
+        "personal_info": 2
+    },
+    "qa_currency": {
+        "currency_name": 213
+    },
+    "social_post": {
+        "personal_info": 3
+    },
+    "email_querycontact": {
+        "personal_info": 63,
+        "list_name": 1
+    },
+    "social_query": {
+        "news_topic": 1
+    },
+    "email_addcontact": {
+        "personal_info": 4,
+        "email_address": 14,
+        "list_name": 1
+    },
+    "email_sendemail": {
+        "email_address": 18,
+        "personal_info": 1,
+        "email_folder": 1
+    }
+}

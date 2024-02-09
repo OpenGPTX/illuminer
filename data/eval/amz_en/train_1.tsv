@@ -1,0 +1,61 @@
+text	entity_BIO	domain	intent	intent_encoded
+what time will my alarm go off today	O,O,O,O,O,O,O,B-date	alarm	alarm_query	1
+remove my earliest alarm for tomorrow	O,O,O,O,O,B-date	alarm	alarm_remove	2
+set an alarm for nine p. m.	O,O,O,O,B-time,I-time,I-time	alarm	alarm_set	3
+lower speaker volume	O,O,O	audio	audio_volume_down	4
+by hide	O,O	audio	audio_volume_mute	5
+change the volume of the speakers	O,O,O,O,O,O	audio	audio_volume_other	6
+can you turn up the volume	O,O,O,O,O,O	audio	audio_volume_up	7
+what are the details of this event	O,O,O,O,O,O,O	calendar	calendar_query	8
+remove	O	calendar	calendar_remove	9
+can you enter an event to my calendar	O,O,O,O,O,O,O,O	calendar	calendar_set	10
+olly can i use brown sugar instead of white in peanut butter cookies	O,O,O,O,B-food_type,I-food_type,O,O,O,O,B-food_type,I-food_type,I-food_type	cooking	cooking_query	11
+olly how do i cook a pasta	O,O,O,O,B-cooking_type,O,B-food_type	cooking	cooking_recipe	12
+what time will it be locally at nine am bangalore india time	O,O,O,O,O,O,O,B-time,I-time,B-place_name,I-place_name,O	datetime	datetime_convert	13
+what's the time	O,O,O	datetime	datetime_query	14
+store my contacts	O,O,O	email	email_addcontact	15
+did i get any messages from john	O,O,O,O,O,O,B-person	email	email_query	16
+how many contacts are there named john	O,O,O,O,O,O,B-person	email	email_querycontact	17
+drop a message to jan write i will be late	O,O,O,O,B-person,O,O,O,O,O	email	email_sendemail	18
+hello	O	general	general_greet	19
+tell me a good doctor joke	O,O,O,O,B-joke_type,O	general	general_joke	20
+olly i had a great day today	O,O,O,O,O,O,B-date	general	general_quirky	21
+vacuum the house olly	O,O,B-house_place,O	iot	iot_cleaning	22
+make coffee	O,O	iot	iot_coffee	23
+turn the lights blue	O,O,O,B-color_type	iot	iot_hue_lightchange	24
+dim the lighting in my living room	O,O,O,O,O,B-house_place,I-house_place	iot	iot_hue_lightdim	25
+turn this room light off	O,B-house_place,I-house_place,O,O	iot	iot_hue_lightoff	26
+turn on the lights	O,O,O,B-device_type	iot	iot_hue_lighton	27
+brighten living room lights	O,B-house_place,I-house_place,O	iot	iot_hue_lightup	28
+please turn off my smart plug socket	O,O,O,O,B-device_type,I-device_type,I-device_type	iot	iot_wemo_off	29
+i need to turn on the plug in my office for my computer	O,O,O,O,O,O,O,O,O,B-house_place,O,O,B-device_type	iot	iot_wemo_on	30
+this item should be added to the list	O,O,O,O,O,O,O,O	lists	lists_createoradd	31
+lists i have	O,O,O	lists	lists_query	32
+please remove tricep pull down from my workout list	O,O,O,O,O,O,O,B-list_name,I-list_name	lists	lists_remove	33
+remember that i do not like this music	O,O,O,O,O,O,O,O	music	music_dislikeness	34
+remember this music	O,O,O	music	music_likeness	35
+who wrote the song i just wanna dance with you	O,O,O,O,B-song_name,I-song_name,I-song_name,I-song_name,I-song_name,I-song_name	music	music_query	36
+please turn on repeat all	O,O,O,B-player_setting,O	music	music_settings	37
+is narendra modi the indian prime minister visiting any country now	O,B-person,I-person,O,O,O,O,B-news_topic,I-news_topic,I-news_topic,O	news	news_query	38
+alexa resume joes book from where i left off last time	O,B-player_setting,B-audiobook_name,I-audiobook_name,O,O,O,O,O,O,O	play	play_audiobook	39
+start the league of legends game	O,O,B-game_name,I-game_name,I-game_name,O	play	play_game	40
+after this one play song	O,O,O,O,O	play	play_music	41
+can you play the podcast from tomatojuicecom	O,O,O,O,O,O,B-podcast_name	play	play_podcasts	42
+i want to listen to the radio	O,O,O,O,O,O,O	play	play_radio	43
+what is the exchange rate between u. s. d. and euro	O,O,O,O,O,O,B-currency_name,I-currency_name,I-currency_name,O,B-currency_name	qa	qa_currency	44
+define philosophy	O,B-definition_word	qa	qa_definition	45
+how far in steps is home from here	O,O,O,O,O,O,O,O	qa	qa_factoid	46
+if i have fifty dollars and spend twenty four how many dollars will i have left	O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O	qa	qa_maths	47
+amazon stock price	B-business_name,O,O	qa	qa_stock	48
+what is open late in la	O,O,O,O,O,B-place_name	recommendation	recommendation_events	49
+where is the nearest olive garden	O,O,O,O,B-business_type,I-business_type	recommendation	recommendation_locations	50
+olly what movies are playing tonight at nine p. m. at the amc nine	O,O,O,O,O,B-timeofday,O,B-time,I-time,I-time,O,O,B-place_name,I-place_name	recommendation	recommendation_movies	51
+send a message to national grid that the power is out again	O,O,O,O,B-business_name,I-business_name,O,O,O,O,O,O	social	social_post	52
+give me some funny facebook posts	O,O,O,O,B-media_type,O	social	social_query	53
+i want to order a takeaway from papa john's	O,O,O,O,O,B-order_type,O,B-business_name,I-business_name	takeaway	takeaway_order	54
+does this place do takeaway	O,O,O,O,B-order_type	takeaway	takeaway_query	55
+how much is two train tickets	O,O,O,O,B-transport_type,O	transport	transport_query	56
+get me an uber please	O,O,O,B-transport_agency,O	transport	transport_taxi	57
+olly i need to get to bristol friday night can you book me a ticket please	O,O,O,O,O,O,B-place_name,B-date,B-time,O,O,O,O,O,O,O	transport	transport_ticket	58
+how bad is the traffic near the airport	O,O,O,O,O,O,O,B-place_name	transport	transport_traffic	59
+is the sun gonna shine in devon this weekend	O,O,B-weather_descriptor,I-weather_descriptor,I-weather_descriptor,O,B-place_name,B-date,I-date	weather	weather_query	60

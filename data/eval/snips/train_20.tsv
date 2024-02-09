@@ -1,0 +1,141 @@
+text	entity_BIO	domain	intent	intent_encoded
+add this tune to my it s a southern thing playlist	O,O,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add this maksim tune to trad folk	O,O,B-artist,B-music_item,O,B-playlist,I-playlist		AddToPlaylist	1
+put ron wood in the digster reggae playlist	O,B-artist,I-artist,O,O,B-playlist,I-playlist,O		AddToPlaylist	1
+my disco forever playlist needs an album by sawai gandharva	B-playlist_owner,B-playlist,I-playlist,O,O,O,B-music_item,O,B-artist,I-artist		AddToPlaylist	1
+this artist should go onto my playlist called the piano bar	O,B-music_item,O,O,O,B-playlist_owner,O,O,B-playlist,I-playlist,I-playlist		AddToPlaylist	1
+add artist to lo mejor de los 00 s	O,B-music_item,O,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,I-playlist		AddToPlaylist	1
+add another album to my this is pavarotti playlist	O,O,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add dahmer to hiphop hot 50	O,B-entity_name,O,B-playlist,I-playlist,I-playlist		AddToPlaylist	1
+please put linzi stoppard into my sxsw fresh playlist	O,O,B-artist,I-artist,O,B-playlist_owner,B-playlist,I-playlist,O		AddToPlaylist	1
+add lil armstrong to my adrenaline workout playlist	O,B-artist,I-artist,O,B-playlist_owner,B-playlist,I-playlist,O		AddToPlaylist	1
+add artist john william boone to my life s short play fast playlist	O,B-music_item,B-artist,I-artist,I-artist,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add this track to my global funk	O,O,B-music_item,O,B-playlist_owner,B-playlist,I-playlist		AddToPlaylist	1
+add something by paul whiteman to my sweet soul chillout playlist please	O,O,O,B-artist,I-artist,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,O,O		AddToPlaylist	1
+put frank farian on lydia s playlist called the black power mixtape 1967 to 1975	O,B-artist,I-artist,O,B-playlist_owner,I-playlist_owner,O,O,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,I-playlist,I-playlist		AddToPlaylist	1
+add totally stress free by bobby lord to my playlist	O,B-playlist,I-playlist,I-playlist,O,B-artist,I-artist,O,B-playlist_owner,O		AddToPlaylist	1
+add enduser song in grime instrumentals	O,B-artist,B-music_item,O,B-playlist,I-playlist		AddToPlaylist	1
+include kunnon syy in my trap land playlist	O,B-entity_name,I-entity_name,O,B-playlist_owner,B-playlist,I-playlist,O		AddToPlaylist	1
+i want to add the tim smith album to my best of 2010 s playlist	O,O,O,O,O,B-artist,I-artist,B-music_item,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+i need another artist in the romántica playlist	O,O,O,B-music_item,O,O,B-playlist,O		AddToPlaylist	1
+add diarios de bicicleta to my la la playlist	O,B-playlist,I-playlist,I-playlist,O,B-playlist_owner,B-entity_name,I-entity_name,O		AddToPlaylist	1
+i would like to book an american samoa restaurant for 8	O,O,O,O,O,O,B-state,I-state,B-restaurant_type,O,B-party_size_number		BookRestaurant	2
+book a highly rated bar in burkina for georgia and i	O,O,B-sort,I-sort,B-restaurant_type,O,B-country,O,B-party_size_description,I-party_size_description,I-party_size_description		BookRestaurant	2
+please book me a restaurant reservation at first watch in douglas maine	O,O,O,O,B-restaurant_type,O,O,B-restaurant_name,I-restaurant_name,O,B-city,B-state		BookRestaurant	2
+i want to eat ice cream at a brasserie with me and my mother in law	O,O,O,O,B-served_dish,I-served_dish,O,O,B-restaurant_type,O,B-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description		BookRestaurant	2
+book a spot for 8 at a popular taverna	O,O,O,O,B-party_size_number,O,O,B-sort,B-restaurant_type		BookRestaurant	2
+book a pub with fisn n chips in timberville	O,O,B-restaurant_type,O,B-served_dish,I-served_dish,I-served_dish,O,B-city		BookRestaurant	2
+book a restaurant in el salvador for 10 people	O,O,B-restaurant_type,O,B-country,I-country,O,B-party_size_number,O		BookRestaurant	2
+book a table for six in beech creek	O,O,O,O,B-party_size_number,O,B-city,I-city		BookRestaurant	2
+book a table for 3 far from tullytown at a coffeehouse with a smoking room	O,O,O,O,B-party_size_number,B-spatial_relation,O,B-poi,O,O,B-restaurant_type,O,O,B-facility,I-facility		BookRestaurant	2
+i want a reservation for 11:16:07 at the fort in south carolina	O,O,O,O,O,B-timeRange,O,B-restaurant_name,I-restaurant_name,O,B-state,I-state		BookRestaurant	2
+find a reservation for a highly rated brasserie for me and my step sister	O,O,O,O,O,B-sort,I-sort,B-restaurant_type,O,B-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description,I-party_size_description		BookRestaurant	2
+book a table for 10 at a restaurant in federated states of micronesia	O,O,O,O,B-party_size_number,O,O,B-restaurant_type,O,B-state,I-state,I-state,I-state		BookRestaurant	2
+book a best steakhouse for 2 in montserrat on 79 days and a half from now	O,O,B-sort,B-restaurant_type,O,B-party_size_number,O,B-country,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange		BookRestaurant	2
+make a reservation for 9 at a brasserie with parking	O,O,O,O,B-party_size_number,O,O,B-restaurant_type,O,B-facility		BookRestaurant	2
+book a restaurant on martin luther king jr day with parking	O,O,B-restaurant_type,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange,O,B-facility		BookRestaurant	2
+book a restaurant in anguilla for one at national coney island	O,O,B-restaurant_type,O,B-country,O,B-party_size_number,O,B-restaurant_name,I-restaurant_name,I-restaurant_name		BookRestaurant	2
+i would like to book a restaurant in singapore for nine in 19 hours and 1 second	O,O,O,O,O,O,B-restaurant_type,O,B-country,O,B-party_size_number,B-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange,I-timeRange		BookRestaurant	2
+i want to go to antigua and barbuda and eat at a table for 4	O,O,O,O,O,B-country,I-country,I-country,O,O,O,O,O,O,B-party_size_number		BookRestaurant	2
+please make reservations for a bar close-by in lake alfred	O,O,O,O,O,B-restaurant_type,B-spatial_relation,O,B-city,I-city		BookRestaurant	2
+can you place a reservation for me at ariston cafe	O,O,O,O,O,O,O,O,B-restaurant_name,I-restaurant_name		BookRestaurant	2
+is it going to be temperate in farallon islands now	O,O,O,O,O,B-condition_temperature,O,B-geographic_poi,I-geographic_poi,B-timeRange		GetWeather	3
+what s the weather going to be like at 10:21:20 close by id	O,O,O,O,O,O,O,O,O,B-timeRange,B-spatial_relation,I-spatial_relation,B-state		GetWeather	3
+will it feel nice here or within the same area	O,O,O,O,B-current_location,O,B-spatial_relation,I-spatial_relation,I-spatial_relation,I-spatial_relation		GetWeather	3
+what kind of weather will be in windy hills bermuda in ten weeks	O,O,O,O,O,O,O,B-city,I-city,B-country,B-timeRange,I-timeRange,I-timeRange		GetWeather	3
+can you give me the forecast for 11 in bradner ia	O,O,O,O,O,O,O,B-timeRange,O,B-city,B-state		GetWeather	3
+what will the weather be like 20 minutes from now in homestead meadows in martinique	O,O,O,O,O,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange,O,B-city,I-city,O,B-country		GetWeather	3
+what will the weather be like this week close-by saudi arabia	O,O,O,O,O,O,O,B-timeRange,B-spatial_relation,B-country,I-country		GetWeather	3
+is the expected weather temperate here in 1 month	O,O,O,O,B-condition_temperature,B-current_location,B-timeRange,I-timeRange,I-timeRange		GetWeather	3
+will the weather be temperate on jan the thirteenth 2028 at christmas island	O,O,O,O,B-condition_temperature,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange,O,B-country,I-country		GetWeather	3
+will it be warmer in flag	O,O,O,B-condition_temperature,O,B-city		GetWeather	3
+what s the weather going to be like here at ten am	O,O,O,O,O,O,O,O,B-current_location,O,B-timeRange,I-timeRange		GetWeather	3
+i need the forecast for mamaroneck in six weeks	O,O,O,O,O,B-city,B-timeRange,I-timeRange,I-timeRange		GetWeather	3
+will it be windy in mission bay ak today	O,O,O,B-condition_description,O,B-city,I-city,B-state,B-timeRange		GetWeather	3
+tell me if it ll be rainy here on dec the 25th 2033	O,O,O,O,O,O,B-condition_description,B-current_location,O,B-timeRange,I-timeRange,I-timeRange,I-timeRange		GetWeather	3
+what s the weather for april 10th 2028 in arkansas	O,O,O,O,O,B-timeRange,I-timeRange,I-timeRange,O,B-state		GetWeather	3
+weather 1 minute from now in camden point zambia	O,B-timeRange,I-timeRange,I-timeRange,I-timeRange,O,B-city,I-city,B-country		GetWeather	3
+what will the weather be within the same area of weir farm national historic site	O,O,O,O,O,B-spatial_relation,I-spatial_relation,I-spatial_relation,I-spatial_relation,O,B-geographic_poi,I-geographic_poi,I-geographic_poi,I-geographic_poi,I-geographic_poi		GetWeather	3
+is there a depression in weather at my current spot	O,O,O,B-condition_description,O,O,O,O,B-current_location,I-current_location		GetWeather	3
+in 1 week is there going to be a depression in washington	B-timeRange,I-timeRange,I-timeRange,O,O,O,O,O,O,B-condition_description,O,B-state		GetWeather	3
+tell me if it ll be temperate three hours from now in bonaire	O,O,O,O,O,O,B-condition_temperature,B-timeRange,I-timeRange,I-timeRange,I-timeRange,O,B-country		GetWeather	3
+play adrian borland s music on zvooq	O,B-artist,I-artist,O,O,O,B-service		PlayMusic	4
+play some ray williams music from the nineties on spotify	O,O,B-artist,I-artist,O,O,O,B-year,O,B-service		PlayMusic	4
+play shinehead s music from the twenties on slacker	O,B-artist,O,O,O,O,B-year,O,B-service		PlayMusic	4
+play the best vanessa peters songs	O,O,B-sort,B-artist,I-artist,O		PlayMusic	4
+play fifties music by ahmed abdul malik	O,B-year,O,O,B-artist,I-artist,I-artist		PlayMusic	4
+play grabsteinland i by doctor fink on slacker radio	O,B-album,I-album,O,B-artist,I-artist,O,B-service,O		PlayMusic	4
+play a 2011 ballad by evil jared hasselhoff on lastfm	O,O,B-year,B-music_item,O,B-artist,I-artist,I-artist,O,B-service		PlayMusic	4
+play a tune by margaret kelly on iheart	O,O,B-music_item,O,B-artist,I-artist,O,B-service		PlayMusic	4
+can i hear a tune from vladimir vysotski	O,O,O,O,B-music_item,O,B-artist,I-artist		PlayMusic	4
+play the wizard and i on zvooq	O,B-track,I-track,I-track,I-track,O,B-service		PlayMusic	4
+play top 100 indie tracks on spotify on lastfm	O,B-playlist,I-playlist,I-playlist,I-playlist,I-playlist,I-playlist,O,B-service		PlayMusic	4
+play a tune by layne staley	O,O,B-music_item,O,B-artist,I-artist		PlayMusic	4
+play fourties music on pandora	O,B-year,O,O,B-service		PlayMusic	4
+play the music hands up	O,O,O,B-playlist,I-playlist		PlayMusic	4
+play oliver on pandora	O,B-track,O,B-service		PlayMusic	4
+play dj subroc on itunes	O,B-artist,I-artist,O,B-service		PlayMusic	4
+play music from jeremy taylor on the album dormi amore la situazione non è buona on groove shark	O,O,O,B-artist,I-artist,O,O,B-music_item,B-album,I-album,I-album,I-album,I-album,I-album,I-album,O,B-service,I-service		PlayMusic	4
+play music form the fourties with slacker	O,O,O,O,B-year,O,B-service		PlayMusic	4
+play the greatest soundtrack by jesse harms	O,O,B-sort,B-music_item,O,B-artist,I-artist		PlayMusic	4
+please start playing some thirties theme music	O,O,O,O,B-year,B-music_item,O		PlayMusic	4
+i would rate this essay a one and a best rating of 6	O,O,O,B-object_select,B-object_type,O,B-rating_value,O,O,O,O,O,B-best_rating		RateBook	5
+rate richard carvel 4 out of 6	O,B-object_name,I-object_name,B-rating_value,O,O,B-best_rating		RateBook	5
+rate of old hearts and swords a 0	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5
+rate this book titled the clue in the old album one out of 6 stars	O,O,B-object_type,O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,O,B-best_rating,B-rating_unit		RateBook	5
+rate the crossing 3 of 6	O,B-object_name,I-object_name,B-rating_value,O,B-best_rating		RateBook	5
+i am rating this book 5 out 6 points	O,O,O,B-object_select,B-object_type,B-rating_value,O,B-best_rating,B-rating_unit		RateBook	5
+give the denationalization of money series four of 6	O,B-object_name,I-object_name,I-object_name,I-object_name,B-object_part_of_series_type,B-rating_value,O,B-best_rating		RateBook	5
+give this saga a 1	O,B-object_select,B-object_part_of_series_type,O,B-rating_value		RateBook	5
+rate the current novel 1	O,O,B-object_select,B-object_type,B-rating_value		RateBook	5
+this chronicle is a zero out of 6	B-object_select,B-object_part_of_series_type,O,O,B-rating_value,O,O,B-best_rating		RateBook	5
+i d give the day of reckoning four points	O,O,O,B-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,B-rating_unit		RateBook	5
+rate this with zero points for the saga called a good recovery out of 6	O,O,O,B-rating_value,B-rating_unit,O,O,B-object_part_of_series_type,O,B-object_name,I-object_name,I-object_name,O,O,B-best_rating		RateBook	5
+give five star to the second angel series	O,B-rating_value,O,O,B-object_name,I-object_name,I-object_name,B-object_part_of_series_type		RateBook	5
+of a total possible of 6 i think the current book is a five	O,O,O,O,O,B-best_rating,O,O,O,B-object_select,B-object_type,O,O,B-rating_value		RateBook	5
+give the judas tree a zero	O,B-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5
+the next book is worth two	O,B-object_select,B-object_type,O,O,B-rating_value		RateBook	5
+1 points for victory for us is to see you suffer	B-rating_value,B-rating_unit,O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		RateBook	5
+rate peter and the sword of mercy 3 of 6 stars	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,B-best_rating,B-rating_unit		RateBook	5
+rate puttering about in a small land zero out of 6 stars	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,B-rating_value,O,O,B-best_rating,B-rating_unit		RateBook	5
+give a 4 rating for curtains for three	O,O,B-rating_value,O,O,B-object_name,I-object_name,I-object_name		RateBook	5
+find the carrousel saga	O,O,B-object_name,B-object_type		SearchCreativeWork	6
+find a painting called smash crusher	O,O,B-object_type,O,B-object_name,I-object_name		SearchCreativeWork	6
+play disney sing it – high school musical 3: senior year	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+where can i purchase a copy of the photograph on the front page of today s jacksonville daily progress	O,O,O,O,O,O,O,O,B-object_type,O,O,O,O,O,O,O,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+i d like to see the saga tamagotchi 64: minna de tamagotchi world	O,O,O,O,O,O,B-object_type,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+i m looking for a game called gateway	O,O,O,O,O,B-object_type,O,B-object_name		SearchCreativeWork	6
+find harry potter and the deathly hallows – part 2	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+can you find the tv show so what	O,O,O,O,B-object_type,I-object_type,B-object_name,I-object_name		SearchCreativeWork	6
+is there any creative work for heterocycles	O,O,O,O,O,O,B-object_name		SearchCreativeWork	6
+find merry arizona 97: desert stars shine at christmas	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+search for the painting hess: a biography	O,O,O,B-object_type,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+please look up the immortals television show	O,O,O,B-object_name,I-object_name,B-object_type,I-object_type		SearchCreativeWork	6
+where can i download the game miss robin hood	O,O,O,O,O,B-object_type,B-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+find a photograph called accion newspaper	O,O,B-object_type,O,B-object_name,I-object_name		SearchCreativeWork	6
+find a song called bronco billy	O,O,B-object_type,O,B-object_name,I-object_name		SearchCreativeWork	6
+i d like to see jacksonville daily progress saga	O,O,O,O,O,B-object_name,I-object_name,I-object_name,B-object_type		SearchCreativeWork	6
+show me the video game when in rome 2007	O,O,O,B-object_type,I-object_type,B-object_name,I-object_name,I-object_name,I-object_name		SearchCreativeWork	6
+show creativity of mind chaos	O,O,O,B-object_name,I-object_name		SearchCreativeWork	6
+find loved ones for me	O,B-object_name,I-object_name,O,O		SearchCreativeWork	6
+find bullet and a target a television show	O,B-object_name,I-object_name,I-object_name,I-object_name,O,B-object_type,I-object_type		SearchCreativeWork	6
+what time is the hotline playing at the movie theatre	O,O,O,B-movie_name,I-movie_name,O,O,O,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+what movies are playing in the area	O,B-movie_type,O,O,B-spatial_relation,I-spatial_relation,I-spatial_relation		SearchScreeningEvent	7
+where is road to the stage playing	O,O,B-movie_name,I-movie_name,I-movie_name,I-movie_name,O		SearchScreeningEvent	7
+what time is my son shall be armenian playing at plitt theatres	O,O,O,B-movie_name,I-movie_name,I-movie_name,I-movie_name,I-movie_name,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+which films are playing at malco theatres	O,B-movie_type,O,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+give me the movie schedule for animated movies showing in the neighborhood	O,O,O,B-object_type,I-object_type,O,B-movie_type,I-movie_type,O,B-spatial_relation,I-spatial_relation,I-spatial_relation		SearchScreeningEvent	7
+find movie schedules	O,B-object_type,I-object_type		SearchScreeningEvent	7
+what movies are playing douglas theatre company	O,B-movie_type,O,O,B-location_name,I-location_name,I-location_name		SearchScreeningEvent	7
+what films are at the nearest movie theatre	O,B-movie_type,O,O,O,B-spatial_relation,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+what movie schedules start at sunset	O,B-object_type,I-object_type,O,O,B-timeRange		SearchScreeningEvent	7
+what movies are playing at cobb theatres	O,B-movie_type,O,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+find the closest films at a movie house	O,O,B-spatial_relation,B-movie_type,O,O,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+what films are playing at the nearest movie theatre	O,B-movie_type,O,O,O,O,B-spatial_relation,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+what animated movies are playing at fox theatres	O,B-movie_type,I-movie_type,O,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+in the neighbourhood find movies	B-spatial_relation,I-spatial_relation,I-spatial_relation,O,B-movie_type		SearchScreeningEvent	7
+when is purple heart scheduled at the nearest movie house	O,O,B-movie_name,I-movie_name,O,O,O,B-spatial_relation,B-object_location_type,I-object_location_type		SearchScreeningEvent	7
+what films are playing at pacific theatres	O,B-movie_type,O,O,O,B-location_name,I-location_name		SearchScreeningEvent	7
+show me the films at the closest cinema	O,O,O,B-movie_type,O,O,B-spatial_relation,B-object_location_type		SearchScreeningEvent	7
+find animated movies around here	O,B-movie_type,I-movie_type,B-spatial_relation,I-spatial_relation		SearchScreeningEvent	7
+what are the movie times for movies close by	O,O,O,B-object_type,I-object_type,O,B-movie_type,B-spatial_relation,I-spatial_relation		SearchScreeningEvent	7

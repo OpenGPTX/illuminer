@@ -1,0 +1,706 @@
+{
+    "data": [
+        {
+            "utterance": "play yuauea by rick ross",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play me a song by kevin cadogan",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play pandora tunes from the fourties",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play some drum & bass",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play the m\u00fasica da s\u00e9rie de filmes o hobbit album by alex otaola",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play some chanson music",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play acid punk music",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play fight on state",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play some seventies dj colette",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play me a 1974 tune on slacker",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play clay aiken s the bonny hind on groove shark",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play any album from the twenties",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play some fourties music on spotify",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play fifties track music",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "on deezer play fourties tunes by jona bechtolt and a ballad",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play 1981 music on last fm",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play my piano ballads playlist",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play something from my songs for you not your parents playlist",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "i want to listen to the album going back to the blue ridge mountains on iheart",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play me a xuefei yang symphony on groove shark",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "put say it ain\u2019t so into my trap land playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "insert rock me up song to my list",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add a tune to my playlist women of k-pop",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add this album to the playlist guest list engadget",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add there is nothing like a dame to my playlist guest list take",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add hold tight to my throwback party",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add another song to daphne s retrowave outrun playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add another tune to my soft rock playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add artist abdel halim hafez to my conexiones playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "put artist serenata onto my massive soca hits list",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add bright and breezy to my this is gucci mane playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add track to all out 70s",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add how to sos 48 2016 playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add this song by torch to my sing along playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add some patrick stump to maritza s disco fever list",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i want another artist on my atmospheric black metal playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "put paula abdul on musica espa\u00f1ola 2017",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add bulat schalwowitsch okudschawa to retro pop",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "can you add esquivando charcos to my playlist entitled the piano bar",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add something so right to lora s 80s classic hits playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i rate monster mythology 3 points",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate this novel 5 out of 6 stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "give the racing the rain saga zero stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate the apocalisse saga one out of 6 points",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate this essay four stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i would give this current textbook five points or a rating of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "give the denationalization of money series four of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate star wars - the old republic: revan 1 points",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i give the flash series 0 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate the current saga one stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "when religion becomes evil is only worth 1 stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate the current novel two points out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate this textbook 5 points out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "give 5 out of 6 points to thorn castle",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate three men out a three",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i would give the case of the late pig a best rating of 6 and a five for value",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i want to give this textbook 3 out of 6 points",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "can you please assign two points to the white niggers of america chronicle",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i would give this current book a rating a five and a best rating of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "rate the broken spears with 2 stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "can i get the marine 2 showtimes",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "find half a truth",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what films are at cinemark theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "find the movie schedule for animated movies in the neighborhood",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what films are scheduled at the closest cinema",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what time is the mailman playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "when is watchman vadivel playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "please find me the movies playing nearby",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what movies are playing at amc theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what animated movies are at the nearest movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what films are playing at the closest movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "when is dead birds playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "which films are playing at the closest cinema",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "show the movie schedule",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i d like to watch i wish at the nearest movie theatre",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what time can i see girls to marry",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "what animated movies are playing at kb theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "is the johnstown flood playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i d like to watch army at wanda group",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "show me the schedule of movie warning from space closest to movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i want to eat at a food truck this week with my colleague and i",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book an outdoor restaurant",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "lets go to a steakhouse before we go to the pool",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book a reservation for a parry of eight for a restaurant in birch river mo",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "please book a restaurant for six members on jul 13 2036",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book a table at a osteria type restaurant in sd",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "please make reservations for a bar close-by in lake alfred",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "find me a table at a delicatessen in urbanette that serves rabbit pie",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i want to book a restaurant in bosnia and herzegovina",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "reserve me a resturant for 5 at seventeen o clock",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i d like to eat at a restaurant with wifi",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "need table for two in pleasant city",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book in ukraine at a highly rated restaurant",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i want to eat at a brasserie that has internet near greenland at elevenses",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i d like to go to a pizzeria within walking distance of hutchinson",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "reserve a table at a restaurant with wifi in france",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "charlene and i and are are in liechtenstein and want restaurant reservations at midnight",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "find a table close by in the downtown area for sherri and i",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i need a diner",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book the tea house on north river",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "what is the weather forecast for strong city",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the fiji forecast for warm temps",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "weather for east peru bolivia 3 years and a half from now",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what will be the weather like in turks and caicos islands around dec sixth 2032",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "will there be a blizzard in kettleman city today",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the weather forecast for \u00e5land",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what will the weather be like in arizona on october the 3rd",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what will the weather be in east new market antarctica",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "will there be fog on march 3 2038 in bonaire",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what s the humidity now in nh",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "tell me when it will be warmer in woods hole oklahoma",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the forecast for 8/26/2022 in vermont",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "show weather forecast close-by ms in 48 and a half weeks",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the eugene t mahoney state park forecast for 2 days from now",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the bolsa chica state beach forecast for foggy conditions",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what s the forecast for georgia",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what s the weather going to be like in pr at nineteen o clock",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "will it be chilly in milligan college ak on law day",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the forecast at four am in zambia",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "tell me how bellwood weather is",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "where can i purchase a copy of the painting called glimpses of world history",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find valley of the dolls",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find the tv series truly fine citizen",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find a painting called mister whiskers: my favourite nursery rhymes",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "play tv show way of the samurai 2",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "show me the live~legend 1999 & 1997 apocalypse tv show",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find a video game called ibm program temporary fix",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "what type of movie is houston press",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find friendship way",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find time squared",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "where can i watch the tv series the trifecta",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "search for the exiles of time book",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "please get me the aion show",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find heroquest ii: legacy of sorasil",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "i want to watch the show food force",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find me the book called suffer",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "search for the long dark",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "where can i listen to the soundtrack of gibraltar: britain in the sun",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "i d like to see the book the royal thousand",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "show me the painting live \u2013 very live in concert",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        }
+    ],
+    "domains": null,
+    "intents": null
+}

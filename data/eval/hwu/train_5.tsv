@@ -1,0 +1,321 @@
+text	entity_BIO	domain	intent	intent_encoded
+at what time have you set alarm for me		alarm	alarm_query	1
+are there any alarms set		alarm	alarm_query	1
+did I set an alarm to have tablets in the noon		alarm	alarm_query	1
+what times are my alarms set for		alarm	alarm_query	1
+checkout today set alarm of ten am		alarm	alarm_query	1
+cancel my three pm alarm		alarm	alarm_remove	2
+i dont want any alarms		alarm	alarm_remove	2
+stop wake up calls for this week		alarm	alarm_remove	2
+remove my wake up alarm		alarm	alarm_remove	2
+stop seven am alarm		alarm	alarm_remove	2
+please arrange to wake me up at three am alarm		alarm	alarm_set	3
+wake me up at five am		alarm	alarm_set	3
+wake me up at ten		alarm	alarm_set	3
+wake me up at four am		alarm	alarm_set	3
+set my alarm for six thirty in the morning tomorrow		alarm	alarm_set	3
+Please lower the volume		audio	audio_volume_down	4
+turn down volume twenty percent		audio	audio_volume_down	4
+lower speaker volume		audio	audio_volume_down	4
+volume down		audio	audio_volume_down	4
+speak softer please		audio	audio_volume_down	4
+silence for two hours		audio	audio_volume_mute	5
+turn on silent mode until my alarm goes off		audio	audio_volume_mute	5
+don't make any sounds		audio	audio_volume_mute	5
+google please be extra quiet the baby is sleeping		audio	audio_volume_mute	5
+Please pause the song		audio	audio_volume_mute	5
+unmute after		audio	audio_volume_up	6
+Hey turn the volume high		audio	audio_volume_up	6
+raise the volume to fifty		audio	audio_volume_up	6
+unmute my sound		audio	audio_volume_up	6
+can you turn it up a little		audio	audio_volume_up	6
+what have i got going on between three and four pm today		calendar	calendar_query	7
+whats going on in my calendar		calendar	calendar_query	7
+who is scheduled for tomorrow's meeting		calendar	calendar_query	7
+do i have a busy day today		calendar	calendar_query	7
+give me the reminders		calendar	calendar_query	7
+remove all events from my calendar		calendar	calendar_remove	8
+cancel meeting at three		calendar	calendar_remove	8
+cancel all my appointments		calendar	calendar_remove	8
+delete all meetings for tomorrow		calendar	calendar_remove	8
+remove all upcoming events please		calendar	calendar_remove	8
+add event to calendar		calendar	calendar_set	9
+can you remind me of sunday gym every saturday evening		calendar	calendar_set	9
+can you tell me on tuesday to give jane a call		calendar	calendar_set	9
+don't let me forget i have a parent teacher conference this monday at four hundred pm		calendar	calendar_set	9
+remind me to water my plants every tuesday thursday and saturday		calendar	calendar_set	9
+how do i cook meatballs		cooking	cooking_recipe	10
+tell me the best recipes for a given dish		cooking	cooking_recipe	10
+how to cook this food		cooking	cooking_recipe	10
+tell me the recipe to cook pav bhaji		cooking	cooking_recipe	10
+how do i make meatloaf		cooking	cooking_recipe	10
+convert current time from ist to est		datetime	datetime_convert	11
+what is the time in india when the time in us is twelve pm		datetime	datetime_convert	11
+convert usa time in to indian time		datetime	datetime_convert	11
+convert twenty one thirty from gtm four to g. m. t. four thirty		datetime	datetime_convert	11
+can you convert my time zone to the time zone i'm currently in		datetime	datetime_convert	11
+the last friday of the month lands on what day		datetime	datetime_query	12
+may i know the time in london		datetime	datetime_query	12
+what day of the week does the twenty second fall on this month		datetime	datetime_query	12
+current date please		datetime	datetime_query	12
+what day is it today		datetime	datetime_query	12
+please place my new email address to the contact		email	email_addcontact	13
+use that email address as a contact		email	email_addcontact	13
+locate the email to giant eagle and put it into my contact list		email	email_addcontact	13
+add this email to my contact		email	email_addcontact	13
+add the new email to my contacts		email	email_addcontact	13
+are there any unread emails from patrick		email	email_query	14
+did mike send me an email		email	email_query	14
+have any emails come in since four hundred today		email	email_query	14
+show me the latest emails from amazon		email	email_query	14
+did dan send me any emails		email	email_query	14
+what is email id of john		email	email_querycontact	15
+where does tar work currently		email	email_querycontact	15
+find me someone		email	email_querycontact	15
+does my co worker have a home phone number		email	email_querycontact	15
+what is the home phone number of mark		email	email_querycontact	15
+send email to newmail@gmail dot com		email	email_sendemail	16
+forward email		email	email_sendemail	16
+please open a reply to the email		email	email_sendemail	16
+send an email to rohit saying i am busy tomorrow		email	email_sendemail	16
+reply an email to jason that i will not come tonight		email	email_sendemail	16
+yes fantastic response.		general	general_affirm	17
+the answer is confirmed.		general	general_affirm	17
+got it exactly.		general	general_affirm	17
+yeap you've done that right.		general	general_affirm	17
+you have understood my instructions exactly.		general	general_affirm	17
+can you please shut up.		general	general_commandstop	18
+olly i like you cancel.		general	general_commandstop	18
+olly i'd like you just cancel it.		general	general_commandstop	18
+please would you shut up.		general	general_commandstop	18
+that would be all.		general	general_commandstop	18
+please check and confirm command.		general	general_confirm	19
+please will you check and confirm it.		general	general_confirm	19
+please check and confirm the last thing said.		general	general_confirm	19
+would you check my last question please.		general	general_confirm	19
+check that.		general	general_confirm	19
+i wouldn't know.		general	general_dontcare	20
+anything would be good.		general	general_dontcare	20
+have no idea for which to choose.		general	general_dontcare	20
+don't mind for whatever.		general	general_dontcare	20
+anything would be okay with me.		general	general_dontcare	20
+i don't quite catch that.		general	general_explain	21
+could you elaborate me more on your response please.		general	general_explain	21
+can you please clarify once again.		general	general_explain	21
+s2, i didn't catch that.		general	general_explain	21
+s2, i was not clear about it.		general	general_explain	21
+open some cools jokes		general	general_joke	22
+what is a funny joke about car		general	general_joke	22
+i need to find a funny joke that is ok for kids		general	general_joke	22
+funny joke		general	general_joke	22
+i wanna laugh can you make it happen		general	general_joke	22
+i did not say it.		general	general_negate	23
+i asked for something else.		general	general_negate	23
+thanks but i think you have messed up my request.		general	general_negate	23
+uhh no, you gave me not correct information.		general	general_negate	23
+i think you've done this all in wrong manner.		general	general_negate	23
+you did awesome job,.		general	general_praise	24
+thanks for the response, olly.		general	general_praise	24
+you did awesome work, thank you so much.		general	general_praise	24
+it is useful, thank you so much.		general	general_praise	24
+it's cool, thanks.		general	general_praise	24
+nightime		general	general_quirky	25
+how much can i bleed before i die		general	general_quirky	25
+do you think today will be nice out		general	general_quirky	25
+please tell me how to do my daughters eighth grade math		general	general_quirky	25
+who won the sports game last night		general	general_quirky	25
+would you speak it one more again please.		general	general_repeat	26
+retry the last spoken.		general	general_repeat	26
+tell me it one more time again please.		general	general_repeat	26
+will you do it again please.		general	general_repeat	26
+speak one more time please.		general	general_repeat	26
+it's dirty here make some noise		iot	iot_cleaning	27
+start robot vacuum		iot	iot_cleaning	27
+put on the vacuum on now and clean the living room		iot	iot_cleaning	27
+please start vacuuming		iot	iot_cleaning	27
+turn on the robot vacuum		iot	iot_cleaning	27
+please make a coffee		iot	iot_coffee	28
+make coffee		iot	iot_coffee	28
+i would like to have a cup of coffee		iot	iot_coffee	28
+how do i set the timer on my coffee machine		iot	iot_coffee	28
+I'll take my coffee, black		iot	iot_coffee	28
+hey olly chance the current light settings		iot	iot_hue_lightchange	29
+can the lights be changed to green		iot	iot_hue_lightchange	29
+change your colors to something different		iot	iot_hue_lightchange	29
+modify the light colours of the house and make them dark instead		iot	iot_hue_lightchange	29
+i want purple lights		iot	iot_hue_lightchange	29
+lower the brightness of the lights		iot	iot_hue_lightdim	30
+please dim the lights		iot	iot_hue_lightdim	30
+period the light should be in dim		iot	iot_hue_lightdim	30
+lower the lights in the room		iot	iot_hue_lightdim	30
+darken		iot	iot_hue_lightdim	30
+turn lights off in kitchen		iot	iot_hue_lightoff	31
+turn the lights off now		iot	iot_hue_lightoff	31
+please turn off kitchen light for me		iot	iot_hue_lightoff	31
+turns my son's room lights off		iot	iot_hue_lightoff	31
+turn all the lights off		iot	iot_hue_lightoff	31
+it's too dark i can't even see my hands		iot	iot_hue_lighton	32
+turn the lights on full bright		iot	iot_hue_lighton	32
+lights on		iot	iot_hue_lighton	32
+and the light began		iot	iot_hue_lighton	32
+please turn the lights on		iot	iot_hue_lighton	32
+i want to bright the room more		iot	iot_hue_lightup	33
+make the lights brighter		iot	iot_hue_lightup	33
+please raise the lights to max		iot	iot_hue_lightup	33
+light colour for study room		iot	iot_hue_lightup	33
+increase the bright of the light		iot	iot_hue_lightup	33
+turn off sockets		iot	iot_wemo_off	34
+turn off the wemo plug		iot	iot_wemo_off	34
+turn off my smart plug socket		iot	iot_wemo_off	34
+deactivate smart plug socket		iot	iot_wemo_off	34
+turn off on the socket		iot	iot_wemo_off	34
+times clapping sound times		iot	iot_wemo_on	35
+turn on the light socket		iot	iot_wemo_on	35
+power yourself on		iot	iot_wemo_on	35
+outlet on		iot	iot_wemo_on	35
+activate the wemo plug socket		iot	iot_wemo_on	35
+add oil change to my to do list		lists	lists_createoradd	36
+add eggs to the list		lists	lists_createoradd	36
+can you add gloria to my list of clients		lists	lists_createoradd	36
+create a new list		lists	lists_createoradd	36
+create a new list called grocery store please		lists	lists_createoradd	36
+tell me the list about		lists	lists_query	37
+what's in my list of tasks		lists	lists_query	37
+list my lists please		lists	lists_query	37
+display available lists		lists	lists_query	37
+can you tell me whats on my shopping list		lists	lists_query	37
+delete call newspaper from my vacation list		lists	lists_remove	38
+drop it from list		lists	lists_remove	38
+show list items		lists	lists_remove	38
+delete the list created yesterday		lists	lists_remove	38
+remove grocery list please		lists	lists_remove	38
+the song touches my heart		music	music_likeness	39
+note current song as awesome please		music	music_likeness	39
+save all songs from katy perry		music	music_likeness	39
+i like jazz you should know		music	music_likeness	39
+rate this song to the maximum		music	music_likeness	39
+tell me what is song is playing now		music	music_query	40
+who covered the song one more cup of coffee		music	music_query	40
+what the singer meant by the title of the song bohemian rhapsody		music	music_query	40
+can you pull up information on the singer of this song		music	music_query	40
+give me the release date of this song		music	music_query	40
+repeat all		music	music_settings	41
+shuffle song		music	music_settings	41
+please skip two songs		music	music_settings	41
+repeat music		music	music_settings	41
+put the current song on repeat		music	music_settings	41
+what is the latest news from cbs		news	news_query	42
+what's happening on bbc news today		news	news_query	42
+tell me the latest news from bbc sports		news	news_query	42
+economic affairs		news	news_query	42
+tell me about the presidential race		news	news_query	42
+play magic run after thirty min		play	play_audiobook	43
+resume playing the miniaturist		play	play_audiobook	43
+resume the last played audiobook		play	play_audiobook	43
+lets listen to hunt for read october		play	play_audiobook	43
+play the last played audiobook		play	play_audiobook	43
+start up bejeweled		play	play_game	44
+play subway surfers with me		play	play_game	44
+please open go fish game and play it with me		play	play_game	44
+play uno together		play	play_game	44
+play candy crush		play	play_game	44
+play my first favorite song on loop		play	play_music	45
+play jazz from jennifer's latest album		play	play_music	45
+play all by the beatles		play	play_music	45
+play my preferred song		play	play_music	45
+start playing my song list		play	play_music	45
+i want to hear this podcast		play	play_podcasts	46
+play the most current episode of levin		play	play_podcasts	46
+play the newest morning show podcast		play	play_podcasts	46
+i want you to play the podcast		play	play_podcasts	46
+start podcast mlb daily		play	play_podcasts	46
+play random radio station		play	play_radio	47
+play football news from radio one		play	play_radio	47
+play radio disney		play	play_radio	47
+play station gx in the radio		play	play_radio	47
+please play the local latin music channel on the radio		play	play_radio	47
+what's the exchange rate between czk and euro		qa	qa_currency	48
+what's the exchange between u. s. d. and cad		qa	qa_currency	48
+how much philippine peso do i need to make fifty dollars		qa	qa_currency	48
+check currencies		qa	qa_currency	48
+give me the exchange rate between united states dollar and japanese yen		qa	qa_currency	48
+can you describe to me what a pineapple looks like		qa	qa_definition	49
+where can i use this word		qa	qa_definition	49
+please describe a car		qa	qa_definition	49
+can you tell me what the white house is		qa	qa_definition	49
+what does snafu mean		qa	qa_definition	49
+where is los angeles		qa	qa_factoid	50
+Where is miami		qa	qa_factoid	50
+who was john dillinger		qa	qa_factoid	50
+what is the length of amazon river		qa	qa_factoid	50
+how tall is frank goggins		qa	qa_factoid	50
+seven times seven		qa	qa_maths	51
+what is the square root of nine		qa	qa_maths	51
+what's three plus three hundred and fifty five		qa	qa_maths	51
+what is the answer to that question		qa	qa_maths	51
+what is the sum of fifteen ninety nine dollars and six sixty five dollars		qa	qa_maths	51
+show me share price of facebook		qa	qa_stock	52
+what is the netflix stock price		qa	qa_stock	52
+what is the stock price of hdfc		qa	qa_stock	52
+list the latest apple stock prices		qa	qa_stock	52
+have bing's stocks dropped		qa	qa_stock	52
+what are the events conducted in new york		recommendation	recommendation_events	53
+latest event in new york city		recommendation	recommendation_events	53
+what is happening now		recommendation	recommendation_events	53
+what's going on around here this weekend		recommendation	recommendation_events	53
+what exhibits or shows are scheduled at the metropolitan theater		recommendation	recommendation_events	53
+please look up local restaurants that are open now		recommendation	recommendation_locations	54
+where is the nearest olive garden		recommendation	recommendation_locations	54
+what pubs are close		recommendation	recommendation_locations	54
+can you recommend a cheap restaurant in this area		recommendation	recommendation_locations	54
+what are the best italian restaurants in los angeles		recommendation	recommendation_locations	54
+show me theatre where pirates of caribbean is playing		recommendation	recommendation_movies	55
+give me a movie for tonight		recommendation	recommendation_movies	55
+what are the new movies releasing		recommendation	recommendation_movies	55
+movies with good rotten tomato ratings		recommendation	recommendation_movies	55
+check for all the movie theater prices and availability for a newly released movie in my location		recommendation	recommendation_movies	55
+heading to gym please post to facebook		social	social_post	56
+hi olly post my last clicked photo on facebook with title marry christmas		social	social_post	56
+tweet consumer service that i am very disappointed with my recent interaction		social	social_post	56
+tweet paula deen's restaurant that the line is always too long		social	social_post	56
+send a tweet		social	social_post	56
+tell me what's trending on twitter		social	social_query	57
+show me latest notifications		social	social_query	57
+how many likes i have got on my eggless cake post on youtube		social	social_query	57
+find me new comments from my facebook		social	social_query	57
+tell me what's new		social	social_query	57
+order food		takeaway	takeaway_order	58
+call domino's pizza		takeaway	takeaway_order	58
+order a meal from a nice restaurant		takeaway	takeaway_order	58
+tell the golden fork that i want their fish risotto delivered		takeaway	takeaway_order	58
+call and order pizza for delivery		takeaway	takeaway_order	58
+please check if paradise does takeaway		takeaway	takeaway_query	59
+most rated delivery options for chinese food		takeaway	takeaway_query	59
+find my food		takeaway	takeaway_query	59
+does pizza hut have my order ready		takeaway	takeaway_query	59
+what time is my domino's order expected to arrive		takeaway	takeaway_query	59
+what times may i travel to location a		transport	transport_query	60
+tell me today's direction		transport	transport_query	60
+can you find me a train ticket to montauk		transport	transport_query	60
+find me a train ticket for the next trip to washington dc		transport	transport_query	60
+tell me the trains from california to new jersey after eleven pm		transport	transport_query	60
+find transportation to rome		transport	transport_taxi	61
+call me a taxi		transport	transport_taxi	61
+call an uberpool to get me at long island bar		transport	transport_taxi	61
+i need a taxi in thirty minutes		transport	transport_taxi	61
+book a taxi to go to the movies at one		transport	transport_taxi	61
+please book a train ticket from jodhpur to jaisalmer on sunday		transport	transport_ticket	62
+ticket for delhi		transport	transport_ticket	62
+book a train ticket from here to charleston west virginia at eight am today		transport	transport_ticket	62
+can you check train schedule to berkeley		transport	transport_ticket	62
+buy me a ticket to boston		transport	transport_ticket	62
+how is the traffic in florida		transport	transport_traffic	63
+can you tell me the current traffic condition of my location		transport	transport_traffic	63
+is the road clear in florida		transport	transport_traffic	63
+what are the traffic conditions currently		transport	transport_traffic	63
+is the traffic smooth right now		transport	transport_traffic	63
+what will be the weather on monday this week		weather	weather_query	64
+whats the weather like right now in new york		weather	weather_query	64
+what is the weather for this week		weather	weather_query	64
+do i need to take an umbrella today		weather	weather_query	64
+is today a sunscreen day		weather	weather_query	64

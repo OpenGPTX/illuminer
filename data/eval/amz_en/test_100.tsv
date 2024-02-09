@@ -1,0 +1,101 @@
+text	entity_BIO	domain	intent	intent_encoded
+move to the next episode of hipsterhood	O,O,O,B-podcast_descriptor,I-podcast_descriptor,O,B-podcast_name	play	play_podcasts	42
+how much wood could a woodchuck chuck if a woodchuck could chuck wood	O,O,O,O,O,O,O,O,O,O,O,O,O	general	general_quirky	21
+i need a drink	O,O,O,O	iot	iot_coffee	23
+let me know the recipe for preparing pasta	O,O,O,O,O,O,O,B-food_type	cooking	cooking_recipe	12
+play a podcast from my library	O,O,O,O,O,B-podcast_name	play	play_podcasts	42
+how many euros can i get for one dollar	O,O,B-currency_name,O,O,O,O,O,B-currency_name	qa	qa_currency	44
+please set a meeting to discuss terrorism with fred on the next available meeting day	O,O,O,B-event_name,O,B-event_name,I-event_name,O,B-person,O,O,B-date,I-date,O,O	calendar	calendar_set	10
+play mf doom anything	O,B-artist_name,I-artist_name,O	play	play_music	41
+what's the currency exchange rate for china	O,O,O,O,O,O,B-place_name	qa	qa_currency	44
+what happened on the walking dead	O,O,O,O,B-news_topic,I-news_topic	news	news_query	38
+how much is lebron james worth	O,O,O,B-person,I-person,O	qa	qa_factoid	46
+play next podcast	O,B-podcast_descriptor,I-podcast_descriptor	play	play_podcasts	42
+will you send a calendar invite out to james and alice for brunch at eleven am on tuesday	O,O,O,O,O,O,O,O,B-person,I-person,I-person,O,B-event_name,O,B-time,I-time,O,B-date	calendar	calendar_set	10
+olly play a good track from my favorite jazz player	O,O,O,O,O,O,O,O,B-music_genre,O	play	play_music	41
+please skip to the next podcast episode	O,O,O,O,B-podcast_descriptor,I-podcast_descriptor,I-podcast_descriptor	play	play_podcasts	42
+find an oscar nominee movie	O,O,O,O,O	recommendation	recommendation_movies	51
+how much is a train ticket to chicago	O,O,O,O,B-transport_type,O,O,B-place_name	transport	transport_query	56
+what time is it in cleveland	O,O,O,O,O,B-place_name	datetime	datetime_query	14
+find me info on cars	O,O,O,O,B-news_topic	news	news_query	38
+are sunglasses a good choice for today	O,B-weather_descriptor,O,O,O,O,B-date	weather	weather_query	60
+olly start the podcast over that i started last night	O,O,O,O,O,O,O,B-podcast_descriptor,I-podcast_descriptor,I-podcast_descriptor	play	play_podcasts	42
+how much will be the world population after twenty years	O,O,O,O,O,O,O,O,O,O	general	general_quirky	21
+ask for the weather today evening	O,O,O,O,B-date,B-timeofday	weather	weather_query	60
+features of google pixel	O,O,O,O	general	general_quirky	21
+add an alarm for tomorrow morning at six am	O,O,O,O,B-date,B-timeofday,O,B-time,I-time	alarm	alarm_set	3
+health	O	general	general_quirky	21
+i need to ask you how many angels can dance on a pinhead	O,O,O,O,O,O,O,O,O,O,O,O,O	general	general_quirky	21
+uber me to the airport	B-transport_agency,O,O,O,B-place_name	transport	transport_taxi	57
+check time of ten thousand eight hundred and eighty seven train from luni station on tuesday	O,O,O,B-transport_name,I-transport_name,I-transport_name,I-transport_name,I-transport_name,I-transport_name,I-transport_name,B-transport_type,O,B-place_name,I-place_name,O,B-date	transport	transport_query	56
+does pings do takeaway	O,B-business_name,O,B-order_type	takeaway	takeaway_query	55
+what does turbulence mean	O,O,B-definition_word,O	qa	qa_definition	45
+turn on new smart socket	O,O,O,B-device_type,I-device_type	iot	iot_wemo_on	30
+color of light should be dimmed bright	O,O,O,O,O,O,O	iot	iot_hue_lightdim	25
+bring me the title of current music	O,O,O,O,O,O,O	music	music_query	36
+show me my meetings this friday	O,O,O,O,B-date,I-date	calendar	calendar_query	8
+i want to eat some spicy thing	O,O,O,O,O,B-food_type,O	takeaway	takeaway_order	54
+remind me of the event in my calendar	O,O,O,O,O,O,O,O	calendar	calendar_set	10
+please power down	O,O,O	iot	iot_wemo_off	29
+do you know the weather	O,O,O,O,O	weather	weather_query	60
+send this email to reply to the latest emails	O,O,O,O,O,O,O,O,O	email	email_sendemail	18
+what is the latest news on donald trump	O,O,O,O,O,O,B-person,I-person	news	news_query	38
+what is the traffic like now	O,O,O,O,O,O	transport	transport_traffic	59
+can you list out my meetings today	O,O,O,O,O,B-event_name,B-date	calendar	calendar_query	8
+raise the volume of the current music	O,O,O,O,O,O,O	audio	audio_volume_up	7
+show me painting exhibition in bay area	O,O,B-event_name,I-event_name,O,B-place_name,I-place_name	recommendation	recommendation_events	49
+i need a recipe that is from ingredients on my shopping list	O,O,O,O,O,O,O,O,O,O,B-list_name,O	cooking	cooking_recipe	12
+what mistakes do you usually make	O,O,O,O,O,O	general	general_quirky	21
+play racing	O,B-game_name	play	play_game	40
+should i wear sandals or shoes with socks	O,O,O,B-weather_descriptor,I-weather_descriptor,I-weather_descriptor,I-weather_descriptor,I-weather_descriptor	weather	weather_query	60
+turn up the brightness	O,O,O,O	iot	iot_hue_lightup	28
+can you please order some food for me	O,O,O,O,O,O,O,O	takeaway	takeaway_order	54
+olly tell me about activities in my area this weekend	O,O,O,O,O,O,O,O,B-date,I-date	recommendation	recommendation_events	49
+quiet time	O,O	audio	audio_volume_mute	5
+turn off the dining room	O,O,O,B-house_place,I-house_place	iot	iot_hue_lightoff	26
+who is the contact that last called me	O,O,O,O,O,O,O,O	email	email_querycontact	17
+tweet to google costumer service my new nexus phone stop working help please	B-media_type,O,O,O,O,O,O,O,O,O,O,O,O	social	social_post	52
+play the most popular song by given artist	O,O,O,O,O,O,O,O	play	play_music	41
+is angeline having a new movie this year	O,B-person,O,O,O,O,O,O	qa	qa_factoid	46
+please add list of things to buy for party	O,O,O,O,O,O,O,O,B-event_name	lists	lists_createoradd	31
+what is the commute time to the theater	O,O,O,O,O,O,O,B-place_name	transport	transport_query	56
+please raise the light i am not comfortable at this	O,O,O,O,O,O,O,O,O,O	iot	iot_hue_lightup	28
+so clean news in past six hours is what	B-media_type,I-media_type,O,O,B-time,I-time,I-time,O,O	news	news_query	38
+did i get new emails from sarah	O,O,O,O,O,O,B-person	email	email_query	16
+is it anyone i knows birthday this month	O,O,O,O,O,B-event_name,B-date,I-date	email	email_querycontact	17
+where is a walking trail near me	O,O,O,O,O,O,O	recommendation	recommendation_locations	50
+what is the exchange rate of us dollar to pound sterling	O,O,O,B-news_topic,I-news_topic,I-news_topic,I-news_topic,I-news_topic,I-news_topic,I-news_topic,I-news_topic	news	news_query	38
+set a reminder for the thirteenth that i have a lunch with dale	O,O,O,O,O,B-date,O,O,O,O,B-meal_type,O,O	calendar	calendar_set	10
+will you remind me of the dentist appointment i have in two hours	O,O,O,O,O,O,B-event_name,I-event_name,O,O,O,B-time,I-time	calendar	calendar_set	10
+should i take a sweater or a coat to work today	O,O,O,O,B-weather_descriptor,O,O,B-weather_descriptor,O,O,B-date	weather	weather_query	60
+what kind of weather should i expect this week	O,O,O,O,O,O,O,B-date,I-date	weather	weather_query	60
+who is the singer of song	O,O,O,O,O,O	music	music_query	36
+should i bring a jacket with me tonight	O,O,O,O,B-weather_descriptor,O,O,B-timeofday	weather	weather_query	60
+please find all name start with alphabetic of a and create a list	O,O,O,O,O,O,O,O,O,O,O,O,O	lists	lists_createoradd	31
+play something from keane's hopes and fears album	O,O,O,B-artist_name,O,O,O,O	play	play_music	41
+give me all my lists	O,O,O,O,O	lists	lists_query	32
+please give me the winning lottery numbers for this weekend	O,O,O,O,O,O,O,O,B-date,I-date	general	general_quirky	21
+i want it to be able to tell me statistics about things it's done for me like how often i've eaten out this month	O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-date,I-date	general	general_quirky	21
+b. b. c. world headlines	B-media_type,I-media_type,I-media_type,I-media_type,O	news	news_query	38
+remind me at	O,O,O	calendar	calendar_set	10
+olly turn the lights off in the bedroom	O,O,O,O,O,O,O,B-house_place	iot	iot_hue_lightoff	26
+fast	O	audio	audio_volume_up	7
+delete it	O,O	calendar	calendar_remove	9
+please tweet at pizzahut i've been waiting for my delivery for now number nothappy	O,B-media_type,B-business_name,I-business_name,O,O,O,O,O,O,O,O,O,O	social	social_post	52
+hoover the hallway	O,O,B-house_place	iot	iot_cleaning	22
+hey siri start an email to coworker	O,O,O,O,O,O,B-relation	email	email_sendemail	18
+how old is j. k. rowling	O,O,O,B-person,I-person,I-person	qa	qa_factoid	46
+olly give me some dim light	O,O,O,O,O,O	iot	iot_hue_lightdim	25
+who takes less of duration of time for delivery	O,O,O,O,O,O,O,O,B-order_type	takeaway	takeaway_query	55
+if it is from a very familiar place mark it as important	O,O,O,O,O,O,O,O,O,O,O,O	email	email_query	16
+i want a lower light	O,O,O,O,O	iot	iot_hue_lightdim	25
+olly tweet walmart and tell them their customer service is horrible	O,B-media_type,B-business_name,O,O,O,O,O,O,O,O	social	social_post	52
+when i came back from this place	O,O,O,O,O,B-place_name,I-place_name	general	general_quirky	21
+who sings the song about a long black train	O,O,O,O,O,O,B-song_name,I-song_name,I-song_name	music	music_query	36
+what time is it in london	O,O,O,O,O,B-place_name	datetime	datetime_query	14
+ask trivia questions	O,O,O	general	general_quirky	21
+please find the radio station currently playing howard stern	O,O,O,O,O,O,O,O,O	play	play_radio	43
+set a meeting between myself and john at two p. m. tomorrow	O,O,B-event_name,O,O,O,B-person,O,B-time,I-time,I-time,B-date	calendar	calendar_set	10
+i want to listen to a sports podcast	O,O,O,O,O,O,B-podcast_name,I-podcast_name	play	play_podcasts	42
+train ticket please	B-transport_type,O,O	transport	transport_ticket	58
+what is the square root of nine	O,O,O,O,O,O,O	qa	qa_maths	47

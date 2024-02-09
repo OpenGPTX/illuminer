@@ -1,0 +1,2234 @@
+{
+    "data": [
+        {
+            "utterance": "add this tune to my weekend playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "weekend"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate a taste of blackberries a three",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "a taste of blackberries"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "three"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "show me the photograph johnny cash: the complete columbia album collection",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "photograph"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "johnny cash: the complete columbia album collection"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a spot at a restaurant within walking distance of palau",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "within walking distance"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "palau"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is holiday heart showing at the movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "holiday heart"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "movie house"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "is romulus and the sabines playing at the nearest cinema at ten",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "romulus and the sabines"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "nearest"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "cinema"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "ten"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "21 weeks from now elinor crystal turner and nita want to eat german food at a bar in distant california",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "21 weeks from now"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_description",
+                    "slot_values": [
+                        "elinor crystal turner and nita"
+                    ]
+                },
+                {
+                    "slot_name": "cuisine",
+                    "slot_values": [
+                        "german"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "bar"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "distant"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "california"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "show me the tv show limit of love: umizaru",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "tv show"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "limit of love: umizaru"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what animated movies are playing at the closest movie theatre",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_type",
+                    "slot_values": [
+                        "animated movies"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "closest"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "movie theatre"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add song to siesta",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "song"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "siesta"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate awaiting strange gods: weird and lovecraftian fictions a 1",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "awaiting strange gods: weird and lovecraftian fictions"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "1"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play the song shine a light",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "song"
+                    ]
+                },
+                {
+                    "slot_name": "track",
+                    "slot_values": [
+                        "shine a light"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play artist vlada divljan from something he did that is good",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "vlada divljan"
+                    ]
+                },
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "good"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "show the movie times",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "movie times"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "she me movie times at mann theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "movie times"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "mann theatres"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find the schedule for nearby animated movies",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "schedule"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "nearby"
+                    ]
+                },
+                {
+                    "slot_name": "movie_type",
+                    "slot_values": [
+                        "animated movies"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play a ballad by bob johnston",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "ballad"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "bob johnston"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "show me when scandalous john is playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "scandalous john"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to read the saga michael clayton",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "saga"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "michael clayton"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will it be chilly in oakdale ok",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "condition_temperature",
+                    "slot_values": [
+                        "chilly"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "oakdale"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ok"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please make reservations in yeager for seven am at a highly rated indian brasserie",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "yeager"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "seven am"
+                    ]
+                },
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "highly rated"
+                    ]
+                },
+                {
+                    "slot_name": "cuisine",
+                    "slot_values": [
+                        "indian"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "brasserie"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "weather for ma in the morning",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ma"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "morning"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find movie schedules for bow tie cinemas",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "movie schedules"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "bow tie cinemas"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i d like to see movie schedules for kerasotes theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "movie schedules"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "kerasotes theatres"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want a table for five at a restaurant with latin food in arkansas for 1 hour from now",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "five"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "cuisine",
+                    "slot_values": [
+                        "latin"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "arkansas"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "1 hour from now"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate the beggar of volubilis 1 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the beggar of volubilis"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "1"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "coon chicken inn restaurant for 1 am for me clarice and debbie",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_name",
+                    "slot_values": [
+                        "coon chicken inn"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "1 am"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_description",
+                    "slot_values": [
+                        "me clarice and debbie"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i d like to book a brasserie in virginia city ga",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "brasserie"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "virginia city"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ga"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what time is the clutching hand playing at amco entertainment",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "the clutching hand"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "amco entertainment"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate the chronicle ten from tomorrow a 2",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_part_of_series_type",
+                    "slot_values": [
+                        "chronicle"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "ten from tomorrow"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "2"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find worldly goods starting now at a movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "worldly goods"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "now"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "movie house"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please find me asking alexandria discography",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "asking alexandria discography"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will it be chillier at 06:05:48 in wagener r\u00e9union",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "condition_temperature",
+                    "slot_values": [
+                        "chillier"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "06:05:48"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "wagener"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "r\u00e9union"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a taverna that serves bengali for six at five",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "taverna"
+                    ]
+                },
+                {
+                    "slot_name": "cuisine",
+                    "slot_values": [
+                        "bengali"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "six"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "five"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate this current novel 1 stars",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_select",
+                    "slot_values": [
+                        "current"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "novel"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "1"
+                    ]
+                },
+                {
+                    "slot_name": "rating_unit",
+                    "slot_values": [
+                        "stars"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "where can i view the picture reaching horizons",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "picture"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "reaching horizons"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i need a table in ottoville on feb 15th 2029 at gus stevens seafood restaurant & buccaneer lounge",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "ottoville"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "feb 15th 2029"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_name",
+                    "slot_values": [
+                        "gus stevens seafood restaurant & buccaneer lounge"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a table in the united states for 10 at the berghoff",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "united states"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "10"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_name",
+                    "slot_values": [
+                        "the berghoff"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to book a cafe for 3 in fargo",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "cafe"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "3"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "fargo"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "restaurant in bulgaria this week party for 9 numbers",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "bulgaria"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "this week"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "9"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play me sun ra songs from the fifties",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "sun ra"
+                    ]
+                },
+                {
+                    "slot_name": "year",
+                    "slot_values": [
+                        "fifties"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the weather forecast for close-by gu 3 years from now",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "close-by"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "gu"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "3 years from now"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what s the weather in timbo",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "timbo"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please make me reservations somewhere for eight people in foley nv",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "eight"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "foley"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "nv"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a table for nine people in svalbard and jan mayen",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "nine"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "svalbard and jan mayen"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want these are the days added to my spotlight spain 2016 playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "entity_name",
+                    "slot_values": [
+                        "these are the days"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "spotlight spain 2016"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want a matt garrison tune in my fresh finds fire emoji playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "matt garrison"
+                    ]
+                },
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "fresh finds fire emoji"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add tune to sxsw fresh playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "sxsw fresh"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i need to add to the funk soul disco playlist my favorite artist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "funk soul disco"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "artist"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "look up the tv series operace silver a",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "tv series"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "operace silver a"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find the video game called turnin me on",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "video game"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "turnin me on"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please add this track to my de camino playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "track"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "de camino"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what will the weather be in berville ak on feb 6 2017",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "berville"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ak"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "feb 6 2017"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the humidity like in faraway on ak",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "condition_description",
+                    "slot_values": [
+                        "humidity"
+                    ]
+                },
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "faraway"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ak"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to rate the ingenuity gap 3 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the ingenuity gap"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "3"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i would give this current novel 2 stars with a best rating of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_select",
+                    "slot_values": [
+                        "current"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "novel"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "2"
+                    ]
+                },
+                {
+                    "slot_name": "rating_unit",
+                    "slot_values": [
+                        "stars"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is dear old girl cooper foundation",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "dear old girl"
+                    ]
+                },
+                {
+                    "slot_name": "location_name",
+                    "slot_values": [
+                        "cooper foundation"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find a reservation at fish express",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_name",
+                    "slot_values": [
+                        "fish express"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "the sleep machine waterscapes playlist needs some kris chetan ramlu in it",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "the sleep machine waterscapes"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "kris chetan ramlu"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i rate secret water as a 4",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "secret water"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "4"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to go see the trouble with girls",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "the trouble with girls"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i want to hear major harris s songs from the fifties",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "major harris"
+                    ]
+                },
+                {
+                    "slot_name": "year",
+                    "slot_values": [
+                        "fifties"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add this artist to the laugh list",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "artist"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "the laugh list"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play pop 2017 picks",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "pop 2017 picks"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "get the video game of the chipmunk song",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "video game"
+                    ]
+                },
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the chipmunk song"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "cock-a-doodle-doo was awful i m giving it a 0 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "cock-a-doodle-doo"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "0"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will it be chillier at my current location in one minute",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "condition_temperature",
+                    "slot_values": [
+                        "chillier"
+                    ]
+                },
+                {
+                    "slot_name": "current_location",
+                    "slot_values": [
+                        "current location"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "in one minute"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play the god that failed on vimeo",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "track",
+                    "slot_values": [
+                        "the god that failed"
+                    ]
+                },
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "vimeo"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a spot at the food truck in ma",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "food truck"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "ma"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate cuisines of the axis of evil and other irritating states one out of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "cuisines of the axis of evil and other irritating states"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "one"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please search the young warriors game",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "the young warriors"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "game"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add born free to fresh r&b",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "entity_name",
+                    "slot_values": [
+                        "born free"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "fresh r&b"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "i need the wather for next week in the philippines",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "next week"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "philippines"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate this album 0 points out of 6",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_select",
+                    "slot_values": [
+                        "this"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "album"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "0"
+                    ]
+                },
+                {
+                    "slot_name": "rating_unit",
+                    "slot_values": [
+                        "points"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a table this evening in saint vincent and the grenadines at a gastropub",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "evening"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "saint vincent and the grenadines"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "gastropub"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add sabrina salerno to the grime instrumentals playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "sabrina salerno"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "grime instrumentals"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "put this tune on dancepop",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "dancepop"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play some music on slacker",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "slacker"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please play the newest music by evil jared hasselhoff",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "sort",
+                    "slot_values": [
+                        "newest"
+                    ]
+                },
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "evil jared hasselhoff"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "show me the nearest movie house showing the luckiest girl in the world",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent",
+            "slots": [
+                {
+                    "slot_name": "spatial_relation",
+                    "slot_values": [
+                        "nearest"
+                    ]
+                },
+                {
+                    "slot_name": "object_location_type",
+                    "slot_values": [
+                        "movie house"
+                    ]
+                },
+                {
+                    "slot_name": "movie_name",
+                    "slot_values": [
+                        "the luckiest girl in the world"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "will it be nice on aug the nineteenth in beda bulgaria",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "aug the nineteenth"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "beda"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "bulgaria"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "book a table today at a steakhouse for eight that serves sashimi",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "today"
+                    ]
+                },
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "steakhouse"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "eight"
+                    ]
+                },
+                {
+                    "slot_name": "served_dish",
+                    "slot_values": [
+                        "sashimi"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what s the forecast for my current place at five pm",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "current_location",
+                    "slot_values": [
+                        "current place"
+                    ]
+                },
+                {
+                    "slot_name": "timeRange",
+                    "slot_values": [
+                        "five pm"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play the caps lock trailer",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "caps lock"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "trailer"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate the current book a three",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_select",
+                    "slot_values": [
+                        "current"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "book"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "three"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "what is the niceville forecast in fm",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "niceville"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "fm"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please search the work eve-olution",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "eve-olution"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "rate canto for a gypsy two of 6 stars",
+            "domain": "creative work",
+            "intent": "RateBook",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "canto for a gypsy"
+                    ]
+                },
+                {
+                    "slot_name": "rating_value",
+                    "slot_values": [
+                        "two"
+                    ]
+                },
+                {
+                    "slot_name": "best_rating",
+                    "slot_values": [
+                        "6"
+                    ]
+                },
+                {
+                    "slot_name": "rating_unit",
+                    "slot_values": [
+                        "stars"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add tune to atmospheric black metal playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "atmospheric black metal"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add troy van leeuwen to my nu metal list",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "troy van leeuwen"
+                    ]
+                },
+                {
+                    "slot_name": "playlist_owner",
+                    "slot_values": [
+                        "my"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "nu metal"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "add strong to the metal monday playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "entity_name",
+                    "slot_values": [
+                        "strong"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "metal monday"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "please add this this tune to the playlist this is selena",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "tune"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "this is selena"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "is it rainy season in manitou springs",
+            "domain": "weather",
+            "intent": "GetWeather",
+            "slots": [
+                {
+                    "slot_name": "condition_description",
+                    "slot_values": [
+                        "rainy"
+                    ]
+                },
+                {
+                    "slot_name": "city",
+                    "slot_values": [
+                        "manitou springs"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "where can i find conduct unbecoming",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "conduct unbecoming"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play some folk-rock music",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "genre",
+                    "slot_values": [
+                        "folk-rock"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "make a reservation at a bakery that has acquacotta in central african republic for five",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "bakery"
+                    ]
+                },
+                {
+                    "slot_name": "served_dish",
+                    "slot_values": [
+                        "acquacotta"
+                    ]
+                },
+                {
+                    "slot_name": "country",
+                    "slot_values": [
+                        "central african republic"
+                    ]
+                },
+                {
+                    "slot_name": "party_size_number",
+                    "slot_values": [
+                        "five"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "put a xiang xiang track onto women of the blues",
+            "domain": "music",
+            "intent": "AddToPlaylist",
+            "slots": [
+                {
+                    "slot_name": "artist",
+                    "slot_values": [
+                        "xiang xiang"
+                    ]
+                },
+                {
+                    "slot_name": "music_item",
+                    "slot_values": [
+                        "track"
+                    ]
+                },
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "women of the blues"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "play my playlist tgif on itunes",
+            "domain": "music",
+            "intent": "PlayMusic",
+            "slots": [
+                {
+                    "slot_name": "playlist",
+                    "slot_values": [
+                        "tgif"
+                    ]
+                },
+                {
+                    "slot_name": "service",
+                    "slot_values": [
+                        "itunes"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find love will tear us apart a photograph",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork",
+            "slots": [
+                {
+                    "slot_name": "object_name",
+                    "slot_values": [
+                        "love will tear us apart"
+                    ]
+                },
+                {
+                    "slot_name": "object_type",
+                    "slot_values": [
+                        "photograph"
+                    ]
+                }
+            ]
+        },
+        {
+            "utterance": "find a restaurant in fm that servec quiche",
+            "domain": "restaurant",
+            "intent": "BookRestaurant",
+            "slots": [
+                {
+                    "slot_name": "restaurant_type",
+                    "slot_values": [
+                        "restaurant"
+                    ]
+                },
+                {
+                    "slot_name": "state",
+                    "slot_values": [
+                        "fm"
+                    ]
+                },
+                {
+                    "slot_name": "served_dish",
+                    "slot_values": [
+                        "quiche"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,520 @@
+{
+    "data": [
+        {
+            "utterance": "add this tune to my weekend playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "rate a taste of blackberries a three",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "show me the photograph johnny cash: the complete columbia album collection",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "book a spot at a restaurant within walking distance of palau",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "what time is holiday heart showing at the movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "is romulus and the sabines playing at the nearest cinema at ten",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "21 weeks from now elinor crystal turner and nita want to eat german food at a bar in distant california",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "show me the tv show limit of love: umizaru",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "what animated movies are playing at the closest movie theatre",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "add song to siesta",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "rate awaiting strange gods: weird and lovecraftian fictions a 1",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "play the song shine a light",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "play artist vlada divljan from something he did that is good",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "show the movie times",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "she me movie times at mann theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "find the schedule for nearby animated movies",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "play a ballad by bob johnston",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "show me when scandalous john is playing",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i want to read the saga michael clayton",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "will it be chilly in oakdale ok",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "please make reservations in yeager for seven am at a highly rated indian brasserie",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "weather for ma in the morning",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "find movie schedules for bow tie cinemas",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i d like to see movie schedules for kerasotes theatres",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i want a table for five at a restaurant with latin food in arkansas for 1 hour from now",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "rate the beggar of volubilis 1 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "coon chicken inn restaurant for 1 am for me clarice and debbie",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i d like to book a brasserie in virginia city ga",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "what time is the clutching hand playing at amco entertainment",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "rate the chronicle ten from tomorrow a 2",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "find worldly goods starting now at a movie house",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "please find me asking alexandria discography",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "will it be chillier at 06:05:48 in wagener r\u00e9union",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "book a taverna that serves bengali for six at five",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "rate this current novel 1 stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "where can i view the picture reaching horizons",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "i need a table in ottoville on feb 15th 2029 at gus stevens seafood restaurant & buccaneer lounge",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book a table in the united states for 10 at the berghoff",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i want to book a cafe for 3 in fargo",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "restaurant in bulgaria this week party for 9 numbers",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "play me sun ra songs from the fifties",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "what is the weather forecast for close-by gu 3 years from now",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what s the weather in timbo",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "please make me reservations somewhere for eight people in foley nv",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "book a table for nine people in svalbard and jan mayen",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "i want these are the days added to my spotlight spain 2016 playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i want a matt garrison tune in my fresh finds fire emoji playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add tune to sxsw fresh playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i need to add to the funk soul disco playlist my favorite artist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "look up the tv series operace silver a",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find the video game called turnin me on",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "please add this track to my de camino playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "what will the weather be in berville ak on feb 6 2017",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "what is the humidity like in faraway on ak",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "i want to rate the ingenuity gap 3 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i would give this current novel 2 stars with a best rating of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "what is dear old girl cooper foundation",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "find a reservation at fish express",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "the sleep machine waterscapes playlist needs some kris chetan ramlu in it",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i rate secret water as a 4",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "i want to go see the trouble with girls",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "i want to hear major harris s songs from the fifties",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "add this artist to the laugh list",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "play pop 2017 picks",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "get the video game of the chipmunk song",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "cock-a-doodle-doo was awful i m giving it a 0 out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "will it be chillier at my current location in one minute",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "play the god that failed on vimeo",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "book a spot at the food truck in ma",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "rate cuisines of the axis of evil and other irritating states one out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "please search the young warriors game",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "add born free to fresh r&b",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "i need the wather for next week in the philippines",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "rate this album 0 points out of 6",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "book a table this evening in saint vincent and the grenadines at a gastropub",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "add sabrina salerno to the grime instrumentals playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "put this tune on dancepop",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "play some music on slacker",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "please play the newest music by evil jared hasselhoff",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "show me the nearest movie house showing the luckiest girl in the world",
+            "domain": "screening event",
+            "intent": "SearchScreeningEvent"
+        },
+        {
+            "utterance": "will it be nice on aug the nineteenth in beda bulgaria",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "book a table today at a steakhouse for eight that serves sashimi",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "what s the forecast for my current place at five pm",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "play the caps lock trailer",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "rate the current book a three",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "what is the niceville forecast in fm",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "please search the work eve-olution",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "rate canto for a gypsy two of 6 stars",
+            "domain": "creative work",
+            "intent": "RateBook"
+        },
+        {
+            "utterance": "add tune to atmospheric black metal playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add troy van leeuwen to my nu metal list",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "add strong to the metal monday playlist",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "please add this this tune to the playlist this is selena",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "is it rainy season in manitou springs",
+            "domain": "weather",
+            "intent": "GetWeather"
+        },
+        {
+            "utterance": "where can i find conduct unbecoming",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "play some folk-rock music",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "make a reservation at a bakery that has acquacotta in central african republic for five",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        },
+        {
+            "utterance": "put a xiang xiang track onto women of the blues",
+            "domain": "music",
+            "intent": "AddToPlaylist"
+        },
+        {
+            "utterance": "play my playlist tgif on itunes",
+            "domain": "music",
+            "intent": "PlayMusic"
+        },
+        {
+            "utterance": "find love will tear us apart a photograph",
+            "domain": "creative work",
+            "intent": "SearchCreativeWork"
+        },
+        {
+            "utterance": "find a restaurant in fm that servec quiche",
+            "domain": "restaurant",
+            "intent": "BookRestaurant"
+        }
+    ],
+    "domains": [
+        "creative work",
+        "music",
+        "restaurant",
+        "screening event",
+        "weather"
+    ],
+    "intents": [
+        "AddToPlaylist",
+        "BookRestaurant",
+        "GetWeather",
+        "PlayMusic",
+        "RateBook",
+        "SearchCreativeWork",
+        "SearchScreeningEvent"
+    ]
+}

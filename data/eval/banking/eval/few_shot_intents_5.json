@@ -1,0 +1,1931 @@
+{
+    "data": [
+        {
+            "utterance": "I'm supposed to have a refund but it isn't there",
+            "domain": "Refund_not_showing_up",
+            "intent": "Refund_not_showing_up"
+        },
+        {
+            "utterance": "As advised by you, i requested seller to refund my money. A week has passed but i haven't got any update from seller. Please track the refund with the seller.",
+            "domain": "Refund_not_showing_up",
+            "intent": "Refund_not_showing_up"
+        },
+        {
+            "utterance": "My refund is not here yet",
+            "domain": "Refund_not_showing_up",
+            "intent": "Refund_not_showing_up"
+        },
+        {
+            "utterance": "why cant you just refund me instead of a merchant",
+            "domain": "Refund_not_showing_up",
+            "intent": "Refund_not_showing_up"
+        },
+        {
+            "utterance": "I've been waiting for a refund to show up and I don't see it on my statement yet.",
+            "domain": "Refund_not_showing_up",
+            "intent": "Refund_not_showing_up"
+        },
+        {
+            "utterance": "My card needs to be activated.",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "Would you be so kind as to activate my card? Thanks",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "I need my card to be activated right now.",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "Hi, would you please activate my card?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "Would it be possible to activate my card?",
+            "domain": "activate_my_card",
+            "intent": "activate_my_card"
+        },
+        {
+            "utterance": "How old can one use your service?",
+            "domain": "age_limit",
+            "intent": "age_limit"
+        },
+        {
+            "utterance": "How old does my daughter have to be to open an account?",
+            "domain": "age_limit",
+            "intent": "age_limit"
+        },
+        {
+            "utterance": "Can my teenager have an account?",
+            "domain": "age_limit",
+            "intent": "age_limit"
+        },
+        {
+            "utterance": "Whats the minimum age to have an account",
+            "domain": "age_limit",
+            "intent": "age_limit"
+        },
+        {
+            "utterance": "Can my children get an account?",
+            "domain": "age_limit",
+            "intent": "age_limit"
+        },
+        {
+            "utterance": "google pay top up did not work",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "My google top-up pay is not going through",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "How do I top up using my Apple Watch?",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "How do you Top Up on the apple watch?",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "Does my top up and apple pay work together?",
+            "domain": "apple_pay_or_google_pay",
+            "intent": "apple_pay_or_google_pay"
+        },
+        {
+            "utterance": "What locations can I get money from?",
+            "domain": "atm_support",
+            "intent": "atm_support"
+        },
+        {
+            "utterance": "What locations allow me to withdraw money?",
+            "domain": "atm_support",
+            "intent": "atm_support"
+        },
+        {
+            "utterance": "The card can be used at which ATMs?",
+            "domain": "atm_support",
+            "intent": "atm_support"
+        },
+        {
+            "utterance": "What ATMs use this card?",
+            "domain": "atm_support",
+            "intent": "atm_support"
+        },
+        {
+            "utterance": "what are the locations i can withdraw money",
+            "domain": "atm_support",
+            "intent": "atm_support"
+        },
+        {
+            "utterance": "Is there an automatic top up feature?",
+            "domain": "automatic_top_up",
+            "intent": "automatic_top_up"
+        },
+        {
+            "utterance": "Do I have to manually top up once I'm too low?",
+            "domain": "automatic_top_up",
+            "intent": "automatic_top_up"
+        },
+        {
+            "utterance": "Do you have an auto-top function and how do I use it if so?",
+            "domain": "automatic_top_up",
+            "intent": "automatic_top_up"
+        },
+        {
+            "utterance": "I am inquiring about your auto top up feature.",
+            "domain": "automatic_top_up",
+            "intent": "automatic_top_up"
+        },
+        {
+            "utterance": "If I am running low on credit can I auto top up?",
+            "domain": "automatic_top_up",
+            "intent": "automatic_top_up"
+        },
+        {
+            "utterance": "My money hasn't been transferred yet.",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "How long does it take for money to transfer as my balance hasn't been updated",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "I am still waiting on my bank transfer",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "What is the normal time to make an international transfer? I made one a few days ago that still hasn't arrived.",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "I made a transfer from my UK account a couple of hours ago.  Could you please make sure everything went alright.",
+            "domain": "balance_not_updated_after_bank_transfer",
+            "intent": "balance_not_updated_after_bank_transfer"
+        },
+        {
+            "utterance": "I put money in my account a week ago but its still not there, what is happening?",
+            "domain": "balance_not_updated_after_cheque_or_cash_deposit",
+            "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "utterance": "I deposited a check yesterday and im not seeing it posted yet in my account. why is that? can you look into it?",
+            "domain": "balance_not_updated_after_cheque_or_cash_deposit",
+            "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "utterance": "Dude I put money in the ATM last week but it ain't there! I need the money now figure this out!",
+            "domain": "balance_not_updated_after_cheque_or_cash_deposit",
+            "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "utterance": "After my checque or cash deposit, my balance didn't update.",
+            "domain": "balance_not_updated_after_cheque_or_cash_deposit",
+            "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "utterance": "I deposited cash this morning, but it is not yet available.",
+            "domain": "balance_not_updated_after_cheque_or_cash_deposit",
+            "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+        },
+        {
+            "utterance": "For some reason, I'm unable to transfer funds.",
+            "domain": "beneficiary_not_allowed",
+            "intent": "beneficiary_not_allowed"
+        },
+        {
+            "utterance": "Why can't I transfer money to a beneficiary",
+            "domain": "beneficiary_not_allowed",
+            "intent": "beneficiary_not_allowed"
+        },
+        {
+            "utterance": "I just got an error message saying my transfer is not possible? Why is that? I've transferred money before and it worked without problem",
+            "domain": "beneficiary_not_allowed",
+            "intent": "beneficiary_not_allowed"
+        },
+        {
+            "utterance": "Why can I not do a transfer to a beneficiary?",
+            "domain": "beneficiary_not_allowed",
+            "intent": "beneficiary_not_allowed"
+        },
+        {
+            "utterance": "Why can I not do a  transfer",
+            "domain": "beneficiary_not_allowed",
+            "intent": "beneficiary_not_allowed"
+        },
+        {
+            "utterance": "I just realized I made the wrong transaction yesterday. Would  you please make it correct?I need it by tomorrow Please.",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "Please help me cancel a transaction.",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "My transaction is on the wrong account.",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "How do I cancel a recent transfer?",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "Is there a way to revert a transaction?",
+            "domain": "cancel_transfer",
+            "intent": "cancel_transfer"
+        },
+        {
+            "utterance": "When will I get a new card when I order it, and how much will it cost.",
+            "domain": "card_about_to_expire",
+            "intent": "card_about_to_expire"
+        },
+        {
+            "utterance": "After my card expires what should I do?",
+            "domain": "card_about_to_expire",
+            "intent": "card_about_to_expire"
+        },
+        {
+            "utterance": "My card is about to expire. Do I have to go to a branch to order a new card?",
+            "domain": "card_about_to_expire",
+            "intent": "card_about_to_expire"
+        },
+        {
+            "utterance": "My card is about to expire.  How do I order another?",
+            "domain": "card_about_to_expire",
+            "intent": "card_about_to_expire"
+        },
+        {
+            "utterance": "What is the cost and time frame of getting a new card?",
+            "domain": "card_about_to_expire",
+            "intent": "card_about_to_expire"
+        },
+        {
+            "utterance": "Which establishments will accept my card?",
+            "domain": "card_acceptance",
+            "intent": "card_acceptance"
+        },
+        {
+            "utterance": "Are there any places that won't take my card?",
+            "domain": "card_acceptance",
+            "intent": "card_acceptance"
+        },
+        {
+            "utterance": "Are there any restrictions to where I can use my card?",
+            "domain": "card_acceptance",
+            "intent": "card_acceptance"
+        },
+        {
+            "utterance": "Any place that takes Mastercard would be fine.",
+            "domain": "card_acceptance",
+            "intent": "card_acceptance"
+        },
+        {
+            "utterance": "WHAT IS THE ATMOSPHERE OF IT",
+            "domain": "card_acceptance",
+            "intent": "card_acceptance"
+        },
+        {
+            "utterance": "How do I track the card you sent me?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "I was expecting my new card by now.",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "Can I track the card you sent to me?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "What is the expected delivery date of my card?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "where is my new card?",
+            "domain": "card_arrival",
+            "intent": "card_arrival"
+        },
+        {
+            "utterance": "How long will this take to get to me?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "Can cards be dispatched on a specific date?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "Can I have it delivered on a specific date?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "I haven't received my card yet, how long does it normally take?",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "Please send my card as quickly as possible.",
+            "domain": "card_delivery_estimate",
+            "intent": "card_delivery_estimate"
+        },
+        {
+            "utterance": "I found my card. How can I put it into my app?",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "Could I reactivate my card please, I couldn't find it but it turns out it was in my jacket pocket.",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "How do I link the new card?",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "How do I link my card in the app.",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "The card I thought was lost was just in my jacket, so can I reactivate it since I found it this morning?",
+            "domain": "card_linking",
+            "intent": "card_linking"
+        },
+        {
+            "utterance": "My card was declined at a restaurant today and I don't know what the problem is.",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "I am unable to use my card.",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "How come my card doesn't work anymore?",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "WHAT IS THE MAIN REASON OF THIS PROBLEM",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "How can I get my card to work?",
+            "domain": "card_not_working",
+            "intent": "card_not_working"
+        },
+        {
+            "utterance": "Why am I charged a fee when using my debit or credit card?",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "Please tell me why I was charged additionally when I used the card.",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "Why was an extra charge added when I used my card?",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "I noticed that i got charged extra for using the card.",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "Where can I check to see if there will be a fee added to my payment? Are there specific instances that will result in a fee added?",
+            "domain": "card_payment_fee_charged",
+            "intent": "card_payment_fee_charged"
+        },
+        {
+            "utterance": "There are a few payments in the app that I didn't make! Does someone else have my card?  What should I do?",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "I have a payment I didnt make on my account",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "There is a weird payment in my statement.",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "I don't recognize this payment at all!  Help!",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "i disagree with a charge",
+            "domain": "card_payment_not_recognised",
+            "intent": "card_payment_not_recognised"
+        },
+        {
+            "utterance": "I recently bought something in foreign currency and I am unsure of the exchange rate. Is this rate applied correctly?",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "Your exchange rate was off.  I was charged extra on my payment that I made last Saturday.",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "Your foreign exchange rate is wrong.",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "I noticed the currency exchange rate was incorrect after paying for something in a foreign country.",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "The wrong exchange rate was used when I purchased an item.",
+            "domain": "card_payment_wrong_exchange_rate",
+            "intent": "card_payment_wrong_exchange_rate"
+        },
+        {
+            "utterance": "How do I get my card out of the ATM?",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "An ATM machine didn't return my card.",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "What should I do with my stuck ATM?",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "Please send a new card; the ATM ate mine.",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "I need a new card because the ATM took mine.",
+            "domain": "card_swallowed",
+            "intent": "card_swallowed"
+        },
+        {
+            "utterance": "When I withdrew money from my account the other day, I noticed that there was a fee.  I didn't think that there were any fees for withdrawals...?  How much will I be charged?",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "what is this extra charge for a withdrawal?",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "Tell me why there is a charge on my cash withdrawl.",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "I thought it was free to make a withdrawal. So how much does it cost now?",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "Why am I being charged certain fees? I noticed a fee after I withdrew some money for groceries earlier today.",
+            "domain": "cash_withdrawal_charge",
+            "intent": "cash_withdrawal_charge"
+        },
+        {
+            "utterance": "My account shows that I made a cash withdrawal but I cannot remember doing so!",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "I noticed that there is a withdrawal in the app that is not mine.",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "There is a cash withdrawl I don't remember.",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "Someone has a copy of my card. I have my card with me, but someone just made a 500\u00a3 cash withdrawal. Help me.",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "The app is saying I made a withdrawl but I didn't.",
+            "domain": "cash_withdrawal_not_recognised",
+            "intent": "cash_withdrawal_not_recognised"
+        },
+        {
+            "utterance": "Please help me change my PIN.",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "Am I allowed to change my PIN anywhere?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "If I wanted to change my PIN, how would I do that?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "I am on vacation in Spain and think someone saw my pin when\u2026 Can I change it at a local ATM?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "Do I have to go into the bank to change my PIN?",
+            "domain": "change_pin",
+            "intent": "change_pin"
+        },
+        {
+            "utterance": "I think my account has been hacked there are charges on there I don't recognize.",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "Someone might be using my card.  What should I do?",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "my card details could be stolen, as i didnt make these transactions",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "Someone might have had access to my card.",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "i dont recognise some of these transactions, i think someone has my card details",
+            "domain": "compromised_card",
+            "intent": "compromised_card"
+        },
+        {
+            "utterance": "I was trying to use contactless earlier, but it didn't work.",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "How do I troubleshoot my contactless?",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "I'm confused ass to why my contactless is not working.",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "How can I fix my card if the contactless function didn't work this morning?",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "Any charges applicable for new card?",
+            "domain": "contactless_not_working",
+            "intent": "contactless_not_working"
+        },
+        {
+            "utterance": "Are cards issued to people living in the US?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "As far as courtries go which ones are supported?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "Which countries are you in?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "can i get a card if i live in the US?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "Do you have to be in the UK to get a card?",
+            "domain": "country_support",
+            "intent": "country_support"
+        },
+        {
+            "utterance": "I use this card all the time so why did it get declined at the store today?",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "Why would my card payment not work?",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "Why did my card payment not work?",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "Could you please tell me why my card payment didn't work?",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "The payment for the card did not go through",
+            "domain": "declined_card_payment",
+            "intent": "declined_card_payment"
+        },
+        {
+            "utterance": "My ATM card isn't working for a withdrawl",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "I just had my card get declined at the ATM! I need to get money out but I am unable to.  Why has this happened?",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "I tried to withdraw cash from the ATM machine and it did not work. Can you tell me why?",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "Is my card actually working? It's the first time I tried using it",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get anything out. Is there a problem with my card? It's the first time I tried using it.",
+            "domain": "declined_cash_withdrawal",
+            "intent": "declined_cash_withdrawal"
+        },
+        {
+            "utterance": "Why are my transfers being declined? It normally works but now it's declining my card. I've tried it a few times but it's still not working.",
+            "domain": "declined_transfer",
+            "intent": "declined_transfer"
+        },
+        {
+            "utterance": "How can I find a way to transfer money without it being rejected?",
+            "domain": "declined_transfer",
+            "intent": "declined_transfer"
+        },
+        {
+            "utterance": "How do I make my transfer go through",
+            "domain": "declined_transfer",
+            "intent": "declined_transfer"
+        },
+        {
+            "utterance": "While doing a transfer, it says declined.",
+            "domain": "declined_transfer",
+            "intent": "declined_transfer"
+        },
+        {
+            "utterance": "Why would I get a decline message in a transfer?",
+            "domain": "declined_transfer",
+            "intent": "declined_transfer"
+        },
+        {
+            "utterance": "I notice a transaction a couple of weeks ago in my account, from a seller that I don't recognize. Is there a way we can trace back the information to make sure it was truly something I did?",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "Please tell me what this direct debit in my statement is",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "How can I get my money back for a payment i didnt make",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "I found a direct debit I would like to dispute",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "Why is there a direct debit to my account? I didn't do that.",
+            "domain": "direct_debit_payment_not_recognised",
+            "intent": "direct_debit_payment_not_recognised"
+        },
+        {
+            "utterance": "What are the restrictions on the virtual cards?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "Are there any restrictions for the disposable cards?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "Is there a limit on making disposable cards?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "Is there a limit on the number of times I can use a disposable card?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "Can I do more than 10 transactions with a disposable card?",
+            "domain": "disposable_card_limits",
+            "intent": "disposable_card_limits"
+        },
+        {
+            "utterance": "I need to add my new address now that I've moved.",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "How can I update my personal information after moving?",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "I moved and need to change my address.",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "I need to change my name, since i just got married",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "Where do I go to change my account details?",
+            "domain": "edit_personal_details",
+            "intent": "edit_personal_details"
+        },
+        {
+            "utterance": "Fees for currency exchange",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "Are currency exchanges free?",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "Will there be any extra fees if I exchange currencies?",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "Currency exchanges have any extra fees?",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "Is it free to exchange currency?",
+            "domain": "exchange_charge",
+            "intent": "exchange_charge"
+        },
+        {
+            "utterance": "How do you determine your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are the exchange rates you assign?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do I know what exchange rate I will get?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What exchange rates do you use?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "what are your exchange rates at?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do I make a currency exchange?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to change currency",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to exchange currencies, how do I go upon it?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I change USD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange USD and GBP in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "My statement is showing I was Charged a dollar and I am not sure why.",
+            "domain": "extra_charge_on_statement",
+            "intent": "extra_charge_on_statement"
+        },
+        {
+            "utterance": "Why was my account assessed a fee?",
+            "domain": "extra_charge_on_statement",
+            "intent": "extra_charge_on_statement"
+        },
+        {
+            "utterance": "I need some help figuring out what this strange payment is on my account. It's stays pending and won't go away.",
+            "domain": "extra_charge_on_statement",
+            "intent": "extra_charge_on_statement"
+        },
+        {
+            "utterance": "What is the extra fee on my statement?",
+            "domain": "extra_charge_on_statement",
+            "intent": "extra_charge_on_statement"
+        },
+        {
+            "utterance": "Please explain the charge of 1L in error.  I have purchased nothing in this amount.",
+            "domain": "extra_charge_on_statement",
+            "intent": "extra_charge_on_statement"
+        },
+        {
+            "utterance": "I've been trying to do a transfer multiple times and have failed? Is the system down?",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "Why wont the other bank take my money?? Is it not good enough?? There's sufficient funds but I keep getting denied a standard transfer. Ive tried 5 times!",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "My transfer is failing when I try to do it.",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "I've already tried 5 times to complete a transfer that's just standard. What's the deal? Is your system down at this time?",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "Hello.  I ran into a problem with a transfer this morning.  I was trying to send money to some friends but when I tried to send it, the transfer failed.  I don't know what is causing the transfer to be rejected.  Please let me know what is causing the problem.  Thanks.",
+            "domain": "failed_transfer",
+            "intent": "failed_transfer"
+        },
+        {
+            "utterance": "How many currencies can I have?",
+            "domain": "fiat_currency_support",
+            "intent": "fiat_currency_support"
+        },
+        {
+            "utterance": "Can my account have different types of currency in it.",
+            "domain": "fiat_currency_support",
+            "intent": "fiat_currency_support"
+        },
+        {
+            "utterance": "What fiat currencies are used with holdings and exchanges?",
+            "domain": "fiat_currency_support",
+            "intent": "fiat_currency_support"
+        },
+        {
+            "utterance": "Are all fiat currencies supported?",
+            "domain": "fiat_currency_support",
+            "intent": "fiat_currency_support"
+        },
+        {
+            "utterance": "What currencies are available for my use in holding and exchange?",
+            "domain": "fiat_currency_support",
+            "intent": "fiat_currency_support"
+        },
+        {
+            "utterance": "What is the process to create a disposable virtual card?",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "Am I able to order a disposable virtual card?",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "I want a disposable virtual card, how do I do that?",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "How would I use a disposable card?",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "How do I use disposable cards?",
+            "domain": "get_disposable_virtual_card",
+            "intent": "get_disposable_virtual_card"
+        },
+        {
+            "utterance": "How do I find my new pin?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "I do not see the card PIN anywhere?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "Does the PIN come under separate cover?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "Where can I get my card PIN?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "In the app, where do I find my card PIN?",
+            "domain": "get_physical_card",
+            "intent": "get_physical_card"
+        },
+        {
+            "utterance": "Can I have a duplicate second card?",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        },
+        {
+            "utterance": "Can I have a third card?",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        },
+        {
+            "utterance": "Is it possible to have a second card?",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        },
+        {
+            "utterance": "What steps do I need to get another card?",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        },
+        {
+            "utterance": "What's the limit on total number of cards I can have?",
+            "domain": "getting_spare_card",
+            "intent": "getting_spare_card"
+        },
+        {
+            "utterance": "How do I go about getting hold of a virtual card?",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "I haven't received my virtual card.",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "How can I sign up for a virtual card?",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "Why have I not received a virtual card yet?",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "How to access my virtual card",
+            "domain": "getting_virtual_card",
+            "intent": "getting_virtual_card"
+        },
+        {
+            "utterance": "Are you able to guide me to my card's location?",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "I'm panicking!  I lost my card!  Help!",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "I cant find my card.",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "What do I do if my card has been lost or stolen?",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "Hi, I am on vacation in Spain and someone stole my bag with my phone and wallet with cards and everything. Can you block it ASAP and then I want to order a new one also ASAP.",
+            "domain": "lost_or_stolen_card",
+            "intent": "lost_or_stolen_card"
+        },
+        {
+            "utterance": "I misplaced my phone so I can't use the app! Does this mean I can't use my card?",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "My phone was left at a hotel and I can't access the app.",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "Hi, I lost my phone yesterday, what can I do to stop someone using my account on it?",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "Someone stole my phone, what is my next step?",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "My phone is missing.",
+            "domain": "lost_or_stolen_phone",
+            "intent": "lost_or_stolen_phone"
+        },
+        {
+            "utterance": "How do I get my card?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "IS there anywhere that a card cannot be delivered?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "How do i receive a physical card?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "What do I do to get ahold of my own card?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "how much for a physical card?",
+            "domain": "order_physical_card",
+            "intent": "order_physical_card"
+        },
+        {
+            "utterance": "Not sure what my password is.",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "How can I go about resetting my passcode?",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "I am unable to access my app due to forgetting my passcode.",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "How can I change my password?",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "I don't know my password anymore.",
+            "domain": "passcode_forgotten",
+            "intent": "passcode_forgotten"
+        },
+        {
+            "utterance": "How long does a payment usually show as pending? Is it normal that mine is still pending?",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "What is the longest that a payment will show pending?  There is one showing that has been sitting there a few days.",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "Why is my card payment still pending? It should have gone through already.",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "It looks like a payment I've made hasn't made it through yet.",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "I was wondering how long does it take for a payment to go thru? It seems my last payment is stuck and hasn't moved.",
+            "domain": "pending_card_payment",
+            "intent": "pending_card_payment"
+        },
+        {
+            "utterance": "My cash withdrawal isnt showing on my account",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "I took out money from the ATM and it's still showing as pending?",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "Hello. I looked at my account and see that a transaction I tried to do is pending, but I did not complete that transaction. When I was at the ATM, the machine declined my card. Can you make sure that transaction does not go through because I definitely did not receive the money.",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "I tried to get some money but the machine was not working .The transaction still seems in progress! Can you please check what's going on.I don't want to be charged for money that I did not received.",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "If my cash withdrawal is still not showing, is something wrong?",
+            "domain": "pending_cash_withdrawal",
+            "intent": "pending_cash_withdrawal"
+        },
+        {
+            "utterance": "What's taking my top-up so long?",
+            "domain": "pending_top_up",
+            "intent": "pending_top_up"
+        },
+        {
+            "utterance": "Is there something wrong with my top up I did an hour ago? it's still pending. I need that money, i cant afford to wait or have it come back to me.",
+            "domain": "pending_top_up",
+            "intent": "pending_top_up"
+        },
+        {
+            "utterance": "My top up says it is still pending",
+            "domain": "pending_top_up",
+            "intent": "pending_top_up"
+        },
+        {
+            "utterance": "Why is the top-up I made still pending.",
+            "domain": "pending_top_up",
+            "intent": "pending_top_up"
+        },
+        {
+            "utterance": "What if my top up doesn't go through?",
+            "domain": "pending_top_up",
+            "intent": "pending_top_up"
+        },
+        {
+            "utterance": "How long is a transfer in the pending status?",
+            "domain": "pending_transfer",
+            "intent": "pending_transfer"
+        },
+        {
+            "utterance": "Why is a transfer I have still pending?",
+            "domain": "pending_transfer",
+            "intent": "pending_transfer"
+        },
+        {
+            "utterance": "My transfer is still pending",
+            "domain": "pending_transfer",
+            "intent": "pending_transfer"
+        },
+        {
+            "utterance": "Why is my last transfer pending?",
+            "domain": "pending_transfer",
+            "intent": "pending_transfer"
+        },
+        {
+            "utterance": "I'm confused as to why my transfer is still listed as pending on the website.",
+            "domain": "pending_transfer",
+            "intent": "pending_transfer"
+        },
+        {
+            "utterance": "I attempted to enter my pin to many times.",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "I forgot my pin and am blocked now. Can I reset it somewhere?",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "How do I get unblocked?",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "My PIN is unlocked, what do I do?",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "After inputting the wrong pin too many times, can you now help me unblock my pin?",
+            "domain": "pin_blocked",
+            "intent": "pin_blocked"
+        },
+        {
+            "utterance": "Salary in GBP has been received. Does it need to be configured into another place?",
+            "domain": "receiving_money",
+            "intent": "receiving_money"
+        },
+        {
+            "utterance": "Do I need to select a preference to receive my salary payments in GBP and, if so, where?",
+            "domain": "receiving_money",
+            "intent": "receiving_money"
+        },
+        {
+            "utterance": "May I get my salary paid out in a different currency?",
+            "domain": "receiving_money",
+            "intent": "receiving_money"
+        },
+        {
+            "utterance": "How can I receive my salary with a different currency?",
+            "domain": "receiving_money",
+            "intent": "receiving_money"
+        },
+        {
+            "utterance": "am i able to receive my salary this way?",
+            "domain": "receiving_money",
+            "intent": "receiving_money"
+        },
+        {
+            "utterance": "I just bought an item and would like to stop payment can you tell me if the item has been sent yet?",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "I would like to cancel my previous purchase.",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "I ordered something, and now I have buyer's remorse. Since what I ordered hasn't come yet, can you just cancel the payment since I already know I want a refund for it?",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "Can I have my money refunded for an item",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "Do you give refunds?",
+            "domain": "request_refund",
+            "intent": "request_refund"
+        },
+        {
+            "utterance": "Can you tell me why my card payment was cancelled?",
+            "domain": "reverted_card_payment?",
+            "intent": "reverted_card_payment?"
+        },
+        {
+            "utterance": "One of my card payments has reverted",
+            "domain": "reverted_card_payment?",
+            "intent": "reverted_card_payment?"
+        },
+        {
+            "utterance": "Hi, I am facing issue with my card payment while shopping online as payment is getting reverted. I am struggling with this issue around two weeks. Please advise.",
+            "domain": "reverted_card_payment?",
+            "intent": "reverted_card_payment?"
+        },
+        {
+            "utterance": "Can you tell me why the card payment came back?",
+            "domain": "reverted_card_payment?",
+            "intent": "reverted_card_payment?"
+        },
+        {
+            "utterance": "What reasons would cause my card payment to be cancelled?",
+            "domain": "reverted_card_payment?",
+            "intent": "reverted_card_payment?"
+        },
+        {
+            "utterance": "Is American Express supported for adding funds?",
+            "domain": "supported_cards_and_currencies",
+            "intent": "supported_cards_and_currencies"
+        },
+        {
+            "utterance": "What are the currencies and cards that are supported with my account?",
+            "domain": "supported_cards_and_currencies",
+            "intent": "supported_cards_and_currencies"
+        },
+        {
+            "utterance": "If I want to topup by card, how do I do it?",
+            "domain": "supported_cards_and_currencies",
+            "intent": "supported_cards_and_currencies"
+        },
+        {
+            "utterance": "What kind of cards are supported?  What currency?",
+            "domain": "supported_cards_and_currencies",
+            "intent": "supported_cards_and_currencies"
+        },
+        {
+            "utterance": "What are the acceptable currencies for adding funds?",
+            "domain": "supported_cards_and_currencies",
+            "intent": "supported_cards_and_currencies"
+        },
+        {
+            "utterance": "I'm dissatisfied with the service and would like to terminate the account.",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "for god sake, just delete my account i am sick of this",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "I would like to terminate my account.",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "Are you able to delete my account?",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "I want to cancel my account.",
+            "domain": "terminate_account",
+            "intent": "terminate_account"
+        },
+        {
+            "utterance": "Is there a top up fee?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "Will I receive all the money sent to my account by SEPA transfer?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "What are the additional charges for a SWIFT transfer?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "What are the charges for receiving a SEPA transfer?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "Will I be charged for a top off transfer?",
+            "domain": "top_up_by_bank_transfer_charge",
+            "intent": "top_up_by_bank_transfer_charge"
+        },
+        {
+            "utterance": "Do you charge extra for topping up with a debit or credit card?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "Do I have to pay extra if I use an international card to top up my account?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "Is there a charge for top-ups?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "How much are the fees for adding funds using an international card?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "What is the fee if I use a European bank for a top up?",
+            "domain": "top_up_by_card_charge",
+            "intent": "top_up_by_card_charge"
+        },
+        {
+            "utterance": "can i top up with check?",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "Is there anyway to use a cheque to top up?",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "May I transfer a cheque into my account?",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "Can I deposit a check?",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "I want to top up my account with a cheque",
+            "domain": "top_up_by_cash_or_cheque",
+            "intent": "top_up_by_cash_or_cheque"
+        },
+        {
+            "utterance": "Why won't my top up work",
+            "domain": "top_up_failed",
+            "intent": "top_up_failed"
+        },
+        {
+            "utterance": "Hi, My card is getting declined during top-up. As it urgent, could you please resolve this issue, or guide me with other alternatives if any.",
+            "domain": "top_up_failed",
+            "intent": "top_up_failed"
+        },
+        {
+            "utterance": "Looks like my top up failed.",
+            "domain": "top_up_failed",
+            "intent": "top_up_failed"
+        },
+        {
+            "utterance": "Why was my top-up rejected?",
+            "domain": "top_up_failed",
+            "intent": "top_up_failed"
+        },
+        {
+            "utterance": "I have the funds, why can I not use my top-up?",
+            "domain": "top_up_failed",
+            "intent": "top_up_failed"
+        },
+        {
+            "utterance": "Do top-up limits exist?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "How often can I top up my account?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "Can I increase my top-up maximum?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "I need to add a serious amount of cash to my card, how do I do that?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "Will you set a limit to my top-up?",
+            "domain": "top_up_limits",
+            "intent": "top_up_limits"
+        },
+        {
+            "utterance": "I didn't cancel my top-up.",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "My top up was reverted. Can you help?",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "I tried to make a top-up and it was canceled, why is that?",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "The app reversed a top off I had.  What should I do?",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "Reverted top up",
+            "domain": "top_up_reverted",
+            "intent": "top_up_reverted"
+        },
+        {
+            "utterance": "How do I add money to my card?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "I tried to top off using the card, but the money just disappeared?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "I can't see my top up in my wallet!",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "Can my account be topped-up by friends of mine.",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "Something is wrong with my top up and I can't see it. How do I find it?",
+            "domain": "topping_up_by_card",
+            "intent": "topping_up_by_card"
+        },
+        {
+            "utterance": "I have been overcharged.",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "Looks like my card payment was made twice by mistake. I paid at the store earlier which rejected once, second time it worked. App stays at pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "I was charged several times for something",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "I have noticed that my account was double charged for a couple of items this week. Please review and refund the double charged items back.",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "I have a transaction showing up multiple times.",
+            "domain": "transaction_charged_twice",
+            "intent": "transaction_charged_twice"
+        },
+        {
+            "utterance": "Transfers are supposed to be free.  I just got a fee tacked on  to something I bought abroad.  Not cool.  Figure out how to remove it.",
+            "domain": "transfer_fee_charged",
+            "intent": "transfer_fee_charged"
+        },
+        {
+            "utterance": "I made a transfer and was charged an extra fee!",
+            "domain": "transfer_fee_charged",
+            "intent": "transfer_fee_charged"
+        },
+        {
+            "utterance": "My transfer seems to be too expensive.",
+            "domain": "transfer_fee_charged",
+            "intent": "transfer_fee_charged"
+        },
+        {
+            "utterance": "Why am I being charged for transfers? Are they not free?",
+            "domain": "transfer_fee_charged",
+            "intent": "transfer_fee_charged"
+        },
+        {
+            "utterance": "A receiver made me aware that they did not receive the full transfer that I made. The amount was showing to be a bit less. I now have to make a second transfer just to make up the difference. Can you reach out and let me know what's going on?",
+            "domain": "transfer_fee_charged",
+            "intent": "transfer_fee_charged"
+        },
+        {
+            "utterance": "How do I transfer money from one bank account to another?",
+            "domain": "transfer_into_account",
+            "intent": "transfer_into_account"
+        },
+        {
+            "utterance": "I need to add money to my account. Can I do so via bank transfer?",
+            "domain": "transfer_into_account",
+            "intent": "transfer_into_account"
+        },
+        {
+            "utterance": "Can you transfer money to your card by bank transfer?",
+            "domain": "transfer_into_account",
+            "intent": "transfer_into_account"
+        },
+        {
+            "utterance": "Can I add money to my account via bank transfer?",
+            "domain": "transfer_into_account",
+            "intent": "transfer_into_account"
+        },
+        {
+            "utterance": "Can you please explain how bank transfers work?",
+            "domain": "transfer_into_account",
+            "intent": "transfer_into_account"
+        },
+        {
+            "utterance": "I transferred some money to my mom 2 days ago and she has not received it. I double checked the information and it looks right. Can you help me?",
+            "domain": "transfer_not_received_by_recipient",
+            "intent": "transfer_not_received_by_recipient"
+        },
+        {
+            "utterance": "I sent a payment, but the person I sent it to says they don't have it",
+            "domain": "transfer_not_received_by_recipient",
+            "intent": "transfer_not_received_by_recipient"
+        },
+        {
+            "utterance": "Still waiting for transfer to be completed.",
+            "domain": "transfer_not_received_by_recipient",
+            "intent": "transfer_not_received_by_recipient"
+        },
+        {
+            "utterance": "Why is it taking so long for a transfer to complete!",
+            "domain": "transfer_not_received_by_recipient",
+            "intent": "transfer_not_received_by_recipient"
+        },
+        {
+            "utterance": "The recipient can not locate funds.",
+            "domain": "transfer_not_received_by_recipient",
+            "intent": "transfer_not_received_by_recipient"
+        },
+        {
+            "utterance": "When can I use money sent to my account?",
+            "domain": "transfer_timing",
+            "intent": "transfer_timing"
+        },
+        {
+            "utterance": "How long will a transfer from Europe take?",
+            "domain": "transfer_timing",
+            "intent": "transfer_timing"
+        },
+        {
+            "utterance": "How long does it take transfers from Europe to complete?",
+            "domain": "transfer_timing",
+            "intent": "transfer_timing"
+        },
+        {
+            "utterance": "How long does it take in Europe to do a transfer?",
+            "domain": "transfer_timing",
+            "intent": "transfer_timing"
+        },
+        {
+            "utterance": "Does a US transfer take long",
+            "domain": "transfer_timing",
+            "intent": "transfer_timing"
+        },
+        {
+            "utterance": "I'm unable to verify my identity",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "My identity verification isn't working",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "Are there any reasons that my identity wouldn't be accepted even though everything I've provided is factual?",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "The app is telling me that I am not me.",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "why does it take so long to verify my id",
+            "domain": "unable_to_verify_identity",
+            "intent": "unable_to_verify_identity"
+        },
+        {
+            "utterance": "What documents do I need to get together to verify my identity?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "What has to be done to verify my identity?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "I need to verify my identity. How do I do that?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "I have to verify my identity. What do I need to do?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "How do i change my identity?",
+            "domain": "verify_my_identity",
+            "intent": "verify_my_identity"
+        },
+        {
+            "utterance": "What do I do to verify my source of funds?",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "My source of funds need verification.",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "How can I look at where my available cash is coming from?",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "I have to verify my source of funds.",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "is there a way i can see source of money?",
+            "domain": "verify_source_of_funds",
+            "intent": "verify_source_of_funds"
+        },
+        {
+            "utterance": "Can you explain to me the way to verify my top up has gone through?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "How to verify top up card?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "Is there a reason why top-up needs verifying?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "How do I find the top-up verification code?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "Where is my top-up verification code?",
+            "domain": "verify_top_up",
+            "intent": "verify_top_up"
+        },
+        {
+            "utterance": "I can't get my virtual card to work at all",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "Why is my disposable card not working?",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "Why can't I make multiple payments with my virtual card?",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "My virtual card isn't working.",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "The virtual card won't work.",
+            "domain": "virtual_card_not_working",
+            "intent": "virtual_card_not_working"
+        },
+        {
+            "utterance": "I hope to get a Visa card",
+            "domain": "visa_or_mastercard",
+            "intent": "visa_or_mastercard"
+        },
+        {
+            "utterance": "Can I have a Visa card?",
+            "domain": "visa_or_mastercard",
+            "intent": "visa_or_mastercard"
+        },
+        {
+            "utterance": "Do you give out Visa or Mastercards?",
+            "domain": "visa_or_mastercard",
+            "intent": "visa_or_mastercard"
+        },
+        {
+            "utterance": "Will I get a visa or Mastercard?",
+            "domain": "visa_or_mastercard",
+            "intent": "visa_or_mastercard"
+        },
+        {
+            "utterance": "Can I choose between Visa or MasterCard?",
+            "domain": "visa_or_mastercard",
+            "intent": "visa_or_mastercard"
+        },
+        {
+            "utterance": "Can I go ahead and use my account even though my identify hasn't been verified yet?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "Why does my identity need verification?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "Can I already use my account although the identity verification has not passed yet?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "I would like to know why so much identity information is required?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "Is there anyway to bypass identity verification?",
+            "domain": "why_verify_identity",
+            "intent": "why_verify_identity"
+        },
+        {
+            "utterance": "If the ATM only gave me 10 pounds instead of the 30 I requested, what do I do?",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "I didn't get the all the cash i wanted from the atm",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "I got less cash than what I specified for through the ATM.",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "Why is my withdrawal wrong? I took out $100 but only received $20.",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "I could not get the cash I wanted",
+            "domain": "wrong_amount_of_cash_received",
+            "intent": "wrong_amount_of_cash_received"
+        },
+        {
+            "utterance": "You applied the wrong exchange rate while I was traveling outside the country.",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "I made an ATM withdrawal over the holiday and then later realized I was charged an exorbitant fee!  I never would've made this withdrawal if I'd known I'd be charged so much.",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "I wasn't applied the correct exchange rate when getting cash",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "I think when I withdrew money when out of country the exchange rate was wrong.",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        },
+        {
+            "utterance": "Help me!  When I was abroad, the exchange rate was wrong.",
+            "domain": "wrong_exchange_rate_for_cash_withdrawal",
+            "intent": "wrong_exchange_rate_for_cash_withdrawal"
+        }
+    ],
+    "domains": [],
+    "intents": []
+}

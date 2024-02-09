@@ -1,0 +1,726 @@
+{
+    "total_num_slots": 466,
+    "num_slots_source_not_found": 90,
+    "details": [
+        {
+            "utterance": "I want to find a place to dine located in the north and moderately priced.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a resteraunt that serves japanese food, any price range is fine. What do you have available?",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, I am looking for a moderately priced restaurant on the east part of town.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a restaurant in the city's center that is in th cheap price range.",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I would like a moderately priced restaurant in the north part of town",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a moderately priced place to dine on the west side.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you find me a place to say in the centre that includes free wifi?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay in the east that has free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "i am looking for a place to stay. The hotel should include free parking and should be in the north part of town.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a hotel in the centre of town with free parking, please.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "i need a moderately priced hotel in south cambridge.",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay while in cambridge in the north that has free wifi?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi I am looking for a guesthouse to stay at that includes free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Please suggest to me a 4 star motel in Cambridge that offer free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for hotel with a star five rating and free wifi",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for hotel with a star five rating and free wifi",
+            "slot_value": {
+                "hotel-stars": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a place to stay. Please list all hotels in the north that include free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay? I am looking for a hotel with a star of 0 and it needs free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, we are planning on visiting Cambridge and would like to inquire about lodgings. Can you find a place with free wifi and a rating of 4 stars?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Good day. I'm headed into town and I need help finding a guesthouse that offers free wifi please",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I need a place to stay that includes free parking and should be in the west please.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel with free parking, Please give me a 3 star guesthouse hotel",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello! I'm needing a place to stay in the center of town. Parking is not important to me. What do you have?",
+            "slot_value": {
+                "hotel-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello! I'm needing a place to stay in the center of town. Parking is not important to me. What do you have?",
+            "slot_value": {
+                "hotel-parking": [
+                    "no"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you please help me find a guesthouse that offers free parking?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "We are visiting cambridge for the first time and looking for a moderately priced place to stay for 5 nights that includes free parking. Any suggestions?",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "We are visiting cambridge for the first time and looking for a moderately priced place to stay for 5 nights that includes free parking. Any suggestions?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "We are visiting cambridge for the first time and looking for a moderately priced place to stay for 5 nights that includes free parking. Any suggestions?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I am going to be staying in north cambridge and need a hotel, I can pay for parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay in the south part of the City that offers free wifi with the room.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find a place to stay in the south part of the City that offers free wifi with the room.",
+            "slot_value": {
+                "hotel-parking": [
+                    "dontcare"
+                ]
+            }
+        },
+        {
+            "utterance": "What can you tell me about the bangkok city restaurant?",
+            "slot_value": {
+                "restaurant-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Would you be able to tell me whether there are any multiple sports venues in the center of town?",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Will I be able to find any moderately priced rooms to stay in in the north part of Cambridge?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello, can you recommend a cheap hotel with free parking, please?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for upscale hotels in the north part of Cambridge. Are there any that also include free parking?",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hi, I'm looking for upscale hotels in the north part of Cambridge. Are there any that also include free parking?",
+            "slot_value": {
+                "hotel-pricerange": [
+                    "expensive"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for an attraction in the center of town.",
+            "slot_value": {
+                "attraction-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a 2 star hotel with free wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello any restaurants suggestions ? I am also looking for nice 4 star hotels with wifi.",
+            "slot_value": {
+                "hotel-internet": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "Hello any restaurants suggestions ? I am also looking for nice 4 star hotels with wifi.",
+            "slot_value": {
+                "hotel-type": [
+                    "hotel"
+                ]
+            }
+        },
+        {
+            "utterance": "I need to find a 4 star rated place to stay with free parking.",
+            "slot_value": {
+                "hotel-parking": [
+                    "yes"
+                ]
+            }
+        },
+        {
+            "utterance": "I am looking for a train for three people from the stansted airport to arrive by 12:45. I need to leave on Thursday and go to Cambridge.",
+            "slot_value": {
+                "train-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookday": [
+                    "monday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you book a hotel for me? I would like a 3 star hotel or greater in downtown Cambridge for tonight for 2 people.",
+            "slot_value": {
+                "hotel-area": [
+                    "centre"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you check the availability at the University Arms Hotel for five people?",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Yes, I'd like to book three nights, for three people, at the Worth House hotel.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookday": [
+                    "monday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find Cambridge University Botanic Gardens? Thanks.",
+            "slot_value": {
+                "attraction-area": [
+                    "south"
+                ]
+            }
+        },
+        {
+            "utterance": "Can you help me find Cambridge University Botanic Gardens? Thanks.",
+            "slot_value": {
+                "attraction-type": [
+                    "multiple sports"
+                ]
+            }
+        },
+        {
+            "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "friday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "friday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "friday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "friday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "tuesday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "tuesday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'd like to find a place that serves moderately priced chinese food.",
+            "slot_value": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            }
+        },
+        {
+            "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookday": [
+                    "friday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a particular restaurant. Its name is called the hotpot.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "Please book dinner reservations for five people on Saturday at the India House restaurant.",
+            "slot_value": {
+                "restaurant-bookpeople": [
+                    "5"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookday": [
+                    "monday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookday": [
+                    "monday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookday": [
+                    "monday"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookpeople": [
+                    "2"
+                ]
+            }
+        },
+        {
+            "utterance": "I'm looking for a hotel in the centre of town.",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        },
+        {
+            "utterance": "I am hoping to book a 5 star hotel in cambridge that is expensive. What ones are available to book for next Thursday through Sunday?",
+            "slot_value": {
+                "hotel-bookstay": [
+                    "3"
+                ]
+            }
+        }
+    ]
+}
