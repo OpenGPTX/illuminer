@@ -1,0 +1,5 @@
+model_name: google-t5/t5-base
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/dc/dc_multi_woz-domain-10_t5-base_lora
+use_accelerate: False
+device: mps

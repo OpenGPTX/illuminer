@@ -1,0 +1,4 @@
+data_builder: DataBuilderDC
+instruction: "Given the possible domains: \n{domain_options}\n"
+prompt: "---\nUser: \"{utterance}\"\nIntent:"
+prompt_tuning_init_text: "What domain did the user talk about in the user's utterance?\n"

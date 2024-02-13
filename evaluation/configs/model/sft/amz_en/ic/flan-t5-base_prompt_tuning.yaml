@@ -1,0 +1,5 @@
+model_name: google/flan-t5-base
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic-pt/ic-pt_amz_en-intent-10_flan-t5-base_prompt_tuning
+use_accelerate: False
+device: mps

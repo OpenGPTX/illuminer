@@ -1,0 +1,5 @@
+model_name: bigscience/bloomz-7b1
+model_type: AutoModelForCausalLM
+intent_adapter: lora_adapters/ic/ic_amz_en-intent-10_bloomz-7b1_lora
+slot_adapter: lora_adapters/sf-sp/sf-sp_amz_en-slot-10_bloomz-7b1_lora
+use_accelerate: True

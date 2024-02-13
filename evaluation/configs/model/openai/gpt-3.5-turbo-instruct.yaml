@@ -1,0 +1,2 @@
+model_name: gpt-3.5-turbo-instruct
+model_type: OpenAILLM

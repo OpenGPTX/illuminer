@@ -1,0 +1,4 @@
+model_name: tiiuae/falcon-7b-instruct
+model_type: AutoModelForCausalLM
+adapter: lora_adapters/ic/ic_multi_woz-intent-10_falcon-7b-instruct_lora
+use_accelerate: True

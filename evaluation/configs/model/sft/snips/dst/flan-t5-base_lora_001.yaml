@@ -1,0 +1,7 @@
+model_name: google/flan-t5-base
+model_type: AutoModelForSeq2SeqLM
+domain_adapter: lora_adapters/dc/dc_snips-domain-10_flan-t5-base_lora
+intent_adapter: lora_adapters/ic/ic_snips-intent-10_flan-t5-base_lora
+slot_adapter: lora_adapters/sf-sp/sf-sp_snips-slot-10_flan-t5-base_lora
+use_accelerate: False
+device: mps

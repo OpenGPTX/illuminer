@@ -1,3 +1,3 @@
-model_name: google/t5-large
+model_name: google-t5/t5-large
 model_type: AutoModelForSeq2SeqLM
 use_accelerate: True

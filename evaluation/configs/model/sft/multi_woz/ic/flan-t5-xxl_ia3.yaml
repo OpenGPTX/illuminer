@@ -1,0 +1,4 @@
+model_name: google/flan-t5-xxl
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic/ic_multi_woz-intent-10_flan-t5-xxl_ia3
+use_accelerate: True

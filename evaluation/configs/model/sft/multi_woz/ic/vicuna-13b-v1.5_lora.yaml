@@ -1,0 +1,4 @@
+model_name: lmsys/vicuna-13b-v1.5
+model_type: AutoModelForCausalLM
+adapter: lora_adapters/ic/ic_multi_woz-intent-10_vicuna-13b-v1.5_lora
+use_accelerate: True

@@ -1,0 +1,2 @@
+eval_mode: ZeroShotICEvalConfig
+prompt: "What is the user's intent in '{utterance}'? Intent:"

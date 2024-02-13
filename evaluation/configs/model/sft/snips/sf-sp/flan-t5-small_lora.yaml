@@ -1,0 +1,4 @@
+model_name: google/flan-t5-small
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/sf-sp/sf-sp_snips-slot-10_flan-t5-small_lora
+use_accelerate: True

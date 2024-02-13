@@ -1,5 +1,5 @@
 import os
-import openai
+from openai import OpenAI
 
 from llm.llm import LLM
 from typing import Union, List
@@ -7,10 +7,10 @@ from typing import Union, List
 class OpenAILLM(LLM):
     def __init__(
         self,
-        model: str = "text-davinci-002"
+        model: str = "gpt-3.5-turbo-instruct"
     ):
-        self.model = model
-        self.model_name = self.model
+        self.model_name = model
+        self.client = OpenAI()
 
         self.domain_model_name = self.model_name
         self.intent_model_name = self.model_name
@@ -27,18 +27,18 @@ class OpenAILLM(LLM):
     ) -> str:
         assert 'OPENAI_API_KEY' in os.environ.keys(), \
             "Please set your OPENAI_API_KEY!"
-        responses = openai.Completion.create(
-            model=self.model,
+        responses = self.client.completions.create(
+            model=self.model_name,
             prompt=prompts,
             temperature=temperature,
             max_tokens=max_new_tokens,
             top_p=1,
             frequency_penalty=frequency_penalty,
             presence_penalty=presence_penalty,
-            stop=["\\n", "User:"]
-        )['choices']
+            stop=["\\n"]
+        ).choices
 
-        responses = [response['text'].strip() for response in responses]
+        responses = [response.text.strip() for response in responses]
         if split_lines:
             responses_post = []
             for response in responses:

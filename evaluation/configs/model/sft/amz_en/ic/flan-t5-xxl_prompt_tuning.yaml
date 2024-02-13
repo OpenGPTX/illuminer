@@ -1,0 +1,4 @@
+model_name: google/flan-t5-xxl
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic-pt/ic-pt_amz_en-intent-10_flan-t5-xxl_prompt_tuning
+use_accelerate: True

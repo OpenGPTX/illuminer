@@ -1,5 +1,0 @@
-model_name: google/flan-t5-large
-model_type: AutoModelForSeq2SeqLM
-adapter: lora_adapters/sf-sp_pt/sf-sp_pt_snips-slot-10_flan-t5-large_prompt_tuning
-device: "mps"
-use_accelerate: False

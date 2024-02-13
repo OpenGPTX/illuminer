@@ -1,0 +1,4 @@
+model_name: google/flan-t5-xxl
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic/ic_snips-intent-50_flan-t5-xxl_lora
+use_accelerate: True

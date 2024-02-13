@@ -1,0 +1,5 @@
+model_name: google/flan-t5-base
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/sf-sp-no-instruction/sf-sp-no-instruction_amz_en-slot-10_flan-t5-base_lora
+use_accelerate: False
+device: mps

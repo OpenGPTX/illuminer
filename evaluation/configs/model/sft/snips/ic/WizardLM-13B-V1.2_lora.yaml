@@ -1,0 +1,4 @@
+model_name: WizardLM/WizardLM-13B-V1.2
+model_type: AutoModelForCausalLM
+adapter: lora_adapters/ic/ic_snips-intent-10_WizardLM-13B-V1.2_lora
+use_accelerate: True

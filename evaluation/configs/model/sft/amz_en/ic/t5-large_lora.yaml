@@ -1,0 +1,4 @@
+model_name: google-t5/t5-large
+model_type: AutoModelForSeq2SeqLM
+adapter: lora_adapters/ic/ic_amz_en-intent-10_t5-large_lora
+use_accelerate: True

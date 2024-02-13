@@ -1,0 +1,4 @@
+model_name: bigscience/bloomz-7b1
+model_type: AutoModelForCausalLM
+adapter: lora_adapters/sf-sp/sf-sp_snips-slot-10_bloomz-7b1_lora
+use_accelerate: True

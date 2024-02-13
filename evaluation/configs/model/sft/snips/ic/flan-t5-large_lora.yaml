@@ -1,5 +1,4 @@
 model_name: google/flan-t5-large
 model_type: AutoModelForSeq2SeqLM
 adapter: lora_adapters/ic/ic_snips-intent-10_flan-t5-large_lora
-device: "mps"
-use_accelerate: False
+use_accelerate: True
