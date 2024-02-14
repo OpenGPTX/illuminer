@@ -3031,6 +3031,6 @@
             "intent": "find_bus"
         }
     ],
-    "domains": null,
-    "intents": null
+    "domains": [],
+    "intents": []
 }

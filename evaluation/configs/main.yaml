@@ -1,7 +1,7 @@
 defaults:
   - _self_
   - base_config
-  - model: flan-t5/flan-t5-large.yaml
+  - model: google/flan-t5-xxl.yaml
   # data: is not mentioned here but in config.py to have a mandatory setting
   # prompt: is not mentioned here but in config.py to have a mandatory setting
   - override hydra/hydra_logging: disabled

@@ -55,6 +55,8 @@ class BuildMultiWozEvalData(BuildEvalData):
     def build_ic_data(self, data, output_path: str = 'intents_data.json') -> EvalDataIC:
         # build the dataset for "intent classification" component
         gold_data = []
+        domains = []
+        intents = []
         for idx in range(len(data)):
             turn = data[idx]['turns'][0]
             #for turn in data[idx]['turns']:
@@ -74,16 +76,21 @@ class BuildMultiWozEvalData(BuildEvalData):
                                     intent=intent
                                 )
                             )
+                            domains.append(domain)
+                            intents.append(intent)
+
+        domains = sorted(list(set(domains)))
+        intents = sorted(list(set(intents)))
 
         self.save_as_json(
-            data=EvalDataIC(data=gold_data).dict(),
+            data=EvalDataIC(data=gold_data, domains=domains, intents=intents).dict(),
             output_path=os.path.join(self.output_dir, output_path)
 
         )
 
         print(self.output_dir, output_path, len(gold_data))
 
-        return EvalDataIC(data=gold_data)
+        return EvalDataIC(data=gold_data, domains=domains, intents=intents)
 
     def build_sf_data(self, data, output_path: str = 'slots_data.json') -> EvalDataSF:
         # build the dataset for "slot filling" component
@@ -215,13 +222,13 @@ class BuildMultiWozEvalData(BuildEvalData):
                 gold_data.append(ic_train_data.data[idx])
 
         self.save_as_json(
-            data=EvalDataIC(data=gold_data).dict(),
+            data=EvalDataIC(data=gold_data, domains=[], intents=[]).dict(),
             output_path=os.path.join(self.output_dir, output_path)
         )
 
         print(self.output_dir, output_path, k_per_intent, (len(gold_data) / len(ic_train_data.data)))
 
-        return EvalDataIC(data=gold_data)
+        return EvalDataIC(data=gold_data, domains=[], intents=[])
 
     def build_few_shot_sf_data_per_slot(self, sf_train_data: EvalDataSF, output_path: str = 'few_shot_slots_10.json', k_per_slot: int = 10, random_seed: int = 42) -> EvalDataSF:
         samples_per_slot_name = {}

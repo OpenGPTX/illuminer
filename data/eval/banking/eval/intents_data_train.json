@@ -1461,6 +1461,566 @@
             "intent": "card_linking"
         },
         {
+            "utterance": "What is my money worth in other countries?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Will my money be of equal value when I travel abroad?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Do you know the rate of exchange?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What foreign exchange rate will I get on weekdays and on the weekends?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the exchange looking like?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How is the exchange rate doing?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I would like to know how exchange rates are calculated when transferring funds.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I would like to know what exchange rates you use?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "If I need to cash foreign transfers, how does that work?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Do you know what your exchange rates are?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do I know what exchange rate I will get?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are you exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Do you have the best exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where can I find your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Your exchange rates come from where?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I need to know what your exchange rates are.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What's the process for exchanges?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What do you think of the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are exchange rates calculated at this bank?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What do you use to figure out the exchange rate for the card?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What's the foreign exchange rate I will receive?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I need to know what foreign exchange rate I can get.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are the current exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What exchange rate will I receive?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the basis of your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How's the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you determine your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do the foreign exchange rates work?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where are you getting your exchange rates from?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How is the exchange rate calculated?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I'm interested in what your exchange rates are based on.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you decide what the exchange rates are?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the current exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the formula for your exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What method do you use for the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are Interbanks current exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "from where are coming your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you calculate exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Why is your exchange rate different on different days?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where can I find the exchange rate for my transfer?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where can I get your exchange rates from?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you find the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are exchange rates determined?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What value can I get for my currency?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Please explain your exchange rate policy.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are your exchange rates calculated from?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is an exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is your opinion on the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are the exchange rates you assign?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you determine exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are your exchange rates calculated?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How is an exchange rate calculated?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "When exchanging, how much are the rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the exchange rate for EUR?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How can I find your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Could you please tell me your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Is there an exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How does the exchange rate work?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the present state of the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are foreign exchange rates determined?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How's the exchange rate looking right now?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Please explain the exchange rates.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the foreign exchange rate you will apply?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "explain the interbank exchange rate",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What will my exchange rate be?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "how do you get exchange rates",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What exchange rates do you use?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How will I know what the exchange rate is?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What factors effect the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where does the exchange rate stand right now?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I'd like to know what the foreign exchange rate will be.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Does the exchange rate change?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do your exchange rates factor in?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Will I know which exchange rate I will get?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do I know what the exchange rate will be when I make an exchange.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Is the exchange rate the same on weekends as the weekdays?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you do exchanges?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "On what do you base your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you come up with your exchange rate",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What factors determine your exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are the exchange rates determined?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I would like to know what your exchange rates are.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Is the exchange rate current?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What are the exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How much are the rates of exchange?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you decide what your exchange rates are?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Your exchange rates are coming from where?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Is there a specific source that the exchange rate for the transfer I'm planning on making is pulled from?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How are the exchange rates for transfers calculated?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do I know how much money I will have when I travel abroad?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you do currency exchanges?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Can you explain your exchange rates basis?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How did you guys get your exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Can you tell me your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Could you tell me what your exchange rates are?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Does this app have the same exchange rate as third parties?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "what are your exchange rates at?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How is the current exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the system for determining the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I am travelling and I was wondering what your exchange rates are",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How can I tell what foreign exchange rate I will get?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Tell me your opinion on the exchange rate.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I'd like to know what you guys look at to decide an exchange rate",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How does the exchange rate work on this app?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "where do you find your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "I want to know your exchange rates.",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What exchange rate is it?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What is the source of your exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "i need to know about exchange rates",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "Where do you get those exchange rates?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "How do you determine the exchange rate?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
+            "utterance": "What foreign exchange rate will I get?",
+            "domain": "exchange_rate",
+            "intent": "exchange_rate"
+        },
+        {
             "utterance": "Last Saturday, I was charged extra for the exchange rate on my payment. Is something wrong?",
             "domain": "card_payment_wrong_exchange_rate",
             "intent": "card_payment_wrong_exchange_rate"
@@ -6224,6 +6784,596 @@
             "utterance": "The card that I have isn't working. This is the physical card.",
             "domain": "card_not_working",
             "intent": "card_not_working"
+        },
+        {
+            "utterance": "Can I change from AUD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I need to exchange between different currencies, like GBP and USD. Can I do that with your app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I change to another currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does the app allowing exchanges between USD and GBP",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What if I need to use GBP instead of USD?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I am from X but am traveling to Y - how do I get currency for Y?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to change from AUD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can money be exchanged from one currency to another?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I change USD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What currencies can be exchanged in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can i add a new currency to my account?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange AUD for GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I possibly change my currency to another?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to exchange currencies on the app. How do I do this?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What do I do to exchange currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can turn my money into another currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to change to a different currency.",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I change currency type?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I do not need GBP, I need AUD, how do I convert it?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Instead of GBP, how do I exchange for AUD?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is currency exchange possible?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Using your app, would I be able to exchange between USD and GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use this app for both USD and GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I am trying to find out how to exchange currency X with currency Y.",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does your app allow currency exchanges between USD and GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "With this app, will I be able to exchange currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I change my currency to another?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I exchange currencies using the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does this app allow currencies to be exchanged?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange USD for GBP in your app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to exchange currencies using the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I exchange currencies using this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I want to exchange USD and GBP with the app",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I change my AUD into GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I convert currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use your app to exchange between USD and GBP",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I need to get some Euros for my holiday. Am I able to exchange some of my money?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can currencies be exchanged on this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I change to a different currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is exchanging currencies a feature of the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Where can I get my currencies exchanged?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is exchanging currencies one of your app services?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I convert currency with the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I might need to exchange between USD and GBP, is this possible with your app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I need to exchange my GBP to AUD, how would I do this?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Do you support changing the currency I use?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I convert money into different currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Where can i exchange between GBP and USD",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How to exchange my currency",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I use the app to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I no longer need AUD, I need GBP instead, how can I make this happen?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I am trying to exchange AUD for GBP, how do I do that?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I exchange USD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is there a way to make my money usable in another country?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I exchange AUD for GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use this app to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange currencies using your app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I go about exchanging currencies with this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange from USD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does your app allow currency exchange from USD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What currences are available for exchange?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is this app capable of exchanging currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to change from USD to GBP with your App?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "If I need to make an exchange from USD to GBP, how can I do so in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use this app to exchange between dollars and pounds?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Will this app allow me to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to exchange USD and GBP on the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I may need to exchange my USD for GBP, can your app do that?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I exchange currencies with this",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I need Australian dollars instead of UK currency.",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I'm having difficulties changing AUD for GBP. How do I do this?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange currencies with the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Will you tell me how to exchange USD for GBP in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do you exchange currencies",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange currencies with this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange GBP for AUD?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange currency for different types?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does this app exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Is it possible to exchange currencies on the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What's the process of changing from GBP to AUD?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I switch to a different currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What's the procedure with currency exchange?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How to I switch my money for the money used in another country?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Will it be possible to change from USD to GBP with this App?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to change currency",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I make a currency exchange?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I can't figure out how to change GBP to AUD, what do I do?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I accidentally chose to exchange GBP, but I need to pick AUD. How can I change it?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange USD and GBP in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I exchange currencies in the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I need to exchange a currency - can I do that here?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I change the currency I'm exchanging from AUD to GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What do I need to do to exchange my money?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to exchange currencies, how do I go upon it?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What different currencies can I get?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I would like to exchange currency  What types are there?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "how to exchange currencies",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use your app to exchange USD for GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can this convert money?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can you  tell me how to get AUD not GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How can I trade currencies with this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange currencies usign this app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can this app be used to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "need to exchange currencies",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I change to AUD from GBP?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "How do I start an exchange between GBP and AUD?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Whats types of currency can I exchange?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "how can i exchange currencies",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I exchange USD and GBP from the app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What steps do I need to take to exchange currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "What other currencies are available to change to?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "what currencies can i exchange between on your app?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can this app exchange American and English currency?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "My plans may change so I may need to change from GBP to AUD.",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Does the app allow for exchanges between currencies?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "I may no longer need GBP, but instead I will need AUD, how can I go about making this change?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
+        },
+        {
+            "utterance": "Can I use this app to change money?",
+            "domain": "exchange_via_app",
+            "intent": "exchange_via_app"
         },
         {
             "utterance": "Has there been any activity on my card today?",

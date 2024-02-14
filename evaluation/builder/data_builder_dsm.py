@@ -120,6 +120,11 @@ class BuildDSMEvalData(BuildEvalData):
                     intent=intent
                 )
             )
+            domains.append(domain)
+            intents.append(intent)
+
+        domains = sorted(list(set(domains)))
+        intents = sorted(list(set(intents)))
 
         self.save_as_json(
             data=EvalDataIC(data=gold_data, domains=domains, intents=intents).dict(),
@@ -128,7 +133,7 @@ class BuildDSMEvalData(BuildEvalData):
 
         print(self.output_dir, output_path, len(gold_data))
 
-        return EvalDataIC(data=gold_data)
+        return EvalDataIC(data=gold_data, domains=domains, intents=intents)
 
     def build_sf_data(self, data, output_path: str = 'slots_data.json') -> EvalDataSF:
         gold_data = []
@@ -291,13 +296,13 @@ class BuildDSMEvalData(BuildEvalData):
                 gold_data.append(ic_train_data.data[idx])
 
         self.save_as_json(
-            data=EvalDataIC(data=gold_data).dict(),
+            data=EvalDataIC(data=gold_data, domains=[], intents=[]).dict(),
             output_path=os.path.join(self.output_dir, output_path)
         )
 
         print(self.output_dir, output_path, k_per_intent, (len(gold_data) / len(ic_train_data.data)))
 
-        return EvalDataIC(data=gold_data)
+        return EvalDataIC(data=gold_data, domains=[], intents=[])
 
     def build_few_shot_sf_data_per_slot(self, sf_train_data: EvalDataSF, output_path: str = 'few_shot_slots_10.json', k_per_slot: int = 10, random_seed: int = 42) -> EvalDataSF:
         samples_per_slot_name = {}
@@ -333,24 +338,12 @@ if __name__ == '__main__':
     builder = BuildDSMEvalData('data/eval/amz_en/')
     builder.build_eval_data()
 
-    builder = BuildDSMEvalData('data/eval/amz_de/')
-    builder.build_eval_data()
-
     builder = BuildDSMEvalData('data/eval/hwu/')
     builder.build_eval_data_intent_only()
 
     builder = BuildDSMEvalData('data/eval/snips/')
     builder.build_eval_data()
 
-    builder = BuildDSMEvalData('data/eval/xsid_en/')
-    builder.build_eval_data_intent_only()
-
-    builder = BuildDSMEvalData('data/eval/xsid_de/')
-    builder.build_eval_data_intent_only()
-
     builder = BuildDSMEvalData('data/eval/banking/')
-    builder.build_eval_data_intent_only()
-
-    builder = BuildDSMEvalData('data/eval/scd_v2/')
     builder.build_eval_data_intent_only()
 

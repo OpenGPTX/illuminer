@@ -25676,6 +25676,6 @@
             "intent": "email_addcontact"
         }
     ],
-    "domains": null,
-    "intents": null
+    "domains": [],
+    "intents": []
 }

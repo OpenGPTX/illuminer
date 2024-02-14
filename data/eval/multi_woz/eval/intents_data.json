@@ -4506,6 +4506,21 @@
             "intent": "find_attraction"
         }
     ],
-    "domains": null,
-    "intents": null
+    "domains": [
+        "attraction",
+        "hotel",
+        "restaurant",
+        "taxi",
+        "train"
+    ],
+    "intents": [
+        "book_hotel",
+        "book_restaurant",
+        "book_train",
+        "find_attraction",
+        "find_hotel",
+        "find_restaurant",
+        "find_taxi",
+        "find_train"
+    ]
 }

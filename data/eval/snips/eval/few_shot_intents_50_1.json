@@ -1751,6 +1751,6 @@
             "intent": "SearchCreativeWork"
         }
     ],
-    "domains": null,
-    "intents": null
+    "domains": [],
+    "intents": []
 }
