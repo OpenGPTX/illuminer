@@ -1,4 +1,0 @@
-model_name: google-t5/t5-base
-model_type: AutoModelForSeq2SeqLM
-use_accelerate: False
-device: mps

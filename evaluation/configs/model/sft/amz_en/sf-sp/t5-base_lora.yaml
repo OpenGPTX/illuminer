@@ -1,5 +1,0 @@
-model_name: google-t5/t5-base
-model_type: AutoModelForSeq2SeqLM
-adapter: lora_adapters/sf-sp/sf-sp_amz_en-slot-10_t5-base_lora
-use_accelerate: False
-device: mps
