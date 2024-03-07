@@ -88,3 +88,20 @@ python -m fine_tuning.run +data=<eval_data> +prompt=<eval_prompt> model=<llm> pe
 - When `peft=prompt_tuning`, the configuration for `prompt` must be either `dc-pt`, `ic-pt`, `sf-sp-pt` or `sf-mp-pt`
 - Default values for `trainer`, such as `learning_rate` and `num_train_epochs` can be overridden, e.g., `trainer.num_train_epochs=10`
 - Default values for `model`, such as `device` and `cache_dir` can be overridden, e.g., `model.device=mps`
+
+### Citing ILLUMINER
+
+To use ILLUMINER in your publication, please cite it by using the following BibTeX entry.
+```
+@inproceedings{illuminer,
+    title = "ILLUMINER: Instruction-tuned Large Language Models as Few-shot Intent Classifier and Slot Filler",
+    author = "Mirza, Paramita and
+      Sudhi, Viju and
+      Sahoo, Soumya and
+      Bhat, Sinchana Ramakanth",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy"
+}
+```
