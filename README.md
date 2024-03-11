@@ -44,10 +44,14 @@ By default, it will use a local tracking server at `http://localhost:5000/`
 - ``mlflow server --host 127.0.0.1 --port 5000`` to run a local tracking server (you can see `mlruns` and `mlartifacts` with metadata of all the experiments at the root directory)
 - Open `http://localhost:5000/` on your browser to view the runs
 
+When running experiments on a remote server, do remote port forwarding to track the experiments on a local MLflow server
+- ``ssh -R 5000:localhost:5000 <user>@<remote-host>``
+- (Change the default port ``5000`` in case it is not available)
+
 ### Step 4: Run the experiment
 
 ```shell
-python -m evaluation.run +data=<eval_data> +prompt=<eval_prompt> model=<llm>
+python -m evaluation.run +data=<eval_data> +prompt=<eval_prompt> model=<llm> main.mlflow_tracking_uri=http://<host>:<port>/
 ```
 ---
 **NOTE**

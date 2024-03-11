@@ -37,7 +37,7 @@ class TrainerConfig:
 class ModelConfig:
     model_name: str
     model_type: str
-    device: Optional[str]
+    device: Optional[str] = "auto"
     use_accelerate: Optional[bool] = True
     cache_dir: Optional[str] = None
 

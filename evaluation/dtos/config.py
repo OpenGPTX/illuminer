@@ -52,7 +52,7 @@ class ModelConfig:
     model_name: str
     model_type: Optional[str] = None
     adapter: Optional[str] = None
-    device: Optional[str] = None
+    device: Optional[str] = "auto"
     use_accelerate: Optional[bool] = True
     use_fast: Optional[bool] = False
     change_pad_token: Optional[bool] = False
