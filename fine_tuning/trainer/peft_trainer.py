@@ -61,6 +61,10 @@ class PeftTrainer:
     def _get_model_family(self):
         if "WizardLM" in self.__model_name or "vicuna" in self.__model_name:
             return "llama"
+        elif "polylm" in self.__model_name:
+            return "gpt2"
+        elif "mt0" in self.__model_name:
+            return "mt5"
         else:
             return self.__model_name
 

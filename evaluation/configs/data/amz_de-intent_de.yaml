@@ -1,0 +1,5 @@
+data_name: amz_de
+data_path: data/eval/amz_de/eval/intents_data.json
+intent_desc_path: data/eval/amz_de/eval/intents_desc_de.json
+intent_example_path: data/eval/amz_de/eval/few_shot_intents_10_1.json
+domains: [ 'alarm', 'audio', 'iot', 'calendar', 'play', 'general', 'datetime', 'takeaway', 'news', 'music', 'weather', 'qa', 'recommendation', 'social', 'transport', 'email', 'lists', 'cooking' ]

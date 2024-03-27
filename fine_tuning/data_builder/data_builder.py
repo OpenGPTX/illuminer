@@ -63,7 +63,7 @@ class DataBuilder:
 
         def __preprocess_input(examples):
             # input is basically the concatenation of input and target
-            inputs = [f"{input_} {target_}" for input_, target_ in zip(examples["input"], examples["target"])]
+            inputs = [f"{input_} {target_}." for input_, target_ in zip(examples["input"], examples["target"])]
             model_inputs = tokenizer(inputs)
 
             return model_inputs

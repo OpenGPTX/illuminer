@@ -1,0 +1,248 @@
+{
+    "all": {
+        "time": "tiempo",
+        "date": "fecha",
+        "artist_name": "nombre del artista",
+        "media_type": "tipo de medio",
+        "place_name": "nombre del lugar",
+        "food_type": "tipo de comida",
+        "device_type": "tipo de dispositivo",
+        "meal_type": "tipo de comida",
+        "business_name": "nombre del negocio",
+        "general_frequency": "frecuencia",
+        "timeofday": "hora del día",
+        "event_name": "nombre del evento",
+        "business_type": "tipo de negocio",
+        "person": "persona",
+        "app_name": "nombre de la aplicación",
+        "relation": "relación"
+    },
+    "iot_hue_lightchange": {
+        "color_type": "tipo de color",
+        "change_amount": "cantidad de cambio",
+        "house_place": "lugar de la casa"
+    },
+    "iot_hue_lightoff": {
+        "house_place": "lugar de la casa",
+        "color_type": "tipo de color"
+    },
+    "iot_hue_lightdim": {
+        "house_place": "lugar de la casa",
+        "change_amount": "cambiar importe",
+        "color_type": "tipo de color"
+    },
+    "iot_cleaning": {
+        "house_place": "lugar de la casa"
+    },
+    "datetime_convert": {
+        "time_zone": "zona horaria"
+    },
+    "takeaway_query": {
+        "order_type": "tipo de pedido"
+    },
+    "news_query": {
+        "news_topic": "tema de noticias"
+    },
+    "play_music": {
+        "song_name": "nombre de la canción",
+        "music_genre": "género musical",
+        "playlist_name": "nombre de la lista de reproducción",
+        "music_descriptor": "descriptor de música",
+        "player_setting": "configuración del reproductor",
+        "movie_name": "nombre de la película"
+    },
+    "music_likeness": {
+        "music_genre": "género musical",
+        "music_descriptor": "descriptor de música",
+        "player_setting": "configuración del reproductor",
+        "song_name": "nombre de la canción",
+        "playlist_name": "nombre de la lista de reproducción"
+    },
+    "iot_hue_lightup": {
+        "change_amount": "cantidad de cambio",
+        "house_place": "lugar de la casa"
+    },
+    "takeaway_order": {
+        "order_type": "tipo de pedido",
+        "drink_type": "tipo de bebida"
+    },
+    "weather_query": {
+        "weather_descriptor": "descriptor del clima"
+    },
+    "music_settings": {
+        "player_setting": "configuración del reproductor",
+        "song_name": "nombre de la canción",
+        "music_genre": "género musical",
+        "music_descriptor": "descriptor de música"
+    },
+    "general_joke": {
+        "joke_type": "tipo de broma"
+    },
+    "music_query": {
+        "song_name": "nombre de la canción",
+        "music_genre": "género musical",
+        "player_setting": "configuración del reproductor",
+        "music_album": "álbum de música"
+    },
+    "audio_volume_up": {
+        "change_amount": "cantidad de cambio"
+    },
+    "datetime_query": {
+        "time_zone": "zona horaria"
+    },
+    "qa_stock": {
+        "news_topic": "tema de noticias",
+        "currency_name": "nombre de la moneda"
+    },
+    "audio_volume_down": {
+        "change_amount": "cantidad de cambio"
+    },
+    "alarm_remove": {
+        "alarm_type": "tipo de alarma"
+    },
+    "music_dislikeness": {
+        "music_descriptor": "descriptor de música"
+    },
+    "iot_coffee": {
+        "coffee_type": "tipo de café"
+    },
+    "iot_hue_lighton": {
+        "house_place": "lugar de la casa"
+    },
+    "iot_wemo_off": {
+        "house_place": "lugar de la casa"
+    },
+    "audio_volume_other": {
+        "change_amount": "cambiar importe"
+    },
+    "iot_wemo_on": {
+        "house_place": "lugar de la casa"
+    },
+    "alarm_query": {
+        "alarm_type": "tipo de alarma",
+        "house_place": "lugar de la casa"
+    },
+    "audio_volume_mute": {
+        "change_amount": "cantidad de cambio"
+    },
+    "general_quirky": {
+        "news_topic": "tema de noticias",
+        "movie_name": "nombre de la película",
+        "drink_type": "tipo de bebida"
+    },
+    "alarm_set": {
+        "alarm_type": "tipo de alarma",
+        "time_zone": "zona horaria"
+    },
+    "calendar_remove": {
+        "list_name": "nombre de la lista"
+    },
+    "calendar_set": {
+        "personal_info": "información personal",
+        "sport_type": "tipo de deporte"
+    },
+    "lists_remove": {
+        "list_name": "nombre de la lista",
+        "song_name": "nombre de la canción"
+    },
+    "calendar_query": {
+        "sport_type": "tipo de deporte",
+        "list_name": "nombre de la lista"
+    },
+    "play_radio": {
+        "radio_name": "nombre de la radio",
+        "music_genre": "género musical",
+        "house_place": "lugar de la casa",
+        "music_descriptor": "descriptor musical"
+    },
+    "play_podcasts": {
+        "podcast_name": "nombre del podcast",
+        "player_setting": "configuración del reproductor",
+        "podcast_descriptor": "descriptor del podcast",
+        "transport_type": "tipo de transporte"
+    },
+    "play_audiobook": {
+        "player_setting": "configuración del reproductor",
+        "audiobook_name": "nombre del audiolibro",
+        "audiobook_author": "autor del audiolibro",
+        "song_name": "nombre de la canción"
+    },
+    "cooking_recipe": {
+        "cooking_type": "tipo de cocina",
+        "ingredient": "ingrediente",
+        "drink_type": "tipo de bebida"
+    },
+    "play_game": {
+        "game_name": "nombre del juego",
+        "game_type": "tipo de juego"
+    },
+    "lists_query": {
+        "list_name": "nombre de la lista",
+        "music_genre": "género musical"
+    },
+    "lists_createoradd": {
+        "list_name": "nombre de la lista",
+        "drink_type": "tipo de bebida",
+        "music_descriptor": "descriptor musical"
+    },
+    "recommendation_movies": {
+        "movie_type": "tipo de película",
+        "movie_name": "nombre de la película"
+    },
+    "qa_factoid": {
+        "movie_name": "nombre de la película"
+    },
+    "recommendation_locations": {
+        "drink_type": "tipo de bebida"
+    },
+    "recommendation_events": {
+        "personal_info": "información personal",
+        "movie_type": "tipo de película"
+    },
+    "transport_taxi": {
+        "transport_type": "tipo de transporte",
+        "transport_agency": "agencia de transporte",
+        "transport_name": "nombre del transporte"
+    },
+    "transport_query": {
+        "transport_type": "tipo de transporte",
+        "transport_name": "nombre del transporte",
+        "transport_descriptor": "descriptor del transporte"
+    },
+    "transport_ticket": {
+        "transport_type": "tipo de transporte",
+        "transport_descriptor": "descriptor del transporte",
+        "transport_name": "nombre del transporte",
+        "currency_name": "nombre de la moneda"
+    },
+    "qa_definition": {
+        "definition_word": "palabra de definición"
+    },
+    "email_query": {
+        "email_folder": "carpeta de correo electrónico",
+        "personal_info": "información personal"
+    },
+    "qa_currency": {
+        "currency_name": "nombre de la moneda"
+    },
+    "social_post": {
+        "personal_info": "información personal"
+    },
+    "email_querycontact": {
+        "personal_info": "información personal",
+        "list_name": "nombre de la lista"
+    },
+    "social_query": {
+        "news_topic": "tema de noticias"
+    },
+    "email_addcontact": {
+        "personal_info": "información personal",
+        "email_address": "dirección de correo electrónico",
+        "list_name": "nombre de la lista"
+    },
+    "email_sendemail": {
+        "email_address": "dirección de correo electrónico",
+        "personal_info": "información personal",
+        "email_folder": "carpeta de correo electrónico"
+    }
+}

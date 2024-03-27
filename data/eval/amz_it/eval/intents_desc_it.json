@@ -1,0 +1,98 @@
+{
+    "alarm": {
+        "alarm_set": "imposta un allarme",
+        "alarm_remove": "rimuovi un allarme",
+        "alarm_query": "chiedi riguardo agli allarmi"
+    },
+    "audio": {
+        "audio_volume_mute": "altoparlante spento",
+        "audio_volume_other": "altro settaggio audio",
+        "audio_volume_up": "aumenta il volume",
+        "audio_volume_down": "abbassa il volume"
+    },
+    "iot": {
+        "iot_hue_lightchange": "cambia colore della luce",
+        "iot_hue_lightoff": "spegni la luce",
+        "iot_hue_lightdim": "abbassa la luminosità",
+        "iot_cleaning": "avvia pulizia",
+        "iot_hue_lightup": "accendi la luce",
+        "iot_coffee": "avvia macchina del caffè",
+        "iot_wemo_on": "accendi wemo",
+        "iot_hue_lighton": "accendi la luce",
+        "iot_wemo_off": "spegni wemo"
+    },
+    "calendar": {
+        "calendar_query": "chiedi riguardo al calendario",
+        "calendar_set": "imposta evento nel calendario",
+        "calendar_remove": "rimuovi evento dal calendario"
+    },
+    "play": {
+        "play_music": "riproduci musica",
+        "play_radio": "ascolta la radio",
+        "play_audiobook": "riproduci audiolibro",
+        "play_podcasts": "ascolta i podcast",
+        "play_game": "gioca"
+    },
+    "general": {
+        "general_quirky": "essere eccentrico",
+        "general_greet": "saluta",
+        "general_joke": "chiedi una battuta"
+    },
+    "datetime": {
+        "datetime_convert": "converti l'ora",
+        "datetime_query": "chiedi l'ora"
+    },
+    "takeaway": {
+        "takeaway_order": "ordina cibo da asporto",
+        "takeaway_query": "chiedi riguardo al cibo da asporto"
+    },
+    "news": {
+        "news_query": "chiedi riguardo alle notizie"
+    },
+    "music": {
+        "music_likeness": "esprimi il tuo gradimento per la musica",
+        "music_query": "chiedi riguardo alla musica",
+        "music_settings": "imposta la riproduzione della musica",
+        "music_dislikeness": "esprimi il tuo dissenso sulla musica"
+    },
+    "weather": {
+        "weather_query": "chiedi riguardo al meteo"
+    },
+    "qa": {
+        "qa_stock": "chiedi riguardo alle azioni",
+        "qa_factoid": "fai domande di cultura generale",
+        "qa_definition": "chiedi una definizione",
+        "qa_maths": "fai domande di matematica",
+        "qa_currency": "chiedi riguardo al cambio valuta"
+    },
+    "recommendation": {
+        "recommendation_events": "ottieni raccomandazioni sugli eventi",
+        "recommendation_locations": "ottieni raccomandazioni sui luoghi",
+        "recommendation_movies": "ottieni raccomandazioni sui film"
+    },
+    "social": {
+        "social_post": "posta sui social media",
+        "social_query": "chiedi riguardo ai social media"
+    },
+    "transport": {
+        "transport_query": "chiedi riguardo ai trasporti",
+        "transport_taxi": "ordina un taxi",
+        "transport_ticket": "acquista un biglietto",
+        "transport_traffic": "chiedi riguardo al traffico"
+    },
+    "email": {
+        "email_addcontact": "aggiungi un contatto",
+        "email_query": "chiedi riguardo alla posta elettronica",
+        "email_querycontact": "chiedi riguardo a un contatto",
+        "email_sendemail": "invia una email"
+    },
+    "lists": {
+        "lists_createoradd": "crea o aggiungi a una lista",
+        "lists_query": "chiedi riguardo alla lista",
+        "lists_remove": "rimuovi dalla lista"
+    },
+    "cooking": {
+        "cooking_query": "chiedi riguardo alla cucina",
+        "cooking_recipe": "trova una ricetta di cucina"
+    }
+}

@@ -19,6 +19,7 @@ class MainConfig:
 class TrainerConfig:
     output_dir: Optional[str] = "outputs/"
     learning_rate: Optional[float] = 1e-3
+    lr_scheduler_type: Optional[str] = "linear"
     num_train_epochs: Optional[int] = 1
     max_steps: Optional[int] = -1
     warmup_steps: Optional[int] = 0

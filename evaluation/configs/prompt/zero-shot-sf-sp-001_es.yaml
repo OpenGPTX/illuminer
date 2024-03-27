@@ -1,0 +1,3 @@
+eval_mode: ZeroShotSFSPEvalConfig
+instruction: "Extraer información relevante del enunciado del usuario, dadas las siguientes etiquetas y descripciones de ranuras:\n{{{slot_dict}}}\n"
+prompt: "---\nUsuario: \"{utterance}\"\nInfo:"

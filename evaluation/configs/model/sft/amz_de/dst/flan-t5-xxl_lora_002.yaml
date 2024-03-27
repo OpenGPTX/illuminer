@@ -1,0 +1,5 @@
+model_name: google/flan-t5-xxl
+model_type: AutoModelForSeq2SeqLM
+intent_adapter: lora_adapters/ic/ic_amz_de-intent-10_flan-t5-xxl_lora
+slot_adapter: lora_adapters/sf-sp/sf-sp_amz_de-slot-10_flan-t5-xxl_lora
+use_accelerate: True

@@ -30,6 +30,7 @@ pip install git+https://github.com/huggingface/peft
 ### Step 2: Prepare data
 ```shell
 python -m evaluation.builder.data_builder_dsm
+python -m evaluation.builder.data_builder_massive
 python -m evaluation.builder.data_builder_multiwoz
 ```
 

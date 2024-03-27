@@ -1,0 +1,98 @@
+{
+    "alarm": {
+        "alarm_set": "einen Alarm setzen",
+        "alarm_remove": "einen Alarm entfernen",
+        "alarm_query": "nach Alarmen fragen"
+    },
+    "audio": {
+        "audio_volume_mute": "Lautsprecher aus",
+        "audio_volume_other": "andere Audioeinstellung",
+        "audio_volume_up": "die Lautstärke erhöhen",
+        "audio_volume_down": "die Lautstärke verringern"
+    },
+    "iot": {
+        "iot_hue_lightchange": "Lichtfarbe ändern",
+        "iot_hue_lightoff": "Licht ausschalten",
+        "iot_hue_lightdim": "Licht dimmen",
+        "iot_cleaning": "Reinigung starten",
+        "iot_hue_lightup": "Helligkeit des Lichts erhöhen",
+        "iot_coffee": "Kaffeemaschine starten",
+        "iot_wemo_on": "Wemo einschalten",
+        "iot_hue_lighton": "Licht einschalten",
+        "iot_wemo_off": "Wemo ausschalten"
+    },
+    "calendar": {
+        "calendar_query": "über den Kalender fragen",
+        "calendar_set": "Kalenderereignis setzen",
+        "calendar_remove": "Kalenderereignis entfernen"
+    },
+    "play": {
+        "play_music": "Musik abspielen",
+        "play_radio": "Radio abspielen",
+        "play_audiobook": "Hörbuch abspielen",
+        "play_podcasts": "Podcasts abspielen",
+        "play_game": "Spiel spielen"
+    },
+    "general": {
+        "general_quirky": "schrullig sein",
+        "general_greet": "begrüßen",
+        "general_joke": "nach einem Witz fragen"
+    },
+    "datetime": {
+        "datetime_convert": "Zeit umrechnen",
+        "datetime_query": "über die Zeit fragen"
+    },
+    "takeaway": {
+        "takeaway_order": "Essen bestellen",
+        "takeaway_query": "über Takeaway fragen"
+    },
+    "news": {
+        "news_query": "über Nachrichten fragen"
+    },
+    "music": {
+        "music_likeness": "Musikgeschmack ausdrücken",
+        "music_query": "über Musik fragen",
+        "music_settings": "Musikwiedergabe einstellen",
+        "music_dislikeness": "Musikunmut ausdrücken"
+    },
+    "weather": {
+        "weather_query": "über das Wetter fragen"
+    },
+    "qa": {
+        "qa_stock": "über Aktien fragen",
+        "qa_factoid": "Faktoid-Fragen stellen",
+        "qa_definition": "um eine Definition bitten",
+        "qa_maths": "Mathematikfragen stellen",
+        "qa_currency": "über Währungsumtausch fragen"
+    },
+    "recommendation": {
+        "recommendation_events": "Event-Empfehlungen erhalten",
+        "recommendation_locations": "Ortsempfehlungen erhalten",
+        "recommendation_movies": "Filmempfehlungen erhalten"
+    },
+    "social": {
+        "social_post": "in sozialen Medien posten",
+        "social_query": "über soziale Medien fragen"
+    },
+    "transport": {
+        "transport_query": "über Transport fragen",
+        "transport_taxi": "Taxi bestellen",
+        "transport_ticket": "Ticket kaufen",
+        "transport_traffic": "über den Verkehr fragen"
+    },
+    "email": {
+        "email_addcontact": "Kontakt hinzufügen",
+        "email_query": "über E-Mail fragen",
+        "email_querycontact": "über Kontakt fragen",
+        "email_sendemail": "E-Mail senden"
+    },
+    "lists": {
+        "lists_createoradd": "Liste erstellen oder hinzufügen",
+        "lists_query": "über Liste fragen",
+        "lists_remove": "aus Liste entfernen"
+    },
+    "cooking": {
+        "cooking_query": "über Kochen fragen",
+        "cooking_recipe": "ein Kochrezept finden"
+    }
+}

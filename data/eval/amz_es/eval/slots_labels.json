@@ -1,0 +1,290 @@
+{
+    "time": {
+        "alarm": 176,
+        "audio": 22,
+        "weather": 29,
+        "datetime": 30,
+        "play": 14,
+        "takeaway": 6,
+        "iot": 23,
+        "news": 9,
+        "calendar": 367,
+        "general": 7,
+        "email": 44,
+        "recommendation": 10,
+        "transport": 49,
+        "qa": 3,
+        "social": 3
+    },
+    "date": {
+        "alarm": 101,
+        "news": 59,
+        "weather": 266,
+        "general": 97,
+        "datetime": 131,
+        "iot": 4,
+        "play": 24,
+        "calendar": 826,
+        "music": 5,
+        "takeaway": 2,
+        "recommendation": 58,
+        "email": 69,
+        "lists": 34,
+        "transport": 78,
+        "qa": 28,
+        "social": 22
+    },
+    "color_type": {
+        "iot": 98
+    },
+    "house_place": {
+        "iot": 189,
+        "play": 4
+    },
+    "change_amount": {
+        "iot": 21,
+        "audio": 28
+    },
+    "artist_name": {
+        "play": 181,
+        "music": 19,
+        "general": 3,
+        "qa": 17
+    },
+    "media_type": {
+        "play": 65,
+        "news": 129,
+        "music": 5,
+        "social": 270,
+        "calendar": 3,
+        "general": 2
+    },
+    "place_name": {
+        "datetime": 164,
+        "weather": 126,
+        "news": 67,
+        "qa": 129,
+        "general": 16,
+        "transport": 336,
+        "calendar": 61,
+        "email": 5,
+        "recommendation": 128,
+        "social": 3
+    },
+    "time_zone": {
+        "datetime": 56
+    },
+    "order_type": {
+        "takeaway": 108
+    },
+    "food_type": {
+        "takeaway": 113,
+        "general": 5,
+        "recommendation": 24,
+        "cooking": 150
+    },
+    "news_topic": {
+        "news": 177,
+        "qa": 4
+    },
+    "song_name": {
+        "play": 108,
+        "music": 7
+    },
+    "music_genre": {
+        "music": 18,
+        "play": 161
+    },
+    "device_type": {
+        "iot": 193,
+        "general": 2,
+        "music": 4,
+        "audio": 11,
+        "play": 10
+    },
+    "meal_type": {
+        "takeaway": 6,
+        "recommendation": 4,
+        "general": 7,
+        "cooking": 3,
+        "calendar": 34,
+        "email": 7
+    },
+    "business_name": {
+        "takeaway": 98,
+        "iot": 2,
+        "calendar": 4,
+        "cooking": 2,
+        "recommendation": 7,
+        "transport": 8,
+        "qa": 112,
+        "social": 136,
+        "email": 5
+    },
+    "general_frequency": {
+        "alarm": 2,
+        "news": 2,
+        "calendar": 73,
+        "email": 3
+    },
+    "weather_descriptor": {
+        "weather": 317
+    },
+    "player_setting": {
+        "music": 45,
+        "play": 112
+    },
+    "joke_type": {
+        "general": 35
+    },
+    "timeofday": {
+        "alarm": 45,
+        "weather": 40,
+        "datetime": 2,
+        "play": 5,
+        "news": 3,
+        "music": 2,
+        "takeaway": 2,
+        "general": 2,
+        "calendar": 79,
+        "lists": 2,
+        "recommendation": 16,
+        "transport": 24,
+        "email": 12
+    },
+    "event_name": {
+        "alarm": 25,
+        "datetime": 15,
+        "calendar": 850,
+        "weather": 2,
+        "general": 9,
+        "email": 25,
+        "transport": 3,
+        "recommendation": 40,
+        "lists": 4,
+        "qa": 11,
+        "social": 7
+    },
+    "business_type": {
+        "takeaway": 40,
+        "recommendation": 133,
+        "iot": 3,
+        "general": 4,
+        "transport": 5
+    },
+    "playlist_name": {
+        "play": 61
+    },
+    "music_descriptor": {
+        "play": 36,
+        "music": 6,
+        "lists": 2
+    },
+    "person": {
+        "news": 24,
+        "general": 21,
+        "qa": 191,
+        "calendar": 182,
+        "email": 364,
+        "play": 14,
+        "music": 2,
+        "lists": 5,
+        "transport": 2,
+        "social": 17
+    },
+    "alarm_type": {
+        "alarm": 9
+    },
+    "app_name": {
+        "takeaway": 4,
+        "play": 38,
+        "music": 3,
+        "transport": 3
+    },
+    "coffee_type": {
+        "iot": 20
+    },
+    "relation": {
+        "general": 11,
+        "alarm": 3,
+        "calendar": 86,
+        "email": 136,
+        "lists": 3,
+        "transport": 4,
+        "social": 12
+    },
+    "movie_name": {
+        "play": 4,
+        "recommendation": 9
+    },
+    "drink_type": {
+        "cooking": 4,
+        "lists": 2
+    },
+    "transport_type": {
+        "play": 3,
+        "transport": 309
+    },
+    "music_album": {},
+    "personal_info": {
+        "social": 3,
+        "email": 67
+    },
+    "list_name": {
+        "lists": 180,
+        "calendar": 3,
+        "email": 2
+    },
+    "sport_type": {
+        "calendar": 5
+    },
+    "radio_name": {
+        "play": 129
+    },
+    "podcast_name": {
+        "play": 51
+    },
+    "audiobook_name": {
+        "play": 70
+    },
+    "audiobook_author": {
+        "play": 6
+    },
+    "cooking_type": {
+        "cooking": 17
+    },
+    "ingredient": {
+        "cooking": 19
+    },
+    "game_name": {
+        "play": 85
+    },
+    "podcast_descriptor": {
+        "play": 70
+    },
+    "movie_type": {
+        "recommendation": 10
+    },
+    "transport_agency": {
+        "transport": 30
+    },
+    "transport_descriptor": {
+        "transport": 7
+    },
+    "transport_name": {
+        "transport": 9
+    },
+    "currency_name": {
+        "qa": 211
+    },
+    "definition_word": {
+        "qa": 218
+    },
+    "email_folder": {
+        "email": 31
+    },
+    "game_type": {},
+    "email_address": {
+        "email": 30
+    }
+}

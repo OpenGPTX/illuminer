@@ -1,0 +1,248 @@
+{
+     "all": {
+         "time": "tempo",
+         "date": "data",
+         "artist_name": "nome dell'artista",
+         "media_type": "tipo di supporto",
+         "place_name": "nome del luogo",
+         "food_type": "tipo di cibo",
+         "device_type": "tipo di dispositivo",
+         "meal_type": "tipo di pasto",
+         "business_name": "nome dell'azienda",
+         "general_frequency": "frequenza",
+         "timeofday": "ora del giorno",
+         "event_name": "nome dell'evento",
+         "business_type": "tipo di attività",
+         "person": "persona",
+         "app_name": "nome dell'app",
+         "relation": "relazione"
+     },
+     "iot_hue_lightchange": {
+         "color_type": "tipo colore",
+         "change_amount": "modifica importo",
+         "house_place": "casa luogo"
+     },
+     "iot_hue_lightoff": {
+         "house_place": "casa",
+         "color_type": "tipo colore"
+     },
+     "iot_hue_lightdim": {
+         "house_place": "casa",
+         "change_amount": "modifica importo",
+         "color_type": "tipo colore"
+     },
+     "iot_cleaning": {
+         "house_place": "casa luogo"
+     },
+     "datetime_convert": {
+         "time_zone": "fuso orario"
+     },
+     "takeaway_query": {
+         "order_type": "tipo di ordine"
+     },
+     "news_query": {
+         "news_topic": "argomento di notizie"
+     },
+     "play_music": {
+         "song_name": "nome della canzone",
+         "music_genre": "genere musicale",
+         "playlist_name": "nome della playlist",
+         "music_descriptor": "descrittore musicale",
+         "player_setting": "impostazioni del giocatore",
+         "movie_name": "nome del film"
+     },
+     "music_likeness": {
+         "music_genre": "genere musicale",
+         "music_descriptor": "descrittore musicale",
+         "player_setting": "impostazioni del giocatore",
+         "song_name": "nome della canzone",
+         "playlist_name": "nome della playlist"
+     },
+     "iot_hue_lightup": {
+         "change_amount": "modifica importo",
+         "house_place": "casa luogo"
+     },
+     "takeaway_order": {
+         "order_type": "tipo di ordine",
+         "drink_type": "tipo di bevanda"
+     },
+     "weather_query": {
+         "weather_descriptor": "descrittore meteorologico"
+     },
+     "music_settings": {
+         "player_setting": "impostazioni del giocatore",
+         "song_name": "nome della canzone",
+         "music_genre": "genere musicale",
+         "music_descriptor": "descrittore musicale"
+     },
+     "general_joke": {
+         "joke_type": "tipo di scherzo"
+     },
+     "music_query": {
+         "song_name": "nome della canzone",
+         "music_genre": "genere musicale",
+         "player_setting": "impostazioni del giocatore",
+         "music_album": "album musicale"
+     },
+     "audio_volume_up": {
+         "change_amount": "modifica importo"
+     },
+     "datetime_query": {
+         "time_zone": "fuso orario"
+     },
+     "qa_stock": {
+         "news_topic": "argomento di notizie",
+         "currency_name": "nome della valuta"
+     },
+     "audio_volume_down": {
+         "change_amount": "modifica importo"
+     },
+     "alarm_remove": {
+         "alarm_type": "tipo di allarme"
+     },
+     "music_dislikeness": {
+         "music_descriptor": "descrittore musicale"
+     },
+     "iot_coffee": {
+         "coffee_type": "tipo di caffè"
+     },
+     "iot_hue_lighton": {
+         "house_place": "casa luogo"
+     },
+     "iot_wemo_off": {
+         "house_place": "casa luogo"
+     },
+     "audio_volume_other": {
+         "change_amount": "modifica importo"
+     },
+     "iot_wemo_on": {
+         "house_place": "casa luogo"
+     },
+     "alarm_query": {
+         "alarm_type": "tipo di allarme",
+         "house_place": "casa luogo"
+     },
+     "audio_volume_mute": {
+         "change_amount": "modifica importo"
+     },
+     "general_quirky": {
+         "news_topic": "argomento di notizie",
+         "movie_name": "nome del film",
+         "drink_type": "tipo di bevanda"
+     },
+     "alarm_set": {
+         "alarm_type": "tipo di allarme",
+         "time_zone": "fuso orario"
+     },
+     "calendar_remove": {
+         "list_name": "nome elenco"
+     },
+     "calendar_set": {
+         "personal_info": "informazioni personali",
+         "sport_type": "tipo di sport"
+     },
+     "lists_remove": {
+         "list_name": "nome elenco",
+         "song_name": "nome della canzone"
+     },
+     "calendar_query": {
+         "sport_type": "tipo di sport",
+         "list_name": "nome elenco"
+     },
+     "play_radio": {
+         "radio_name": "nome della radio",
+         "music_genre": "genere musicale",
+         "house_place": "casa",
+         "music_descriptor": "descrittore musicale"
+     },
+     "play_podcasts": {
+         "podcast_name": "nome del podcast",
+         "player_setting": "impostazioni del giocatore",
+         "podcast_descriptor": "descrittore podcast",
+         "transport_type": "tipo di trasporto"
+     },
+     "play_audiobook": {
+         "player_setting": "impostazioni del giocatore",
+         "audiobook_name": "nome dell'audiolibro",
+         "audiobook_author": "autore dell'audiolibro",
+         "song_name": "nome della canzone"
+     },
+     "cooking_recipe": {
+         "cooking_type": "tipo di cottura",
+         "ingredient": "ingrediente",
+         "drink_type": "tipo di bevanda"
+     },
+     "play_game": {
+         "game_name": "nome del gioco",
+         "game_type": "tipo di gioco"
+     },
+     "lists_query": {
+         "list_name": "nome elenco",
+         "music_genre": "genere musicale"
+     },
+     "lists_createoradd": {
+         "list_name": "nome elenco",
+         "drink_type": "tipo di bevanda",
+         "music_descriptor": "descrittore musicale"
+     },
+     "recommendation_movies": {
+         "movie_type": "tipo di film",
+         "movie_name": "nome del film"
+     },
+     "qa_factoid": {
+         "movie_name": "nome del film"
+     },
+     "recommendation_locations": {
+         "drink_type": "tipo di bevanda"
+     },
+     "recommendation_events": {
+         "personal_info": "informazioni personali",
+         "movie_type": "tipo di film"
+     },
+     "transport_taxi": {
+         "transport_type": "tipo di trasporto",
+         "transport_agency": "agenzia di trasporti",
+         "transport_name": "nome del trasporto"
+     },
+     "transport_query": {
+         "transport_type": "tipo di trasporto",
+         "transport_name": "nome del trasporto",
+         "transport_descriptor": "descrittore di trasporto"
+     },
+     "transport_ticket": {
+         "transport_type": "tipo di trasporto",
+         "transport_descriptor": "descrittore di trasporto",
+         "transport_name": "nome del trasporto",
+         "currency_name": "nome della valuta"
+     },
+     "qa_definition": {
+         "definition_word": "parola di definizione"
+     },
+     "email_query": {
+         "email_folder": "cartella email",
+         "personal_info": "informazioni personali"
+     },
+     "qa_currency": {
+         "currency_name": "nome della valuta"
+     },
+     "social_post": {
+         "personal_info": "informazioni personali"
+     },
+     "email_querycontact": {
+         "personal_info": "informazioni personali",
+         "list_name": "nome elenco"
+     },
+     "social_query": {
+         "news_topic": "argomento di notizie"
+     },
+     "email_addcontact": {
+         "personal_info": "informazioni personali",
+         "email_address": "indirizzo email",
+         "list_name": "nome elenco"
+     },
+     "email_sendemail": {
+         "email_address": "indirizzo email",
+         "personal_info": "informazioni personali",
+         "email_folder": "cartella email"
+     }
+}

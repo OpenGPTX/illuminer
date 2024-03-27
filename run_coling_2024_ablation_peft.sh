@@ -4,7 +4,7 @@ datasets="multi_woz snips amz_en"
 
 echo "Starting parameter-efficient-fine-tuning (IA3, prefix tuning, prompt tuning)..."
 
-models="google/flan-t5-xxl"
+models="flan-t5-xxl"
 
 # Fine-tune intent classification, IA3, prefix tuning, prompt tuning
 for model in $models;

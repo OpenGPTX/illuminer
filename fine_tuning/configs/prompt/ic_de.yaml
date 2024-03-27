@@ -1,0 +1,3 @@
+data_builder: DataBuilderIC
+instruction: "Angesichts der möglichen Absichten: \n{intent_options}\n"
+prompt: "Was ist die Absicht des Benutzers mit '{utterance}'? Absicht:"

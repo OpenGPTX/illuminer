@@ -1,0 +1,98 @@
+{
+    "alarm": {
+        "alarm_set": "set an alarm",
+        "alarm_remove": "remove an alarm",
+        "alarm_query": "ask about alarms"
+    },
+    "audio": {
+        "audio_volume_mute": "speaker off",
+        "audio_volume_other": "audio other setting",
+        "audio_volume_up": "turn the volume up",
+        "audio_volume_down": "turn the volume down"
+    },
+    "iot": {
+        "iot_hue_lightchange": "change light color",
+        "iot_hue_lightoff": "turn light off",
+        "iot_hue_lightdim": "dim light",
+        "iot_cleaning": "start cleaning",
+        "iot_hue_lightup": "turn light up",
+        "iot_coffee": "start coffee machine",
+        "iot_wemo_on": "turn wemo on",
+        "iot_hue_lighton": "turn light on",
+        "iot_wemo_off": "turn wemo off"
+    },
+    "calendar": {
+        "calendar_query": "ask about calendar",
+        "calendar_set": "set calendar event",
+        "calendar_remove": "remove calendar event"
+    },
+    "play": {
+        "play_music": "play music",
+        "play_radio": "play radio",
+        "play_audiobook": "play audiobook",
+        "play_podcasts": "play podcasts",
+        "play_game": "play game"
+    },
+    "general": {
+        "general_quirky": "be quirky",
+        "general_greet": "greet",
+        "general_joke": "ask for joke"
+    },
+    "datetime": {
+        "datetime_convert": "convert time",
+        "datetime_query": "ask about time"
+    },
+    "takeaway": {
+        "takeaway_order": "order food",
+        "takeaway_query": "ask about takeaway"
+    },
+    "news": {
+        "news_query": "ask about news"
+    },
+    "music": {
+        "music_likeness": "express liking music",
+        "music_query": "ask about music",
+        "music_settings": "set music playback",
+        "music_dislikeness": "express disliking music"
+    },
+    "weather": {
+        "weather_query": "ask about weather"
+    },
+    "qa": {
+        "qa_stock": "ask about stock",
+        "qa_factoid": "ask factoid questions",
+        "qa_definition": "ask for definition",
+        "qa_maths": "ask math questions",
+        "qa_currency": "ask about currency exchange"
+    },
+    "recommendation": {
+        "recommendation_events": "get event recommendation",
+        "recommendation_locations": "get location recommendation",
+        "recommendation_movies": "get movie recommendation"
+    },
+    "social": {
+        "social_post": "post social media",
+        "social_query": "ask about social media"
+    },
+    "transport": {
+        "transport_query": "ask about transport",
+        "transport_taxi": "order taxi",
+        "transport_ticket": "buy ticket",
+        "transport_traffic": "ask about traffic"
+    },
+    "email": {
+        "email_addcontact": "add contact",
+        "email_query": "ask about email",
+        "email_querycontact": "ask about contact",
+        "email_sendemail": "send an email"
+    },
+    "lists": {
+        "lists_createoradd": "create or add to list",
+        "lists_query": "ask about list",
+        "lists_remove": "remove from list"
+    },
+    "cooking": {
+        "cooking_query": "ask about cooking",
+        "cooking_recipe": "find a cooking recipe"
+    }
+}

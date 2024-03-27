@@ -335,8 +335,8 @@ class BuildDSMEvalData(BuildEvalData):
         return EvalDataSF(data=gold_data)
 
 if __name__ == '__main__':
-    builder = BuildDSMEvalData('data/eval/amz_en/')
-    builder.build_eval_data()
+    # builder = BuildDSMEvalData('data/eval/amz_en/')
+    # builder.build_eval_data()
 
     builder = BuildDSMEvalData('data/eval/hwu/')
     builder.build_eval_data_intent_only()

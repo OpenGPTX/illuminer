@@ -79,12 +79,12 @@ class EvaluateSinglePromptSlotFilling(EvaluateLLM):
             filled_prompt = self.fill_prompt(turn=turn, slots=candidate_slots)
             filled_prompts.append(filled_prompt)
         
-        bs = 64
+        bs = 32
         prompts_batches = util.batch(data=filled_prompts, bs=bs)
 
         responses = []
         for prompts in tqdm(prompts_batches, total=len(filled_prompts)//bs, desc="Generating responses"):
-            outputs = self.llm.run(prompts=prompts, max_new_tokens=100, split_lines=False)
+            outputs = self.llm.run(prompts=prompts, max_new_tokens=150, split_lines=False)
             responses.extend(outputs)
 
         for turn, filled_prompt, response in zip(tqdm(data, desc="Evaluating responses"), filled_prompts, responses):
@@ -109,7 +109,7 @@ class EvaluateSinglePromptSlotFilling(EvaluateLLM):
                 else:
                     gold_slot_values = []
 
-                slot_pattern = re.compile(slot_name.lower() + r": (.+?)[,\.\}]")
+                slot_pattern = re.compile(slot_name.lower() + r": (.+?)[,;\}]")
                 slot_value = re.search(slot_pattern, response)
                 if slot_value:
                     slot_value = slot_value.group(1)

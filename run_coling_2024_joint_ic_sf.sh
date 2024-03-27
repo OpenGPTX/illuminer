@@ -4,11 +4,11 @@ datasets="multi_woz snips amz_en"
 
 echo "Starting evaluation -- joint IC+SF..."
 
-models="google/flan-t5-xxl
-        bigscience/bloomz-7b1
-        lmsys/vicuna-13b-v1.5
-        WizardLM/WizardLM-13B-V1.2
-        tiiuae/falcon-7b-instruct"
+models="flan-t5-xxl
+        bloomz-7b1
+        vicuna-13b-v1.5
+        WizardLM-13B-V1.2
+        falcon-7b-instruct"
 
 # Inference joint IC+SF, LoRA
 for dataset in $datasets;

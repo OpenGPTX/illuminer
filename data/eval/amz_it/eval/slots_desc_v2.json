@@ -1,0 +1,248 @@
+{
+    "all": {
+        "time": "time",
+        "date": "date",
+        "artist_name": "artist name",
+        "media_type": "media type",
+        "place_name": "place name",
+        "food_type": "food type",
+        "device_type": "device type",
+        "meal_type": "meal type",
+        "business_name": "business name",
+        "general_frequency": "frequency",
+        "timeofday": "time of day",
+        "event_name": "event name",
+        "business_type": "business type",
+        "person": "person",
+        "app_name": "app name",
+        "relation": "relation"
+    },
+    "iot_hue_lightchange": {
+        "color_type": "color type",
+        "change_amount": "change amount",
+        "house_place": "house place"
+    },
+    "iot_hue_lightoff": {
+        "house_place": "house place",
+        "color_type": "color type"
+    },
+    "iot_hue_lightdim": {
+        "house_place": "house place",
+        "change_amount": "change amount",
+        "color_type": "color type"
+    },
+    "iot_cleaning": {
+        "house_place": "house place"
+    },
+    "datetime_convert": {
+        "time_zone": "time zone"
+    },
+    "takeaway_query": {
+        "order_type": "order type"
+    },
+    "news_query": {
+        "news_topic": "news topic"
+    },
+    "play_music": {
+        "song_name": "song name",
+        "music_genre": "music genre",
+        "playlist_name": "playlist name",
+        "music_descriptor": "music descriptor",
+        "player_setting": "player setting",
+        "movie_name": "movie name"
+    },
+    "music_likeness": {
+        "music_genre": "music genre",
+        "music_descriptor": "music descriptor",
+        "player_setting": "player setting",
+        "song_name": "song name",
+        "playlist_name": "playlist name"
+    },
+    "iot_hue_lightup": {
+        "change_amount": "change amount",
+        "house_place": "house place"
+    },
+    "takeaway_order": {
+        "order_type": "order type",
+        "drink_type": "drink type"
+    },
+    "weather_query": {
+        "weather_descriptor": "weather descriptor"
+    },
+    "music_settings": {
+        "player_setting": "player setting",
+        "song_name": "song name",
+        "music_genre": "music genre",
+        "music_descriptor": "music descriptor"
+    },
+    "general_joke": {
+        "joke_type": "joke type"
+    },
+    "music_query": {
+        "song_name": "song name",
+        "music_genre": "music genre",
+        "player_setting": "player setting",
+        "music_album": "music album"
+    },
+    "audio_volume_up": {
+        "change_amount": "change amount"
+    },
+    "datetime_query": {
+        "time_zone": "time zone"
+    },
+    "qa_stock": {
+        "news_topic": "news topic",
+        "currency_name": "currency name"
+    },
+    "audio_volume_down": {
+        "change_amount": "change amount"
+    },
+    "alarm_remove": {
+        "alarm_type": "alarm type"
+    },
+    "music_dislikeness": {
+        "music_descriptor": "music descriptor"
+    },
+    "iot_coffee": {
+        "coffee_type": "coffee type"
+    },
+    "iot_hue_lighton": {
+        "house_place": "house place"
+    },
+    "iot_wemo_off": {
+        "house_place": "house place"
+    },
+    "audio_volume_other": {
+        "change_amount": "change amount"
+    },
+    "iot_wemo_on": {
+        "house_place": "house place"
+    },
+    "alarm_query": {
+        "alarm_type": "alarm type",
+        "house_place": "house place"
+    },
+    "audio_volume_mute": {
+        "change_amount": "change amount"
+    },
+    "general_quirky": {
+        "news_topic": "news topic",
+        "movie_name": "movie name",
+        "drink_type": "drink type"
+    },
+    "alarm_set": {
+        "alarm_type": "alarm type",
+        "time_zone": "time zone"
+    },
+    "calendar_remove": {
+        "list_name": "list name"
+    },
+    "calendar_set": {
+        "personal_info": "personal info",
+        "sport_type": "sport type"
+    },
+    "lists_remove": {
+        "list_name": "list name",
+        "song_name": "song name"
+    },
+    "calendar_query": {
+        "sport_type": "sport type",
+        "list_name": "list name"
+    },
+    "play_radio": {
+        "radio_name": "radio name",
+        "music_genre": "music genre",
+        "house_place": "house place",
+        "music_descriptor": "music descriptor"
+    },
+    "play_podcasts": {
+        "podcast_name": "podcast name",
+        "player_setting": "player setting",
+        "podcast_descriptor": "podcast descriptor",
+        "transport_type": "transport type"
+    },
+    "play_audiobook": {
+        "player_setting": "player setting",
+        "audiobook_name": "audiobook name",
+        "audiobook_author": "audiobook author",
+        "song_name": "song name"
+    },
+    "cooking_recipe": {
+        "cooking_type": "cooking type",
+        "ingredient": "ingredient",
+        "drink_type": "drink type"
+    },
+    "play_game": {
+        "game_name": "game name",
+        "game_type": "game type"
+    },
+    "lists_query": {
+        "list_name": "list name",
+        "music_genre": "music genre"
+    },
+    "lists_createoradd": {
+        "list_name": "list name",
+        "drink_type": "drink type",
+        "music_descriptor": "music descriptor"
+    },
+    "recommendation_movies": {
+        "movie_type": "movie type",
+        "movie_name": "movie name"
+    },
+    "qa_factoid": {
+        "movie_name": "movie name"
+    },
+    "recommendation_locations": {
+        "drink_type": "drink type"
+    },
+    "recommendation_events": {
+        "personal_info": "personal info",
+        "movie_type": "movie type"
+    },
+    "transport_taxi": {
+        "transport_type": "transport type",
+        "transport_agency": "transport agency",
+        "transport_name": "transport name"
+    },
+    "transport_query": {
+        "transport_type": "transport type",
+        "transport_name": "transport name",
+        "transport_descriptor": "transport descriptor"
+    },
+    "transport_ticket": {
+        "transport_type": "transport type",
+        "transport_descriptor": "transport descriptor",
+        "transport_name": "transport name",
+        "currency_name": "currency name"
+    },
+    "qa_definition": {
+        "definition_word": "definition word"
+    },
+    "email_query": {
+        "email_folder": "email folder",
+        "personal_info": "personal info"
+    },
+    "qa_currency": {
+        "currency_name": "currency name"
+    },
+    "social_post": {
+        "personal_info": "personal info"
+    },
+    "email_querycontact": {
+        "personal_info": "personal info",
+        "list_name": "list name"
+    },
+    "social_query": {
+        "news_topic": "news topic"
+    },
+    "email_addcontact": {
+        "personal_info": "personal info",
+        "email_address": "email address",
+        "list_name": "list name"
+    },
+    "email_sendemail": {
+        "email_address": "email address",
+        "personal_info": "personal info",
+        "email_folder": "email folder"
+    }
+}

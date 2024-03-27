@@ -6384,7 +6384,7 @@ add el noi de la mare to the new waltz playlist	O,B-entity_name,I-entity_name,I-
 will be warm in hallwood kosovo	O,O,B-condition_temperature,O,B-city,B-country		GetWeather	3
 play the lousy dance trailer	O,B-object_name,I-object_name,I-object_name,B-object_type		SearchCreativeWork	6
 please include emily remler in indie bluegrass	O,O,B-artist,I-artist,O,B-playlist,I-playlist		AddToPlaylist	1
-add the “chirping” crickets to my mellowed out gaming playlist	O,B-entity_name,I-entity_name,I-entity_name,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
+add the "chirping” crickets to my mellowed out gaming playlist	O,B-entity_name,I-entity_name,I-entity_name,O,B-playlist_owner,B-playlist,I-playlist,I-playlist,O		AddToPlaylist	1
 find the tyrant	O,B-object_name,I-object_name		SearchCreativeWork	6
 can you tell me what the weather is doing in north epworth guam	O,O,O,O,O,O,O,O,O,O,B-city,I-city,B-country		GetWeather	3
 rate the knife that killed me a three	O,B-object_name,I-object_name,I-object_name,I-object_name,I-object_name,O,B-rating_value		RateBook	5

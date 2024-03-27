@@ -33,8 +33,8 @@ def load_model(model_config: ModelConfig):
         "load_in_8bit": False
     }
 
-    # if "falcon" in model_config.model_name:
-    #     model_args["trust_remote_code"] = True
+    if "polylm" in model_config.model_name:
+        model_args["trust_remote_code"] = True
 
     if model_config.use_accelerate:
         model_args["device_map"] = "auto"
@@ -72,7 +72,7 @@ def load_tokenizer(model_config: ModelConfig):
 
     tokenizer = AutoTokenizer.from_pretrained(**tokenizer_args)
 
-    if "falcon" in model_config.model_name:
+    if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
 
     return tokenizer

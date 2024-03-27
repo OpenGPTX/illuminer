@@ -137,7 +137,7 @@ class EvaluateSingleTurnDST(EvaluateLLM):
 
         data = self.data[:data_end_index]
 
-        mlflow.log_param('model', self.llm.model_name)
+        mlflow.log_param('model', self.cfg.model.model_name)
 
         mlflow.log_param('num_data_points', len(data))
         mlflow.log_param('data_path', self.cfg.data.data_path)
@@ -170,7 +170,7 @@ class EvaluateSingleTurnDST(EvaluateLLM):
                 filled_prompt = self.fill_prompt(turn=turn, task="domain", few_shot_data=few_shot_domain_data)
                 filled_prompts.append(filled_prompt)
 
-            bs = 64
+            bs = 32
             prompts_batches = util.batch(data=filled_prompts, bs=bs)
 
             responses = []
@@ -207,7 +207,7 @@ class EvaluateSingleTurnDST(EvaluateLLM):
                                              intent_options=intent_options)
             filled_prompts.append(filled_prompt)
 
-        bs = 64
+        bs = 32
         prompts_batches = util.batch(data=filled_prompts, bs=bs)
 
         responses = []
@@ -255,7 +255,7 @@ class EvaluateSingleTurnDST(EvaluateLLM):
                                              slots=candidate_slots)
             filled_prompts.append(filled_prompt)
 
-        bs = 64
+        bs = 32
         prompts_batches = util.batch(data=filled_prompts, bs=bs)
 
         responses = []
@@ -384,7 +384,7 @@ class EvaluateSingleTurnDST(EvaluateLLM):
         exact_match_accuracy = num_correct_dst / len(data)
 
         output = EvalDSTOutput(
-            model_name=self.llm.model_name,
+            model_name=self.cfg.model.model_name,
             time=datetime.now().strftime("%d-%m-%Y-%H-%M-%S"),
             domain_instruction=self.domain_instruction,
             domain_prompt=self.domain_prompt,

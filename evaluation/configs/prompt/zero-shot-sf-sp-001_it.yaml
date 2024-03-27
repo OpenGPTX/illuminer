@@ -1,0 +1,3 @@
+eval_mode: ZeroShotSFSPEvalConfig
+instruction: "Estrai informazioni rilevanti dall'espressione dell'utente, date le seguenti etichette e descrizioni degli slot:\n{{{slot_dict}}}\n"
+prompt: "---\nUtente: \"{utterance}\"\nInfo:"

@@ -55,7 +55,7 @@ class EvaluateIntentClassifier(EvaluateLLM):
             for domain in self._get_intents_dict(intent_desc_path):
                 self.intent_dict[domain] = domain
 
-        self.intent_dict_inv = {v: k for k, v in self.intent_dict.items()}
+        self.intent_dict_inv = {v.lower(): k for k, v in self.intent_dict.items()}
         self.intents = [k for k, v in self.intent_dict.items()]
         self.intent_options = [v for k, v in self.intent_dict.items()]
 
@@ -108,12 +108,12 @@ class EvaluateIntentClassifier(EvaluateLLM):
             filled_prompt = self.fill_prompt(turn=turn)
             filled_prompts.append(filled_prompt)
 
-        bs = 64
+        bs = 32
         prompts_batches = util.batch(data=filled_prompts, bs=bs)
 
         responses = []
         for prompts in tqdm(prompts_batches, total=len(filled_prompts)//bs, desc="Generating responses"):
-            outputs = self.llm.run(prompts=prompts, max_new_tokens=10)
+            outputs = self.llm.run(prompts=prompts, max_new_tokens=20)
             responses.extend(outputs)
                 
 

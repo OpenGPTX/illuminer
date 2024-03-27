@@ -1,0 +1,3 @@
+model_name: DAMO-NLP-MT/polylm-multialpaca-13b
+model_type: AutoModelForCausalLM
+use_accelerate: True

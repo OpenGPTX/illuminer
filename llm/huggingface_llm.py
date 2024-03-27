@@ -42,34 +42,27 @@ class HuggingFaceLLM(LLM):
         self.model = self.__load_model()
         self.tokenizer = self.__load_tokenizer()
 
-        if self.__adapter_name:
-            self.model_name = self.__adapter_name.split('/')[-1]
-        else:
-            self.model_name = self.model.name_or_path.split('/')[-1]
-
-        if self.__intent_adapter or self.__domain_adapter or self.__slot_adapter:   # for DST pipeline
+        if self.__intent_adapter and self.__slot_adapter:   # for DST pipeline
             if self.__intent_adapter:  # Load the PEFT adapter for intent classification
                 self.__logger.info("Load intent adapter...")
                 self.__model_args.pop('pretrained_model_name_or_path', None)
                 self.model = PeftModel.from_pretrained(model=self.model, model_id=self.__intent_adapter,
                                                        adapter_name='intent_classification', **self.__model_args)
                 self.intent_model_name = self.__intent_adapter.split('/')[-1]
-            else:
-                self.intent_model_name = ""
 
             if self.__domain_adapter:  # Load the PEFT adapter for domain classification
                 self.__logger.info("Load domain adapter...")
                 self.model.load_adapter(model_id=self.__domain_adapter, adapter_name='domain_classification')
                 self.domain_model_name = self.__domain_adapter.split('/')[-1]
-            else:
-                self.domain_model_name = ""
 
             if self.__slot_adapter:  # Load the PEFT adapter for slot filling
                 self.__logger.info("Load slot adapter...")
                 self.model.load_adapter(model_id=self.__slot_adapter, adapter_name='slot_filling')
                 self.slot_model_name = self.__slot_adapter.split('/')[-1]
-            else:
-                self.slot_model_name = ""
+        else:
+            self.intent_model_name = self.__model_name
+            self.domain_model_name = self.__model_name
+            self.slot_model_name = self.__model_name
 
             self.__logger.info("Adapters loaded.")
 
@@ -101,7 +94,7 @@ class HuggingFaceLLM(LLM):
             "legacy": False,
         }
 
-        if "falcon" in self.__model_name or "vicuna" in self.__model_name:
+        if "falcon" in self.__model_name or "vicuna" in self.__model_name or "polylm" in self.__model_name:
             tokenizer_args["padding_side"] = "left"
 
         if self.__cache_dir:
@@ -139,7 +132,7 @@ class HuggingFaceLLM(LLM):
     def __load_tokenizer(self):
         tokenizer = AutoTokenizer.from_pretrained(**self.__tokenizer_args)
 
-        if self.__change_pad_token or self.__adapter_name:
+        if tokenizer.pad_token_id is None or self.__adapter_name:
             tokenizer.pad_token = tokenizer.eos_token
 
         return tokenizer
@@ -162,6 +155,7 @@ class HuggingFaceLLM(LLM):
                     responses_post.append(response.splitlines()[0])
                 else:
                     responses_post.append(response)
+            return responses_post
 
         return responses
 
@@ -176,17 +170,20 @@ class HuggingFaceLLM(LLM):
         return responses
 
     def run_domain(self, prompts: Union[str, List[str]]) -> str:
-        self.model.set_adapter('domain_classification')
-        responses = self.run(prompts, max_new_tokens=10, split_lines=True)
+        if self.domain_model_name != self.__model_name:
+            self.model.set_adapter('domain_classification')
+        responses = self.run(prompts, max_new_tokens=20, split_lines=True)
         return responses
 
     def run_intent(self, prompts: Union[str, List[str]]) -> str:
-        self.model.set_adapter('intent_classification')
-        responses = self.run(prompts, max_new_tokens=10, split_lines=True)
+        if self.intent_model_name != self.__model_name:
+            self.model.set_adapter('intent_classification')
+        responses = self.run(prompts, max_new_tokens=20, split_lines=True)
         return responses
 
     def run_slot(self, prompts: Union[str, List[str]]) -> str:
-        self.model.set_adapter('slot_filling')
+        if self.slot_model_name != self.__model_name:
+            self.model.set_adapter('slot_filling')
         responses = self.run(prompts, max_new_tokens=100, split_lines=False)
         return responses
 

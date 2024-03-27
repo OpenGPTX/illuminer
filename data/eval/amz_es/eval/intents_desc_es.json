@@ -1,0 +1,98 @@
+{
+    "alarm": {
+        "alarm_set": "establecer una alarma",
+        "alarm_remove": "eliminar una alarma",
+        "alarm_query": "preguntar sobre alarmas"
+    },
+    "audio": {
+        "audio_volume_mute": "altavoz apagado",
+        "audio_volume_other": "otro ajuste de audio",
+        "audio_volume_up": "subir el volumen",
+        "audio_volume_down": "bajar el volumen"
+    },
+    "iot": {
+        "iot_hue_lightchange": "cambiar el color de la luz",
+        "iot_hue_lightoff": "apagar la luz",
+        "iot_hue_lightdim": "atenuar la luz",
+        "iot_cleaning": "comenzar la limpieza",
+        "iot_hue_lightup": "aumentar el brillo de la luz",
+        "iot_coffee": "iniciar la máquina de café",
+        "iot_wemo_on": "encender wemo",
+        "iot_hue_lighton": "encender la luz",
+        "iot_wemo_off": "apagar wemo"
+    },
+    "calendar": {
+        "calendar_query": "preguntar sobre el calendario",
+        "calendar_set": "establecer un evento en el calendario",
+        "calendar_remove": "eliminar un evento del calendario"
+    },
+    "play": {
+        "play_music": "reproducir música",
+        "play_radio": "escuchar la radio",
+        "play_audiobook": "reproducir audiolibro",
+        "play_podcasts": "escuchar podcasts",
+        "play_game": "jugar"
+    },
+    "general": {
+        "general_quirky": "ser excéntrico",
+        "general_greet": "saludar",
+        "general_joke": "pedir una broma"
+    },
+    "datetime": {
+        "datetime_convert": "convertir la hora",
+        "datetime_query": "preguntar sobre la hora"
+    },
+    "takeaway": {
+        "takeaway_order": "pedir comida para llevar",
+        "takeaway_query": "preguntar sobre comida para llevar"
+    },
+    "news": {
+        "news_query": "preguntar sobre noticias"
+    },
+    "music": {
+        "music_likeness": "expresar gusto por la música",
+        "music_query": "preguntar sobre música",
+        "music_settings": "configurar la reproducción de música",
+        "music_dislikeness": "expresar disgusto por la música"
+    },
+    "weather": {
+        "weather_query": "preguntar sobre el clima"
+    },
+    "qa": {
+        "qa_stock": "preguntar sobre acciones",
+        "qa_factoid": "hacer preguntas de conocimiento general",
+        "qa_definition": "pedir una definición",
+        "qa_maths": "hacer preguntas de matemáticas",
+        "qa_currency": "preguntar sobre el cambio de divisas"
+    },
+    "recommendation": {
+        "recommendation_events": "obtener recomendaciones de eventos",
+        "recommendation_locations": "obtener recomendaciones de lugares",
+        "recommendation_movies": "obtener recomendaciones de películas"
+    },
+    "social": {
+        "social_post": "publicar en redes sociales",
+        "social_query": "preguntar sobre redes sociales"
+    },
+    "transport": {
+        "transport_query": "preguntar sobre transporte",
+        "transport_taxi": "pedir un taxi",
+        "transport_ticket": "comprar un boleto",
+        "transport_traffic": "preguntar sobre el tráfico"
+    },
+    "email": {
+        "email_addcontact": "agregar un contacto",
+        "email_query": "preguntar sobre correo electrónico",
+        "email_querycontact": "preguntar sobre un contacto",
+        "email_sendemail": "enviar un correo electrónico"
+    },
+    "lists": {
+        "lists_createoradd": "crear o añadir a una lista",
+        "lists_query": "preguntar sobre una lista",
+        "lists_remove": "eliminar de una lista"
+    },
+    "cooking": {
+        "cooking_query": "preguntar sobre cocina",
+        "cooking_recipe": "encontrar una receta de cocina"
+    }
+}
