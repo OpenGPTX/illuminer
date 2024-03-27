@@ -1,4 +1,4 @@
 model_name: DAMO-NLP-MT/polylm-multialpaca-13b
 model_type: AutoModelForCausalLM
-adapter: /raid/s3/pm_tmp/lora_adapters/sf-sp/sf-sp_amz_it-slot-10_polylm-multialpaca-13b_lora
+adapter: lora_adapters/sf-sp/sf-sp_amz_it-slot-10_polylm-multialpaca-13b_lora
 use_accelerate: True

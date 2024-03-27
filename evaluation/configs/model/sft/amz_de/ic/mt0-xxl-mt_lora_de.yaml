@@ -1,4 +1,4 @@
 model_name: bigscience/mt0-xxl-mt
 model_type: AutoModelForSeq2SeqLM
-adapter: /raid/s3/pm_tmp/lora_adapters/ic_de/ic_de_amz_de-intent-10_de_mt0-xxl-mt_lora
+adapter: lora_adapters/ic_de/ic_de_amz_de-intent-10_de_mt0-xxl-mt_lora
 use_accelerate: True

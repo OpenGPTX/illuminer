@@ -1,4 +1,4 @@
 model_name: google/mt5-xxl
 model_type: AutoModelForSeq2SeqLM
-adapter: /raid/s3/pm_tmp/lora_adapters/sf-sp_es/sf-sp_es_amz_es-slot-10_es_mt5-xxl_lora
+adapter: lora_adapters/sf-sp_es/sf-sp_es_amz_es-slot-10_es_mt5-xxl_lora
 use_accelerate: True
